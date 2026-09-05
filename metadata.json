@@ -1,0 +1,6 @@
+{
+  "name": "Learn English: Grammar Games",
+  "description": "Educational English grammar learning app with games, progress tracking, and structured lessons",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

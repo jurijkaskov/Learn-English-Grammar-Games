@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Book silhouette base -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,42 C30,37 36,36 52,38 L52,74 C38,72 32,73 30,76 Z" />
+    <path
+        android:fillColor="#F1F5F9"
+        android:pathData="M78,42 C78,37 72,36 56,38 L56,74 C70,72 76,73 78,76 Z" />
+    <!-- Book spine / center fold -->
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M52,38 L56,38 L56,74 L52,74 Z" />
+    <!-- Letter 'A' on left page -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M40,64 L42.5,64 L44,59 L48,59 L49.5,64 L52,64 L47,48 L45,48 Z M44.6,56.8 L46,51.8 L47.4,56.8 Z" />
+    <!-- Game Controller D-pad / Star symbol on right page -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M66,48 L68,53 L73.5,53.5 L69.5,57 L70.7,62.5 L66,59.6 L61.3,62.5 L62.5,57 L58.5,53.5 L64,53 Z" />
+    <!-- Bookmark ribbon -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M52,38 L56,38 L56,46 L54,44 L52,46 Z" />
+</vector>
