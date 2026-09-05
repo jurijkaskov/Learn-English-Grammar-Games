@@ -1,0 +1,482 @@
+[
+  {
+    "id": "beginner_topic_am_is_are_l1_content",
+    "lessonId": "beginner_topic_am_is_are_l1",
+    "title": "Study: Forms of Be: I am, You are, He/She/It is",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_am_is_are_l1_quiz",
+    "lessonId": "beginner_topic_am_is_are_l1",
+    "title": "Practice: Forms of Be: I am, You are, He/She/It is",
+    "type": "QUIZ",
+    "order": 2,
+    "questionIds": [
+      "beg_q_am_is_are_1",
+      "beg_q_am_is_are_2"
+    ]
+  },
+  {
+    "id": "beginner_topic_be_questions_l1_content",
+    "lessonId": "beginner_topic_be_questions_l1",
+    "title": "Study: Questions and Short Answers with Be",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_present_continuous_basics_l1_content",
+    "lessonId": "beginner_topic_present_continuous_basics_l1",
+    "title": "Study: Forming Present Continuous Statements and Questions",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_present_simple_basics_l1_content",
+    "lessonId": "beginner_topic_present_simple_basics_l1",
+    "title": "Study: Present Simple Routines and 3rd Person -s",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_present_simple_basics_l1_quiz",
+    "lessonId": "beginner_topic_present_simple_basics_l1",
+    "title": "Practice: Present Simple Routines and 3rd Person -s",
+    "type": "QUIZ",
+    "order": 2,
+    "questionIds": [
+      "beg_q_present_simple_1",
+      "beg_q_present_simple_2"
+    ]
+  },
+  {
+    "id": "beginner_topic_present_simple_vs_continuous_l1_content",
+    "lessonId": "beginner_topic_present_simple_vs_continuous_l1",
+    "title": "Study: Routine vs Happening Now and Stative Verbs",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_have_and_have_got_l1_content",
+    "lessonId": "beginner_topic_have_and_have_got_l1",
+    "title": "Study: Possession with Have and Have Got",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_past_simple_be_l1_content",
+    "lessonId": "beginner_topic_past_simple_be_l1",
+    "title": "Study: Was and Were Statements and Questions",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_past_simple_regular_irregular_l1_content",
+    "lessonId": "beginner_topic_past_simple_regular_irregular_l1",
+    "title": "Study: Narrating Completed Past Events",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_past_simple_regular_irregular_l1_quiz",
+    "lessonId": "beginner_topic_past_simple_regular_irregular_l1",
+    "title": "Practice: Narrating Completed Past Events",
+    "type": "QUIZ",
+    "order": 2,
+    "questionIds": [
+      "beg_q_past_simple_1"
+    ]
+  },
+  {
+    "id": "beginner_topic_past_continuous_intro_l1_content",
+    "lessonId": "beginner_topic_past_continuous_intro_l1",
+    "title": "Study: Background Past Actions and Interruptions",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_present_perfect_form_l1_content",
+    "lessonId": "beginner_topic_present_perfect_form_l1",
+    "title": "Study: Experience and Result with Have/Has Done",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_present_perfect_just_already_yet_l1_content",
+    "lessonId": "beginner_topic_present_perfect_just_already_yet_l1",
+    "title": "Study: Time Adverbs: Just, Already, and Yet",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_present_perfect_duration_l1_content",
+    "lessonId": "beginner_topic_present_perfect_duration_l1",
+    "title": "Study: Unfinished Time with For, Since, and Ago",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_present_perfect_vs_past_l1_content",
+    "lessonId": "beginner_topic_present_perfect_vs_past_l1",
+    "title": "Study: Finished Time vs Present Relevance",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_passive_present_past_l1_content",
+    "lessonId": "beginner_topic_passive_present_past_l1",
+    "title": "Study: Is Done and Was Done Passive Forms",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_passive_continuous_perfect_l1_content",
+    "lessonId": "beginner_topic_passive_continuous_perfect_l1",
+    "title": "Study: Is Being Done and Has Been Done Forms",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_be_have_do_verb_forms_l1_content",
+    "lessonId": "beginner_topic_be_have_do_verb_forms_l1",
+    "title": "Study: Auxiliary vs Main Verb Functions",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_regular_irregular_fundamentals_l1_content",
+    "lessonId": "beginner_topic_regular_irregular_fundamentals_l1",
+    "title": "Study: Irregular Verb Families and Patterns",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_future_present_and_going_to_l1_content",
+    "lessonId": "beginner_topic_future_present_and_going_to_l1",
+    "title": "Study: Arrangements and Intentions with Going To",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_future_will_shall_l1_content",
+    "lessonId": "beginner_topic_future_will_shall_l1",
+    "title": "Study: Will and Shall in Everyday Speech",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_modals_might_can_could_l1_content",
+    "lessonId": "beginner_topic_modals_might_can_could_l1",
+    "title": "Study: Can, Could, and Might for Ability and Possibility",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_modals_must_should_have_to_l1_content",
+    "lessonId": "beginner_topic_modals_must_should_have_to_l1",
+    "title": "Study: Rules, Prohibition, and Advice",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_social_requests_habits_l1_content",
+    "lessonId": "beginner_topic_social_requests_habits_l1",
+    "title": "Study: Invitations, Directives, and Past Habits",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_there_is_there_are_l1_content",
+    "lessonId": "beginner_topic_there_is_there_are_l1",
+    "title": "Study: Existential Sentences with There + Be",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_it_is_vs_there_is_l1_content",
+    "lessonId": "beginner_topic_it_is_vs_there_is_l1",
+    "title": "Study: Dummy It for Weather, Time, and Distance",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_auxiliary_verbs_usage_l1_content",
+    "lessonId": "beginner_topic_auxiliary_verbs_usage_l1",
+    "title": "Study: Short Answers and Conversational Echoes",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_auxiliary_agreement_negatives_l1_content",
+    "lessonId": "beginner_topic_auxiliary_agreement_negatives_l1",
+    "title": "Study: Conversational Agreement and Negative Auxiliaries",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_question_formation_wh_l1_content",
+    "lessonId": "beginner_topic_question_formation_wh_l1",
+    "title": "Study: Standard Question Inversion and Question Words",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_subject_questions_prepositions_l1_content",
+    "lessonId": "beginner_topic_subject_questions_prepositions_l1",
+    "title": "Study: Subject Questions and Stranded Prepositions",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_indirect_duration_questions_l1_content",
+    "lessonId": "beginner_topic_indirect_duration_questions_l1",
+    "title": "Study: Duration and Polite Indirect Frames",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_reported_speech_basics_l1_content",
+    "lessonId": "beginner_topic_reported_speech_basics_l1",
+    "title": "Study: Reporting Speech with Say and Tell",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_verb_ing_to_forms_l1_content",
+    "lessonId": "beginner_topic_verb_ing_to_forms_l1",
+    "title": "Study: Gerunds vs Infinitives After Verbs",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_verb_person_to_purpose_l1_content",
+    "lessonId": "beginner_topic_verb_person_to_purpose_l1",
+    "title": "Study: Person + Infinitive and Purpose Clauses",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_verbs_go_and_get_l1_content",
+    "lessonId": "beginner_topic_verbs_go_and_get_l1",
+    "title": "Study: Collocations with Go and Get",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_verbs_do_make_have_l1_content",
+    "lessonId": "beginner_topic_verbs_do_make_have_l1",
+    "title": "Study: Do, Make, and Have Expressions",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_personal_possessive_pronouns_l1_content",
+    "lessonId": "beginner_topic_personal_possessive_pronouns_l1",
+    "title": "Study: Subject, Object, and Possessives",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_reflexives_possessive_s_l1_content",
+    "lessonId": "beginner_topic_reflexives_possessive_s_l1",
+    "title": "Study: Reflexive Pronouns and Possessive 's",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_articles_plurals_l1_content",
+    "lessonId": "beginner_topic_articles_plurals_l1",
+    "title": "Study: A/An Selection and Plural Forms",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_countable_uncountable_nouns_l1_content",
+    "lessonId": "beginner_topic_countable_uncountable_nouns_l1",
+    "title": "Study: Countable Items vs Mass Uncountables",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_definite_the_and_zero_article_l1_content",
+    "lessonId": "beginner_topic_definite_the_and_zero_article_l1",
+    "title": "Study: The vs Zero Article in Context",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_demonstratives_and_ones_l1_content",
+    "lessonId": "beginner_topic_demonstratives_and_ones_l1",
+    "title": "Study: Demonstratives and Substitution with One/Ones",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_some_any_negatives_compounds_l1_content",
+    "lessonId": "beginner_topic_some_any_negatives_compounds_l1",
+    "title": "Study: Some, Any, and Indefinite Compounds",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_quantifiers_distributives_l1_content",
+    "lessonId": "beginner_topic_quantifiers_distributives_l1",
+    "title": "Study: Distributives and Dual Quantifiers",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_quantifiers_much_many_few_little_l1_content",
+    "lessonId": "beginner_topic_quantifiers_much_many_few_little_l1",
+    "title": "Study: Quantifying Large and Small Quantities",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_adjectives_and_adverbs_basics_l1_content",
+    "lessonId": "beginner_topic_adjectives_and_adverbs_basics_l1",
+    "title": "Study: Adjective Placement and Adverb Formation",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_comparatives_and_as_as_l1_content",
+    "lessonId": "beginner_topic_comparatives_and_as_as_l1",
+    "title": "Study: Comparing Two Items with -er, More, and As...As",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_superlatives_too_enough_l1_content",
+    "lessonId": "beginner_topic_superlatives_too_enough_l1",
+    "title": "Study: Superlatives and Degree Modifiers",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_word_order_svo_frequency_l1_content",
+    "lessonId": "beginner_topic_word_order_svo_frequency_l1",
+    "title": "Study: Verb-Object Unity and Frequency Positions",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_adverb_order_double_objects_l1_content",
+    "lessonId": "beginner_topic_adverb_order_double_objects_l1",
+    "title": "Study: Mid-Sentence Adverbs and Double Objects",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_conjunctions_time_clauses_l1_content",
+    "lessonId": "beginner_topic_conjunctions_time_clauses_l1",
+    "title": "Study: Coordinating Connectives and Time Clauses",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_conditionals_intro_l1_content",
+    "lessonId": "beginner_topic_conditionals_intro_l1",
+    "title": "Study: Real and Hypothetical Conditionals",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_relative_clauses_intro_l1_content",
+    "lessonId": "beginner_topic_relative_clauses_intro_l1",
+    "title": "Study: Defining Relative Clauses and Omission",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_prepositions_time_l1_content",
+    "lessonId": "beginner_topic_prepositions_time_l1",
+    "title": "Study: Clock, Calendar, and Duration Prepositions",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_prepositions_place_movement_l1_content",
+    "lessonId": "beginner_topic_prepositions_place_movement_l1",
+    "title": "Study: Spatial Location and Directional Particles",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_prepositions_collocations_l1_content",
+    "lessonId": "beginner_topic_prepositions_collocations_l1",
+    "title": "Study: Fixed Idiomatic Phrases and Dependent Prepositions",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_phrasal_verbs_basics_l1_content",
+    "lessonId": "beginner_topic_phrasal_verbs_basics_l1",
+    "title": "Study: Movement Phrasal Verbs and Pronoun Inversion",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "beginner_topic_final_challenge_l1_content",
+    "lessonId": "beginner_topic_final_challenge_l1",
+    "title": "Study: A1–A2 Core Grammar Diagnostic Sprint",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  }
+]

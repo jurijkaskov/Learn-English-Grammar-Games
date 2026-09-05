@@ -40,6 +40,9 @@ interface CurriculumRepository {
     suspend fun getQuestion(id: QuestionId): Question?
 
     suspend fun getTopicLearningPath(topicId: TopicId): TopicLearningPath?
+    suspend fun getTopicsForBookUnit(bookId: String, unitNumber: Int): List<GrammarTopic>
+    suspend fun getLessonsForBookUnit(bookId: String, unitNumber: Int): List<Lesson>
+    suspend fun getBookUnitsForTopic(topicId: TopicId): List<com.learnenglish.grammargames.domain.model.curriculum.CurriculumBookReference>
     suspend fun isCurriculumLoaded(): Boolean
     suspend fun reloadCurriculum()
 }

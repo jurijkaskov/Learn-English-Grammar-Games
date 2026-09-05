@@ -1,41 +1,2122 @@
 [
   {
-    "id": "lesson_pp_form",
-    "topicId": "present_perfect_intro",
-    "title": "Form & Basic Meaning",
+    "id": "lesson_intermediate_present_simple_continuous_contrast",
+    "topicId": "intermediate_present_simple_continuous_contrast",
+    "title": "Present Continuous vs Present Simple: Dynamic & Stative \u2014 Guided Practice",
     "order": 1,
     "activityIds": [
-      "act_pp_form_quick_lesson",
-      "act_pp_form_mc_practice",
-      "act_pp_form_gap_practice"
+      "act_intermediate_present_simple_continuous_contrast_content"
     ],
-    "estimatedMinutes": 5,
+    "estimatedMinutes": 8,
     "difficulty": "NORMAL",
     "learningObjectives": [
       {
-        "id": "obj_pp_identify_aux",
-        "description": "Choose between have and has based on subject pronoun"
+        "id": "obj_intermediate_present_simple_continuous_contrast_1",
+        "description": "Master core grammatical contrasts and rules of Present Continuous vs Present Simple: Dynamic & Stative."
       },
       {
-        "id": "obj_pp_past_participle",
-        "description": "Use correct regular and irregular past participle forms"
+        "id": "obj_intermediate_present_simple_continuous_contrast_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
       }
     ]
   },
   {
-    "id": "lesson_pp_since_for",
-    "topicId": "present_perfect_intro",
-    "title": "For vs Since",
-    "order": 2,
+    "id": "lesson_intermediate_past_simple_continuous_narrative",
+    "topicId": "intermediate_past_simple_continuous_narrative",
+    "title": "Past Simple vs Past Continuous: Action & Background \u2014 Guided Practice",
+    "order": 1,
     "activityIds": [
-      "act_pp_since_for_drill"
+      "act_intermediate_past_simple_continuous_narrative_content"
     ],
-    "estimatedMinutes": 4,
+    "estimatedMinutes": 8,
     "difficulty": "NORMAL",
     "learningObjectives": [
       {
-        "id": "obj_pp_for_since",
-        "description": "Distinguish between periods of time (for) and starting points (since)"
+        "id": "obj_intermediate_past_simple_continuous_narrative_1",
+        "description": "Master core grammatical contrasts and rules of Past Simple vs Past Continuous: Action & Background."
+      },
+      {
+        "id": "obj_intermediate_past_simple_continuous_narrative_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_present_perfect_simple",
+    "topicId": "intermediate_present_perfect_simple",
+    "title": "Present Perfect Simple: Recent Results & Life Experiences \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_present_perfect_simple_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_present_perfect_simple_1",
+        "description": "Master core grammatical contrasts and rules of Present Perfect Simple: Recent Results & Life Experiences."
+      },
+      {
+        "id": "obj_intermediate_present_perfect_simple_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_present_perfect_continuous",
+    "topicId": "intermediate_present_perfect_continuous",
+    "title": "Present Perfect Continuous: Duration & Ongoing Activity \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_present_perfect_continuous_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_present_perfect_continuous_1",
+        "description": "Master core grammatical contrasts and rules of Present Perfect Continuous: Duration & Ongoing Activity."
+      },
+      {
+        "id": "obj_intermediate_present_perfect_continuous_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_present_perfect_simple_vs_continuous",
+    "topicId": "intermediate_present_perfect_simple_vs_continuous",
+    "title": "Present Perfect Simple vs Continuous: Result vs Activity \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_present_perfect_simple_vs_continuous_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_present_perfect_simple_vs_continuous_1",
+        "description": "Master core grammatical contrasts and rules of Present Perfect Simple vs Continuous: Result vs Activity."
+      },
+      {
+        "id": "obj_intermediate_present_perfect_simple_vs_continuous_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_present_perfect_how_long_for_since",
+    "topicId": "intermediate_present_perfect_how_long_for_since",
+    "title": "Duration Questions & Time Frames: How Long, For and Since \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_present_perfect_how_long_for_since_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_present_perfect_how_long_for_since_1",
+        "description": "Master core grammatical contrasts and rules of Duration Questions & Time Frames: How Long, For and Since."
+      },
+      {
+        "id": "obj_intermediate_present_perfect_how_long_for_since_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_present_perfect_vs_past_simple",
+    "topicId": "intermediate_present_perfect_vs_past_simple",
+    "title": "Present Perfect vs Past Simple: Open vs Finished Time \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_present_perfect_vs_past_simple_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_present_perfect_vs_past_simple_1",
+        "description": "Master core grammatical contrasts and rules of Present Perfect vs Past Simple: Open vs Finished Time."
+      },
+      {
+        "id": "obj_intermediate_present_perfect_vs_past_simple_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_past_perfect_simple",
+    "topicId": "intermediate_past_perfect_simple",
+    "title": "Past Perfect Simple: The Earlier Past in Narrative \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_past_perfect_simple_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_past_perfect_simple_1",
+        "description": "Master core grammatical contrasts and rules of Past Perfect Simple: The Earlier Past in Narrative."
+      },
+      {
+        "id": "obj_intermediate_past_perfect_simple_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_past_perfect_continuous",
+    "topicId": "intermediate_past_perfect_continuous",
+    "title": "Past Perfect Continuous: Cause & Duration Before a Past Point \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_past_perfect_continuous_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "HARD",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_past_perfect_continuous_1",
+        "description": "Master core grammatical contrasts and rules of Past Perfect Continuous: Cause & Duration Before a Past Point."
+      },
+      {
+        "id": "obj_intermediate_past_perfect_continuous_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_have_and_have_got",
+    "topicId": "intermediate_have_and_have_got",
+    "title": "Possession & States: Have and Have Got \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_have_and_have_got_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "EASY",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_have_and_have_got_1",
+        "description": "Master core grammatical contrasts and rules of Possession & States: Have and Have Got."
+      },
+      {
+        "id": "obj_intermediate_have_and_have_got_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_used_to_past_habits",
+    "topicId": "intermediate_used_to_past_habits",
+    "title": "Past Habits & States: Used to \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_used_to_past_habits_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_used_to_past_habits_1",
+        "description": "Master core grammatical contrasts and rules of Past Habits & States: Used to."
+      },
+      {
+        "id": "obj_intermediate_used_to_past_habits_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_future_present_tenses_going_to",
+    "topicId": "intermediate_future_present_tenses_going_to",
+    "title": "Arrangements & Intentions: Present Tenses and Going to \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_future_present_tenses_going_to_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_future_present_tenses_going_to_1",
+        "description": "Master core grammatical contrasts and rules of Arrangements & Intentions: Present Tenses and Going to."
+      },
+      {
+        "id": "obj_intermediate_future_present_tenses_going_to_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_future_will_shall_decisions",
+    "topicId": "intermediate_future_will_shall_decisions",
+    "title": "Instant Decisions & Offers: Will and Shall \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_future_will_shall_decisions_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_future_will_shall_decisions_1",
+        "description": "Master core grammatical contrasts and rules of Instant Decisions & Offers: Will and Shall."
+      },
+      {
+        "id": "obj_intermediate_future_will_shall_decisions_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_future_will_vs_going_to",
+    "topicId": "intermediate_future_will_vs_going_to",
+    "title": "Predictions & Plans: Will vs Going to \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_future_will_vs_going_to_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_future_will_vs_going_to_1",
+        "description": "Master core grammatical contrasts and rules of Predictions & Plans: Will vs Going to."
+      },
+      {
+        "id": "obj_intermediate_future_will_vs_going_to_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_future_continuous_and_perfect",
+    "topicId": "intermediate_future_continuous_and_perfect",
+    "title": "Future in Progress & Completion: Will Be Doing and Will Have Done \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_future_continuous_and_perfect_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "HARD",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_future_continuous_and_perfect_1",
+        "description": "Master core grammatical contrasts and rules of Future in Progress & Completion: Will Be Doing and Will Have Done."
+      },
+      {
+        "id": "obj_intermediate_future_continuous_and_perfect_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_future_time_clauses",
+    "topicId": "intermediate_future_time_clauses",
+    "title": "Future Time & Conditional Clauses: When, As Soon As, If \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_future_time_clauses_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_future_time_clauses_1",
+        "description": "Master core grammatical contrasts and rules of Future Time & Conditional Clauses: When, As Soon As, If."
+      },
+      {
+        "id": "obj_intermediate_future_time_clauses_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_modal_ability_can_could_able",
+    "topicId": "intermediate_modal_ability_can_could_able",
+    "title": "Ability & Possibility: Can, Could and Be Able To \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_modal_ability_can_could_able_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_modal_ability_can_could_able_1",
+        "description": "Master core grammatical contrasts and rules of Ability & Possibility: Can, Could and Be Able To."
+      },
+      {
+        "id": "obj_intermediate_modal_ability_can_could_able_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_modal_past_ability_could_have",
+    "topicId": "intermediate_modal_past_ability_could_have",
+    "title": "Past Opportunity & Unrealised Action: Could Have Done \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_modal_past_ability_could_have_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_modal_past_ability_could_have_1",
+        "description": "Master core grammatical contrasts and rules of Past Opportunity & Unrealised Action: Could Have Done."
+      },
+      {
+        "id": "obj_intermediate_modal_past_ability_could_have_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_modal_deduction_present",
+    "topicId": "intermediate_modal_deduction_present",
+    "title": "Logical Deduction: Must and Can't \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_modal_deduction_present_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_modal_deduction_present_1",
+        "description": "Master core grammatical contrasts and rules of Logical Deduction: Must and Can't."
+      },
+      {
+        "id": "obj_intermediate_modal_deduction_present_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_modal_possibility_may_might",
+    "topicId": "intermediate_modal_possibility_may_might",
+    "title": "Possibility & Speculation: May and Might \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_modal_possibility_may_might_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_modal_possibility_may_might_1",
+        "description": "Master core grammatical contrasts and rules of Possibility & Speculation: May and Might."
+      },
+      {
+        "id": "obj_intermediate_modal_possibility_may_might_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_modal_obligation_must_have_to",
+    "topicId": "intermediate_modal_obligation_must_have_to",
+    "title": "Obligation & Necessity: Must and Have to \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_modal_obligation_must_have_to_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_modal_obligation_must_have_to_1",
+        "description": "Master core grammatical contrasts and rules of Obligation & Necessity: Must and Have to."
+      },
+      {
+        "id": "obj_intermediate_modal_obligation_must_have_to_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_modal_prohibition_lack_necessity",
+    "topicId": "intermediate_modal_prohibition_lack_necessity",
+    "title": "Prohibition & Absence of Obligation: Mustn't vs Needn't \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_modal_prohibition_lack_necessity_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_modal_prohibition_lack_necessity_1",
+        "description": "Master core grammatical contrasts and rules of Prohibition & Absence of Obligation: Mustn't vs Needn't."
+      },
+      {
+        "id": "obj_intermediate_modal_prohibition_lack_necessity_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_modal_advice_should_had_better",
+    "topicId": "intermediate_modal_advice_should_had_better",
+    "title": "Advice, Expectation & Warning: Should, Ought to, Had Better \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_modal_advice_should_had_better_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_modal_advice_should_had_better_1",
+        "description": "Master core grammatical contrasts and rules of Advice, Expectation & Warning: Should, Ought to, Had Better."
+      },
+      {
+        "id": "obj_intermediate_modal_advice_should_had_better_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_modal_would_habits_hypothetical",
+    "topicId": "intermediate_modal_would_habits_hypothetical",
+    "title": "Hypothetical Actions & Past Habits: Would \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_modal_would_habits_hypothetical_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_modal_would_habits_hypothetical_1",
+        "description": "Master core grammatical contrasts and rules of Hypothetical Actions & Past Habits: Would."
+      },
+      {
+        "id": "obj_intermediate_modal_would_habits_hypothetical_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_modal_requests_permission_offers",
+    "topicId": "intermediate_modal_requests_permission_offers",
+    "title": "Social Formulae: Requests, Offers, Permission & Invitations \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_modal_requests_permission_offers_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "EASY",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_modal_requests_permission_offers_1",
+        "description": "Master core grammatical contrasts and rules of Social Formulae: Requests, Offers, Permission & Invitations."
+      },
+      {
+        "id": "obj_intermediate_modal_requests_permission_offers_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_conditional_real_and_hypothetical",
+    "topicId": "intermediate_conditional_real_and_hypothetical",
+    "title": "Real vs Hypothetical: If I do vs If I did \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_conditional_real_and_hypothetical_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_conditional_real_and_hypothetical_1",
+        "description": "Master core grammatical contrasts and rules of Real vs Hypothetical: If I do vs If I did."
+      },
+      {
+        "id": "obj_intermediate_conditional_real_and_hypothetical_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_conditional_unreal_present_wish",
+    "topicId": "intermediate_conditional_unreal_present_wish",
+    "title": "Unreal Present & Regret: If I knew and I wish I knew \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_conditional_unreal_present_wish_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_conditional_unreal_present_wish_1",
+        "description": "Master core grammatical contrasts and rules of Unreal Present & Regret: If I knew and I wish I knew."
+      },
+      {
+        "id": "obj_intermediate_conditional_unreal_present_wish_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_conditional_hypothetical_past_third",
+    "topicId": "intermediate_conditional_hypothetical_past_third",
+    "title": "Past Regret & Third Conditional: If I had known \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_conditional_hypothetical_past_third_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "HARD",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_conditional_hypothetical_past_third_1",
+        "description": "Master core grammatical contrasts and rules of Past Regret & Third Conditional: If I had known."
+      },
+      {
+        "id": "obj_intermediate_conditional_hypothetical_past_third_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_wish_patterns_would",
+    "topicId": "intermediate_wish_patterns_would",
+    "title": "Desire for Change & Annoyance: Wish + Would \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_wish_patterns_would_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_wish_patterns_would_1",
+        "description": "Master core grammatical contrasts and rules of Desire for Change & Annoyance: Wish + Would."
+      },
+      {
+        "id": "obj_intermediate_wish_patterns_would_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_passive_core_tenses",
+    "topicId": "intermediate_passive_core_tenses",
+    "title": "Passive Formation: Present & Past Simple \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_passive_core_tenses_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_passive_core_tenses_1",
+        "description": "Master core grammatical contrasts and rules of Passive Formation: Present & Past Simple."
+      },
+      {
+        "id": "obj_intermediate_passive_core_tenses_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_passive_complex_aspects_modals",
+    "topicId": "intermediate_passive_complex_aspects_modals",
+    "title": "Complex Passives: Continuous, Perfect and Modal Structures \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_passive_complex_aspects_modals_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_passive_complex_aspects_modals_1",
+        "description": "Master core grammatical contrasts and rules of Complex Passives: Continuous, Perfect and Modal Structures."
+      },
+      {
+        "id": "obj_intermediate_passive_complex_aspects_modals_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_passive_reporting_structures",
+    "topicId": "intermediate_passive_reporting_structures",
+    "title": "Impersonal Reporting: It is said that / He is said to \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_passive_reporting_structures_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "HARD",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_passive_reporting_structures_1",
+        "description": "Master core grammatical contrasts and rules of Impersonal Reporting: It is said that / He is said to."
+      },
+      {
+        "id": "obj_intermediate_passive_reporting_structures_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_passive_causative_have_done",
+    "topicId": "intermediate_passive_causative_have_done",
+    "title": "Causative Services: Have Something Done \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_passive_causative_have_done_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_passive_causative_have_done_1",
+        "description": "Master core grammatical contrasts and rules of Causative Services: Have Something Done."
+      },
+      {
+        "id": "obj_intermediate_passive_causative_have_done_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_reported_speech_statements_backshift",
+    "topicId": "intermediate_reported_speech_statements_backshift",
+    "title": "Reported Statements: Tense Backshift & Time References \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_reported_speech_statements_backshift_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_reported_speech_statements_backshift_1",
+        "description": "Master core grammatical contrasts and rules of Reported Statements: Tense Backshift & Time References."
+      },
+      {
+        "id": "obj_intermediate_reported_speech_statements_backshift_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_reported_speech_questions_reporting_verbs",
+    "topicId": "intermediate_reported_speech_questions_reporting_verbs",
+    "title": "Reported Questions, Orders & Reporting Verb Patterns \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_reported_speech_questions_reporting_verbs_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_reported_speech_questions_reporting_verbs_1",
+        "description": "Master core grammatical contrasts and rules of Reported Questions, Orders & Reporting Verb Patterns."
+      },
+      {
+        "id": "obj_intermediate_reported_speech_questions_reporting_verbs_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_question_formation_prepositions",
+    "topicId": "intermediate_question_formation_prepositions",
+    "title": "Direct Question Formation & Preposition Stranding \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_question_formation_prepositions_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_question_formation_prepositions_1",
+        "description": "Master core grammatical contrasts and rules of Direct Question Formation & Preposition Stranding."
+      },
+      {
+        "id": "obj_intermediate_question_formation_prepositions_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_indirect_embedded_questions",
+    "topicId": "intermediate_indirect_embedded_questions",
+    "title": "Indirect Questions: Do you know where...? / He asked me where... \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_indirect_embedded_questions_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_indirect_embedded_questions_1",
+        "description": "Master core grammatical contrasts and rules of Indirect Questions: Do you know where...? / He asked me where...."
+      },
+      {
+        "id": "obj_intermediate_indirect_embedded_questions_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_auxiliary_substitution_agreement",
+    "topicId": "intermediate_auxiliary_substitution_agreement",
+    "title": "Auxiliary Substitution: So do I, Neither do I, I think so \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_auxiliary_substitution_agreement_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_auxiliary_substitution_agreement_1",
+        "description": "Master core grammatical contrasts and rules of Auxiliary Substitution: So do I, Neither do I, I think so."
+      },
+      {
+        "id": "obj_intermediate_auxiliary_substitution_agreement_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_question_tags",
+    "topicId": "intermediate_question_tags",
+    "title": "Question Tags: Seeking Confirmation vs Real Questions \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_question_tags_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_question_tags_1",
+        "description": "Master core grammatical contrasts and rules of Question Tags: Seeking Confirmation vs Real Questions."
+      },
+      {
+        "id": "obj_intermediate_question_tags_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_verb_plus_ing",
+    "topicId": "intermediate_verb_plus_ing",
+    "title": "Verb + -ing: Enjoy, Mind, Suggest \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_verb_plus_ing_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_verb_plus_ing_1",
+        "description": "Master core grammatical contrasts and rules of Verb + -ing: Enjoy, Mind, Suggest."
+      },
+      {
+        "id": "obj_intermediate_verb_plus_ing_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_verb_plus_to_infinitive",
+    "topicId": "intermediate_verb_plus_to_infinitive",
+    "title": "Verb + to-Infinitive: Decide, Forget, Promise \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_verb_plus_to_infinitive_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_verb_plus_to_infinitive_1",
+        "description": "Master core grammatical contrasts and rules of Verb + to-Infinitive: Decide, Forget, Promise."
+      },
+      {
+        "id": "obj_intermediate_verb_plus_to_infinitive_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_verb_object_to_infinitive",
+    "topicId": "intermediate_verb_object_to_infinitive",
+    "title": "Verb + Object + to-Infinitive: Want someone to do, Advise \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_verb_object_to_infinitive_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_verb_object_to_infinitive_1",
+        "description": "Master core grammatical contrasts and rules of Verb + Object + to-Infinitive: Want someone to do, Advise."
+      },
+      {
+        "id": "obj_intermediate_verb_object_to_infinitive_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_verb_ing_or_to_meaning_change",
+    "topicId": "intermediate_verb_ing_or_to_meaning_change",
+    "title": "Meaning Shifts: Remember, Regret, Stop doing vs to do \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_verb_ing_or_to_meaning_change_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "HARD",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_verb_ing_or_to_meaning_change_1",
+        "description": "Master core grammatical contrasts and rules of Meaning Shifts: Remember, Regret, Stop doing vs to do."
+      },
+      {
+        "id": "obj_intermediate_verb_ing_or_to_meaning_change_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_verb_ing_or_to_try_need_help",
+    "topicId": "intermediate_verb_ing_or_to_try_need_help",
+    "title": "Subtle Pattern Differences: Try, Need, Help \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_verb_ing_or_to_try_need_help_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_verb_ing_or_to_try_need_help_1",
+        "description": "Master core grammatical contrasts and rules of Subtle Pattern Differences: Try, Need, Help."
+      },
+      {
+        "id": "obj_intermediate_verb_ing_or_to_try_need_help_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_verb_like_would_like_preferences",
+    "topicId": "intermediate_verb_like_would_like_preferences",
+    "title": "Preferences: Like doing vs Like to do, Would like \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_verb_like_would_like_preferences_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_verb_like_would_like_preferences_1",
+        "description": "Master core grammatical contrasts and rules of Preferences: Like doing vs Like to do, Would like."
+      },
+      {
+        "id": "obj_intermediate_verb_like_would_like_preferences_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_prefer_and_would_rather",
+    "topicId": "intermediate_prefer_and_would_rather",
+    "title": "Expressing Preference: Prefer and Would Rather \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_prefer_and_would_rather_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_prefer_and_would_rather_1",
+        "description": "Master core grammatical contrasts and rules of Expressing Preference: Prefer and Would Rather."
+      },
+      {
+        "id": "obj_intermediate_prefer_and_would_rather_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_preposition_plus_ing",
+    "topicId": "intermediate_preposition_plus_ing",
+    "title": "Preposition + -ing: Before leaving, Instead of waiting \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_preposition_plus_ing_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_preposition_plus_ing_1",
+        "description": "Master core grammatical contrasts and rules of Preposition + -ing: Before leaving, Instead of waiting."
+      },
+      {
+        "id": "obj_intermediate_preposition_plus_ing_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_be_get_used_to_doing",
+    "topicId": "intermediate_be_get_used_to_doing",
+    "title": "Familiarity: Be Used to and Get Used to doing \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_be_get_used_to_doing_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_be_get_used_to_doing_1",
+        "description": "Master core grammatical contrasts and rules of Familiarity: Be Used to and Get Used to doing."
+      },
+      {
+        "id": "obj_intermediate_be_get_used_to_doing_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_verb_preposition_ing",
+    "topicId": "intermediate_verb_preposition_ing",
+    "title": "Verb + Preposition + -ing: Succeed in, Insist on \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_verb_preposition_ing_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_verb_preposition_ing_1",
+        "description": "Master core grammatical contrasts and rules of Verb + Preposition + -ing: Succeed in, Insist on."
+      },
+      {
+        "id": "obj_intermediate_verb_preposition_ing_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_fixed_ing_expressions",
+    "topicId": "intermediate_fixed_ing_expressions",
+    "title": "Special -ing Idioms: There's no point in, Worth, Have difficulty \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_fixed_ing_expressions_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_fixed_ing_expressions_1",
+        "description": "Master core grammatical contrasts and rules of Special -ing Idioms: There's no point in, Worth, Have difficulty."
+      },
+      {
+        "id": "obj_intermediate_fixed_ing_expressions_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_infinitive_of_purpose_so_that",
+    "topicId": "intermediate_infinitive_of_purpose_so_that",
+    "title": "Expressing Purpose: To do, For doing, and So that \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_infinitive_of_purpose_so_that_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_infinitive_of_purpose_so_that_1",
+        "description": "Master core grammatical contrasts and rules of Expressing Purpose: To do, For doing, and So that."
+      },
+      {
+        "id": "obj_intermediate_infinitive_of_purpose_so_that_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_adjective_plus_to_infinitive",
+    "topicId": "intermediate_adjective_plus_to_infinitive",
+    "title": "Adjective + to-Infinitive: Difficult to do, Glad to hear \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_adjective_plus_to_infinitive_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_adjective_plus_to_infinitive_1",
+        "description": "Master core grammatical contrasts and rules of Adjective + to-Infinitive: Difficult to do, Glad to hear."
+      },
+      {
+        "id": "obj_intermediate_adjective_plus_to_infinitive_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_afraid_to_vs_afraid_of_ing",
+    "topicId": "intermediate_afraid_to_vs_afraid_of_ing",
+    "title": "Specific Nuance: Afraid to do vs Afraid of doing \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_afraid_to_vs_afraid_of_ing_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "HARD",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_afraid_to_vs_afraid_of_ing_1",
+        "description": "Master core grammatical contrasts and rules of Specific Nuance: Afraid to do vs Afraid of doing."
+      },
+      {
+        "id": "obj_intermediate_afraid_to_vs_afraid_of_ing_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_sensory_verbs_bare_vs_participle",
+    "topicId": "intermediate_sensory_verbs_bare_vs_participle",
+    "title": "Perception Verbs: See somebody do vs See somebody doing \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_sensory_verbs_bare_vs_participle_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "HARD",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_sensory_verbs_bare_vs_participle_1",
+        "description": "Master core grammatical contrasts and rules of Perception Verbs: See somebody do vs See somebody doing."
+      },
+      {
+        "id": "obj_intermediate_sensory_verbs_bare_vs_participle_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_participle_ing_clauses",
+    "topicId": "intermediate_participle_ing_clauses",
+    "title": "-ing Participle Clauses: Feeling tired, he went to bed \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_participle_ing_clauses_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "HARD",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_participle_ing_clauses_1",
+        "description": "Master core grammatical contrasts and rules of -ing Participle Clauses: Feeling tired, he went to bed."
+      },
+      {
+        "id": "obj_intermediate_participle_ing_clauses_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_countable_uncountable_contrasts",
+    "topicId": "intermediate_countable_uncountable_contrasts",
+    "title": "Countable vs Uncountable Nouns & Category Shifts \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_countable_uncountable_contrasts_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_countable_uncountable_contrasts_1",
+        "description": "Master core grammatical contrasts and rules of Countable vs Uncountable Nouns & Category Shifts."
+      },
+      {
+        "id": "obj_intermediate_countable_uncountable_contrasts_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_nouns_a_an_and_some",
+    "topicId": "intermediate_nouns_a_an_and_some",
+    "title": "Singular & Plural Reference: A/An with Countable, Some with Uncountable \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_nouns_a_an_and_some_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_nouns_a_an_and_some_1",
+        "description": "Master core grammatical contrasts and rules of Singular & Plural Reference: A/An with Countable, Some with Uncountable."
+      },
+      {
+        "id": "obj_intermediate_nouns_a_an_and_some_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_a_an_vs_the_core_contrast",
+    "topicId": "intermediate_a_an_vs_the_core_contrast",
+    "title": "Specific vs Non-Specific Reference: A/An vs The \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_a_an_vs_the_core_contrast_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_a_an_vs_the_core_contrast_1",
+        "description": "Master core grammatical contrasts and rules of Specific vs Non-Specific Reference: A/An vs The."
+      },
+      {
+        "id": "obj_intermediate_a_an_vs_the_core_contrast_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_the_with_institutions_and_general",
+    "topicId": "intermediate_the_with_institutions_and_general",
+    "title": "Institutional Zero Article: School vs The School, Bed vs The Bed \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_the_with_institutions_and_general_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_the_with_institutions_and_general_1",
+        "description": "Master core grammatical contrasts and rules of Institutional Zero Article: School vs The School, Bed vs The Bed."
+      },
+      {
+        "id": "obj_intermediate_the_with_institutions_and_general_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_the_with_groups_and_generics",
+    "topicId": "intermediate_the_with_groups_and_generics",
+    "title": "General Classes vs Particular Groups: Children vs The Children, The Giraffe \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_the_with_groups_and_generics_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_the_with_groups_and_generics_1",
+        "description": "Master core grammatical contrasts and rules of General Classes vs Particular Groups: Children vs The Children, The Giraffe."
+      },
+      {
+        "id": "obj_intermediate_the_with_groups_and_generics_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_the_with_geographical_names",
+    "topicId": "intermediate_the_with_geographical_names",
+    "title": "Proper Names & Geography with and without The \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_the_with_geographical_names_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_the_with_geographical_names_1",
+        "description": "Master core grammatical contrasts and rules of Proper Names & Geography with and without The."
+      },
+      {
+        "id": "obj_intermediate_the_with_geographical_names_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_noun_plural_compounds_possessives",
+    "topicId": "intermediate_noun_plural_compounds_possessives",
+    "title": "Noun Forms: Plurals, Noun + Noun Compounds, and Possessive 's vs Of \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_noun_plural_compounds_possessives_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_noun_plural_compounds_possessives_1",
+        "description": "Master core grammatical contrasts and rules of Noun Forms: Plurals, Noun + Noun Compounds, and Possessive 's vs Of."
+      },
+      {
+        "id": "obj_intermediate_noun_plural_compounds_possessives_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_reflexive_pronouns_own",
+    "topicId": "intermediate_reflexive_pronouns_own",
+    "title": "Reflexives & Independence: Myself, On my own, By myself \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_reflexive_pronouns_own_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_reflexive_pronouns_own_1",
+        "description": "Master core grammatical contrasts and rules of Reflexives & Independence: Myself, On my own, By myself."
+      },
+      {
+        "id": "obj_intermediate_reflexive_pronouns_own_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_there_and_it_contrast",
+    "topicId": "intermediate_there_and_it_contrast",
+    "title": "Existential and Anticipatory: There vs It \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_there_and_it_contrast_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_there_and_it_contrast_1",
+        "description": "Master core grammatical contrasts and rules of Existential and Anticipatory: There vs It."
+      },
+      {
+        "id": "obj_intermediate_there_and_it_contrast_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_some_and_any_compounds",
+    "topicId": "intermediate_some_and_any_compounds",
+    "title": "Assertive vs Non-Assertive: Some, Any, and Indefinite Compounds \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_some_and_any_compounds_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_some_and_any_compounds_1",
+        "description": "Master core grammatical contrasts and rules of Assertive vs Non-Assertive: Some, Any, and Indefinite Compounds."
+      },
+      {
+        "id": "obj_intermediate_some_and_any_compounds_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_quantifiers_much_many_few_little",
+    "topicId": "intermediate_quantifiers_much_many_few_little",
+    "title": "Quantifiers: Much/Many vs Few/A few, Little/A little \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_quantifiers_much_many_few_little_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_quantifiers_much_many_few_little_1",
+        "description": "Master core grammatical contrasts and rules of Quantifiers: Much/Many vs Few/A few, Little/A little."
+      },
+      {
+        "id": "obj_intermediate_quantifiers_much_many_few_little_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_distributives_both_neither_either",
+    "topicId": "intermediate_distributives_both_neither_either",
+    "title": "Binary Distributives: Both, Neither, and Either (of) \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_distributives_both_neither_either_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_distributives_both_neither_either_1",
+        "description": "Master core grammatical contrasts and rules of Binary Distributives: Both, Neither, and Either (of)."
+      },
+      {
+        "id": "obj_intermediate_distributives_both_neither_either_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_totality_all_most_every_whole_each",
+    "topicId": "intermediate_totality_all_most_every_whole_each",
+    "title": "Universal Quantifiers: All, Most, Whole, Every, and Each \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_totality_all_most_every_whole_each_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_totality_all_most_every_whole_each_1",
+        "description": "Master core grammatical contrasts and rules of Universal Quantifiers: All, Most, Whole, Every, and Each."
+      },
+      {
+        "id": "obj_intermediate_totality_all_most_every_whole_each_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_relative_who_that_which",
+    "topicId": "intermediate_relative_who_that_which",
+    "title": "Relative Pronouns: Who, That, and Which \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_relative_who_that_which_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_relative_who_that_which_1",
+        "description": "Master core grammatical contrasts and rules of Relative Pronouns: Who, That, and Which."
+      },
+      {
+        "id": "obj_intermediate_relative_who_that_which_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_relative_pronoun_omission",
+    "topicId": "intermediate_relative_pronoun_omission",
+    "title": "Contact Clauses: Omission of Object Relative Pronouns \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_relative_pronoun_omission_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_relative_pronoun_omission_1",
+        "description": "Master core grammatical contrasts and rules of Contact Clauses: Omission of Object Relative Pronouns."
+      },
+      {
+        "id": "obj_intermediate_relative_pronoun_omission_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_relative_whose_whom_where",
+    "topicId": "intermediate_relative_whose_whom_where",
+    "title": "Relative Adverbs & Possessives: Whose, Whom, and Where \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_relative_whose_whom_where_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_relative_whose_whom_where_1",
+        "description": "Master core grammatical contrasts and rules of Relative Adverbs & Possessives: Whose, Whom, and Where."
+      },
+      {
+        "id": "obj_intermediate_relative_whose_whom_where_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_relative_defining_vs_non_defining",
+    "topicId": "intermediate_relative_defining_vs_non_defining",
+    "title": "Essential vs Extra Information: Defining and Non-Defining Relative Clauses \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_relative_defining_vs_non_defining_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "HARD",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_relative_defining_vs_non_defining_1",
+        "description": "Master core grammatical contrasts and rules of Essential vs Extra Information: Defining and Non-Defining Relative Clauses."
+      },
+      {
+        "id": "obj_intermediate_relative_defining_vs_non_defining_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_relative_reduced_participle_clauses",
+    "topicId": "intermediate_relative_reduced_participle_clauses",
+    "title": "Reduced Relatives: -ing and -ed Participial Postmodifiers \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_relative_reduced_participle_clauses_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "HARD",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_relative_reduced_participle_clauses_1",
+        "description": "Master core grammatical contrasts and rules of Reduced Relatives: -ing and -ed Participial Postmodifiers."
+      },
+      {
+        "id": "obj_intermediate_relative_reduced_participle_clauses_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_adjectives_ing_ed_order",
+    "topicId": "intermediate_adjectives_ing_ed_order",
+    "title": "Participle Adjectives (-ing/-ed) and Adjective Ordering \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_adjectives_ing_ed_order_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_adjectives_ing_ed_order_1",
+        "description": "Master core grammatical contrasts and rules of Participle Adjectives (-ing/-ed) and Adjective Ordering."
+      },
+      {
+        "id": "obj_intermediate_adjectives_ing_ed_order_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_adjectives_and_adverbs_formation",
+    "topicId": "intermediate_adjectives_and_adverbs_formation",
+    "title": "Adjectives vs Adverbs & Irregulars: Quick/Quickly, Well, Fast, Hard/Hardly \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_adjectives_and_adverbs_formation_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_adjectives_and_adverbs_formation_1",
+        "description": "Master core grammatical contrasts and rules of Adjectives vs Adverbs & Irregulars: Quick/Quickly, Well, Fast, Hard/Hardly."
+      },
+      {
+        "id": "obj_intermediate_adjectives_and_adverbs_formation_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_degree_so_such_enough_too",
+    "topicId": "intermediate_degree_so_such_enough_too",
+    "title": "Degree Modifiers: So, Such, Enough, and Too \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_degree_so_such_enough_too_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_degree_so_such_enough_too_1",
+        "description": "Master core grammatical contrasts and rules of Degree Modifiers: So, Such, Enough, and Too."
+      },
+      {
+        "id": "obj_intermediate_degree_so_such_enough_too_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_grading_quite_rather_pretty_fairly",
+    "topicId": "intermediate_grading_quite_rather_pretty_fairly",
+    "title": "Grading Adverbs: Quite, Pretty, Rather, and Fairly \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_grading_quite_rather_pretty_fairly_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_grading_quite_rather_pretty_fairly_1",
+        "description": "Master core grammatical contrasts and rules of Grading Adverbs: Quite, Pretty, Rather, and Fairly."
+      },
+      {
+        "id": "obj_intermediate_grading_quite_rather_pretty_fairly_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_comparatives_modifiers",
+    "topicId": "intermediate_comparatives_modifiers",
+    "title": "Comparative Forms & Modifiers: Much better, Far more, Any better \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_comparatives_modifiers_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_comparatives_modifiers_1",
+        "description": "Master core grammatical contrasts and rules of Comparative Forms & Modifiers: Much better, Far more, Any better."
+      },
+      {
+        "id": "obj_intermediate_comparatives_modifiers_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_equality_and_superlatives",
+    "topicId": "intermediate_equality_and_superlatives",
+    "title": "Comparisons of Equality & Superlatives: As...as, Than, The most \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_equality_and_superlatives_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_equality_and_superlatives_1",
+        "description": "Master core grammatical contrasts and rules of Comparisons of Equality & Superlatives: As...as, Than, The most."
+      },
+      {
+        "id": "obj_intermediate_equality_and_superlatives_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_word_order_verb_object_place_time",
+    "topicId": "intermediate_word_order_verb_object_place_time",
+    "title": "Clause Order: Verb + Object, Sequencing Place and Time \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_word_order_verb_object_place_time_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_word_order_verb_object_place_time_1",
+        "description": "Master core grammatical contrasts and rules of Clause Order: Verb + Object, Sequencing Place and Time."
+      },
+      {
+        "id": "obj_intermediate_word_order_verb_object_place_time_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_adverb_position_with_verbs",
+    "topicId": "intermediate_adverb_position_with_verbs",
+    "title": "Adverb Positions: Mid-Position with Auxiliaries and Main Verbs \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_adverb_position_with_verbs_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_adverb_position_with_verbs_1",
+        "description": "Master core grammatical contrasts and rules of Adverb Positions: Mid-Position with Auxiliaries and Main Verbs."
+      },
+      {
+        "id": "obj_intermediate_adverb_position_with_verbs_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_aspectual_adverbs_still_yet_already",
+    "topicId": "intermediate_aspectual_adverbs_still_yet_already",
+    "title": "Temporal Adverbs: Still, Yet, Already, and Any More \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_aspectual_adverbs_still_yet_already_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_aspectual_adverbs_still_yet_already_1",
+        "description": "Master core grammatical contrasts and rules of Temporal Adverbs: Still, Yet, Already, and Any More."
+      },
+      {
+        "id": "obj_intermediate_aspectual_adverbs_still_yet_already_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_focus_particle_even",
+    "topicId": "intermediate_focus_particle_even",
+    "title": "Focus & Surprise: Even and Even Though / Even If \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_focus_particle_even_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_focus_particle_even_1",
+        "description": "Master core grammatical contrasts and rules of Focus & Surprise: Even and Even Though / Even If."
+      },
+      {
+        "id": "obj_intermediate_focus_particle_even_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_conjunctions_concession_contrast",
+    "topicId": "intermediate_conjunctions_concession_contrast",
+    "title": "Concession & Contrast: Although, Though, Even though, Despite, In spite of \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_conjunctions_concession_contrast_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_conjunctions_concession_contrast_1",
+        "description": "Master core grammatical contrasts and rules of Concession & Contrast: Although, Though, Even though, Despite, In spite of."
+      },
+      {
+        "id": "obj_intermediate_conjunctions_concession_contrast_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_conjunctions_precaution_in_case",
+    "topicId": "intermediate_conjunctions_precaution_in_case",
+    "title": "Precaution & Anticipation: In case \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_conjunctions_precaution_in_case_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_conjunctions_precaution_in_case_1",
+        "description": "Master core grammatical contrasts and rules of Precaution & Anticipation: In case."
+      },
+      {
+        "id": "obj_intermediate_conjunctions_precaution_in_case_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_conjunctions_condition_unless_as_long_as",
+    "topicId": "intermediate_conjunctions_condition_unless_as_long_as",
+    "title": "Conditional Connectives: Unless, As long as, Provided that \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_conjunctions_condition_unless_as_long_as_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_conjunctions_condition_unless_as_long_as_1",
+        "description": "Master core grammatical contrasts and rules of Conditional Connectives: Unless, As long as, Provided that."
+      },
+      {
+        "id": "obj_intermediate_conjunctions_condition_unless_as_long_as_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_conjunctions_as_like_as_if",
+    "topicId": "intermediate_conjunctions_as_like_as_if",
+    "title": "Manner & Comparison: As, Like, and As if / As though \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_conjunctions_as_like_as_if_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_conjunctions_as_like_as_if_1",
+        "description": "Master core grammatical contrasts and rules of Manner & Comparison: As, Like, and As if / As though."
+      },
+      {
+        "id": "obj_intermediate_conjunctions_as_like_as_if_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_conjunctions_time_during_while_by_until",
+    "topicId": "intermediate_conjunctions_time_during_while_by_until",
+    "title": "Time Relations: During, While, For, and By vs Until \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_conjunctions_time_during_while_by_until_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_conjunctions_time_during_while_by_until_1",
+        "description": "Master core grammatical contrasts and rules of Time Relations: During, While, For, and By vs Until."
+      },
+      {
+        "id": "obj_intermediate_conjunctions_time_during_while_by_until_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_prepositions_time_at_on_in",
+    "topicId": "intermediate_prepositions_time_at_on_in",
+    "title": "Time Prepositions: At, On, In, In time vs On time, At the end \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_prepositions_time_at_on_in_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_prepositions_time_at_on_in_1",
+        "description": "Master core grammatical contrasts and rules of Time Prepositions: At, On, In, In time vs On time, At the end."
+      },
+      {
+        "id": "obj_intermediate_prepositions_time_at_on_in_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_prepositions_place_position_in_at_on",
+    "topicId": "intermediate_prepositions_place_position_in_at_on",
+    "title": "Position & Space: In, At, and On in Context \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_prepositions_place_position_in_at_on_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_prepositions_place_position_in_at_on_1",
+        "description": "Master core grammatical contrasts and rules of Position & Space: In, At, and On in Context."
+      },
+      {
+        "id": "obj_intermediate_prepositions_place_position_in_at_on_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_prepositions_movement_destination",
+    "topicId": "intermediate_prepositions_movement_destination",
+    "title": "Direction & Movement: To, At, In, and Into \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_prepositions_movement_destination_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_prepositions_movement_destination_1",
+        "description": "Master core grammatical contrasts and rules of Direction & Movement: To, At, In, and Into."
+      },
+      {
+        "id": "obj_intermediate_prepositions_movement_destination_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_prepositions_special_uses_by",
+    "topicId": "intermediate_prepositions_special_uses_by",
+    "title": "Idiomatic Spatial Uses & Means: Other uses of In/On/At and By \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_prepositions_special_uses_by_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_prepositions_special_uses_by_1",
+        "description": "Master core grammatical contrasts and rules of Idiomatic Spatial Uses & Means: Other uses of In/On/At and By."
+      },
+      {
+        "id": "obj_intermediate_prepositions_special_uses_by_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_noun_plus_preposition_collocations",
+    "topicId": "intermediate_noun_plus_preposition_collocations",
+    "title": "Dependent Nouns: Reason for, Cause of, Demand for \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_noun_plus_preposition_collocations_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_noun_plus_preposition_collocations_1",
+        "description": "Master core grammatical contrasts and rules of Dependent Nouns: Reason for, Cause of, Demand for."
+      },
+      {
+        "id": "obj_intermediate_noun_plus_preposition_collocations_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_adjective_plus_preposition_collocations",
+    "topicId": "intermediate_adjective_plus_preposition_collocations",
+    "title": "Dependent Adjectives: Proud of, Interested in, Afraid of, Good at \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_adjective_plus_preposition_collocations_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_adjective_plus_preposition_collocations_1",
+        "description": "Master core grammatical contrasts and rules of Dependent Adjectives: Proud of, Interested in, Afraid of, Good at."
+      },
+      {
+        "id": "obj_intermediate_adjective_plus_preposition_collocations_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_verb_plus_preposition_collocations",
+    "topicId": "intermediate_verb_plus_preposition_collocations",
+    "title": "Dependent Verbs: Listen to, Look at, Depend on, Suffer from \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_verb_plus_preposition_collocations_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_verb_plus_preposition_collocations_1",
+        "description": "Master core grammatical contrasts and rules of Dependent Verbs: Listen to, Look at, Depend on, Suffer from."
+      },
+      {
+        "id": "obj_intermediate_verb_plus_preposition_collocations_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_phrasal_verbs_introduction_syntax",
+    "topicId": "intermediate_phrasal_verbs_introduction_syntax",
+    "title": "Phrasal Verbs Anatomy: Separability & Pronoun Placement \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_phrasal_verbs_introduction_syntax_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_phrasal_verbs_introduction_syntax_1",
+        "description": "Master core grammatical contrasts and rules of Phrasal Verbs Anatomy: Separability & Pronoun Placement."
+      },
+      {
+        "id": "obj_intermediate_phrasal_verbs_introduction_syntax_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_phrasal_verbs_in_out",
+    "topicId": "intermediate_phrasal_verbs_in_out",
+    "title": "Particles In and Out: Movement, Completion & Discovery \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_phrasal_verbs_in_out_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_phrasal_verbs_in_out_1",
+        "description": "Master core grammatical contrasts and rules of Particles In and Out: Movement, Completion & Discovery."
+      },
+      {
+        "id": "obj_intermediate_phrasal_verbs_in_out_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_phrasal_verbs_on_off",
+    "topicId": "intermediate_phrasal_verbs_on_off",
+    "title": "Particles On and Off: Activation, Continuation & Departure \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_phrasal_verbs_on_off_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_phrasal_verbs_on_off_1",
+        "description": "Master core grammatical contrasts and rules of Particles On and Off: Activation, Continuation & Departure."
+      },
+      {
+        "id": "obj_intermediate_phrasal_verbs_on_off_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_phrasal_verbs_up_down",
+    "topicId": "intermediate_phrasal_verbs_up_down",
+    "title": "Particles Up and Down: Increase, Decrease, Destruction & Completion \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_phrasal_verbs_up_down_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_phrasal_verbs_up_down_1",
+        "description": "Master core grammatical contrasts and rules of Particles Up and Down: Increase, Decrease, Destruction & Completion."
+      },
+      {
+        "id": "obj_intermediate_phrasal_verbs_up_down_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_phrasal_verbs_away_back",
+    "topicId": "intermediate_phrasal_verbs_away_back",
+    "title": "Particles Away and Back: Distance, Return & Removal \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_phrasal_verbs_away_back_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_phrasal_verbs_away_back_1",
+        "description": "Master core grammatical contrasts and rules of Particles Away and Back: Distance, Return & Removal."
+      },
+      {
+        "id": "obj_intermediate_phrasal_verbs_away_back_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
+      }
+    ]
+  },
+  {
+    "id": "lesson_intermediate_final_challenge_topic",
+    "topicId": "intermediate_final_challenge_topic",
+    "title": "B1\u2013B2 Master Diagnostic Review \u2014 Guided Practice",
+    "order": 1,
+    "activityIds": [
+      "act_intermediate_final_challenge_topic_content"
+    ],
+    "estimatedMinutes": 8,
+    "difficulty": "HARD",
+    "learningObjectives": [
+      {
+        "id": "obj_intermediate_final_challenge_topic_1",
+        "description": "Master core grammatical contrasts and rules of B1\u2013B2 Master Diagnostic Review."
+      },
+      {
+        "id": "obj_intermediate_final_challenge_topic_2",
+        "description": "Demonstrate accurate communicative usage in B1\u2013B2 written and spoken contexts."
       }
     ]
   }

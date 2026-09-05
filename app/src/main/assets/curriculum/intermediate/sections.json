@@ -1,12 +1,265 @@
 [
   {
-    "id": "sec_present_perfect",
-    "courseId": "intermediate_grammar",
-    "title": "Present Perfect & Past",
-    "description": "Connecting past actions with present reality and mastering since, for, already, yet.",
+    "id": "intermediate_present_past_review",
+    "courseId": "course_intermediate",
+    "title": "Present and Past Review",
+    "shortDescription": "Review and contrast dynamic vs stative present, and narrative past simple vs continuous.",
     "order": 1,
     "topicIds": [
-      "present_perfect_intro"
+      "intermediate_present_simple_continuous_contrast",
+      "intermediate_past_simple_continuous_narrative"
+    ]
+  },
+  {
+    "id": "intermediate_present_perfect_past",
+    "courseId": "course_intermediate",
+    "title": "Present Perfect and Past",
+    "shortDescription": "Master aspectual contrasts: finished vs open time, duration vs result, and past narrative sequencing.",
+    "order": 2,
+    "topicIds": [
+      "intermediate_present_perfect_simple",
+      "intermediate_present_perfect_continuous",
+      "intermediate_present_perfect_simple_vs_continuous",
+      "intermediate_present_perfect_how_long_for_since",
+      "intermediate_present_perfect_vs_past_simple",
+      "intermediate_past_perfect_simple",
+      "intermediate_past_perfect_continuous",
+      "intermediate_have_and_have_got",
+      "intermediate_used_to_past_habits"
+    ]
+  },
+  {
+    "id": "intermediate_future",
+    "courseId": "course_intermediate",
+    "title": "Future Forms and Time Clauses",
+    "shortDescription": "Express arrangements, decisions, predictions, and future continuous/perfect aspect.",
+    "order": 3,
+    "topicIds": [
+      "intermediate_future_present_tenses_going_to",
+      "intermediate_future_will_shall_decisions",
+      "intermediate_future_will_vs_going_to",
+      "intermediate_future_continuous_and_perfect",
+      "intermediate_future_time_clauses"
+    ]
+  },
+  {
+    "id": "intermediate_modals",
+    "courseId": "course_intermediate",
+    "title": "Modals: Ability, Deduction, Obligation",
+    "shortDescription": "Nuanced modal expressions for certainty, past deduction, obligation, and social interaction.",
+    "order": 4,
+    "topicIds": [
+      "intermediate_modal_ability_can_could_able",
+      "intermediate_modal_past_ability_could_have",
+      "intermediate_modal_deduction_present",
+      "intermediate_modal_possibility_may_might",
+      "intermediate_modal_obligation_must_have_to",
+      "intermediate_modal_prohibition_lack_necessity",
+      "intermediate_modal_advice_should_had_better",
+      "intermediate_modal_would_habits_hypothetical",
+      "intermediate_modal_requests_permission_offers"
+    ]
+  },
+  {
+    "id": "intermediate_conditionals_wish",
+    "courseId": "course_intermediate",
+    "title": "Conditionals and Wish",
+    "shortDescription": "Hypothetical conditions in present and past, unreal situations, regrets, and wishes.",
+    "order": 5,
+    "topicIds": [
+      "intermediate_conditional_real_and_hypothetical",
+      "intermediate_conditional_unreal_present_wish",
+      "intermediate_conditional_hypothetical_past_third",
+      "intermediate_wish_patterns_would"
+    ]
+  },
+  {
+    "id": "intermediate_passive",
+    "courseId": "course_intermediate",
+    "title": "Passive Voice and Causatives",
+    "shortDescription": "Complex passives across aspects, impersonal reporting structures, and causative have/get.",
+    "order": 6,
+    "topicIds": [
+      "intermediate_passive_core_tenses",
+      "intermediate_passive_complex_aspects_modals",
+      "intermediate_passive_reporting_structures",
+      "intermediate_passive_causative_have_done"
+    ]
+  },
+  {
+    "id": "intermediate_reported_speech",
+    "courseId": "course_intermediate",
+    "title": "Reported Speech",
+    "shortDescription": "Tense backshift, reporting questions, orders, and varied reporting verb patterns.",
+    "order": 7,
+    "topicIds": [
+      "intermediate_reported_speech_statements_backshift",
+      "intermediate_reported_speech_questions_reporting_verbs"
+    ]
+  },
+  {
+    "id": "intermediate_questions_auxiliaries",
+    "courseId": "course_intermediate",
+    "title": "Questions and Auxiliary Verbs",
+    "shortDescription": "Embedded questions, preposition stranding, auxiliary ellipsis, and agreement tags.",
+    "order": 8,
+    "topicIds": [
+      "intermediate_question_formation_prepositions",
+      "intermediate_indirect_embedded_questions",
+      "intermediate_auxiliary_substitution_agreement",
+      "intermediate_question_tags"
+    ]
+  },
+  {
+    "id": "intermediate_verb_patterns",
+    "courseId": "course_intermediate",
+    "title": "Gerund, Infinitive and Verb Patterns",
+    "shortDescription": "Verb complementation (-ing vs to-inf), meaning shifts, sensory verbs, and participle clauses.",
+    "order": 9,
+    "topicIds": [
+      "intermediate_verb_plus_ing",
+      "intermediate_verb_plus_to_infinitive",
+      "intermediate_verb_object_to_infinitive",
+      "intermediate_verb_ing_or_to_meaning_change",
+      "intermediate_verb_ing_or_to_try_need_help",
+      "intermediate_verb_like_would_like_preferences",
+      "intermediate_prefer_and_would_rather",
+      "intermediate_preposition_plus_ing",
+      "intermediate_be_get_used_to_doing",
+      "intermediate_verb_preposition_ing",
+      "intermediate_fixed_ing_expressions",
+      "intermediate_infinitive_of_purpose_so_that",
+      "intermediate_adjective_plus_to_infinitive",
+      "intermediate_afraid_to_vs_afraid_of_ing",
+      "intermediate_sensory_verbs_bare_vs_participle",
+      "intermediate_participle_ing_clauses"
+    ]
+  },
+  {
+    "id": "intermediate_articles_nouns",
+    "courseId": "course_intermediate",
+    "title": "Articles and Nouns",
+    "shortDescription": "Countability shifts, generic vs specific reference, institutional zero article, and compounds.",
+    "order": 10,
+    "topicIds": [
+      "intermediate_countable_uncountable_contrasts",
+      "intermediate_nouns_a_an_and_some",
+      "intermediate_a_an_vs_the_core_contrast",
+      "intermediate_the_with_institutions_and_general",
+      "intermediate_the_with_groups_and_generics",
+      "intermediate_the_with_geographical_names",
+      "intermediate_noun_plural_compounds_possessives"
+    ]
+  },
+  {
+    "id": "intermediate_pronouns_determiners",
+    "courseId": "course_intermediate",
+    "title": "Pronouns and Determiners",
+    "shortDescription": "Reflexives, quantifiers, binary distributives, and existential there vs dummy it.",
+    "order": 11,
+    "topicIds": [
+      "intermediate_reflexive_pronouns_own",
+      "intermediate_there_and_it_contrast",
+      "intermediate_some_and_any_compounds",
+      "intermediate_quantifiers_much_many_few_little",
+      "intermediate_distributives_both_neither_either",
+      "intermediate_totality_all_most_every_whole_each"
+    ]
+  },
+  {
+    "id": "intermediate_relative_clauses",
+    "courseId": "course_intermediate",
+    "title": "Relative Clauses",
+    "shortDescription": "Defining vs non-defining clauses, relative pronouns, contact clauses, and reduced participles.",
+    "order": 12,
+    "topicIds": [
+      "intermediate_relative_who_that_which",
+      "intermediate_relative_pronoun_omission",
+      "intermediate_relative_whose_whom_where",
+      "intermediate_relative_defining_vs_non_defining",
+      "intermediate_relative_reduced_participle_clauses"
+    ]
+  },
+  {
+    "id": "intermediate_adjectives_adverbs",
+    "courseId": "course_intermediate",
+    "title": "Adjectives and Adverbs",
+    "shortDescription": "Participle adjectives, adjective order, gradability, and advanced comparative structures.",
+    "order": 13,
+    "topicIds": [
+      "intermediate_adjectives_ing_ed_order",
+      "intermediate_adjectives_and_adverbs_formation",
+      "intermediate_degree_so_such_enough_too",
+      "intermediate_grading_quite_rather_pretty_fairly",
+      "intermediate_comparatives_modifiers",
+      "intermediate_equality_and_superlatives"
+    ]
+  },
+  {
+    "id": "intermediate_word_order_focus",
+    "courseId": "course_intermediate",
+    "title": "Word Order and Focus",
+    "shortDescription": "Clause constituent ordering, adverb mid-positions, aspectual adverbs, and focus particle even.",
+    "order": 14,
+    "topicIds": [
+      "intermediate_word_order_verb_object_place_time",
+      "intermediate_adverb_position_with_verbs",
+      "intermediate_aspectual_adverbs_still_yet_already",
+      "intermediate_focus_particle_even"
+    ]
+  },
+  {
+    "id": "intermediate_conjunctions_linking",
+    "courseId": "course_intermediate",
+    "title": "Conjunctions and Linking Words",
+    "shortDescription": "Concession, condition, manner, purpose, and time connectives in complex discourse.",
+    "order": 15,
+    "topicIds": [
+      "intermediate_conjunctions_concession_contrast",
+      "intermediate_conjunctions_precaution_in_case",
+      "intermediate_conjunctions_condition_unless_as_long_as",
+      "intermediate_conjunctions_as_like_as_if",
+      "intermediate_conjunctions_time_during_while_by_until"
+    ]
+  },
+  {
+    "id": "intermediate_prepositions",
+    "courseId": "course_intermediate",
+    "title": "Prepositions and Collocations",
+    "shortDescription": "Spatial, temporal, and dependent prepositions following nouns, adjectives, and verbs.",
+    "order": 16,
+    "topicIds": [
+      "intermediate_prepositions_time_at_on_in",
+      "intermediate_prepositions_place_position_in_at_on",
+      "intermediate_prepositions_movement_destination",
+      "intermediate_prepositions_special_uses_by",
+      "intermediate_noun_plus_preposition_collocations",
+      "intermediate_adjective_plus_preposition_collocations",
+      "intermediate_verb_plus_preposition_collocations"
+    ]
+  },
+  {
+    "id": "intermediate_phrasal_verbs",
+    "courseId": "course_intermediate",
+    "title": "Phrasal Verbs",
+    "shortDescription": "Syntactic separability and particle semantics (in/out, on/off, up/down, away/back).",
+    "order": 17,
+    "topicIds": [
+      "intermediate_phrasal_verbs_introduction_syntax",
+      "intermediate_phrasal_verbs_in_out",
+      "intermediate_phrasal_verbs_on_off",
+      "intermediate_phrasal_verbs_up_down",
+      "intermediate_phrasal_verbs_away_back"
+    ]
+  },
+  {
+    "id": "intermediate_final_challenge",
+    "courseId": "course_intermediate",
+    "title": "Intermediate Final Challenge",
+    "shortDescription": "Comprehensive capstone diagnostic evaluating complete B1\u2013B2 grammar mastery.",
+    "order": 18,
+    "topicIds": [
+      "intermediate_final_challenge_topic"
     ]
   }
 ]

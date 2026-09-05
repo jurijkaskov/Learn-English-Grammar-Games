@@ -24,6 +24,8 @@ class CurriculumIndex(bundle: CurriculumContentBundle) {
     val lessons: List<Lesson> = bundle.lessons
     val activities: List<Activity> = bundle.activities
     val questions: List<Question> = bundle.questions
+    val concepts: List<com.learnenglish.grammargames.domain.model.curriculum.GrammarConcept> = bundle.concepts
+    val books: List<com.learnenglish.grammargames.domain.model.curriculum.GrammarBookCatalogItem> = bundle.books
     val report = bundle.report
     val manifest = bundle.manifest
 
@@ -48,12 +50,33 @@ class CurriculumIndex(bundle: CurriculumContentBundle) {
         }
     }
 
+    private val topicsByBookUnit: Map<Pair<String, Int>, List<GrammarTopic>> = buildMap<Pair<String, Int>, MutableList<GrammarTopic>> {
+        for (topic in topics) {
+            for (ref in topic.bookReferences) {
+                for (u in ref.units) {
+                    getOrPut(ref.bookId.value to u) { mutableListOf() }.add(topic)
+                }
+            }
+        }
+    }
+
     fun getCourse(id: CourseId): Course? = coursesById[id]
     fun getSection(id: SectionId): GrammarSection? = sectionsById[id]
     fun getTopic(id: TopicId): GrammarTopic? = topicsById[id]
     fun getLesson(id: LessonId): Lesson? = lessonsById[id]
     fun getActivity(id: ActivityId): Activity? = activitiesById[id]
     fun getQuestion(id: QuestionId): Question? = questionsById[id]
+
+    fun getTopicsForBookUnit(bookId: String, unitNumber: Int): List<GrammarTopic> =
+        topicsByBookUnit[bookId to unitNumber] ?: emptyList()
+
+    fun getLessonsForBookUnit(bookId: String, unitNumber: Int): List<Lesson> {
+        val matchedTopics = getTopicsForBookUnit(bookId, unitNumber)
+        return matchedTopics.flatMap { getLessonsForTopic(it.id) }
+    }
+
+    fun getBookUnitsForTopic(topicId: TopicId): List<com.learnenglish.grammargames.domain.model.curriculum.CurriculumBookReference> =
+        getTopic(topicId)?.bookReferences ?: emptyList()
 
     fun getSectionsForCourse(courseId: CourseId): List<GrammarSection> =
         sectionsByCourseId[courseId]?.sortedBy { it.order } ?: emptyList()

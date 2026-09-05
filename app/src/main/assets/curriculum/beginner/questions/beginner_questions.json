@@ -1,0 +1,92 @@
+[
+  {
+    "type": "multiple_choice",
+    "id": "beg_q_am_is_are_1",
+    "topicId": "beginner_topic_am_is_are",
+    "difficulty": "EASY",
+    "prompt": "Choose the correct form: 'She ___ a graphic designer.'",
+    "explanation": "'She' takes the 3rd person singular verb form 'is'.",
+    "tags": ["to_be", "present_simple"],
+    "learningObjectiveIds": [],
+    "options": [
+      { "id": "opt_1", "text": "am" },
+      { "id": "opt_2", "text": "is" },
+      { "id": "opt_3", "text": "are" },
+      { "id": "opt_4", "text": "be" }
+    ],
+    "correctOptionId": "opt_2",
+    "shuffleOptions": true
+  },
+  {
+    "type": "multiple_choice",
+    "id": "beg_q_am_is_are_2",
+    "topicId": "beginner_topic_am_is_are",
+    "difficulty": "EASY",
+    "prompt": "Choose the correct form: 'They ___ at home right now.'",
+    "explanation": "'They' is 3rd person plural, so we use 'are'.",
+    "tags": ["to_be"],
+    "learningObjectiveIds": [],
+    "options": [
+      { "id": "opt_1", "text": "am" },
+      { "id": "opt_2", "text": "is" },
+      { "id": "opt_3", "text": "are" },
+      { "id": "opt_4", "text": "be" }
+    ],
+    "correctOptionId": "opt_3",
+    "shuffleOptions": true
+  },
+  {
+    "type": "multiple_choice",
+    "id": "beg_q_present_simple_1",
+    "topicId": "beginner_topic_present_simple_basics",
+    "difficulty": "EASY",
+    "prompt": "Select the correct sentence for daily routine:",
+    "explanation": "In the Present Simple, 3rd person singular (he/she/it) adds -s to regular verbs: 'He works'.",
+    "tags": ["present_simple"],
+    "learningObjectiveIds": [],
+    "options": [
+      { "id": "opt_1", "text": "He work in a software company." },
+      { "id": "opt_2", "text": "He works in a software company." },
+      { "id": "opt_3", "text": "He is work in a software company." },
+      { "id": "opt_4", "text": "He working in a software company." }
+    ],
+    "correctOptionId": "opt_2",
+    "shuffleOptions": true
+  },
+  {
+    "type": "multiple_choice",
+    "id": "beg_q_present_simple_2",
+    "topicId": "beginner_topic_present_simple_basics",
+    "difficulty": "EASY",
+    "prompt": "Choose the correctly spelled third-person form: 'She ___ television every evening.'",
+    "explanation": "Verbs ending in -ch add -es in the third person singular: 'watches'.",
+    "tags": ["spelling", "present_simple"],
+    "learningObjectiveIds": [],
+    "options": [
+      { "id": "opt_1", "text": "watch" },
+      { "id": "opt_2", "text": "watches" },
+      { "id": "opt_3", "text": "watchs" },
+      { "id": "opt_4", "text": "watching" }
+    ],
+    "correctOptionId": "opt_2",
+    "shuffleOptions": true
+  },
+  {
+    "type": "multiple_choice",
+    "id": "beg_q_past_simple_1",
+    "topicId": "beginner_topic_past_simple_regular_irregular",
+    "difficulty": "EASY",
+    "prompt": "Choose the past simple form of 'go': 'Yesterday, we ___ to the museum.'",
+    "explanation": "'Go' is an irregular verb whose past simple form is 'went'.",
+    "tags": ["past_simple", "irregular_verbs"],
+    "learningObjectiveIds": [],
+    "options": [
+      { "id": "opt_1", "text": "goed" },
+      { "id": "opt_2", "text": "went" },
+      { "id": "opt_3", "text": "gone" },
+      { "id": "opt_4", "text": "was go" }
+    ],
+    "correctOptionId": "opt_2",
+    "shuffleOptions": true
+  }
+]

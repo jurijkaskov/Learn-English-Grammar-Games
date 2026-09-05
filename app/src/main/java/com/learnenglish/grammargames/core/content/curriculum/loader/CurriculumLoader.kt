@@ -5,6 +5,8 @@ import android.util.Log
 import com.learnenglish.grammargames.core.content.curriculum.dto.ActivityDto
 import com.learnenglish.grammargames.core.content.curriculum.dto.CourseDto
 import com.learnenglish.grammargames.core.content.curriculum.dto.CurriculumManifestDto
+import com.learnenglish.grammargames.core.content.curriculum.dto.GrammarBookDto
+import com.learnenglish.grammargames.core.content.curriculum.dto.GrammarConceptDto
 import com.learnenglish.grammargames.core.content.curriculum.dto.LessonDto
 import com.learnenglish.grammargames.core.content.curriculum.dto.QuestionDto
 import com.learnenglish.grammargames.core.content.curriculum.dto.SectionDto
@@ -14,6 +16,8 @@ import com.learnenglish.grammargames.core.content.curriculum.validator.Curriculu
 import com.learnenglish.grammargames.core.content.curriculum.validator.CurriculumValidator
 import com.learnenglish.grammargames.domain.model.curriculum.Activity
 import com.learnenglish.grammargames.domain.model.curriculum.Course
+import com.learnenglish.grammargames.domain.model.curriculum.GrammarBookCatalogItem
+import com.learnenglish.grammargames.domain.model.curriculum.GrammarConcept
 import com.learnenglish.grammargames.domain.model.curriculum.GrammarSection
 import com.learnenglish.grammargames.domain.model.curriculum.GrammarTopic
 import com.learnenglish.grammargames.domain.model.curriculum.Lesson
@@ -33,6 +37,8 @@ data class CurriculumContentBundle(
     val lessons: List<Lesson>,
     val activities: List<Activity>,
     val questions: List<Question>,
+    val concepts: List<GrammarConcept> = emptyList(),
+    val books: List<GrammarBookCatalogItem> = emptyList(),
     val report: CurriculumValidationReport
 )
 
@@ -63,6 +69,27 @@ class CurriculumLoader @Inject constructor(
         val lessons = mutableListOf<Lesson>()
         val activities = mutableListOf<Activity>()
         val questions = mutableListOf<Question>()
+        val concepts = mutableListOf<GrammarConcept>()
+        val books = mutableListOf<GrammarBookCatalogItem>()
+
+        // 0. Load shared catalogs
+        val conceptsPath = "curriculum/shared/grammar_concepts.json"
+        if (assetExists(conceptsPath)) {
+            runCatching {
+                val conceptsText = assetManager.open(conceptsPath).bufferedReader().use { it.readText() }
+                val conceptDtos = json.decodeFromString<List<GrammarConceptDto>>(conceptsText)
+                concepts.addAll(conceptDtos.map { CurriculumMapper.mapGrammarConcept(it) })
+            }.onFailure { Log.w(TAG, "Failed loading grammar_concepts.json", it) }
+        }
+
+        val booksPath = "curriculum/shared/books.json"
+        if (assetExists(booksPath)) {
+            runCatching {
+                val booksText = assetManager.open(booksPath).bufferedReader().use { it.readText() }
+                val bookDtos = json.decodeFromString<List<GrammarBookDto>>(booksText)
+                books.addAll(bookDtos.map { CurriculumMapper.mapBookCatalogItem(it) })
+            }.onFailure { Log.w(TAG, "Failed loading books.json", it) }
+        }
 
         for (courseDir in manifest.courses) {
             val baseCoursePath = "curriculum/$courseDir"
@@ -127,7 +154,10 @@ class CurriculumLoader @Inject constructor(
             topics = topics,
             lessons = lessons,
             activities = activities,
-            questions = questions
+            questions = questions,
+            books = books,
+            concepts = concepts,
+            strictCourseStructure = courses.size >= 3
         )
 
         Log.d(
@@ -145,6 +175,8 @@ class CurriculumLoader @Inject constructor(
             lessons = lessons.sortedBy { it.order },
             activities = activities.sortedBy { it.order },
             questions = questions,
+            concepts = concepts,
+            books = books,
             report = report
         )
         cachedBundle = bundle

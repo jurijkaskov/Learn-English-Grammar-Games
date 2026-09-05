@@ -1,10 +1,13 @@
 package com.learnenglish.grammargames.core.content.curriculum.validator
 
+import com.learnenglish.grammargames.domain.model.CourseLevel
 import com.learnenglish.grammargames.domain.model.curriculum.Activity
 import com.learnenglish.grammargames.domain.model.curriculum.ActivityType
 import com.learnenglish.grammargames.domain.model.curriculum.Course
 import com.learnenglish.grammargames.domain.model.curriculum.FindMistakeQuestion
 import com.learnenglish.grammargames.domain.model.curriculum.GapFillQuestion
+import com.learnenglish.grammargames.domain.model.curriculum.GrammarBookCatalogItem
+import com.learnenglish.grammargames.domain.model.curriculum.GrammarConcept
 import com.learnenglish.grammargames.domain.model.curriculum.GrammarSection
 import com.learnenglish.grammargames.domain.model.curriculum.GrammarTopic
 import com.learnenglish.grammargames.domain.model.curriculum.Lesson
@@ -35,13 +38,51 @@ data class CurriculumValidationReport(
 
 object CurriculumValidator {
 
+    fun validateThreeCourses(courses: List<Course>): List<CurriculumValidationError> {
+        val errors = mutableListOf<CurriculumValidationError>()
+        validateUniqueIds(courses.map { it.id.value }, "Course", errors)
+
+        val beginnerCount = courses.count { it.level == CourseLevel.BEGINNER }
+        val intermediateCount = courses.count { it.level == CourseLevel.INTERMEDIATE }
+        val advancedCount = courses.count { it.level == CourseLevel.ADVANCED }
+
+        if (beginnerCount != 1) {
+            errors.add(CurriculumValidationError("Course", "all", "Expected exactly one BEGINNER course, found $beginnerCount"))
+        }
+        if (intermediateCount != 1) {
+            errors.add(CurriculumValidationError("Course", "all", "Expected exactly one INTERMEDIATE course, found $intermediateCount"))
+        }
+        if (advancedCount != 1) {
+            errors.add(CurriculumValidationError("Course", "all", "Expected exactly one ADVANCED course, found $advancedCount"))
+        }
+
+        courses.forEach { course ->
+            if (course.cefrMin.ordinal > course.cefrMax.ordinal) {
+                errors.add(
+                    CurriculumValidationError(
+                        "Course",
+                        course.id.value,
+                        "Invalid CEFR range: min (${course.cefrMin}) cannot exceed max (${course.cefrMax})"
+                    )
+                )
+            }
+            if (course.title.isBlank()) {
+                errors.add(CurriculumValidationError("Course", course.id.value, "Course title is blank"))
+            }
+        }
+        return errors
+    }
+
     fun validate(
         courses: List<Course>,
         sections: List<GrammarSection>,
         topics: List<GrammarTopic>,
         lessons: List<Lesson>,
         activities: List<Activity>,
-        questions: List<Question>
+        questions: List<Question>,
+        books: List<GrammarBookCatalogItem> = emptyList(),
+        concepts: List<GrammarConcept> = emptyList(),
+        strictCourseStructure: Boolean = false
     ): CurriculumValidationReport {
         val errors = mutableListOf<CurriculumValidationError>()
         val warnings = mutableListOf<CurriculumValidationWarning>()
@@ -61,6 +102,33 @@ object CurriculumValidator {
         val activityIds = activities.map { it.id }.toSet()
         val questionMap = questions.associateBy { it.id }
 
+        // Course structure checks
+        if (strictCourseStructure || courses.size >= 3) {
+            errors.addAll(validateThreeCourses(courses))
+        } else {
+            courses.forEach { course ->
+                if (course.cefrMin.ordinal > course.cefrMax.ordinal) {
+                    errors.add(
+                        CurriculumValidationError(
+                            "Course",
+                            course.id.value,
+                            "Invalid CEFR range: min (${course.cefrMin}) cannot exceed max (${course.cefrMax})"
+                        )
+                    )
+                }
+            }
+        }
+
+        courses.forEach { course ->
+            course.sectionIds.forEach { sId ->
+                if (sId !in sectionIds) {
+                    errors.add(
+                        CurriculumValidationError("Course", course.id.value, "Declared section ${sId.value} not found")
+                    )
+                }
+            }
+        }
+
         // 2. Reference validation
         sections.forEach { section ->
             if (section.courseId !in courseIds) {
@@ -76,6 +144,10 @@ object CurriculumValidator {
                 }
             }
         }
+
+        // Book Catalog validation
+        val bookMap = books.associateBy { it.id.value }
+        val conceptMap = concepts.associateBy { it.id.value }
 
         topics.forEach { topic ->
             if (topic.sectionId !in sectionIds) {
@@ -95,6 +167,48 @@ object CurriculumValidator {
             }
             if (topic.lessonIds.isEmpty()) {
                 warnings.add(CurriculumValidationWarning("Topic", topic.id.value, "Topic has zero lessons"))
+            }
+
+            if (concepts.isNotEmpty() && topic.conceptId != null) {
+                if (topic.conceptId.value !in conceptMap) {
+                    errors.add(
+                        CurriculumValidationError("Topic", topic.id.value, "Grammar concept ${topic.conceptId.value} not found in catalog")
+                    )
+                }
+            }
+
+            if (books.isNotEmpty()) {
+                topic.bookReferences.forEach { ref ->
+                    val book = bookMap[ref.bookId.value]
+                    if (book == null) {
+                        errors.add(
+                            CurriculumValidationError("Topic", topic.id.value, "Book ${ref.bookId.value} not found in catalog")
+                        )
+                    } else if (!ref.editionId.isNullOrBlank()) {
+                        val edition = book.editions.find { it.id == ref.editionId }
+                        if (edition == null) {
+                            errors.add(
+                                CurriculumValidationError(
+                                    "Topic",
+                                    topic.id.value,
+                                    "Book edition ${ref.editionId} not found in book ${ref.bookId.value}"
+                                )
+                            )
+                        } else if (edition.totalUnits > 0) {
+                            ref.units.forEach { unitNum ->
+                                if (unitNum < 1 || unitNum > edition.totalUnits) {
+                                    errors.add(
+                                        CurriculumValidationError(
+                                            "Topic",
+                                            topic.id.value,
+                                            "Unit $unitNum out of bounds for book ${ref.bookId.value} edition ${ref.editionId} (valid range: 1..${edition.totalUnits})"
+                                        )
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
             }
 
             // Prerequisite validation
@@ -341,4 +455,56 @@ object CurriculumValidator {
             }
         }
     }
+
+    fun calculateBookCoverage(
+        bookId: String,
+        editionId: String,
+        topics: List<GrammarTopic>,
+        totalUnits: Int
+    ): BookMappingCoverageReport {
+        val unitToTopics = mutableMapOf<Int, MutableList<String>>()
+        val invalid = mutableSetOf<Int>()
+
+        for (topic in topics) {
+            for (ref in topic.bookReferences) {
+                if (ref.bookId.value == bookId && (ref.editionId == null || ref.editionId == editionId)) {
+                    for (u in ref.units) {
+                        if (u in 1..totalUnits) {
+                            unitToTopics.getOrPut(u) { mutableListOf() }.add(topic.id.value)
+                        } else {
+                            invalid.add(u)
+                        }
+                    }
+                }
+            }
+        }
+
+        val mapped = unitToTopics.keys.toSet()
+        val unmapped = (1..totalUnits).filter { it !in mapped }.toSet()
+        val multiMapped = unitToTopics.filter { it.value.size > 1 }.keys.toSet()
+
+        return BookMappingCoverageReport(
+            bookId = bookId,
+            editionId = editionId,
+            totalUnits = totalUnits,
+            mappedUnits = mapped,
+            unmappedUnits = unmapped,
+            multiMappedUnits = multiMapped,
+            invalidUnits = invalid
+        )
+    }
 }
+
+data class BookMappingCoverageReport(
+    val bookId: String,
+    val editionId: String,
+    val totalUnits: Int,
+    val mappedUnits: Set<Int>,
+    val unmappedUnits: Set<Int>,
+    val multiMappedUnits: Set<Int>,
+    val invalidUnits: Set<Int>
+) {
+    val isComplete: Boolean get() = unmappedUnits.isEmpty() && invalidUnits.isEmpty()
+    val coveragePercentage: Float get() = if (totalUnits > 0) (mappedUnits.size.toFloat() / totalUnits) * 100f else 0f
+}
+

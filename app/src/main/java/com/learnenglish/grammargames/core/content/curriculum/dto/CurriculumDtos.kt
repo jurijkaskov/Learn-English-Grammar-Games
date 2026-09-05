@@ -19,7 +19,10 @@ data class CourseDto(
     val order: Int = 1,
     val sectionIds: List<String> = emptyList(),
     val isEnabled: Boolean = true,
-    val cefrLevel: String = "A1"
+    val cefrLevel: String = "A1",
+    val cefrMin: String? = null,
+    val cefrMax: String? = null,
+    val status: String = "ACTIVE"
 )
 
 @Serializable
@@ -37,7 +40,35 @@ data class BookReferenceDto(
     val bookId: String,
     val bookTitle: String,
     val edition: String,
-    val units: List<Int>
+    val editionId: String? = null,
+    val units: List<Int> = emptyList()
+)
+
+@Serializable
+data class BookEditionDto(
+    val id: String,
+    val editionName: String,
+    val publicationYear: Int? = null,
+    val totalUnits: Int
+)
+
+@Serializable
+data class GrammarBookDto(
+    val id: String,
+    val title: String,
+    val author: String,
+    val targetLevel: String,
+    val editions: List<BookEditionDto> = emptyList()
+)
+
+@Serializable
+data class GrammarConceptDto(
+    val id: String,
+    val canonicalName: String,
+    val description: String = "",
+    val category: String = "",
+    val introducedIn: String = "BEGINNER",
+    val masteredIn: String = "ADVANCED"
 )
 
 @Serializable
@@ -47,11 +78,12 @@ data class TopicDto(
     val title: String,
     val shortDescription: String? = null,
     val order: Int,
-    val lessonIds: List<String>,
+    val lessonIds: List<String> = emptyList(),
     val prerequisites: List<String> = emptyList(),
     val difficulty: String = "NORMAL",
     val cefrLevel: String = "A1",
     val conceptId: String? = null,
+    val conceptDepth: String? = null,
     val bookReferences: List<BookReferenceDto> = emptyList(),
     val artworkId: String? = null,
     val status: String = "ACTIVE"

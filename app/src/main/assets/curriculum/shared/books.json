@@ -1,0 +1,44 @@
+[
+  {
+    "id": "essential_grammar_in_use",
+    "title": "Essential Grammar in Use",
+    "author": "Raymond Murphy",
+    "targetLevel": "BEGINNER",
+    "editions": [
+      {
+        "id": "essential_grammar_in_use_4",
+        "editionName": "Fourth Edition",
+        "publicationYear": 2015,
+        "totalUnits": 115
+      }
+    ]
+  },
+  {
+    "id": "english_grammar_in_use",
+    "title": "English Grammar in Use",
+    "author": "Raymond Murphy",
+    "targetLevel": "INTERMEDIATE",
+    "editions": [
+      {
+        "id": "english_grammar_in_use_5",
+        "editionName": "Fifth Edition",
+        "publicationYear": 2019,
+        "totalUnits": 145
+      }
+    ]
+  },
+  {
+    "id": "advanced_grammar_in_use",
+    "title": "Advanced Grammar in Use",
+    "author": "Martin Hewings",
+    "targetLevel": "ADVANCED",
+    "editions": [
+      {
+        "id": "advanced_grammar_in_use_3",
+        "editionName": "Third Edition",
+        "publicationYear": 2013,
+        "totalUnits": 100
+      }
+    ]
+  }
+]

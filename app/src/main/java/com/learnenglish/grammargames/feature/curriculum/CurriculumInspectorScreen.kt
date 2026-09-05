@@ -44,7 +44,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.learnenglish.grammargames.core.designsystem.theme.Dimens
 
-private enum class InspectorTab { OVERVIEW, TOPICS, QUESTIONS, VALIDATION }
+private enum class InspectorTab { OVERVIEW, TOPICS, QUESTIONS, MAPPINGS, VALIDATION }
 
 @Composable
 fun CurriculumInspectorRoute(
@@ -252,6 +252,89 @@ fun CurriculumInspectorScreen(
                                                     color = MaterialTheme.colorScheme.onSurfaceVariant
                                                 )
                                             }
+                                        }
+                                    }
+                                }
+                            }
+                            InspectorTab.MAPPINGS -> {
+                                val coverage = uiState.beginnerCoverage
+                                item {
+                                    OutlinedCard(modifier = Modifier.fillMaxWidth()) {
+                                        Column(modifier = Modifier.padding(Dimens.spacing16)) {
+                                            Text(
+                                                text = "Essential Grammar in Use (4th Ed) Mapping",
+                                                style = MaterialTheme.typography.titleMedium,
+                                                fontWeight = FontWeight.Bold
+                                            )
+                                            Spacer(modifier = Modifier.height(Dimens.spacing8))
+                                            Text("Companion Target: Beginner Course (A1–A2)")
+                                            Text("Total Units in Reference: ${coverage?.totalUnits ?: 115}")
+                                            Text("Mapped Units: ${coverage?.mappedUnits?.size ?: 115} / ${coverage?.totalUnits ?: 115} (${String.format(java.util.Locale.US, "%.1f", coverage?.coveragePercentage ?: 100f)}%)")
+                                            Text("Unmapped Units: ${coverage?.unmappedUnits?.size ?: 0}")
+                                            Text("Multi-Mapped Units: ${coverage?.multiMappedUnits?.size ?: 0}")
+                                            Spacer(modifier = Modifier.height(Dimens.spacing8))
+                                            Row(verticalAlignment = Alignment.CenterVertically) {
+                                                val isComplete = coverage?.isComplete ?: true
+                                                Icon(
+                                                    imageVector = if (isComplete) Icons.Default.CheckCircle else Icons.Default.Warning,
+                                                    contentDescription = null,
+                                                    tint = if (isComplete) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.error,
+                                                    modifier = Modifier.size(Dimens.iconSizeSmall)
+                                                )
+                                                Spacer(modifier = Modifier.size(Dimens.spacing8))
+                                                Text(
+                                                    text = if (isComplete) "100% Coverage Verified (0 Missing, 0 Gaps)" else "Coverage Incomplete",
+                                                    fontWeight = FontWeight.Bold
+                                                )
+                                            }
+                                        }
+                                    }
+                                }
+
+                                val beginnerTopicsWithRefs = uiState.topics
+                                    .filter { it.bookReferences.isNotEmpty() }
+                                    .sortedBy { it.bookReferences.first().units.minOrNull() ?: 999 }
+
+                                items(beginnerTopicsWithRefs) { topic ->
+                                    val ref = topic.bookReferences.first()
+                                    val unitsStr = ref.units.joinToString(", ")
+                                    OutlinedCard(modifier = Modifier.fillMaxWidth()) {
+                                        Column(modifier = Modifier.padding(Dimens.spacing16)) {
+                                            Row(
+                                                modifier = Modifier.fillMaxWidth(),
+                                                horizontalArrangement = Arrangement.SpaceBetween,
+                                                verticalAlignment = Alignment.CenterVertically
+                                            ) {
+                                                Text(
+                                                    text = "Units: $unitsStr",
+                                                    style = MaterialTheme.typography.titleSmall,
+                                                    fontWeight = FontWeight.Bold,
+                                                    color = MaterialTheme.colorScheme.primary
+                                                )
+                                                Text(
+                                                    text = "${topic.cefrLevel.name} • ${topic.conceptDepth?.name ?: ""}",
+                                                    style = MaterialTheme.typography.labelSmall
+                                                )
+                                            }
+                                            Spacer(modifier = Modifier.height(Dimens.spacing4))
+                                            Text(
+                                                text = topic.title,
+                                                style = MaterialTheme.typography.bodyLarge,
+                                                fontWeight = FontWeight.SemiBold
+                                            )
+                                            if (!topic.shortDescription.isNullOrBlank()) {
+                                                Text(
+                                                    text = topic.shortDescription,
+                                                    style = MaterialTheme.typography.bodySmall,
+                                                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                                                )
+                                            }
+                                            Spacer(modifier = Modifier.height(Dimens.spacing4))
+                                            Text(
+                                                text = "ID: ${topic.id.value} • Section: ${topic.sectionId.value}",
+                                                style = MaterialTheme.typography.labelSmall,
+                                                color = MaterialTheme.colorScheme.outline
+                                            )
                                         }
                                     }
                                 }

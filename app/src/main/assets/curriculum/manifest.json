@@ -2,6 +2,8 @@
   "schemaVersion": 1,
   "contentVersion": 1,
   "courses": [
-    "intermediate"
+    "beginner",
+    "intermediate",
+    "advanced"
   ]
 }

@@ -119,6 +119,18 @@ class CurriculumRepositoryImpl @Inject constructor(
         )
     }
 
+    override suspend fun getTopicsForBookUnit(bookId: String, unitNumber: Int): List<GrammarTopic> {
+        return getOrInitIndex().getTopicsForBookUnit(bookId, unitNumber)
+    }
+
+    override suspend fun getLessonsForBookUnit(bookId: String, unitNumber: Int): List<Lesson> {
+        return getOrInitIndex().getLessonsForBookUnit(bookId, unitNumber)
+    }
+
+    override suspend fun getBookUnitsForTopic(topicId: TopicId): List<com.learnenglish.grammargames.domain.model.curriculum.CurriculumBookReference> {
+        return getOrInitIndex().getBookUnitsForTopic(topicId)
+    }
+
     override suspend fun isCurriculumLoaded(): Boolean {
         return index != null
     }

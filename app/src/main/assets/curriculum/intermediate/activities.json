@@ -1,92 +1,3133 @@
 [
   {
-    "id": "act_pp_form_quick_lesson",
-    "lessonId": "lesson_pp_form",
+    "id": "act_intermediate_present_simple_continuous_contrast_content",
+    "lessonId": "lesson_intermediate_present_simple_continuous_contrast",
     "type": "LESSON_CONTENT",
-    "title": "Rule: Have/Has + Past Participle",
+    "title": "Rules & Practice: Present Continuous vs Present Simple: Dynamic & Stative",
     "order": 1,
     "questionIds": [],
     "lessonContent": {
       "blocks": [
         {
           "type": "rule",
-          "id": "blk_rule_1",
-          "title": "Present Perfect Structure",
-          "description": "We use the Present Perfect to talk about a past action that has a result in the present."
+          "id": "blk_intermediate_present_simple_continuous_contrast_rule",
+          "title": "Core Principle: Present Continuous vs Present Simple: Dynamic & Stative",
+          "description": "Contrast actions in progress and temporary situations with permanent habits and stative verbs."
         },
         {
           "type": "formula",
-          "id": "blk_form_1",
-          "formulaPattern": "Subject + have/has + Past Participle (V3)",
-          "formulaNote": "I/you/we/they have | he/she/it has"
+          "id": "blk_intermediate_present_simple_continuous_contrast_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTRAST"
         },
         {
           "type": "example",
-          "id": "blk_ex_1",
-          "sentence": "I have lost my key. (I can't open the door now)",
-          "highlightedPart": "have lost",
-          "translation": "Я потерял ключ. (Не могу открыть дверь прямо сейчас)"
-        },
-        {
-          "type": "mistake",
-          "id": "blk_mis_1",
-          "incorrectSentence": "She have finished her project.",
-          "correctSentence": "She has finished her project.",
-          "mistakeExplanation": "With third-person singular (she/he/it), always use 'has', not 'have'."
+          "id": "blk_intermediate_present_simple_continuous_contrast_ex",
+          "sentence": "Notice how native speakers employ Present Continuous vs Present Simple: Dynamic & Stative in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
         }
       ]
     }
   },
   {
-    "id": "act_pp_form_mc_practice",
-    "lessonId": "lesson_pp_form",
-    "type": "MULTIPLE_CHOICE",
-    "title": "Multiple Choice Practice",
-    "order": 2,
-    "questionIds": [
-      "q_pp_mc_001",
-      "q_pp_mc_002",
-      "q_pp_mc_003"
-    ],
-    "config": {
-      "type": "practice",
-      "shuffleQuestions": true,
-      "allowRetry": true,
-      "showInstantExplanation": true
-    }
-  },
-  {
-    "id": "act_pp_form_gap_practice",
-    "lessonId": "lesson_pp_form",
-    "type": "GAP_FILL",
-    "title": "Sentence Gap Fill",
-    "order": 3,
-    "questionIds": [
-      "q_pp_gap_001",
-      "q_pp_gap_002"
-    ],
-    "config": {
-      "type": "practice",
-      "shuffleQuestions": false,
-      "allowRetry": true,
-      "showInstantExplanation": true
-    }
-  },
-  {
-    "id": "act_pp_since_for_drill",
-    "lessonId": "lesson_pp_since_for",
-    "type": "MULTIPLE_CHOICE",
-    "title": "Since or For Quiz",
+    "id": "act_intermediate_past_simple_continuous_narrative_content",
+    "lessonId": "lesson_intermediate_past_simple_continuous_narrative",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Past Simple vs Past Continuous: Action & Background",
     "order": 1,
-    "questionIds": [
-      "q_pp_for_since_001",
-      "q_pp_for_since_002"
-    ],
-    "config": {
-      "type": "practice",
-      "shuffleQuestions": true,
-      "allowRetry": true,
-      "showInstantExplanation": true
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_past_simple_continuous_narrative_rule",
+          "title": "Core Principle: Past Simple vs Past Continuous: Action & Background",
+          "description": "Differentiate sequential completed past events from interrupted ongoing background scenes."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_past_simple_continuous_narrative_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTRAST"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_past_simple_continuous_narrative_ex",
+          "sentence": "Notice how native speakers employ Past Simple vs Past Continuous: Action & Background in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_present_perfect_simple_content",
+    "lessonId": "lesson_intermediate_present_perfect_simple",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Present Perfect Simple: Recent Results & Life Experiences",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_present_perfect_simple_rule",
+          "title": "Core Principle: Present Perfect Simple: Recent Results & Life Experiences",
+          "description": "Connect past actions to present consequences and discuss life experiences up to now."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_present_perfect_simple_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_present_perfect_simple_ex",
+          "sentence": "Notice how native speakers employ Present Perfect Simple: Recent Results & Life Experiences in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_present_perfect_continuous_content",
+    "lessonId": "lesson_intermediate_present_perfect_continuous",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Present Perfect Continuous: Duration & Ongoing Activity",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_present_perfect_continuous_rule",
+          "title": "Core Principle: Present Perfect Continuous: Duration & Ongoing Activity",
+          "description": "Highlight ongoing duration, unfinished processes, and visible present side-effects."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_present_perfect_continuous_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_present_perfect_continuous_ex",
+          "sentence": "Notice how native speakers employ Present Perfect Continuous: Duration & Ongoing Activity in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_present_perfect_simple_vs_continuous_content",
+    "lessonId": "lesson_intermediate_present_perfect_simple_vs_continuous",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Present Perfect Simple vs Continuous: Result vs Activity",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_present_perfect_simple_vs_continuous_rule",
+          "title": "Core Principle: Present Perfect Simple vs Continuous: Result vs Activity",
+          "description": "Distinguish between completed quantity/outcome and uninterrupted ongoing duration."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_present_perfect_simple_vs_continuous_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTRAST"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_present_perfect_simple_vs_continuous_ex",
+          "sentence": "Notice how native speakers employ Present Perfect Simple vs Continuous: Result vs Activity in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_present_perfect_how_long_for_since_content",
+    "lessonId": "lesson_intermediate_present_perfect_how_long_for_since",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Duration Questions & Time Frames: How Long, For and Since",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_present_perfect_how_long_for_since_rule",
+          "title": "Core Principle: Duration Questions & Time Frames: How Long, For and Since",
+          "description": "Ask about continuing situations and specify duration starting points versus total periods."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_present_perfect_how_long_for_since_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_present_perfect_how_long_for_since_ex",
+          "sentence": "Notice how native speakers employ Duration Questions & Time Frames: How Long, For and Since in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_present_perfect_vs_past_simple_content",
+    "lessonId": "lesson_intermediate_present_perfect_vs_past_simple",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Present Perfect vs Past Simple: Open vs Finished Time",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_present_perfect_vs_past_simple_rule",
+          "title": "Core Principle: Present Perfect vs Past Simple: Open vs Finished Time",
+          "description": "Select correctly between past finished time markers and open, current time relevance."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_present_perfect_vs_past_simple_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTRAST"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_present_perfect_vs_past_simple_ex",
+          "sentence": "Notice how native speakers employ Present Perfect vs Past Simple: Open vs Finished Time in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_past_perfect_simple_content",
+    "lessonId": "lesson_intermediate_past_perfect_simple",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Past Perfect Simple: The Earlier Past in Narrative",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_past_perfect_simple_rule",
+          "title": "Core Principle: Past Perfect Simple: The Earlier Past in Narrative",
+          "description": "Establish chronological clarity when an action occurred before another past milestone."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_past_perfect_simple_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_past_perfect_simple_ex",
+          "sentence": "Notice how native speakers employ Past Perfect Simple: The Earlier Past in Narrative in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_past_perfect_continuous_content",
+    "lessonId": "lesson_intermediate_past_perfect_continuous",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Past Perfect Continuous: Cause & Duration Before a Past Point",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_past_perfect_continuous_rule",
+          "title": "Core Principle: Past Perfect Continuous: Cause & Duration Before a Past Point",
+          "description": "Explain earlier continuous activities that produced visible past outcomes."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_past_perfect_continuous_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_past_perfect_continuous_ex",
+          "sentence": "Notice how native speakers employ Past Perfect Continuous: Cause & Duration Before a Past Point in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_have_and_have_got_content",
+    "lessonId": "lesson_intermediate_have_and_have_got",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Possession & States: Have and Have Got",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_have_and_have_got_rule",
+          "title": "Core Principle: Possession & States: Have and Have Got",
+          "description": "Use have and have got for possession, relationships, illnesses, and habitual actions."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_have_and_have_got_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_have_and_have_got_ex",
+          "sentence": "Notice how native speakers employ Possession & States: Have and Have Got in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_used_to_past_habits_content",
+    "lessonId": "lesson_intermediate_used_to_past_habits",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Past Habits & States: Used to",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_used_to_past_habits_rule",
+          "title": "Core Principle: Past Habits & States: Used to",
+          "description": "Contrast discontinued past habits and states with present realities."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_used_to_past_habits_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_used_to_past_habits_ex",
+          "sentence": "Notice how native speakers employ Past Habits & States: Used to in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_future_present_tenses_going_to_content",
+    "lessonId": "lesson_intermediate_future_present_tenses_going_to",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Arrangements & Intentions: Present Tenses and Going to",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_future_present_tenses_going_to_rule",
+          "title": "Core Principle: Arrangements & Intentions: Present Tenses and Going to",
+          "description": "Distinguish fixed personal arrangements from planned prior intentions and physical evidence."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_future_present_tenses_going_to_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_future_present_tenses_going_to_ex",
+          "sentence": "Notice how native speakers employ Arrangements & Intentions: Present Tenses and Going to in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_future_will_shall_decisions_content",
+    "lessonId": "lesson_intermediate_future_will_shall_decisions",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Instant Decisions & Offers: Will and Shall",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_future_will_shall_decisions_rule",
+          "title": "Core Principle: Instant Decisions & Offers: Will and Shall",
+          "description": "Employ will for spontaneous decisions, offers, promises, and shall for first-person suggestions."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_future_will_shall_decisions_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_future_will_shall_decisions_ex",
+          "sentence": "Notice how native speakers employ Instant Decisions & Offers: Will and Shall in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_future_will_vs_going_to_content",
+    "lessonId": "lesson_intermediate_future_will_vs_going_to",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Predictions & Plans: Will vs Going to",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_future_will_vs_going_to_rule",
+          "title": "Core Principle: Predictions & Plans: Will vs Going to",
+          "description": "Contrast belief-based predictions with predictions grounded in visible present clues."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_future_will_vs_going_to_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTRAST"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_future_will_vs_going_to_ex",
+          "sentence": "Notice how native speakers employ Predictions & Plans: Will vs Going to in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_future_continuous_and_perfect_content",
+    "lessonId": "lesson_intermediate_future_continuous_and_perfect",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Future in Progress & Completion: Will Be Doing and Will Have Done",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_future_continuous_and_perfect_rule",
+          "title": "Core Principle: Future in Progress & Completion: Will Be Doing and Will Have Done",
+          "description": "Describe actions ongoing at a specific future moment and actions completed prior to a deadline."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_future_continuous_and_perfect_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_future_continuous_and_perfect_ex",
+          "sentence": "Notice how native speakers employ Future in Progress & Completion: Will Be Doing and Will Have Done in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_future_time_clauses_content",
+    "lessonId": "lesson_intermediate_future_time_clauses",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Future Time & Conditional Clauses: When, As Soon As, If",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_future_time_clauses_rule",
+          "title": "Core Principle: Future Time & Conditional Clauses: When, As Soon As, If",
+          "description": "Apply present forms in subordinate clauses of time and condition referring to the future."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_future_time_clauses_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_future_time_clauses_ex",
+          "sentence": "Notice how native speakers employ Future Time & Conditional Clauses: When, As Soon As, If in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_modal_ability_can_could_able_content",
+    "lessonId": "lesson_intermediate_modal_ability_can_could_able",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Ability & Possibility: Can, Could and Be Able To",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_modal_ability_can_could_able_rule",
+          "title": "Core Principle: Ability & Possibility: Can, Could and Be Able To",
+          "description": "Express general ability versus specific past successful achievements with managed to / was able to."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_modal_ability_can_could_able_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_modal_ability_can_could_able_ex",
+          "sentence": "Notice how native speakers employ Ability & Possibility: Can, Could and Be Able To in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_modal_past_ability_could_have_content",
+    "lessonId": "lesson_intermediate_modal_past_ability_could_have",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Past Opportunity & Unrealised Action: Could Have Done",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_modal_past_ability_could_have_rule",
+          "title": "Core Principle: Past Opportunity & Unrealised Action: Could Have Done",
+          "description": "Discuss actions that were possible in the past but were not actually carried out."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_modal_past_ability_could_have_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_modal_past_ability_could_have_ex",
+          "sentence": "Notice how native speakers employ Past Opportunity & Unrealised Action: Could Have Done in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_modal_deduction_present_content",
+    "lessonId": "lesson_intermediate_modal_deduction_present",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Logical Deduction: Must and Can't",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_modal_deduction_present_rule",
+          "title": "Core Principle: Logical Deduction: Must and Can't",
+          "description": "Formulate strong logical certainty and impossibility based on present evidence."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_modal_deduction_present_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_modal_deduction_present_ex",
+          "sentence": "Notice how native speakers employ Logical Deduction: Must and Can't in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_modal_possibility_may_might_content",
+    "lessonId": "lesson_intermediate_modal_possibility_may_might",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Possibility & Speculation: May and Might",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_modal_possibility_may_might_rule",
+          "title": "Core Principle: Possibility & Speculation: May and Might",
+          "description": "Indicate tentative possibility in present and future contexts, and retrospective speculation."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_modal_possibility_may_might_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_modal_possibility_may_might_ex",
+          "sentence": "Notice how native speakers employ Possibility & Speculation: May and Might in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_modal_obligation_must_have_to_content",
+    "lessonId": "lesson_intermediate_modal_obligation_must_have_to",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Obligation & Necessity: Must and Have to",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_modal_obligation_must_have_to_rule",
+          "title": "Core Principle: Obligation & Necessity: Must and Have to",
+          "description": "Differentiate internal personal obligation from external authority, rules, or laws."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_modal_obligation_must_have_to_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTRAST"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_modal_obligation_must_have_to_ex",
+          "sentence": "Notice how native speakers employ Obligation & Necessity: Must and Have to in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_modal_prohibition_lack_necessity_content",
+    "lessonId": "lesson_intermediate_modal_prohibition_lack_necessity",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Prohibition & Absence of Obligation: Mustn't vs Needn't",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_modal_prohibition_lack_necessity_rule",
+          "title": "Core Principle: Prohibition & Absence of Obligation: Mustn't vs Needn't",
+          "description": "Contrast strict prohibition with lack of necessity (needn't / don't have to / didn't need to)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_modal_prohibition_lack_necessity_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTRAST"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_modal_prohibition_lack_necessity_ex",
+          "sentence": "Notice how native speakers employ Prohibition & Absence of Obligation: Mustn't vs Needn't in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_modal_advice_should_had_better_content",
+    "lessonId": "lesson_intermediate_modal_advice_should_had_better",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Advice, Expectation & Warning: Should, Ought to, Had Better",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_modal_advice_should_had_better_rule",
+          "title": "Core Principle: Advice, Expectation & Warning: Should, Ought to, Had Better",
+          "description": "Give sensible advice, express past regret (should have done), and issue urgent warnings."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_modal_advice_should_had_better_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_modal_advice_should_had_better_ex",
+          "sentence": "Notice how native speakers employ Advice, Expectation & Warning: Should, Ought to, Had Better in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_modal_would_habits_hypothetical_content",
+    "lessonId": "lesson_intermediate_modal_would_habits_hypothetical",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Hypothetical Actions & Past Habits: Would",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_modal_would_habits_hypothetical_rule",
+          "title": "Core Principle: Hypothetical Actions & Past Habits: Would",
+          "description": "Employ would for imaginary situations, past recurring actions, and polite willingness."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_modal_would_habits_hypothetical_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_modal_would_habits_hypothetical_ex",
+          "sentence": "Notice how native speakers employ Hypothetical Actions & Past Habits: Would in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_modal_requests_permission_offers_content",
+    "lessonId": "lesson_intermediate_modal_requests_permission_offers",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Social Formulae: Requests, Offers, Permission & Invitations",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_modal_requests_permission_offers_rule",
+          "title": "Core Principle: Social Formulae: Requests, Offers, Permission & Invitations",
+          "description": "Select appropriate degrees of politeness in everyday spoken communicative scenarios."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_modal_requests_permission_offers_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_modal_requests_permission_offers_ex",
+          "sentence": "Notice how native speakers employ Social Formulae: Requests, Offers, Permission & Invitations in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_conditional_real_and_hypothetical_content",
+    "lessonId": "lesson_intermediate_conditional_real_and_hypothetical",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Real vs Hypothetical: If I do vs If I did",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_conditional_real_and_hypothetical_rule",
+          "title": "Core Principle: Real vs Hypothetical: If I do vs If I did",
+          "description": "Contrast open real possibilities with improbable hypothetical present or future scenarios."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_conditional_real_and_hypothetical_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTRAST"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_conditional_real_and_hypothetical_ex",
+          "sentence": "Notice how native speakers employ Real vs Hypothetical: If I do vs If I did in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_conditional_unreal_present_wish_content",
+    "lessonId": "lesson_intermediate_conditional_unreal_present_wish",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Unreal Present & Regret: If I knew and I wish I knew",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_conditional_unreal_present_wish_rule",
+          "title": "Core Principle: Unreal Present & Regret: If I knew and I wish I knew",
+          "description": "Formulate counterfactual present states and express discontent about current circumstances."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_conditional_unreal_present_wish_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_conditional_unreal_present_wish_ex",
+          "sentence": "Notice how native speakers employ Unreal Present & Regret: If I knew and I wish I knew in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_conditional_hypothetical_past_third_content",
+    "lessonId": "lesson_intermediate_conditional_hypothetical_past_third",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Past Regret & Third Conditional: If I had known",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_conditional_hypothetical_past_third_rule",
+          "title": "Core Principle: Past Regret & Third Conditional: If I had known",
+          "description": "Analyse unfulfilled past conditions and their impossible consequences in retrospective evaluation."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_conditional_hypothetical_past_third_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_conditional_hypothetical_past_third_ex",
+          "sentence": "Notice how native speakers employ Past Regret & Third Conditional: If I had known in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_wish_patterns_would_content",
+    "lessonId": "lesson_intermediate_wish_patterns_would",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Desire for Change & Annoyance: Wish + Would",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_wish_patterns_would_rule",
+          "title": "Core Principle: Desire for Change & Annoyance: Wish + Would",
+          "description": "Express frustration about current annoying habits and desire for another agent to change behavior."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_wish_patterns_would_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_wish_patterns_would_ex",
+          "sentence": "Notice how native speakers employ Desire for Change & Annoyance: Wish + Would in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_passive_core_tenses_content",
+    "lessonId": "lesson_intermediate_passive_core_tenses",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Passive Formation: Present & Past Simple",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_passive_core_tenses_rule",
+          "title": "Core Principle: Passive Formation: Present & Past Simple",
+          "description": "Shift discourse focus to the patient/recipient of action across basic tenses."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_passive_core_tenses_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_passive_core_tenses_ex",
+          "sentence": "Notice how native speakers employ Passive Formation: Present & Past Simple in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_passive_complex_aspects_modals_content",
+    "lessonId": "lesson_intermediate_passive_complex_aspects_modals",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Complex Passives: Continuous, Perfect and Modal Structures",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_passive_complex_aspects_modals_rule",
+          "title": "Core Principle: Complex Passives: Continuous, Perfect and Modal Structures",
+          "description": "Construct passive sentences with being done, have been done, and modal auxiliaries."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_passive_complex_aspects_modals_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_passive_complex_aspects_modals_ex",
+          "sentence": "Notice how native speakers employ Complex Passives: Continuous, Perfect and Modal Structures in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_passive_reporting_structures_content",
+    "lessonId": "lesson_intermediate_passive_reporting_structures",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Impersonal Reporting: It is said that / He is said to",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_passive_reporting_structures_rule",
+          "title": "Core Principle: Impersonal Reporting: It is said that / He is said to",
+          "description": "Use formal distance in news and reporting with introductory passive matrices and nominative infinitives."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_passive_reporting_structures_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_passive_reporting_structures_ex",
+          "sentence": "Notice how native speakers employ Impersonal Reporting: It is said that / He is said to in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_passive_causative_have_done_content",
+    "lessonId": "lesson_intermediate_passive_causative_have_done",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Causative Services: Have Something Done",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_passive_causative_have_done_rule",
+          "title": "Core Principle: Causative Services: Have Something Done",
+          "description": "Express arranging for professional services or suffering misfortune with have/get + object + V3."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_passive_causative_have_done_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_passive_causative_have_done_ex",
+          "sentence": "Notice how native speakers employ Causative Services: Have Something Done in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_reported_speech_statements_backshift_content",
+    "lessonId": "lesson_intermediate_reported_speech_statements_backshift",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Reported Statements: Tense Backshift & Time References",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_reported_speech_statements_backshift_rule",
+          "title": "Core Principle: Reported Statements: Tense Backshift & Time References",
+          "description": "Accurately adjust verb tenses, pronouns, and time/place adverbs in indirect statements."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_reported_speech_statements_backshift_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_reported_speech_statements_backshift_ex",
+          "sentence": "Notice how native speakers employ Reported Statements: Tense Backshift & Time References in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_reported_speech_questions_reporting_verbs_content",
+    "lessonId": "lesson_intermediate_reported_speech_questions_reporting_verbs",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Reported Questions, Orders & Reporting Verb Patterns",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_reported_speech_questions_reporting_verbs_rule",
+          "title": "Core Principle: Reported Questions, Orders & Reporting Verb Patterns",
+          "description": "Form indirect questions with whether/if and deploy advanced verbs (admit, deny, advise, warn)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_reported_speech_questions_reporting_verbs_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_reported_speech_questions_reporting_verbs_ex",
+          "sentence": "Notice how native speakers employ Reported Questions, Orders & Reporting Verb Patterns in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_question_formation_prepositions_content",
+    "lessonId": "lesson_intermediate_question_formation_prepositions",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Direct Question Formation & Preposition Stranding",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_question_formation_prepositions_rule",
+          "title": "Core Principle: Direct Question Formation & Preposition Stranding",
+          "description": "Structure complex questions and leave dependent prepositions naturally at sentence ends."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_question_formation_prepositions_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_question_formation_prepositions_ex",
+          "sentence": "Notice how native speakers employ Direct Question Formation & Preposition Stranding in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_indirect_embedded_questions_content",
+    "lessonId": "lesson_intermediate_indirect_embedded_questions",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Indirect Questions: Do you know where...? / He asked me where...",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_indirect_embedded_questions_rule",
+          "title": "Core Principle: Indirect Questions: Do you know where...? / He asked me where...",
+          "description": "Maintain affirmative word order inside polite embedded and indirect question clauses."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_indirect_embedded_questions_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_indirect_embedded_questions_ex",
+          "sentence": "Notice how native speakers employ Indirect Questions: Do you know where...? / He asked me where... in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_auxiliary_substitution_agreement_content",
+    "lessonId": "lesson_intermediate_auxiliary_substitution_agreement",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Auxiliary Substitution: So do I, Neither do I, I think so",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_auxiliary_substitution_agreement_rule",
+          "title": "Core Principle: Auxiliary Substitution: So do I, Neither do I, I think so",
+          "description": "Avoid clunky repetition using auxiliary echo responses, inverted agreement, and pro-form so/not."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_auxiliary_substitution_agreement_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_auxiliary_substitution_agreement_ex",
+          "sentence": "Notice how native speakers employ Auxiliary Substitution: So do I, Neither do I, I think so in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_question_tags_content",
+    "lessonId": "lesson_intermediate_question_tags",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Question Tags: Seeking Confirmation vs Real Questions",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_question_tags_rule",
+          "title": "Core Principle: Question Tags: Seeking Confirmation vs Real Questions",
+          "description": "Match polarity correctly and modulate intonation between genuine inquiries and casual checks."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_question_tags_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_question_tags_ex",
+          "sentence": "Notice how native speakers employ Question Tags: Seeking Confirmation vs Real Questions in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_verb_plus_ing_content",
+    "lessonId": "lesson_intermediate_verb_plus_ing",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Verb + -ing: Enjoy, Mind, Suggest",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_verb_plus_ing_rule",
+          "title": "Core Principle: Verb + -ing: Enjoy, Mind, Suggest",
+          "description": "Identify verbs systematically taking gerund complements and practice idiomatic usage."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_verb_plus_ing_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_verb_plus_ing_ex",
+          "sentence": "Notice how native speakers employ Verb + -ing: Enjoy, Mind, Suggest in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_verb_plus_to_infinitive_content",
+    "lessonId": "lesson_intermediate_verb_plus_to_infinitive",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Verb + to-Infinitive: Decide, Forget, Promise",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_verb_plus_to_infinitive_rule",
+          "title": "Core Principle: Verb + to-Infinitive: Decide, Forget, Promise",
+          "description": "Master verbs followed by to-infinitive including prospective decisions and commitments."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_verb_plus_to_infinitive_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_verb_plus_to_infinitive_ex",
+          "sentence": "Notice how native speakers employ Verb + to-Infinitive: Decide, Forget, Promise in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_verb_object_to_infinitive_content",
+    "lessonId": "lesson_intermediate_verb_object_to_infinitive",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Verb + Object + to-Infinitive: Want someone to do, Advise",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_verb_object_to_infinitive_rule",
+          "title": "Core Principle: Verb + Object + to-Infinitive: Want someone to do, Advise",
+          "description": "Structure manipulative and advisory verbs followed by noun object and infinitive clause."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_verb_object_to_infinitive_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_verb_object_to_infinitive_ex",
+          "sentence": "Notice how native speakers employ Verb + Object + to-Infinitive: Want someone to do, Advise in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_verb_ing_or_to_meaning_change_content",
+    "lessonId": "lesson_intermediate_verb_ing_or_to_meaning_change",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Meaning Shifts: Remember, Regret, Stop doing vs to do",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_verb_ing_or_to_meaning_change_rule",
+          "title": "Core Principle: Meaning Shifts: Remember, Regret, Stop doing vs to do",
+          "description": "Discriminate crucial semantic differences when complement changes from -ing to to-infinitive."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_verb_ing_or_to_meaning_change_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTRAST"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_verb_ing_or_to_meaning_change_ex",
+          "sentence": "Notice how native speakers employ Meaning Shifts: Remember, Regret, Stop doing vs to do in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_verb_ing_or_to_try_need_help_content",
+    "lessonId": "lesson_intermediate_verb_ing_or_to_try_need_help",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Subtle Pattern Differences: Try, Need, Help",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_verb_ing_or_to_try_need_help_rule",
+          "title": "Core Principle: Subtle Pattern Differences: Try, Need, Help",
+          "description": "Grasp nuanced complementations: experiment vs attempt (try) and passive meaning (need doing)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_verb_ing_or_to_try_need_help_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTRAST"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_verb_ing_or_to_try_need_help_ex",
+          "sentence": "Notice how native speakers employ Subtle Pattern Differences: Try, Need, Help in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_verb_like_would_like_preferences_content",
+    "lessonId": "lesson_intermediate_verb_like_would_like_preferences",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Preferences: Like doing vs Like to do, Would like",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_verb_like_would_like_preferences_rule",
+          "title": "Core Principle: Preferences: Like doing vs Like to do, Would like",
+          "description": "Distinguish enjoyment of activity from prudent habitual choices and conditional desires."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_verb_like_would_like_preferences_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTRAST"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_verb_like_would_like_preferences_ex",
+          "sentence": "Notice how native speakers employ Preferences: Like doing vs Like to do, Would like in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_prefer_and_would_rather_content",
+    "lessonId": "lesson_intermediate_prefer_and_would_rather",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Expressing Preference: Prefer and Would Rather",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_prefer_and_would_rather_rule",
+          "title": "Core Principle: Expressing Preference: Prefer and Would Rather",
+          "description": "Compare options using prefer ... to ... and would rather ... than with base verb forms."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_prefer_and_would_rather_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_prefer_and_would_rather_ex",
+          "sentence": "Notice how native speakers employ Expressing Preference: Prefer and Would Rather in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_preposition_plus_ing_content",
+    "lessonId": "lesson_intermediate_preposition_plus_ing",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Preposition + -ing: Before leaving, Instead of waiting",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_preposition_plus_ing_rule",
+          "title": "Core Principle: Preposition + -ing: Before leaving, Instead of waiting",
+          "description": "Apply the inviolable rule that prepositions must be followed by a gerund when taking verbal objects."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_preposition_plus_ing_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_preposition_plus_ing_ex",
+          "sentence": "Notice how native speakers employ Preposition + -ing: Before leaving, Instead of waiting in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_be_get_used_to_doing_content",
+    "lessonId": "lesson_intermediate_be_get_used_to_doing",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Familiarity: Be Used to and Get Used to doing",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_be_get_used_to_doing_rule",
+          "title": "Core Principle: Familiarity: Be Used to and Get Used to doing",
+          "description": "Separate psychological familiarity (be used to + -ing) from discontinued past habits (used to + inf)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_be_get_used_to_doing_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_be_get_used_to_doing_ex",
+          "sentence": "Notice how native speakers employ Familiarity: Be Used to and Get Used to doing in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_verb_preposition_ing_content",
+    "lessonId": "lesson_intermediate_verb_preposition_ing",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Verb + Preposition + -ing: Succeed in, Insist on",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_verb_preposition_ing_rule",
+          "title": "Core Principle: Verb + Preposition + -ing: Succeed in, Insist on",
+          "description": "Combine dependent verbal prepositions smoothly with downstream gerund phrases."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_verb_preposition_ing_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_verb_preposition_ing_ex",
+          "sentence": "Notice how native speakers employ Verb + Preposition + -ing: Succeed in, Insist on in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_fixed_ing_expressions_content",
+    "lessonId": "lesson_intermediate_fixed_ing_expressions",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Special -ing Idioms: There's no point in, Worth, Have difficulty",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_fixed_ing_expressions_rule",
+          "title": "Core Principle: Special -ing Idioms: There's no point in, Worth, Have difficulty",
+          "description": "Learn high-frequency colloquial formulas governing fixed gerund expressions."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_fixed_ing_expressions_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_fixed_ing_expressions_ex",
+          "sentence": "Notice how native speakers employ Special -ing Idioms: There's no point in, Worth, Have difficulty in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_infinitive_of_purpose_so_that_content",
+    "lessonId": "lesson_intermediate_infinitive_of_purpose_so_that",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Expressing Purpose: To do, For doing, and So that",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_infinitive_of_purpose_so_that_rule",
+          "title": "Core Principle: Expressing Purpose: To do, For doing, and So that",
+          "description": "Articulate intention and function cleanly using infinitives of purpose or finite so that clauses."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_infinitive_of_purpose_so_that_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_infinitive_of_purpose_so_that_ex",
+          "sentence": "Notice how native speakers employ Expressing Purpose: To do, For doing, and So that in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_adjective_plus_to_infinitive_content",
+    "lessonId": "lesson_intermediate_adjective_plus_to_infinitive",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Adjective + to-Infinitive: Difficult to do, Glad to hear",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_adjective_plus_to_infinitive_rule",
+          "title": "Core Principle: Adjective + to-Infinitive: Difficult to do, Glad to hear",
+          "description": "Link evaluation and emotional reaction adjectives to following explanatory infinitive phrases."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_adjective_plus_to_infinitive_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_adjective_plus_to_infinitive_ex",
+          "sentence": "Notice how native speakers employ Adjective + to-Infinitive: Difficult to do, Glad to hear in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_afraid_to_vs_afraid_of_ing_content",
+    "lessonId": "lesson_intermediate_afraid_to_vs_afraid_of_ing",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Specific Nuance: Afraid to do vs Afraid of doing",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_afraid_to_vs_afraid_of_ing_rule",
+          "title": "Core Principle: Specific Nuance: Afraid to do vs Afraid of doing",
+          "description": "Contrast deliberate unwillingness to act with apprehension of involuntary accidents."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_afraid_to_vs_afraid_of_ing_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTRAST"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_afraid_to_vs_afraid_of_ing_ex",
+          "sentence": "Notice how native speakers employ Specific Nuance: Afraid to do vs Afraid of doing in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_sensory_verbs_bare_vs_participle_content",
+    "lessonId": "lesson_intermediate_sensory_verbs_bare_vs_participle",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Perception Verbs: See somebody do vs See somebody doing",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_sensory_verbs_bare_vs_participle_rule",
+          "title": "Core Principle: Perception Verbs: See somebody do vs See somebody doing",
+          "description": "Distinguish between witnessing a complete event and perceiving an action in mid-progress."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_sensory_verbs_bare_vs_participle_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTRAST"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_sensory_verbs_bare_vs_participle_ex",
+          "sentence": "Notice how native speakers employ Perception Verbs: See somebody do vs See somebody doing in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_participle_ing_clauses_content",
+    "lessonId": "lesson_intermediate_participle_ing_clauses",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: -ing Participle Clauses: Feeling tired, he went to bed",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_participle_ing_clauses_rule",
+          "title": "Core Principle: -ing Participle Clauses: Feeling tired, he went to bed",
+          "description": "Condense complex background causes and simultaneous actions using adverbial participle clauses."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_participle_ing_clauses_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_participle_ing_clauses_ex",
+          "sentence": "Notice how native speakers employ -ing Participle Clauses: Feeling tired, he went to bed in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_countable_uncountable_contrasts_content",
+    "lessonId": "lesson_intermediate_countable_uncountable_contrasts",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Countable vs Uncountable Nouns & Category Shifts",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_countable_uncountable_contrasts_rule",
+          "title": "Core Principle: Countable vs Uncountable Nouns & Category Shifts",
+          "description": "Navigate dual-membership nouns whose countability alters their meaning (coffee, experience, paper)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_countable_uncountable_contrasts_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTRAST"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_countable_uncountable_contrasts_ex",
+          "sentence": "Notice how native speakers employ Countable vs Uncountable Nouns & Category Shifts in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_nouns_a_an_and_some_content",
+    "lessonId": "lesson_intermediate_nouns_a_an_and_some",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Singular & Plural Reference: A/An with Countable, Some with Uncountable",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_nouns_a_an_and_some_rule",
+          "title": "Core Principle: Singular & Plural Reference: A/An with Countable, Some with Uncountable",
+          "description": "Deploy indefinite determiners properly according to noun number and countability status."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_nouns_a_an_and_some_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_nouns_a_an_and_some_ex",
+          "sentence": "Notice how native speakers employ Singular & Plural Reference: A/An with Countable, Some with Uncountable in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_a_an_vs_the_core_contrast_content",
+    "lessonId": "lesson_intermediate_a_an_vs_the_core_contrast",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Specific vs Non-Specific Reference: A/An vs The",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_a_an_vs_the_core_contrast_rule",
+          "title": "Core Principle: Specific vs Non-Specific Reference: A/An vs The",
+          "description": "Master hearer-shared knowledge and contextual uniqueness determining the definite article."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_a_an_vs_the_core_contrast_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTRAST"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_a_an_vs_the_core_contrast_ex",
+          "sentence": "Notice how native speakers employ Specific vs Non-Specific Reference: A/An vs The in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_the_with_institutions_and_general_content",
+    "lessonId": "lesson_intermediate_the_with_institutions_and_general",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Institutional Zero Article: School vs The School, Bed vs The Bed",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_the_with_institutions_and_general_rule",
+          "title": "Core Principle: Institutional Zero Article: School vs The School, Bed vs The Bed",
+          "description": "Contrast primary institutional purpose (go to prison) with reference to physical buildings."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_the_with_institutions_and_general_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTRAST"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_the_with_institutions_and_general_ex",
+          "sentence": "Notice how native speakers employ Institutional Zero Article: School vs The School, Bed vs The Bed in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_the_with_groups_and_generics_content",
+    "lessonId": "lesson_intermediate_the_with_groups_and_generics",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: General Classes vs Particular Groups: Children vs The Children, The Giraffe",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_the_with_groups_and_generics_rule",
+          "title": "Core Principle: General Classes vs Particular Groups: Children vs The Children, The Giraffe",
+          "description": "Use zero article for universal plural generic claims and definite article for representative species."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_the_with_groups_and_generics_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_the_with_groups_and_generics_ex",
+          "sentence": "Notice how native speakers employ General Classes vs Particular Groups: Children vs The Children, The Giraffe in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_the_with_geographical_names_content",
+    "lessonId": "lesson_intermediate_the_with_geographical_names",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Proper Names & Geography with and without The",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_the_with_geographical_names_rule",
+          "title": "Core Principle: Proper Names & Geography with and without The",
+          "description": "Command conventions governing oceans, mountain ranges, individual peaks, streets, and hotels."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_the_with_geographical_names_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_the_with_geographical_names_ex",
+          "sentence": "Notice how native speakers employ Proper Names & Geography with and without The in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_noun_plural_compounds_possessives_content",
+    "lessonId": "lesson_intermediate_noun_plural_compounds_possessives",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Noun Forms: Plurals, Noun + Noun Compounds, and Possessive 's vs Of",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_noun_plural_compounds_possessives_rule",
+          "title": "Core Principle: Noun Forms: Plurals, Noun + Noun Compounds, and Possessive 's vs Of",
+          "description": "Determine when to use apostrophe possessive versus prepositional of phrases and noun premodifiers."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_noun_plural_compounds_possessives_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_noun_plural_compounds_possessives_ex",
+          "sentence": "Notice how native speakers employ Noun Forms: Plurals, Noun + Noun Compounds, and Possessive 's vs Of in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_reflexive_pronouns_own_content",
+    "lessonId": "lesson_intermediate_reflexive_pronouns_own",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Reflexives & Independence: Myself, On my own, By myself",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_reflexive_pronouns_own_rule",
+          "title": "Core Principle: Reflexives & Independence: Myself, On my own, By myself",
+          "description": "Employ reflexive pronouns for co-referential actions and emphatic independence."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_reflexive_pronouns_own_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_reflexive_pronouns_own_ex",
+          "sentence": "Notice how native speakers employ Reflexives & Independence: Myself, On my own, By myself in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_there_and_it_contrast_content",
+    "lessonId": "lesson_intermediate_there_and_it_contrast",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Existential and Anticipatory: There vs It",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_there_and_it_contrast_rule",
+          "title": "Core Principle: Existential and Anticipatory: There vs It",
+          "description": "Distinguish new entity introduction with there from referential and dummy it expressions."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_there_and_it_contrast_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTRAST"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_there_and_it_contrast_ex",
+          "sentence": "Notice how native speakers employ Existential and Anticipatory: There vs It in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_some_and_any_compounds_content",
+    "lessonId": "lesson_intermediate_some_and_any_compounds",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Assertive vs Non-Assertive: Some, Any, and Indefinite Compounds",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_some_and_any_compounds_rule",
+          "title": "Core Principle: Assertive vs Non-Assertive: Some, Any, and Indefinite Compounds",
+          "description": "Select some in positive invitations and any in negative, interrogative, or arbitrary contexts."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_some_and_any_compounds_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_some_and_any_compounds_ex",
+          "sentence": "Notice how native speakers employ Assertive vs Non-Assertive: Some, Any, and Indefinite Compounds in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_quantifiers_much_many_few_little_content",
+    "lessonId": "lesson_intermediate_quantifiers_much_many_few_little",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Quantifiers: Much/Many vs Few/A few, Little/A little",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_quantifiers_much_many_few_little_rule",
+          "title": "Core Principle: Quantifiers: Much/Many vs Few/A few, Little/A little",
+          "description": "Differentiate positive perspective (a few/a little) from restrictive negative scarcity (few/little)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_quantifiers_much_many_few_little_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTRAST"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_quantifiers_much_many_few_little_ex",
+          "sentence": "Notice how native speakers employ Quantifiers: Much/Many vs Few/A few, Little/A little in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_distributives_both_neither_either_content",
+    "lessonId": "lesson_intermediate_distributives_both_neither_either",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Binary Distributives: Both, Neither, and Either (of)",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_distributives_both_neither_either_rule",
+          "title": "Core Principle: Binary Distributives: Both, Neither, and Either (of)",
+          "description": "Accurately coordinate two entities and ensure correct subject-verb agreement."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_distributives_both_neither_either_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_distributives_both_neither_either_ex",
+          "sentence": "Notice how native speakers employ Binary Distributives: Both, Neither, and Either (of) in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_totality_all_most_every_whole_each_content",
+    "lessonId": "lesson_intermediate_totality_all_most_every_whole_each",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Universal Quantifiers: All, Most, Whole, Every, and Each",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_totality_all_most_every_whole_each_rule",
+          "title": "Core Principle: Universal Quantifiers: All, Most, Whole, Every, and Each",
+          "description": "Distinguish collective totality from individual distributivity across varying noun patterns."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_totality_all_most_every_whole_each_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTRAST"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_totality_all_most_every_whole_each_ex",
+          "sentence": "Notice how native speakers employ Universal Quantifiers: All, Most, Whole, Every, and Each in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_relative_who_that_which_content",
+    "lessonId": "lesson_intermediate_relative_who_that_which",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Relative Pronouns: Who, That, and Which",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_relative_who_that_which_rule",
+          "title": "Core Principle: Relative Pronouns: Who, That, and Which",
+          "description": "Introduce restrictive relative clauses identifying specific persons versus objects."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_relative_who_that_which_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_relative_who_that_which_ex",
+          "sentence": "Notice how native speakers employ Relative Pronouns: Who, That, and Which in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_relative_pronoun_omission_content",
+    "lessonId": "lesson_intermediate_relative_pronoun_omission",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Contact Clauses: Omission of Object Relative Pronouns",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_relative_pronoun_omission_rule",
+          "title": "Core Principle: Contact Clauses: Omission of Object Relative Pronouns",
+          "description": "Identify when relative pronouns function as grammatical objects and can be omitted naturally."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_relative_pronoun_omission_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_relative_pronoun_omission_ex",
+          "sentence": "Notice how native speakers employ Contact Clauses: Omission of Object Relative Pronouns in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_relative_whose_whom_where_content",
+    "lessonId": "lesson_intermediate_relative_whose_whom_where",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Relative Adverbs & Possessives: Whose, Whom, and Where",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_relative_whose_whom_where_rule",
+          "title": "Core Principle: Relative Adverbs & Possessives: Whose, Whom, and Where",
+          "description": "Link possession, formal prepositional objects, and spatial antecedents inside relative clauses."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_relative_whose_whom_where_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_relative_whose_whom_where_ex",
+          "sentence": "Notice how native speakers employ Relative Adverbs & Possessives: Whose, Whom, and Where in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_relative_defining_vs_non_defining_content",
+    "lessonId": "lesson_intermediate_relative_defining_vs_non_defining",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Essential vs Extra Information: Defining and Non-Defining Relative Clauses",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_relative_defining_vs_non_defining_rule",
+          "title": "Core Principle: Essential vs Extra Information: Defining and Non-Defining Relative Clauses",
+          "description": "Master punctuation, comma intonation, and pronoun restrictions (never that in extra-info)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_relative_defining_vs_non_defining_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTRAST"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_relative_defining_vs_non_defining_ex",
+          "sentence": "Notice how native speakers employ Essential vs Extra Information: Defining and Non-Defining Relative Clauses in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_relative_reduced_participle_clauses_content",
+    "lessonId": "lesson_intermediate_relative_reduced_participle_clauses",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Reduced Relatives: -ing and -ed Participial Postmodifiers",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_relative_reduced_participle_clauses_rule",
+          "title": "Core Principle: Reduced Relatives: -ing and -ed Participial Postmodifiers",
+          "description": "Streamline complex clauses into concise active (-ing) and passive (-ed) postmodifiers."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_relative_reduced_participle_clauses_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_relative_reduced_participle_clauses_ex",
+          "sentence": "Notice how native speakers employ Reduced Relatives: -ing and -ed Participial Postmodifiers in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_adjectives_ing_ed_order_content",
+    "lessonId": "lesson_intermediate_adjectives_ing_ed_order",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Participle Adjectives (-ing/-ed) and Adjective Ordering",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_adjectives_ing_ed_order_rule",
+          "title": "Core Principle: Participle Adjectives (-ing/-ed) and Adjective Ordering",
+          "description": "Contrast causing feelings with experiencing them, and sequence multiple descriptive adjectives."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_adjectives_ing_ed_order_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTRAST"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_adjectives_ing_ed_order_ex",
+          "sentence": "Notice how native speakers employ Participle Adjectives (-ing/-ed) and Adjective Ordering in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_adjectives_and_adverbs_formation_content",
+    "lessonId": "lesson_intermediate_adjectives_and_adverbs_formation",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Adjectives vs Adverbs & Irregulars: Quick/Quickly, Well, Fast, Hard/Hardly",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_adjectives_and_adverbs_formation_rule",
+          "title": "Core Principle: Adjectives vs Adverbs & Irregulars: Quick/Quickly, Well, Fast, Hard/Hardly",
+          "description": "Identify linking verb complements and avoid confusion between lookalikes like hard and hardly."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_adjectives_and_adverbs_formation_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTRAST"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_adjectives_and_adverbs_formation_ex",
+          "sentence": "Notice how native speakers employ Adjectives vs Adverbs & Irregulars: Quick/Quickly, Well, Fast, Hard/Hardly in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_degree_so_such_enough_too_content",
+    "lessonId": "lesson_intermediate_degree_so_such_enough_too",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Degree Modifiers: So, Such, Enough, and Too",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_degree_so_such_enough_too_rule",
+          "title": "Core Principle: Degree Modifiers: So, Such, Enough, and Too",
+          "description": "Construct consequential result clauses with so/such ... that and calibrate sufficiency/excess."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_degree_so_such_enough_too_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_degree_so_such_enough_too_ex",
+          "sentence": "Notice how native speakers employ Degree Modifiers: So, Such, Enough, and Too in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_grading_quite_rather_pretty_fairly_content",
+    "lessonId": "lesson_intermediate_grading_quite_rather_pretty_fairly",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Grading Adverbs: Quite, Pretty, Rather, and Fairly",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_grading_quite_rather_pretty_fairly_rule",
+          "title": "Core Principle: Grading Adverbs: Quite, Pretty, Rather, and Fairly",
+          "description": "Calibrate subjective evaluation and unexpectedness across moderate grading adverbs."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_grading_quite_rather_pretty_fairly_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_grading_quite_rather_pretty_fairly_ex",
+          "sentence": "Notice how native speakers employ Grading Adverbs: Quite, Pretty, Rather, and Fairly in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_comparatives_modifiers_content",
+    "lessonId": "lesson_intermediate_comparatives_modifiers",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Comparative Forms & Modifiers: Much better, Far more, Any better",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_comparatives_modifiers_rule",
+          "title": "Core Principle: Comparative Forms & Modifiers: Much better, Far more, Any better",
+          "description": "Qualify differences using degree submodifiers like slightly, considerably, and nowhere near."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_comparatives_modifiers_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_comparatives_modifiers_ex",
+          "sentence": "Notice how native speakers employ Comparative Forms & Modifiers: Much better, Far more, Any better in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_equality_and_superlatives_content",
+    "lessonId": "lesson_intermediate_equality_and_superlatives",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Comparisons of Equality & Superlatives: As...as, Than, The most",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_equality_and_superlatives_rule",
+          "title": "Core Principle: Comparisons of Equality & Superlatives: As...as, Than, The most",
+          "description": "Express equivalence, proportional changes (the more... the better), and superlative boundaries."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_equality_and_superlatives_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_equality_and_superlatives_ex",
+          "sentence": "Notice how native speakers employ Comparisons of Equality & Superlatives: As...as, Than, The most in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_word_order_verb_object_place_time_content",
+    "lessonId": "lesson_intermediate_word_order_verb_object_place_time",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Clause Order: Verb + Object, Sequencing Place and Time",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_word_order_verb_object_place_time_rule",
+          "title": "Core Principle: Clause Order: Verb + Object, Sequencing Place and Time",
+          "description": "Prevent constituent splitting between transitive verb and object, and sequence place before time."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_word_order_verb_object_place_time_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_word_order_verb_object_place_time_ex",
+          "sentence": "Notice how native speakers employ Clause Order: Verb + Object, Sequencing Place and Time in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_adverb_position_with_verbs_content",
+    "lessonId": "lesson_intermediate_adverb_position_with_verbs",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Adverb Positions: Mid-Position with Auxiliaries and Main Verbs",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_adverb_position_with_verbs_rule",
+          "title": "Core Principle: Adverb Positions: Mid-Position with Auxiliaries and Main Verbs",
+          "description": "Place frequency and certainty adverbs accurately before lexical verbs and after auxiliaries/be."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_adverb_position_with_verbs_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_adverb_position_with_verbs_ex",
+          "sentence": "Notice how native speakers employ Adverb Positions: Mid-Position with Auxiliaries and Main Verbs in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_aspectual_adverbs_still_yet_already_content",
+    "lessonId": "lesson_intermediate_aspectual_adverbs_still_yet_already",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Temporal Adverbs: Still, Yet, Already, and Any More",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_aspectual_adverbs_still_yet_already_rule",
+          "title": "Core Principle: Temporal Adverbs: Still, Yet, Already, and Any More",
+          "description": "Contribute aspectual expectations to discourse regarding persistence, completion, and cessation."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_aspectual_adverbs_still_yet_already_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTRAST"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_aspectual_adverbs_still_yet_already_ex",
+          "sentence": "Notice how native speakers employ Temporal Adverbs: Still, Yet, Already, and Any More in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_focus_particle_even_content",
+    "lessonId": "lesson_intermediate_focus_particle_even",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Focus & Surprise: Even and Even Though / Even If",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_focus_particle_even_rule",
+          "title": "Core Principle: Focus & Surprise: Even and Even Though / Even If",
+          "description": "Highlight extreme cases and unexpected contrasts using the focusing particle even."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_focus_particle_even_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_focus_particle_even_ex",
+          "sentence": "Notice how native speakers employ Focus & Surprise: Even and Even Though / Even If in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_conjunctions_concession_contrast_content",
+    "lessonId": "lesson_intermediate_conjunctions_concession_contrast",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Concession & Contrast: Although, Though, Even though, Despite, In spite of",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_conjunctions_concession_contrast_rule",
+          "title": "Core Principle: Concession & Contrast: Although, Though, Even though, Despite, In spite of",
+          "description": "Differentiate clausal connectives from prepositional phrases taking noun phrases or gerunds."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_conjunctions_concession_contrast_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTRAST"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_conjunctions_concession_contrast_ex",
+          "sentence": "Notice how native speakers employ Concession & Contrast: Although, Though, Even though, Despite, In spite of in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_conjunctions_precaution_in_case_content",
+    "lessonId": "lesson_intermediate_conjunctions_precaution_in_case",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Precaution & Anticipation: In case",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_conjunctions_precaution_in_case_rule",
+          "title": "Core Principle: Precaution & Anticipation: In case",
+          "description": "Distinguish precautionary actions taken in advance from conditional responses (in case vs if)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_conjunctions_precaution_in_case_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_conjunctions_precaution_in_case_ex",
+          "sentence": "Notice how native speakers employ Precaution & Anticipation: In case in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_conjunctions_condition_unless_as_long_as_content",
+    "lessonId": "lesson_intermediate_conjunctions_condition_unless_as_long_as",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Conditional Connectives: Unless, As long as, Provided that",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_conjunctions_condition_unless_as_long_as_rule",
+          "title": "Core Principle: Conditional Connectives: Unless, As long as, Provided that",
+          "description": "Formulate negative conditions (if not) and explicit stipulations across formal and informal discourse."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_conjunctions_condition_unless_as_long_as_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_conjunctions_condition_unless_as_long_as_ex",
+          "sentence": "Notice how native speakers employ Conditional Connectives: Unless, As long as, Provided that in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_conjunctions_as_like_as_if_content",
+    "lessonId": "lesson_intermediate_conjunctions_as_like_as_if",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Manner & Comparison: As, Like, and As if / As though",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_conjunctions_as_like_as_if_rule",
+          "title": "Core Principle: Manner & Comparison: As, Like, and As if / As though",
+          "description": "Contrast prepositional comparison (like + noun) with conjunctional clauses and unreal manner."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_conjunctions_as_like_as_if_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTRAST"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_conjunctions_as_like_as_if_ex",
+          "sentence": "Notice how native speakers employ Manner & Comparison: As, Like, and As if / As though in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_conjunctions_time_during_while_by_until_content",
+    "lessonId": "lesson_intermediate_conjunctions_time_during_while_by_until",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Time Relations: During, While, For, and By vs Until",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_conjunctions_time_during_while_by_until_rule",
+          "title": "Core Principle: Time Relations: During, While, For, and By vs Until",
+          "description": "Disentangle prepositional spans (during/for), clausal overlap (while), and deadlines vs duration."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_conjunctions_time_during_while_by_until_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTRAST"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_conjunctions_time_during_while_by_until_ex",
+          "sentence": "Notice how native speakers employ Time Relations: During, While, For, and By vs Until in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_prepositions_time_at_on_in_content",
+    "lessonId": "lesson_intermediate_prepositions_time_at_on_in",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Time Prepositions: At, On, In, In time vs On time, At the end",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_prepositions_time_at_on_in_rule",
+          "title": "Core Principle: Time Prepositions: At, On, In, In time vs On time, At the end",
+          "description": "Master clock times, calendar dates, periods, punctuality vs margins, and endpoint expressions."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_prepositions_time_at_on_in_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_prepositions_time_at_on_in_ex",
+          "sentence": "Notice how native speakers employ Time Prepositions: At, On, In, In time vs On time, At the end in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_prepositions_place_position_in_at_on_content",
+    "lessonId": "lesson_intermediate_prepositions_place_position_in_at_on",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Position & Space: In, At, and On in Context",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_prepositions_place_position_in_at_on_rule",
+          "title": "Core Principle: Position & Space: In, At, and On in Context",
+          "description": "Conceptualise 3D containment, 2D surfaces, and functional interaction points accurately."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_prepositions_place_position_in_at_on_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_prepositions_place_position_in_at_on_ex",
+          "sentence": "Notice how native speakers employ Position & Space: In, At, and On in Context in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_prepositions_movement_destination_content",
+    "lessonId": "lesson_intermediate_prepositions_movement_destination",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Direction & Movement: To, At, In, and Into",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_prepositions_movement_destination_rule",
+          "title": "Core Principle: Direction & Movement: To, At, In, and Into",
+          "description": "Coordinate verbs of trajectory, arrival, and penetration across varied spatial contexts."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_prepositions_movement_destination_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_prepositions_movement_destination_ex",
+          "sentence": "Notice how native speakers employ Direction & Movement: To, At, In, and Into in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_prepositions_special_uses_by_content",
+    "lessonId": "lesson_intermediate_prepositions_special_uses_by",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Idiomatic Spatial Uses & Means: Other uses of In/On/At and By",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_prepositions_special_uses_by_rule",
+          "title": "Core Principle: Idiomatic Spatial Uses & Means: Other uses of In/On/At and By",
+          "description": "Apply fixed idiomatic idioms (by car, by chance, on purpose, in a hurry, at risk)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_prepositions_special_uses_by_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_prepositions_special_uses_by_ex",
+          "sentence": "Notice how native speakers employ Idiomatic Spatial Uses & Means: Other uses of In/On/At and By in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_noun_plus_preposition_collocations_content",
+    "lessonId": "lesson_intermediate_noun_plus_preposition_collocations",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Dependent Nouns: Reason for, Cause of, Demand for",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_noun_plus_preposition_collocations_rule",
+          "title": "Core Principle: Dependent Nouns: Reason for, Cause of, Demand for",
+          "description": "Master noun-complement preposition pairings essential for academic and formal clarity."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_noun_plus_preposition_collocations_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_noun_plus_preposition_collocations_ex",
+          "sentence": "Notice how native speakers employ Dependent Nouns: Reason for, Cause of, Demand for in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_adjective_plus_preposition_collocations_content",
+    "lessonId": "lesson_intermediate_adjective_plus_preposition_collocations",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Dependent Adjectives: Proud of, Interested in, Afraid of, Good at",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_adjective_plus_preposition_collocations_rule",
+          "title": "Core Principle: Dependent Adjectives: Proud of, Interested in, Afraid of, Good at",
+          "description": "Internalise natural collocational bonds between evaluation adjectives and their governing prepositions."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_adjective_plus_preposition_collocations_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_adjective_plus_preposition_collocations_ex",
+          "sentence": "Notice how native speakers employ Dependent Adjectives: Proud of, Interested in, Afraid of, Good at in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_verb_plus_preposition_collocations_content",
+    "lessonId": "lesson_intermediate_verb_plus_preposition_collocations",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Dependent Verbs: Listen to, Look at, Depend on, Suffer from",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_verb_plus_preposition_collocations_rule",
+          "title": "Core Principle: Dependent Verbs: Listen to, Look at, Depend on, Suffer from",
+          "description": "Consolidate idiomatic prepositional verb bonds across everyday conversational verbs."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_verb_plus_preposition_collocations_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_verb_plus_preposition_collocations_ex",
+          "sentence": "Notice how native speakers employ Dependent Verbs: Listen to, Look at, Depend on, Suffer from in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_phrasal_verbs_introduction_syntax_content",
+    "lessonId": "lesson_intermediate_phrasal_verbs_introduction_syntax",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Phrasal Verbs Anatomy: Separability & Pronoun Placement",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_phrasal_verbs_introduction_syntax_rule",
+          "title": "Core Principle: Phrasal Verbs Anatomy: Separability & Pronoun Placement",
+          "description": "Grasp particle movement rules: object placement and obligatory split with object pronouns."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_phrasal_verbs_introduction_syntax_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_phrasal_verbs_introduction_syntax_ex",
+          "sentence": "Notice how native speakers employ Phrasal Verbs Anatomy: Separability & Pronoun Placement in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_phrasal_verbs_in_out_content",
+    "lessonId": "lesson_intermediate_phrasal_verbs_in_out",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Particles In and Out: Movement, Completion & Discovery",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_phrasal_verbs_in_out_rule",
+          "title": "Core Principle: Particles In and Out: Movement, Completion & Discovery",
+          "description": "Explore core and metaphorical dimensions of in and out (check in, drop in, find out, run out)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_phrasal_verbs_in_out_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_phrasal_verbs_in_out_ex",
+          "sentence": "Notice how native speakers employ Particles In and Out: Movement, Completion & Discovery in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_phrasal_verbs_on_off_content",
+    "lessonId": "lesson_intermediate_phrasal_verbs_on_off",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Particles On and Off: Activation, Continuation & Departure",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_phrasal_verbs_on_off_rule",
+          "title": "Core Principle: Particles On and Off: Activation, Continuation & Departure",
+          "description": "Command phrasal meanings related to progress, cancellation, and departures (carry on, call off)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_phrasal_verbs_on_off_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_phrasal_verbs_on_off_ex",
+          "sentence": "Notice how native speakers employ Particles On and Off: Activation, Continuation & Departure in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_phrasal_verbs_up_down_content",
+    "lessonId": "lesson_intermediate_phrasal_verbs_up_down",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Particles Up and Down: Increase, Decrease, Destruction & Completion",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_phrasal_verbs_up_down_rule",
+          "title": "Core Principle: Particles Up and Down: Increase, Decrease, Destruction & Completion",
+          "description": "Master vertical metaphors and telic completion with up/down (turn up, break down, give up)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_phrasal_verbs_up_down_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_phrasal_verbs_up_down_ex",
+          "sentence": "Notice how native speakers employ Particles Up and Down: Increase, Decrease, Destruction & Completion in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_phrasal_verbs_away_back_content",
+    "lessonId": "lesson_intermediate_phrasal_verbs_away_back",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Particles Away and Back: Distance, Return & Removal",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_phrasal_verbs_away_back_rule",
+          "title": "Core Principle: Particles Away and Back: Distance, Return & Removal",
+          "description": "Deploy motion and reciprocal particles in dialogue (run away, give away, get back, pay back)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_phrasal_verbs_away_back_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B1 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_phrasal_verbs_away_back_ex",
+          "sentence": "Notice how native speakers employ Particles Away and Back: Distance, Return & Removal in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intermediate_final_challenge_topic_content",
+    "lessonId": "lesson_intermediate_final_challenge_topic",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: B1\u2013B2 Master Diagnostic Review",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_intermediate_final_challenge_topic_rule",
+          "title": "Core Principle: B1\u2013B2 Master Diagnostic Review",
+          "description": "Comprehensive evaluation testing contrasting tenses, complex modals, passives, conditionals, and verb patterns."
+        },
+        {
+          "type": "formula",
+          "id": "blk_intermediate_final_challenge_topic_formula",
+          "formulaPattern": "Target Pattern in Authentic Context",
+          "formulaNote": "Target CEFR level: B2 | Pedagogical depth: CONTROL"
+        },
+        {
+          "type": "example",
+          "id": "blk_intermediate_final_challenge_topic_ex",
+          "sentence": "Notice how native speakers employ B1\u2013B2 Master Diagnostic Review in natural discourse.",
+          "highlightedPart": "natural discourse",
+          "translation": "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0432 \u0440\u0435\u0447\u0438."
+        }
+      ]
     }
   }
 ]

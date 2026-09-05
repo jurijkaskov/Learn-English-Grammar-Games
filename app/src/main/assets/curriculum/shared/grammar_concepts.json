@@ -1,0 +1,242 @@
+[
+  {
+    "id": "concept_be",
+    "canonicalName": "Verb 'Be' and Equative Sentences",
+    "description": "Forms and syntactic behaviors of be as main verb, auxiliary, and linker.",
+    "category": "VERBS",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "INTERMEDIATE"
+  },
+  {
+    "id": "concept_present_simple",
+    "canonicalName": "Present Simple",
+    "description": "Habitual actions, universal truths, timetables, and stative verb behaviors.",
+    "category": "TENSES",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_present_continuous",
+    "canonicalName": "Present Continuous",
+    "description": "Actions in progress, temporary states, annoying habits, and fixed future plans.",
+    "category": "TENSES",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_past_simple",
+    "canonicalName": "Past Simple",
+    "description": "Completed past events, sequential actions in narratives, and past habits.",
+    "category": "TENSES",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_past_continuous",
+    "canonicalName": "Past Continuous",
+    "description": "Background actions in past narratives and interrupted past activities.",
+    "category": "TENSES",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "INTERMEDIATE"
+  },
+  {
+    "id": "concept_present_perfect",
+    "canonicalName": "Present Perfect",
+    "description": "Current relevance of past events, experiential past, and unfinished time periods.",
+    "category": "TENSES",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_past_perfect",
+    "canonicalName": "Past Perfect",
+    "description": "Events completed before another past reference point and retrospective narratives.",
+    "category": "TENSES",
+    "introducedIn": "INTERMEDIATE",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_future",
+    "canonicalName": "Future Expression",
+    "description": "Will, be going to, present forms with future meaning, and future in the past.",
+    "category": "TENSES",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_modals",
+    "canonicalName": "Modal Auxiliaries",
+    "description": "Ability, permission, obligation, deduction, and epistemic certainty.",
+    "category": "MODALS",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_passive",
+    "canonicalName": "Passive Voice",
+    "description": "Agent defocusing, impersonal passive structures, and causative patterns.",
+    "category": "VOICE",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_reported_speech",
+    "canonicalName": "Reported Speech",
+    "description": "Indirect statements, questions, imperative reporting, and evaluative reporting verbs.",
+    "category": "DISCOURSE",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_questions",
+    "canonicalName": "Questions and Auxiliaries",
+    "description": "Direct, indirect, tag questions, echo questions, and auxiliary inversion.",
+    "category": "SYNTAX",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_gerund_infinitive",
+    "canonicalName": "Gerunds and Infinitives",
+    "description": "Verb complementation with -ing forms, to-infinitive, and bare infinitive.",
+    "category": "VERBS",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_verb_patterns",
+    "canonicalName": "Verb Complementation Patterns",
+    "description": "Transitivity, ditransitive patterns, and complex predicate complements.",
+    "category": "VERBS",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_articles",
+    "canonicalName": "Articles",
+    "description": "Definite, indefinite, and zero article across generic and specific references.",
+    "category": "NOUNS",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_pronouns",
+    "canonicalName": "Pronouns and Possessives",
+    "description": "Personal, possessive, reflexive, reciprocal, and demonstrative pronouns.",
+    "category": "NOUNS",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "INTERMEDIATE"
+  },
+  {
+    "id": "concept_determiners",
+    "canonicalName": "Determiners and Quantifiers",
+    "description": "Quantifying expressions, distributives, partitives, and countable/uncountable rules.",
+    "category": "NOUNS",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_relative_clauses",
+    "canonicalName": "Relative and Participle Clauses",
+    "description": "Defining, non-defining, reduced relative clauses, and participle adjuncts.",
+    "category": "CLAUSES",
+    "introducedIn": "INTERMEDIATE",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_adjectives_adverbs",
+    "canonicalName": "Adjectives and Adverbs",
+    "description": "Comparative forms, ordering, grading modifiers, and position rules.",
+    "category": "MODIFIERS",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_conditionals",
+    "canonicalName": "Conditionals and Hypothesis",
+    "description": "Zero, first, second, third, mixed conditionals, and inverted hypothetical clauses.",
+    "category": "CLAUSES",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_prepositions",
+    "canonicalName": "Prepositions and Particles",
+    "description": "Spatial, temporal, dependent collocational, and complex prepositions.",
+    "category": "PREPOSITIONS",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_phrasal_verbs",
+    "canonicalName": "Phrasal and Prepositional Verbs",
+    "description": "Separable, inseparable, three-part verbs, and semantic idiomaticity.",
+    "category": "VERBS",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_inversion",
+    "canonicalName": "Negative and Locative Inversion",
+    "description": "Auxiliary inversion after negative adverbs and full inversion after locative phrases.",
+    "category": "SYNTAX",
+    "introducedIn": "ADVANCED",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_cleft_sentences",
+    "canonicalName": "Cleft Sentences and Focus",
+    "description": "It-clefts, wh-clefts, reversed wh-clefts, and thematic fronting.",
+    "category": "DISCOURSE",
+    "introducedIn": "ADVANCED",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_ellipsis",
+    "canonicalName": "Substitution and Ellipsis",
+    "description": "Do so substitution, auxiliary repetition, and clause omission.",
+    "category": "SYNTAX",
+    "introducedIn": "INTERMEDIATE",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_there_it",
+    "canonicalName": "Preparatory There and It",
+    "description": "Existential there, dummy it, anticipatory it, and impersonal frames.",
+    "category": "SYNTAX",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_conjunctions",
+    "canonicalName": "Conjunctions and Linking Words",
+    "description": "Coordinating, subordinating conjunctions, and discourse connectives.",
+    "category": "DISCOURSE",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_word_order",
+    "canonicalName": "Word Order and Clause Structure",
+    "description": "Declarative constituent order (SVO/SVOO), adverb positions, and object sequencing.",
+    "category": "SYNTAX",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_verb_forms",
+    "canonicalName": "Verb Forms and Inflections",
+    "description": "Regular and irregular verb inflections, base forms, and participle identification.",
+    "category": "VERBS",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "INTERMEDIATE"
+  },
+  {
+    "id": "concept_auxiliary_verbs",
+    "canonicalName": "Auxiliary Verbs and Short Forms",
+    "description": "Primary and modal auxiliaries in short answers, agreement tags, and negative contractions.",
+    "category": "VERBS",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "INTERMEDIATE"
+  }
+]

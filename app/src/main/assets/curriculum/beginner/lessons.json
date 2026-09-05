@@ -1,0 +1,1221 @@
+[
+  {
+    "id": "beginner_topic_am_is_are_l1",
+    "topicId": "beginner_topic_am_is_are",
+    "title": "Forms of Be: I am, You are, He/She/It is",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_am_is_are_l1_content",
+      "beginner_topic_am_is_are_l1_quiz"
+    ],
+    "estimatedMinutes": 5,
+    "difficulty": "EASY",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_am_is_are_l1_obj1",
+        "description": "Identify and use am, is, and are correctly with singular and plural subjects."
+      },
+      {
+        "id": "beginner_topic_am_is_are_l1_obj2",
+        "description": "Construct negative statements with not and common contractions (I'm not, isn't, aren't)."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_be_questions_l1",
+    "topicId": "beginner_topic_be_questions",
+    "title": "Questions and Short Answers with Be",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_be_questions_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_be_questions_l1_obj1",
+        "description": "Form questions by inverting subject and verb (Are you ready? Is he here?)."
+      },
+      {
+        "id": "beginner_topic_be_questions_l1_obj2",
+        "description": "Respond accurately using natural short answers (Yes, I am / No, they aren't)."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_present_continuous_basics_l1",
+    "topicId": "beginner_topic_present_continuous_basics",
+    "title": "Forming Present Continuous Statements and Questions",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_present_continuous_basics_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_present_continuous_basics_l1_obj1",
+        "description": "Combine subject + be + verb-ing with correct spelling changes (running, writing)."
+      },
+      {
+        "id": "beginner_topic_present_continuous_basics_l1_obj2",
+        "description": "Ask and answer questions about ongoing activities (What are you doing?)."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_present_simple_basics_l1",
+    "topicId": "beginner_topic_present_simple_basics",
+    "title": "Present Simple Routines and 3rd Person -s",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_present_simple_basics_l1_content",
+      "beginner_topic_present_simple_basics_l1_quiz"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_present_simple_basics_l1_obj1",
+        "description": "Apply 3rd person singular -s/-es verb inflections for he, she, and it."
+      },
+      {
+        "id": "beginner_topic_present_simple_basics_l1_obj2",
+        "description": "Construct negative statements using don't and doesn't + bare infinitive."
+      },
+      {
+        "id": "beginner_topic_present_simple_basics_l1_obj3",
+        "description": "Form questions using do/does + subject + bare infinitive."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_present_simple_vs_continuous_l1",
+    "topicId": "beginner_topic_present_simple_vs_continuous",
+    "title": "Routine vs Happening Now and Stative Verbs",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_present_simple_vs_continuous_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_present_simple_vs_continuous_l1_obj1",
+        "description": "Choose correctly between present simple and continuous based on context and time markers."
+      },
+      {
+        "id": "beginner_topic_present_simple_vs_continuous_l1_obj2",
+        "description": "Identify stative verbs (like, know, want, understand) that avoid continuous forms."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_have_and_have_got_l1",
+    "topicId": "beginner_topic_have_and_have_got",
+    "title": "Possession with Have and Have Got",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_have_and_have_got_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_have_and_have_got_l1_obj1",
+        "description": "Use both have and have got interchangeably for ownership and family."
+      },
+      {
+        "id": "beginner_topic_have_and_have_got_l1_obj2",
+        "description": "Form negatives and questions using do/does have vs have/has got."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_past_simple_be_l1",
+    "topicId": "beginner_topic_past_simple_be",
+    "title": "Was and Were Statements and Questions",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_past_simple_be_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_past_simple_be_l1_obj1",
+        "description": "Select was for singular subjects and were for plural subjects in affirmative and negative statements."
+      },
+      {
+        "id": "beginner_topic_past_simple_be_l1_obj2",
+        "description": "Invert was/were with subjects to form past questions."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_past_simple_regular_irregular_l1",
+    "topicId": "beginner_topic_past_simple_regular_irregular",
+    "title": "Narrating Completed Past Events",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_past_simple_regular_irregular_l1_content",
+      "beginner_topic_past_simple_regular_irregular_l1_quiz"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_past_simple_regular_irregular_l1_obj1",
+        "description": "Apply spelling rules for regular -ed past endings and recall top irregular verbs (went, saw, had)."
+      },
+      {
+        "id": "beginner_topic_past_simple_regular_irregular_l1_obj2",
+        "description": "Construct negative sentences and questions using auxiliary did/didn't with base verbs."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_past_continuous_intro_l1",
+    "topicId": "beginner_topic_past_continuous_intro",
+    "title": "Background Past Actions and Interruptions",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_past_continuous_intro_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_past_continuous_intro_l1_obj1",
+        "description": "Form past continuous using was/were + verb-ing for ongoing background scenes."
+      },
+      {
+        "id": "beginner_topic_past_continuous_intro_l1_obj2",
+        "description": "Connect an ongoing action with an interrupting event using when or while."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_present_perfect_form_l1",
+    "topicId": "beginner_topic_present_perfect_form",
+    "title": "Experience and Result with Have/Has Done",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_present_perfect_form_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_present_perfect_form_l1_obj1",
+        "description": "Form present perfect with have/has and regular or irregular past participles."
+      },
+      {
+        "id": "beginner_topic_present_perfect_form_l1_obj2",
+        "description": "Form questions asking about life experiences with ever, and statements with never."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_present_perfect_just_already_yet_l1",
+    "topicId": "beginner_topic_present_perfect_just_already_yet",
+    "title": "Time Adverbs: Just, Already, and Yet",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_present_perfect_just_already_yet_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_present_perfect_just_already_yet_l1_obj1",
+        "description": "Position just and already correctly between auxiliary have and the main participle."
+      },
+      {
+        "id": "beginner_topic_present_perfect_just_already_yet_l1_obj2",
+        "description": "Place yet at the end of negative sentences and questions for expected events."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_present_perfect_duration_l1",
+    "topicId": "beginner_topic_present_perfect_duration",
+    "title": "Unfinished Time with For, Since, and Ago",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_present_perfect_duration_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_present_perfect_duration_l1_obj1",
+        "description": "Distinguish periods of duration (for 2 days) from specific starting points (since Monday)."
+      },
+      {
+        "id": "beginner_topic_present_perfect_duration_l1_obj2",
+        "description": "Contrast present perfect duration with past simple events completed 'ago'."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_present_perfect_vs_past_l1",
+    "topicId": "beginner_topic_present_perfect_vs_past",
+    "title": "Finished Time vs Present Relevance",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_present_perfect_vs_past_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_present_perfect_vs_past_l1_obj1",
+        "description": "Identify finished past time anchors (yesterday, last year, in 2020) requiring past simple."
+      },
+      {
+        "id": "beginner_topic_present_perfect_vs_past_l1_obj2",
+        "description": "Select present perfect for open timeframes (today, this week) or ongoing relevance."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_passive_present_past_l1",
+    "topicId": "beginner_topic_passive_present_past",
+    "title": "Is Done and Was Done Passive Forms",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_passive_present_past_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_passive_present_past_l1_obj1",
+        "description": "Construct present passive sentences using am/is/are + past participle."
+      },
+      {
+        "id": "beginner_topic_passive_present_past_l1_obj2",
+        "description": "Construct past passive sentences using was/were + past participle with optional 'by' agent."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_passive_continuous_perfect_l1",
+    "topicId": "beginner_topic_passive_continuous_perfect",
+    "title": "Is Being Done and Has Been Done Forms",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_passive_continuous_perfect_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_passive_continuous_perfect_l1_obj1",
+        "description": "Identify actions currently undergoing an action (is being repaired)."
+      },
+      {
+        "id": "beginner_topic_passive_continuous_perfect_l1_obj2",
+        "description": "Describe completed actions with present relevance in the passive (has been cleaned)."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_be_have_do_verb_forms_l1",
+    "topicId": "beginner_topic_be_have_do_verb_forms",
+    "title": "Auxiliary vs Main Verb Functions",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_be_have_do_verb_forms_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_be_have_do_verb_forms_l1_obj1",
+        "description": "Distinguish between auxiliary functions and main verb usages of be, have, and do."
+      },
+      {
+        "id": "beginner_topic_be_have_do_verb_forms_l1_obj2",
+        "description": "Conjugate be, have, and do accurately across present and past clauses."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_regular_irregular_fundamentals_l1",
+    "topicId": "beginner_topic_regular_irregular_fundamentals",
+    "title": "Irregular Verb Families and Patterns",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_regular_irregular_fundamentals_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_regular_irregular_fundamentals_l1_obj1",
+        "description": "Group irregular verbs by sound and inflectional patterns (cut-cut-cut, buy-bought-bought)."
+      },
+      {
+        "id": "beginner_topic_regular_irregular_fundamentals_l1_obj2",
+        "description": "Identify when to apply base form, past simple, and past participle."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_future_present_and_going_to_l1",
+    "topicId": "beginner_topic_future_present_and_going_to",
+    "title": "Arrangements and Intentions with Going To",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_future_present_and_going_to_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_future_present_and_going_to_l1_obj1",
+        "description": "Use present continuous with future time expressions for scheduled personal plans."
+      },
+      {
+        "id": "beginner_topic_future_present_and_going_to_l1_obj2",
+        "description": "Express prior intentions and evident predictions using be going to + base verb."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_future_will_shall_l1",
+    "topicId": "beginner_topic_future_will_shall",
+    "title": "Will and Shall in Everyday Speech",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_future_will_shall_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_future_will_shall_l1_obj1",
+        "description": "Use will/won't for spontaneous decisions made at the moment of speaking."
+      },
+      {
+        "id": "beginner_topic_future_will_shall_l1_obj2",
+        "description": "Use 'Shall I...?' and 'Shall we...?' to offer help or propose mutual ideas."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_modals_might_can_could_l1",
+    "topicId": "beginner_topic_modals_might_can_could",
+    "title": "Can, Could, and Might for Ability and Possibility",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_modals_might_can_could_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_modals_might_can_could_l1_obj1",
+        "description": "Express ability in present with can/can't and in past with could/couldn't."
+      },
+      {
+        "id": "beginner_topic_modals_might_can_could_l1_obj2",
+        "description": "Use might to express tentative future or present possibility (It might rain)."
+      },
+      {
+        "id": "beginner_topic_modals_might_can_could_l1_obj3",
+        "description": "Make polite requests using Can you...? and Could you...?"
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_modals_must_should_have_to_l1",
+    "topicId": "beginner_topic_modals_must_should_have_to",
+    "title": "Rules, Prohibition, and Advice",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_modals_must_should_have_to_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_modals_must_should_have_to_l1_obj1",
+        "description": "Use must and have to to express obligation and rules."
+      },
+      {
+        "id": "beginner_topic_modals_must_should_have_to_l1_obj2",
+        "description": "Contrast prohibition (mustn't) with lack of necessity (don't have to / don't need to)."
+      },
+      {
+        "id": "beginner_topic_modals_must_should_have_to_l1_obj3",
+        "description": "Offer friendly advice and opinions using should and shouldn't."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_social_requests_habits_l1",
+    "topicId": "beginner_topic_social_requests_habits",
+    "title": "Invitations, Directives, and Past Habits",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_social_requests_habits_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_social_requests_habits_l1_obj1",
+        "description": "Offer and request items politely using 'Would you like...?' and 'I'd like...'."
+      },
+      {
+        "id": "beginner_topic_social_requests_habits_l1_obj2",
+        "description": "Give direct instructions and warnings using base verb imperatives and Let's."
+      },
+      {
+        "id": "beginner_topic_social_requests_habits_l1_obj3",
+        "description": "Describe discontinued past routines using 'used to + verb'."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_there_is_there_are_l1",
+    "topicId": "beginner_topic_there_is_there_are",
+    "title": "Existential Sentences with There + Be",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_there_is_there_are_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_there_is_there_are_l1_obj1",
+        "description": "Use there is with singular nouns and there are with plural nouns."
+      },
+      {
+        "id": "beginner_topic_there_is_there_are_l1_obj2",
+        "description": "Extend existential there to past (there was/were) and future (there will be)."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_it_is_vs_there_is_l1",
+    "topicId": "beginner_topic_it_is_vs_there_is",
+    "title": "Dummy It for Weather, Time, and Distance",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_it_is_vs_there_is_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_it_is_vs_there_is_l1_obj1",
+        "description": "Use 'It is' to state current time, weather conditions, and distances."
+      },
+      {
+        "id": "beginner_topic_it_is_vs_there_is_l1_obj2",
+        "description": "Distinguish between 'It is raining' and 'There is rain in the forecast'."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_auxiliary_verbs_usage_l1",
+    "topicId": "beginner_topic_auxiliary_verbs_usage",
+    "title": "Short Answers and Conversational Echoes",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_auxiliary_verbs_usage_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_auxiliary_verbs_usage_l1_obj1",
+        "description": "Provide natural short replies using auxiliaries (Yes, I do / No, she didn't)."
+      },
+      {
+        "id": "beginner_topic_auxiliary_verbs_usage_l1_obj2",
+        "description": "Use short echo questions to express interest or surprise (Have you? Did they?)."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_auxiliary_agreement_negatives_l1",
+    "topicId": "beginner_topic_auxiliary_agreement_negatives",
+    "title": "Conversational Agreement and Negative Auxiliaries",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_auxiliary_agreement_negatives_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_auxiliary_agreement_negatives_l1_obj1",
+        "description": "Agree with positive statements using too and 'so + aux + I'."
+      },
+      {
+        "id": "beginner_topic_auxiliary_agreement_negatives_l1_obj2",
+        "description": "Agree with negative statements using either and 'neither + aux + I'."
+      },
+      {
+        "id": "beginner_topic_auxiliary_agreement_negatives_l1_obj3",
+        "description": "Form contracted negative auxiliaries accurately."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_question_formation_wh_l1",
+    "topicId": "beginner_topic_question_formation_wh",
+    "title": "Standard Question Inversion and Question Words",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_question_formation_wh_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_question_formation_wh_l1_obj1",
+        "description": "Follow the Auxiliary + Subject + Verb sequence for yes/no questions."
+      },
+      {
+        "id": "beginner_topic_question_formation_wh_l1_obj2",
+        "description": "Choose the right question word (What, Which, Who, Where, When, Why, How)."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_subject_questions_prepositions_l1",
+    "topicId": "beginner_topic_subject_questions_prepositions",
+    "title": "Subject Questions and Stranded Prepositions",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_subject_questions_prepositions_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_subject_questions_prepositions_l1_obj1",
+        "description": "Form subject questions without auxiliary do/did (Who called you?)."
+      },
+      {
+        "id": "beginner_topic_subject_questions_prepositions_l1_obj2",
+        "description": "Form object questions with auxiliary do/did (Who did you call?)."
+      },
+      {
+        "id": "beginner_topic_subject_questions_prepositions_l1_obj3",
+        "description": "Place prepositions naturally at the end of informal questions (Who is she talking to?)."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_indirect_duration_questions_l1",
+    "topicId": "beginner_topic_indirect_duration_questions",
+    "title": "Duration and Polite Indirect Frames",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_indirect_duration_questions_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_indirect_duration_questions_l1_obj1",
+        "description": "Ask and answer about duration using 'How long does it take to...?'"
+      },
+      {
+        "id": "beginner_topic_indirect_duration_questions_l1_obj2",
+        "description": "Maintain statement word order after indirect frames (Do you know where the bank is?)."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_reported_speech_basics_l1",
+    "topicId": "beginner_topic_reported_speech_basics",
+    "title": "Reporting Speech with Say and Tell",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_reported_speech_basics_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_reported_speech_basics_l1_obj1",
+        "description": "Differentiate say (that) from tell someone (that)."
+      },
+      {
+        "id": "beginner_topic_reported_speech_basics_l1_obj2",
+        "description": "Backshift basic present tense verbs into past equivalents in reported clauses."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_verb_ing_to_forms_l1",
+    "topicId": "beginner_topic_verb_ing_to_forms",
+    "title": "Gerunds vs Infinitives After Verbs",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_verb_ing_to_forms_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_verb_ing_to_forms_l1_obj1",
+        "description": "Use to-infinitive after verbs like want, plan, decide, hope, and need."
+      },
+      {
+        "id": "beginner_topic_verb_ing_to_forms_l1_obj2",
+        "description": "Use -ing gerund after verbs like enjoy, stop, mind, and finish."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_verb_person_to_purpose_l1",
+    "topicId": "beginner_topic_verb_person_to_purpose",
+    "title": "Person + Infinitive and Purpose Clauses",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_verb_person_to_purpose_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_verb_person_to_purpose_l1_obj1",
+        "description": "Form structures with Verb + Person + to-infinitive (I told him to wait)."
+      },
+      {
+        "id": "beginner_topic_verb_person_to_purpose_l1_obj2",
+        "description": "Express intention and purpose using to + base verb instead of for."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_verbs_go_and_get_l1",
+    "topicId": "beginner_topic_verbs_go_and_get",
+    "title": "Collocations with Go and Get",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_verbs_go_and_get_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_verbs_go_and_get_l1_obj1",
+        "description": "Use go with prepositions and leisure activities (go swimming, go on holiday)."
+      },
+      {
+        "id": "beginner_topic_verbs_go_and_get_l1_obj2",
+        "description": "Express receiving, buying, becoming, and arriving using get."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_verbs_do_make_have_l1",
+    "topicId": "beginner_topic_verbs_do_make_have",
+    "title": "Do, Make, and Have Expressions",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_verbs_do_make_have_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_verbs_do_make_have_l1_obj1",
+        "description": "Differentiate do (homework, dishes) from make (dinner, coffee, mistakes)."
+      },
+      {
+        "id": "beginner_topic_verbs_do_make_have_l1_obj2",
+        "description": "Use have for meals, washing, and social occasions (have breakfast, have fun)."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_personal_possessive_pronouns_l1",
+    "topicId": "beginner_topic_personal_possessive_pronouns",
+    "title": "Subject, Object, and Possessives",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_personal_possessive_pronouns_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_personal_possessive_pronouns_l1_obj1",
+        "description": "Select subject (I/he) vs object pronouns (me/him) based on clause position."
+      },
+      {
+        "id": "beginner_topic_personal_possessive_pronouns_l1_obj2",
+        "description": "Distinguish possessive adjectives (my car) from standalone possessive pronouns (It's mine)."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_reflexives_possessive_s_l1",
+    "topicId": "beginner_topic_reflexives_possessive_s",
+    "title": "Reflexive Pronouns and Possessive 's",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_reflexives_possessive_s_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_reflexives_possessive_s_l1_obj1",
+        "description": "Use myself, yourself, themselves when the subject and object are the same entity."
+      },
+      {
+        "id": "beginner_topic_reflexives_possessive_s_l1_obj2",
+        "description": "Apply 's for singular possessors and an apostrophe for regular plural nouns."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_articles_plurals_l1",
+    "topicId": "beginner_topic_articles_plurals",
+    "title": "A/An Selection and Plural Forms",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_articles_plurals_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_articles_plurals_l1_obj1",
+        "description": "Use a before consonant sounds and an before vowel sounds."
+      },
+      {
+        "id": "beginner_topic_articles_plurals_l1_obj2",
+        "description": "Form regular plurals with -s/-es and recall key irregular plurals (children, people, feet)."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_countable_uncountable_nouns_l1",
+    "topicId": "beginner_topic_countable_uncountable_nouns",
+    "title": "Countable Items vs Mass Uncountables",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_countable_uncountable_nouns_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_countable_uncountable_nouns_l1_obj1",
+        "description": "Identify countable nouns that take a/an or plural markers."
+      },
+      {
+        "id": "beginner_topic_countable_uncountable_nouns_l1_obj2",
+        "description": "Treat uncountable nouns (water, money, bread, information) as singular without a/an."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_definite_the_and_zero_article_l1",
+    "topicId": "beginner_topic_definite_the_and_zero_article",
+    "title": "The vs Zero Article in Context",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_definite_the_and_zero_article_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_definite_the_and_zero_article_l1_obj1",
+        "description": "Use the for specific items known to speaker and listener."
+      },
+      {
+        "id": "beginner_topic_definite_the_and_zero_article_l1_obj2",
+        "description": "Omit articles when making generalizations with plural or uncountable nouns (I love music)."
+      },
+      {
+        "id": "beginner_topic_definite_the_and_zero_article_l1_obj3",
+        "description": "Apply standard article conventions with institutions (school, hospital) and geographical names."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_demonstratives_and_ones_l1",
+    "topicId": "beginner_topic_demonstratives_and_ones",
+    "title": "Demonstratives and Substitution with One/Ones",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_demonstratives_and_ones_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_demonstratives_and_ones_l1_obj1",
+        "description": "Select this/these for nearby items and that/those for distant items."
+      },
+      {
+        "id": "beginner_topic_demonstratives_and_ones_l1_obj2",
+        "description": "Substitute singular nouns with one and plural nouns with ones."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_some_any_negatives_compounds_l1",
+    "topicId": "beginner_topic_some_any_negatives_compounds",
+    "title": "Some, Any, and Indefinite Compounds",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_some_any_negatives_compounds_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_some_any_negatives_compounds_l1_obj1",
+        "description": "Use some in affirmative statements and polite offers; use any in questions and negatives."
+      },
+      {
+        "id": "beginner_topic_some_any_negatives_compounds_l1_obj2",
+        "description": "Express complete absence with no + noun and standalone none."
+      },
+      {
+        "id": "beginner_topic_some_any_negatives_compounds_l1_obj3",
+        "description": "Use compound pronouns (someone, anything, nowhere) with singular verb agreement."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_quantifiers_distributives_l1",
+    "topicId": "beginner_topic_quantifiers_distributives",
+    "title": "Distributives and Dual Quantifiers",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_quantifiers_distributives_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_quantifiers_distributives_l1_obj1",
+        "description": "Use every with singular countable nouns and all with plurals."
+      },
+      {
+        "id": "beginner_topic_quantifiers_distributives_l1_obj2",
+        "description": "Select both, either, and neither when referring to exactly two people or things."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_quantifiers_much_many_few_little_l1",
+    "topicId": "beginner_topic_quantifiers_much_many_few_little",
+    "title": "Quantifying Large and Small Quantities",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_quantifiers_much_many_few_little_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_quantifiers_much_many_few_little_l1_obj1",
+        "description": "Use much with uncountables and many with plurals, especially in negatives and questions."
+      },
+      {
+        "id": "beginner_topic_quantifiers_much_many_few_little_l1_obj2",
+        "description": "Differentiate positive a few / a little from negative few / little."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_adjectives_and_adverbs_basics_l1",
+    "topicId": "beginner_topic_adjectives_and_adverbs_basics",
+    "title": "Adjective Placement and Adverb Formation",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_adjectives_and_adverbs_basics_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_adjectives_and_adverbs_basics_l1_obj1",
+        "description": "Position adjectives before nouns (a red car) or after be/seem (She looks happy)."
+      },
+      {
+        "id": "beginner_topic_adjectives_and_adverbs_basics_l1_obj2",
+        "description": "Form regular adverbs by adding -ly, and recall irregular forms like fast and well."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_comparatives_and_as_as_l1",
+    "topicId": "beginner_topic_comparatives_and_as_as",
+    "title": "Comparing Two Items with -er, More, and As...As",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_comparatives_and_as_as_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_comparatives_and_as_as_l1_obj1",
+        "description": "Add -er to short adjectives and place more before long adjectives."
+      },
+      {
+        "id": "beginner_topic_comparatives_and_as_as_l1_obj2",
+        "description": "Use 'as + adjective + as' for equality and 'not as...as' for inequality."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_superlatives_too_enough_l1",
+    "topicId": "beginner_topic_superlatives_too_enough",
+    "title": "Superlatives and Degree Modifiers",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_superlatives_too_enough_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_superlatives_too_enough_l1_obj1",
+        "description": "Form superlatives using the -est for short adjectives and the most for long adjectives."
+      },
+      {
+        "id": "beginner_topic_superlatives_too_enough_l1_obj2",
+        "description": "Place too before adjectives (too cold) and enough after adjectives (warm enough)."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_word_order_svo_frequency_l1",
+    "topicId": "beginner_topic_word_order_svo_frequency",
+    "title": "Verb-Object Unity and Frequency Positions",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_word_order_svo_frequency_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_word_order_svo_frequency_l1_obj1",
+        "description": "Never separate a transitive verb from its direct object with place or time adverbs."
+      },
+      {
+        "id": "beginner_topic_word_order_svo_frequency_l1_obj2",
+        "description": "Place frequency adverbs (always, often, never) before main verbs but after be."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_adverb_order_double_objects_l1",
+    "topicId": "beginner_topic_adverb_order_double_objects",
+    "title": "Mid-Sentence Adverbs and Double Objects",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_adverb_order_double_objects_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_adverb_order_double_objects_l1_obj1",
+        "description": "Place still, yet, and already in their natural syntactic positions."
+      },
+      {
+        "id": "beginner_topic_adverb_order_double_objects_l1_obj2",
+        "description": "Choose between 'give someone something' and 'give something to someone'."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_conjunctions_time_clauses_l1",
+    "topicId": "beginner_topic_conjunctions_time_clauses",
+    "title": "Coordinating Connectives and Time Clauses",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_conjunctions_time_clauses_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_conjunctions_time_clauses_l1_obj1",
+        "description": "Join ideas logically with and, but, or, so (consequence), and because (cause)."
+      },
+      {
+        "id": "beginner_topic_conjunctions_time_clauses_l1_obj2",
+        "description": "Use present tense in future time clauses following when, while, and before."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_conditionals_intro_l1",
+    "topicId": "beginner_topic_conditionals_intro",
+    "title": "Real and Hypothetical Conditionals",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_conditionals_intro_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_conditionals_intro_l1_obj1",
+        "description": "Form real first conditional sentences: If + present simple, will + base verb."
+      },
+      {
+        "id": "beginner_topic_conditionals_intro_l1_obj2",
+        "description": "Recognize beginner hypothetical conditional structures (If I had... I would...)."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_relative_clauses_intro_l1",
+    "topicId": "beginner_topic_relative_clauses_intro",
+    "title": "Defining Relative Clauses and Omission",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_relative_clauses_intro_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_relative_clauses_intro_l1_obj1",
+        "description": "Use who/that for people and which/that for objects and animals."
+      },
+      {
+        "id": "beginner_topic_relative_clauses_intro_l1_obj2",
+        "description": "Omit the relative pronoun when it serves as the object of the relative clause."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_prepositions_time_l1",
+    "topicId": "beginner_topic_prepositions_time",
+    "title": "Clock, Calendar, and Duration Prepositions",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_prepositions_time_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_prepositions_time_l1_obj1",
+        "description": "Use at for clock times, on for days/dates, and in for months/years/seasons."
+      },
+      {
+        "id": "beginner_topic_prepositions_time_l1_obj2",
+        "description": "Express boundaries with from...to and until; contrast during + noun with while + clause."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_prepositions_place_movement_l1",
+    "topicId": "beginner_topic_prepositions_place_movement",
+    "title": "Spatial Location and Directional Particles",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_prepositions_place_movement_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_prepositions_place_movement_l1_obj1",
+        "description": "Select in, at, on for locations, buildings, and addresses."
+      },
+      {
+        "id": "beginner_topic_prepositions_place_movement_l1_obj2",
+        "description": "Contrast static presence (in/at) with directional movement towards a destination (to)."
+      },
+      {
+        "id": "beginner_topic_prepositions_place_movement_l1_obj3",
+        "description": "Describe spatial configurations using under, behind, opposite, into, out of, through."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_prepositions_collocations_l1",
+    "topicId": "beginner_topic_prepositions_collocations",
+    "title": "Fixed Idiomatic Phrases and Dependent Prepositions",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_prepositions_collocations_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_prepositions_collocations_l1_obj1",
+        "description": "Use fixed transport and medium phrases: by car, on foot, by card, with a pen."
+      },
+      {
+        "id": "beginner_topic_prepositions_collocations_l1_obj2",
+        "description": "Combine adjectives with prepositions (good at, interested in) followed by noun or -ing."
+      },
+      {
+        "id": "beginner_topic_prepositions_collocations_l1_obj3",
+        "description": "Combine verbs with dependent prepositions (listen to, look at, wait for)."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_phrasal_verbs_basics_l1",
+    "topicId": "beginner_topic_phrasal_verbs_basics",
+    "title": "Movement Phrasal Verbs and Pronoun Inversion",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_phrasal_verbs_basics_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_phrasal_verbs_basics_l1_obj1",
+        "description": "Recognize common idiomatic verb-particle pairs (stand up, run away, sit down)."
+      },
+      {
+        "id": "beginner_topic_phrasal_verbs_basics_l1_obj2",
+        "description": "Place pronoun objects strictly between verb and particle (turn it on, NOT turn on it)."
+      }
+    ]
+  },
+  {
+    "id": "beginner_topic_final_challenge_l1",
+    "topicId": "beginner_topic_final_challenge",
+    "title": "A1–A2 Core Grammar Diagnostic Sprint",
+    "order": 1,
+    "activityIds": [
+      "beginner_topic_final_challenge_l1_content"
+    ],
+    "estimatedMinutes": 7,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "beginner_topic_final_challenge_l1_obj1",
+        "description": "Synthesize verb tenses, auxiliaries, modals, articles, and prepositions across mixed communicative tasks."
+      },
+      {
+        "id": "beginner_topic_final_challenge_l1_obj2",
+        "description": "Identify and correct foundational learner errors across everyday sentences."
+      }
+    ]
+  }
+]

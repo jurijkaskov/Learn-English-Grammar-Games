@@ -2,8 +2,11 @@ package com.learnenglish.grammargames.core.content.curriculum.mapper
 
 import com.learnenglish.grammargames.core.content.curriculum.dto.ActivityConfigDto
 import com.learnenglish.grammargames.core.content.curriculum.dto.ActivityDto
+import com.learnenglish.grammargames.core.content.curriculum.dto.BookEditionDto
 import com.learnenglish.grammargames.core.content.curriculum.dto.BookReferenceDto
 import com.learnenglish.grammargames.core.content.curriculum.dto.CourseDto
+import com.learnenglish.grammargames.core.content.curriculum.dto.GrammarBookDto
+import com.learnenglish.grammargames.core.content.curriculum.dto.GrammarConceptDto
 import com.learnenglish.grammargames.core.content.curriculum.dto.LearningObjectiveDto
 import com.learnenglish.grammargames.core.content.curriculum.dto.LessonContentBlockDto
 import com.learnenglish.grammargames.core.content.curriculum.dto.LessonDto
@@ -16,8 +19,10 @@ import com.learnenglish.grammargames.domain.model.curriculum.ActivityId
 import com.learnenglish.grammargames.domain.model.curriculum.ActivityType
 import com.learnenglish.grammargames.domain.model.curriculum.AnswerOption
 import com.learnenglish.grammargames.domain.model.curriculum.ArtworkId
+import com.learnenglish.grammargames.domain.model.curriculum.BookEdition
 import com.learnenglish.grammargames.domain.model.curriculum.BookId
 import com.learnenglish.grammargames.domain.model.curriculum.CefrLevel
+import com.learnenglish.grammargames.domain.model.curriculum.ConceptDepth
 import com.learnenglish.grammargames.domain.model.curriculum.ContentStatus
 import com.learnenglish.grammargames.domain.model.curriculum.Course
 import com.learnenglish.grammargames.domain.model.curriculum.CourseId
@@ -27,6 +32,8 @@ import com.learnenglish.grammargames.domain.model.curriculum.CurriculumBookRefer
 import com.learnenglish.grammargames.domain.model.curriculum.DifficultyLevel
 import com.learnenglish.grammargames.domain.model.curriculum.FindMistakeQuestion
 import com.learnenglish.grammargames.domain.model.curriculum.GapFillQuestion
+import com.learnenglish.grammargames.domain.model.curriculum.GrammarBookCatalogItem
+import com.learnenglish.grammargames.domain.model.curriculum.GrammarConcept
 import com.learnenglish.grammargames.domain.model.curriculum.GrammarConceptId
 import com.learnenglish.grammargames.domain.model.curriculum.GrammarSection
 import com.learnenglish.grammargames.domain.model.curriculum.GrammarTopic
@@ -56,6 +63,10 @@ object CurriculumMapper {
             .getOrDefault(CourseLevel.BEGINNER)
         val cefr = runCatching { CefrLevel.valueOf(dto.cefrLevel.uppercase()) }
             .getOrDefault(CefrLevel.A1)
+        val cefrMin = dto.cefrMin?.let { runCatching { CefrLevel.valueOf(it.uppercase()) }.getOrNull() } ?: cefr
+        val cefrMax = dto.cefrMax?.let { runCatching { CefrLevel.valueOf(it.uppercase()) }.getOrNull() } ?: cefr
+        val status = runCatching { ContentStatus.valueOf(dto.status.uppercase()) }
+            .getOrDefault(ContentStatus.ACTIVE)
 
         return Course(
             id = CourseId(dto.id),
@@ -65,7 +76,10 @@ object CurriculumMapper {
             order = dto.order,
             sectionIds = dto.sectionIds.map { SectionId(it) },
             isEnabled = dto.isEnabled,
-            cefrLevel = cefr
+            cefrLevel = cefr,
+            cefrMin = cefrMin,
+            cefrMax = cefrMax,
+            status = status
         )
     }
 
@@ -87,6 +101,7 @@ object CurriculumMapper {
             .getOrDefault(CefrLevel.A1)
         val status = runCatching { ContentStatus.valueOf(dto.status.uppercase()) }
             .getOrDefault(ContentStatus.ACTIVE)
+        val conceptDepth = dto.conceptDepth?.let { runCatching { ConceptDepth.valueOf(it.uppercase()) }.getOrNull() }
 
         return GrammarTopic(
             id = TopicId(dto.id),
@@ -99,18 +114,56 @@ object CurriculumMapper {
             difficulty = diff,
             cefrLevel = cefr,
             conceptId = dto.conceptId?.let { GrammarConceptId(it) },
+            conceptDepth = conceptDepth,
             bookReferences = dto.bookReferences.map { mapBookReference(it) },
             artworkId = dto.artworkId?.let { ArtworkId(it) },
             status = status
         )
     }
 
-    private fun mapBookReference(dto: BookReferenceDto): CurriculumBookReference {
+    fun mapBookReference(dto: BookReferenceDto): CurriculumBookReference {
         return CurriculumBookReference(
             bookId = BookId(dto.bookId),
             bookTitle = dto.bookTitle,
             edition = dto.edition,
+            editionId = dto.editionId,
             units = dto.units
+        )
+    }
+
+    fun mapBookCatalogItem(dto: GrammarBookDto): GrammarBookCatalogItem {
+        val level = runCatching { CourseLevel.valueOf(dto.targetLevel.uppercase()) }
+            .getOrDefault(CourseLevel.BEGINNER)
+        return GrammarBookCatalogItem(
+            id = BookId(dto.id),
+            title = dto.title,
+            author = dto.author,
+            targetLevel = level,
+            editions = dto.editions.map { mapBookEdition(it) }
+        )
+    }
+
+    private fun mapBookEdition(dto: BookEditionDto): BookEdition {
+        return BookEdition(
+            id = dto.id,
+            editionName = dto.editionName,
+            publicationYear = dto.publicationYear,
+            totalUnits = dto.totalUnits
+        )
+    }
+
+    fun mapGrammarConcept(dto: GrammarConceptDto): GrammarConcept {
+        val introduced = runCatching { CourseLevel.valueOf(dto.introducedIn.uppercase()) }
+            .getOrDefault(CourseLevel.BEGINNER)
+        val mastered = runCatching { CourseLevel.valueOf(dto.masteredIn.uppercase()) }
+            .getOrDefault(CourseLevel.ADVANCED)
+        return GrammarConcept(
+            id = GrammarConceptId(dto.id),
+            canonicalName = dto.canonicalName,
+            description = dto.description,
+            category = dto.category,
+            introducedIn = introduced,
+            masteredIn = mastered
         )
     }
 

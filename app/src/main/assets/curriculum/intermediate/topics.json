@@ -1,27 +1,2840 @@
 [
   {
-    "id": "present_perfect_intro",
-    "sectionId": "sec_present_perfect",
-    "title": "Present Perfect: Form & Meaning",
-    "shortDescription": "Connect past events to the present moment using have/has + past participle.",
+    "id": "intermediate_present_simple_continuous_contrast",
+    "sectionId": "intermediate_present_past_review",
+    "title": "Present Continuous vs Present Simple: Dynamic & Stative",
+    "shortDescription": "Contrast actions in progress and temporary situations with permanent habits and stative verbs.",
     "order": 1,
     "lessonIds": [
-      "lesson_pp_form",
-      "lesson_pp_since_for"
+      "lesson_intermediate_present_simple_continuous_contrast"
     ],
     "prerequisites": [],
     "difficulty": "NORMAL",
     "cefrLevel": "B1",
-    "conceptId": "concept_present_perfect",
+    "conceptId": "concept_present_simple",
+    "conceptDepth": "CONTRAST",
     "bookReferences": [
       {
-        "bookId": "murphy_in_use",
-        "bookTitle": "English Grammar in Use (Murphy)",
-        "edition": "5th Edition",
-        "units": [7, 8, 11, 12]
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          1,
+          2,
+          3,
+          4
+        ]
       }
+    ]
+  },
+  {
+    "id": "intermediate_past_simple_continuous_narrative",
+    "sectionId": "intermediate_present_past_review",
+    "title": "Past Simple vs Past Continuous: Action & Background",
+    "shortDescription": "Differentiate sequential completed past events from interrupted ongoing background scenes.",
+    "order": 2,
+    "lessonIds": [
+      "lesson_intermediate_past_simple_continuous_narrative"
     ],
-    "artworkId": "art_topic_valley",
-    "status": "ACTIVE"
+    "prerequisites": [
+      "intermediate_present_simple_continuous_contrast"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_past_continuous",
+    "conceptDepth": "CONTRAST",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          5,
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_present_perfect_simple",
+    "sectionId": "intermediate_present_perfect_past",
+    "title": "Present Perfect Simple: Recent Results & Life Experiences",
+    "shortDescription": "Connect past actions to present consequences and discuss life experiences up to now.",
+    "order": 1,
+    "lessonIds": [
+      "lesson_intermediate_present_perfect_simple"
+    ],
+    "prerequisites": [
+      "intermediate_past_simple_continuous_narrative"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_present_perfect",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          7,
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_present_perfect_continuous",
+    "sectionId": "intermediate_present_perfect_past",
+    "title": "Present Perfect Continuous: Duration & Ongoing Activity",
+    "shortDescription": "Highlight ongoing duration, unfinished processes, and visible present side-effects.",
+    "order": 2,
+    "lessonIds": [
+      "lesson_intermediate_present_perfect_continuous"
+    ],
+    "prerequisites": [
+      "intermediate_present_perfect_simple"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_present_perfect",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_present_perfect_simple_vs_continuous",
+    "sectionId": "intermediate_present_perfect_past",
+    "title": "Present Perfect Simple vs Continuous: Result vs Activity",
+    "shortDescription": "Distinguish between completed quantity/outcome and uninterrupted ongoing duration.",
+    "order": 3,
+    "lessonIds": [
+      "lesson_intermediate_present_perfect_simple_vs_continuous"
+    ],
+    "prerequisites": [
+      "intermediate_present_perfect_continuous"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_present_perfect",
+    "conceptDepth": "CONTRAST",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_present_perfect_how_long_for_since",
+    "sectionId": "intermediate_present_perfect_past",
+    "title": "Duration Questions & Time Frames: How Long, For and Since",
+    "shortDescription": "Ask about continuing situations and specify duration starting points versus total periods.",
+    "order": 4,
+    "lessonIds": [
+      "lesson_intermediate_present_perfect_how_long_for_since"
+    ],
+    "prerequisites": [
+      "intermediate_present_perfect_simple"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_present_perfect",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_present_perfect_vs_past_simple",
+    "sectionId": "intermediate_present_perfect_past",
+    "title": "Present Perfect vs Past Simple: Open vs Finished Time",
+    "shortDescription": "Select correctly between past finished time markers and open, current time relevance.",
+    "order": 5,
+    "lessonIds": [
+      "lesson_intermediate_present_perfect_vs_past_simple"
+    ],
+    "prerequisites": [
+      "intermediate_present_perfect_how_long_for_since"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_present_perfect",
+    "conceptDepth": "CONTRAST",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_past_perfect_simple",
+    "sectionId": "intermediate_present_perfect_past",
+    "title": "Past Perfect Simple: The Earlier Past in Narrative",
+    "shortDescription": "Establish chronological clarity when an action occurred before another past milestone.",
+    "order": 6,
+    "lessonIds": [
+      "lesson_intermediate_past_perfect_simple"
+    ],
+    "prerequisites": [
+      "intermediate_present_perfect_vs_past_simple"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_past_perfect",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          15
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_past_perfect_continuous",
+    "sectionId": "intermediate_present_perfect_past",
+    "title": "Past Perfect Continuous: Cause & Duration Before a Past Point",
+    "shortDescription": "Explain earlier continuous activities that produced visible past outcomes.",
+    "order": 7,
+    "lessonIds": [
+      "lesson_intermediate_past_perfect_continuous"
+    ],
+    "prerequisites": [
+      "intermediate_past_perfect_simple"
+    ],
+    "difficulty": "HARD",
+    "cefrLevel": "B2",
+    "conceptId": "concept_past_perfect",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_have_and_have_got",
+    "sectionId": "intermediate_present_perfect_past",
+    "title": "Possession & States: Have and Have Got",
+    "shortDescription": "Use have and have got for possession, relationships, illnesses, and habitual actions.",
+    "order": 8,
+    "lessonIds": [
+      "lesson_intermediate_have_and_have_got"
+    ],
+    "prerequisites": [
+      "intermediate_present_simple_continuous_contrast"
+    ],
+    "difficulty": "EASY",
+    "cefrLevel": "B1",
+    "conceptId": "concept_present_simple",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_used_to_past_habits",
+    "sectionId": "intermediate_present_perfect_past",
+    "title": "Past Habits & States: Used to",
+    "shortDescription": "Contrast discontinued past habits and states with present realities.",
+    "order": 9,
+    "lessonIds": [
+      "lesson_intermediate_used_to_past_habits"
+    ],
+    "prerequisites": [
+      "intermediate_past_simple_continuous_narrative"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_past_simple",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_future_present_tenses_going_to",
+    "sectionId": "intermediate_future",
+    "title": "Arrangements & Intentions: Present Tenses and Going to",
+    "shortDescription": "Distinguish fixed personal arrangements from planned prior intentions and physical evidence.",
+    "order": 1,
+    "lessonIds": [
+      "lesson_intermediate_future_present_tenses_going_to"
+    ],
+    "prerequisites": [
+      "intermediate_present_simple_continuous_contrast"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_future",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_future_will_shall_decisions",
+    "sectionId": "intermediate_future",
+    "title": "Instant Decisions & Offers: Will and Shall",
+    "shortDescription": "Employ will for spontaneous decisions, offers, promises, and shall for first-person suggestions.",
+    "order": 2,
+    "lessonIds": [
+      "lesson_intermediate_future_will_shall_decisions"
+    ],
+    "prerequisites": [
+      "intermediate_future_present_tenses_going_to"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_future",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          21,
+          22
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_future_will_vs_going_to",
+    "sectionId": "intermediate_future",
+    "title": "Predictions & Plans: Will vs Going to",
+    "shortDescription": "Contrast belief-based predictions with predictions grounded in visible present clues.",
+    "order": 3,
+    "lessonIds": [
+      "lesson_intermediate_future_will_vs_going_to"
+    ],
+    "prerequisites": [
+      "intermediate_future_will_shall_decisions"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_future",
+    "conceptDepth": "CONTRAST",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          23
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_future_continuous_and_perfect",
+    "sectionId": "intermediate_future",
+    "title": "Future in Progress & Completion: Will Be Doing and Will Have Done",
+    "shortDescription": "Describe actions ongoing at a specific future moment and actions completed prior to a deadline.",
+    "order": 4,
+    "lessonIds": [
+      "lesson_intermediate_future_continuous_and_perfect"
+    ],
+    "prerequisites": [
+      "intermediate_future_will_vs_going_to"
+    ],
+    "difficulty": "HARD",
+    "cefrLevel": "B2",
+    "conceptId": "concept_future",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          24
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_future_time_clauses",
+    "sectionId": "intermediate_future",
+    "title": "Future Time & Conditional Clauses: When, As Soon As, If",
+    "shortDescription": "Apply present forms in subordinate clauses of time and condition referring to the future.",
+    "order": 5,
+    "lessonIds": [
+      "lesson_intermediate_future_time_clauses"
+    ],
+    "prerequisites": [
+      "intermediate_future_will_vs_going_to"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_future",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          25
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_modal_ability_can_could_able",
+    "sectionId": "intermediate_modals",
+    "title": "Ability & Possibility: Can, Could and Be Able To",
+    "shortDescription": "Express general ability versus specific past successful achievements with managed to / was able to.",
+    "order": 1,
+    "lessonIds": [
+      "lesson_intermediate_modal_ability_can_could_able"
+    ],
+    "prerequisites": [],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_modals",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          26
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_modal_past_ability_could_have",
+    "sectionId": "intermediate_modals",
+    "title": "Past Opportunity & Unrealised Action: Could Have Done",
+    "shortDescription": "Discuss actions that were possible in the past but were not actually carried out.",
+    "order": 2,
+    "lessonIds": [
+      "lesson_intermediate_modal_past_ability_could_have"
+    ],
+    "prerequisites": [
+      "intermediate_modal_ability_can_could_able"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B2",
+    "conceptId": "concept_modals",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          27
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_modal_deduction_present",
+    "sectionId": "intermediate_modals",
+    "title": "Logical Deduction: Must and Can't",
+    "shortDescription": "Formulate strong logical certainty and impossibility based on present evidence.",
+    "order": 3,
+    "lessonIds": [
+      "lesson_intermediate_modal_deduction_present"
+    ],
+    "prerequisites": [
+      "intermediate_modal_ability_can_could_able"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_modals",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          28
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_modal_possibility_may_might",
+    "sectionId": "intermediate_modals",
+    "title": "Possibility & Speculation: May and Might",
+    "shortDescription": "Indicate tentative possibility in present and future contexts, and retrospective speculation.",
+    "order": 4,
+    "lessonIds": [
+      "lesson_intermediate_modal_possibility_may_might"
+    ],
+    "prerequisites": [
+      "intermediate_modal_deduction_present"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_modals",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          29,
+          30
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_modal_obligation_must_have_to",
+    "sectionId": "intermediate_modals",
+    "title": "Obligation & Necessity: Must and Have to",
+    "shortDescription": "Differentiate internal personal obligation from external authority, rules, or laws.",
+    "order": 5,
+    "lessonIds": [
+      "lesson_intermediate_modal_obligation_must_have_to"
+    ],
+    "prerequisites": [
+      "intermediate_modal_deduction_present"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_modals",
+    "conceptDepth": "CONTRAST",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          31
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_modal_prohibition_lack_necessity",
+    "sectionId": "intermediate_modals",
+    "title": "Prohibition & Absence of Obligation: Mustn't vs Needn't",
+    "shortDescription": "Contrast strict prohibition with lack of necessity (needn't / don't have to / didn't need to).",
+    "order": 6,
+    "lessonIds": [
+      "lesson_intermediate_modal_prohibition_lack_necessity"
+    ],
+    "prerequisites": [
+      "intermediate_modal_obligation_must_have_to"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_modals",
+    "conceptDepth": "CONTRAST",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_modal_advice_should_had_better",
+    "sectionId": "intermediate_modals",
+    "title": "Advice, Expectation & Warning: Should, Ought to, Had Better",
+    "shortDescription": "Give sensible advice, express past regret (should have done), and issue urgent warnings.",
+    "order": 7,
+    "lessonIds": [
+      "lesson_intermediate_modal_advice_should_had_better"
+    ],
+    "prerequisites": [
+      "intermediate_modal_obligation_must_have_to"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_modals",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          33,
+          34,
+          35
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_modal_would_habits_hypothetical",
+    "sectionId": "intermediate_modals",
+    "title": "Hypothetical Actions & Past Habits: Would",
+    "shortDescription": "Employ would for imaginary situations, past recurring actions, and polite willingness.",
+    "order": 8,
+    "lessonIds": [
+      "lesson_intermediate_modal_would_habits_hypothetical"
+    ],
+    "prerequisites": [
+      "intermediate_modal_advice_should_had_better"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B2",
+    "conceptId": "concept_modals",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_modal_requests_permission_offers",
+    "sectionId": "intermediate_modals",
+    "title": "Social Formulae: Requests, Offers, Permission & Invitations",
+    "shortDescription": "Select appropriate degrees of politeness in everyday spoken communicative scenarios.",
+    "order": 9,
+    "lessonIds": [
+      "lesson_intermediate_modal_requests_permission_offers"
+    ],
+    "prerequisites": [
+      "intermediate_modal_ability_can_could_able"
+    ],
+    "difficulty": "EASY",
+    "cefrLevel": "B1",
+    "conceptId": "concept_modals",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          37
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_conditional_real_and_hypothetical",
+    "sectionId": "intermediate_conditionals_wish",
+    "title": "Real vs Hypothetical: If I do vs If I did",
+    "shortDescription": "Contrast open real possibilities with improbable hypothetical present or future scenarios.",
+    "order": 1,
+    "lessonIds": [
+      "lesson_intermediate_conditional_real_and_hypothetical"
+    ],
+    "prerequisites": [
+      "intermediate_modal_would_habits_hypothetical"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_conditionals",
+    "conceptDepth": "CONTRAST",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          38
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_conditional_unreal_present_wish",
+    "sectionId": "intermediate_conditionals_wish",
+    "title": "Unreal Present & Regret: If I knew and I wish I knew",
+    "shortDescription": "Formulate counterfactual present states and express discontent about current circumstances.",
+    "order": 2,
+    "lessonIds": [
+      "lesson_intermediate_conditional_unreal_present_wish"
+    ],
+    "prerequisites": [
+      "intermediate_conditional_real_and_hypothetical"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_conditionals",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          39
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_conditional_hypothetical_past_third",
+    "sectionId": "intermediate_conditionals_wish",
+    "title": "Past Regret & Third Conditional: If I had known",
+    "shortDescription": "Analyse unfulfilled past conditions and their impossible consequences in retrospective evaluation.",
+    "order": 3,
+    "lessonIds": [
+      "lesson_intermediate_conditional_hypothetical_past_third"
+    ],
+    "prerequisites": [
+      "intermediate_conditional_unreal_present_wish"
+    ],
+    "difficulty": "HARD",
+    "cefrLevel": "B2",
+    "conceptId": "concept_conditionals",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          40
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_wish_patterns_would",
+    "sectionId": "intermediate_conditionals_wish",
+    "title": "Desire for Change & Annoyance: Wish + Would",
+    "shortDescription": "Express frustration about current annoying habits and desire for another agent to change behavior.",
+    "order": 4,
+    "lessonIds": [
+      "lesson_intermediate_wish_patterns_would"
+    ],
+    "prerequisites": [
+      "intermediate_conditional_unreal_present_wish"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B2",
+    "conceptId": "concept_conditionals",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          41
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_passive_core_tenses",
+    "sectionId": "intermediate_passive",
+    "title": "Passive Formation: Present & Past Simple",
+    "shortDescription": "Shift discourse focus to the patient/recipient of action across basic tenses.",
+    "order": 1,
+    "lessonIds": [
+      "lesson_intermediate_passive_core_tenses"
+    ],
+    "prerequisites": [],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_passive",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          42
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_passive_complex_aspects_modals",
+    "sectionId": "intermediate_passive",
+    "title": "Complex Passives: Continuous, Perfect and Modal Structures",
+    "shortDescription": "Construct passive sentences with being done, have been done, and modal auxiliaries.",
+    "order": 2,
+    "lessonIds": [
+      "lesson_intermediate_passive_complex_aspects_modals"
+    ],
+    "prerequisites": [
+      "intermediate_passive_core_tenses"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_passive",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          43,
+          44
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_passive_reporting_structures",
+    "sectionId": "intermediate_passive",
+    "title": "Impersonal Reporting: It is said that / He is said to",
+    "shortDescription": "Use formal distance in news and reporting with introductory passive matrices and nominative infinitives.",
+    "order": 3,
+    "lessonIds": [
+      "lesson_intermediate_passive_reporting_structures"
+    ],
+    "prerequisites": [
+      "intermediate_passive_complex_aspects_modals"
+    ],
+    "difficulty": "HARD",
+    "cefrLevel": "B2",
+    "conceptId": "concept_passive",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          45
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_passive_causative_have_done",
+    "sectionId": "intermediate_passive",
+    "title": "Causative Services: Have Something Done",
+    "shortDescription": "Express arranging for professional services or suffering misfortune with have/get + object + V3.",
+    "order": 4,
+    "lessonIds": [
+      "lesson_intermediate_passive_causative_have_done"
+    ],
+    "prerequisites": [
+      "intermediate_passive_core_tenses"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_passive",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          46
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_reported_speech_statements_backshift",
+    "sectionId": "intermediate_reported_speech",
+    "title": "Reported Statements: Tense Backshift & Time References",
+    "shortDescription": "Accurately adjust verb tenses, pronouns, and time/place adverbs in indirect statements.",
+    "order": 1,
+    "lessonIds": [
+      "lesson_intermediate_reported_speech_statements_backshift"
+    ],
+    "prerequisites": [],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_reported_speech",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          47
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_reported_speech_questions_reporting_verbs",
+    "sectionId": "intermediate_reported_speech",
+    "title": "Reported Questions, Orders & Reporting Verb Patterns",
+    "shortDescription": "Form indirect questions with whether/if and deploy advanced verbs (admit, deny, advise, warn).",
+    "order": 2,
+    "lessonIds": [
+      "lesson_intermediate_reported_speech_questions_reporting_verbs"
+    ],
+    "prerequisites": [
+      "intermediate_reported_speech_statements_backshift"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B2",
+    "conceptId": "concept_reported_speech",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          48
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_question_formation_prepositions",
+    "sectionId": "intermediate_questions_auxiliaries",
+    "title": "Direct Question Formation & Preposition Stranding",
+    "shortDescription": "Structure complex questions and leave dependent prepositions naturally at sentence ends.",
+    "order": 1,
+    "lessonIds": [
+      "lesson_intermediate_question_formation_prepositions"
+    ],
+    "prerequisites": [],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_questions",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          49
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_indirect_embedded_questions",
+    "sectionId": "intermediate_questions_auxiliaries",
+    "title": "Indirect Questions: Do you know where...? / He asked me where...",
+    "shortDescription": "Maintain affirmative word order inside polite embedded and indirect question clauses.",
+    "order": 2,
+    "lessonIds": [
+      "lesson_intermediate_indirect_embedded_questions"
+    ],
+    "prerequisites": [
+      "intermediate_question_formation_prepositions"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_questions",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          50
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_auxiliary_substitution_agreement",
+    "sectionId": "intermediate_questions_auxiliaries",
+    "title": "Auxiliary Substitution: So do I, Neither do I, I think so",
+    "shortDescription": "Avoid clunky repetition using auxiliary echo responses, inverted agreement, and pro-form so/not.",
+    "order": 3,
+    "lessonIds": [
+      "lesson_intermediate_auxiliary_substitution_agreement"
+    ],
+    "prerequisites": [
+      "intermediate_question_formation_prepositions"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_auxiliary_verbs",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          51
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_question_tags",
+    "sectionId": "intermediate_questions_auxiliaries",
+    "title": "Question Tags: Seeking Confirmation vs Real Questions",
+    "shortDescription": "Match polarity correctly and modulate intonation between genuine inquiries and casual checks.",
+    "order": 4,
+    "lessonIds": [
+      "lesson_intermediate_question_tags"
+    ],
+    "prerequisites": [
+      "intermediate_auxiliary_substitution_agreement"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_questions",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          52
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_verb_plus_ing",
+    "sectionId": "intermediate_verb_patterns",
+    "title": "Verb + -ing: Enjoy, Mind, Suggest",
+    "shortDescription": "Identify verbs systematically taking gerund complements and practice idiomatic usage.",
+    "order": 1,
+    "lessonIds": [
+      "lesson_intermediate_verb_plus_ing"
+    ],
+    "prerequisites": [],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_gerund_infinitive",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          53
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_verb_plus_to_infinitive",
+    "sectionId": "intermediate_verb_patterns",
+    "title": "Verb + to-Infinitive: Decide, Forget, Promise",
+    "shortDescription": "Master verbs followed by to-infinitive including prospective decisions and commitments.",
+    "order": 2,
+    "lessonIds": [
+      "lesson_intermediate_verb_plus_to_infinitive"
+    ],
+    "prerequisites": [
+      "intermediate_verb_plus_ing"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_gerund_infinitive",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_verb_object_to_infinitive",
+    "sectionId": "intermediate_verb_patterns",
+    "title": "Verb + Object + to-Infinitive: Want someone to do, Advise",
+    "shortDescription": "Structure manipulative and advisory verbs followed by noun object and infinitive clause.",
+    "order": 3,
+    "lessonIds": [
+      "lesson_intermediate_verb_object_to_infinitive"
+    ],
+    "prerequisites": [
+      "intermediate_verb_plus_to_infinitive"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_verb_patterns",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          55
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_verb_ing_or_to_meaning_change",
+    "sectionId": "intermediate_verb_patterns",
+    "title": "Meaning Shifts: Remember, Regret, Stop doing vs to do",
+    "shortDescription": "Discriminate crucial semantic differences when complement changes from -ing to to-infinitive.",
+    "order": 4,
+    "lessonIds": [
+      "lesson_intermediate_verb_ing_or_to_meaning_change"
+    ],
+    "prerequisites": [
+      "intermediate_verb_plus_to_infinitive"
+    ],
+    "difficulty": "HARD",
+    "cefrLevel": "B2",
+    "conceptId": "concept_gerund_infinitive",
+    "conceptDepth": "CONTRAST",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          56
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_verb_ing_or_to_try_need_help",
+    "sectionId": "intermediate_verb_patterns",
+    "title": "Subtle Pattern Differences: Try, Need, Help",
+    "shortDescription": "Grasp nuanced complementations: experiment vs attempt (try) and passive meaning (need doing).",
+    "order": 5,
+    "lessonIds": [
+      "lesson_intermediate_verb_ing_or_to_try_need_help"
+    ],
+    "prerequisites": [
+      "intermediate_verb_ing_or_to_meaning_change"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B2",
+    "conceptId": "concept_gerund_infinitive",
+    "conceptDepth": "CONTRAST",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          57
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_verb_like_would_like_preferences",
+    "sectionId": "intermediate_verb_patterns",
+    "title": "Preferences: Like doing vs Like to do, Would like",
+    "shortDescription": "Distinguish enjoyment of activity from prudent habitual choices and conditional desires.",
+    "order": 6,
+    "lessonIds": [
+      "lesson_intermediate_verb_like_would_like_preferences"
+    ],
+    "prerequisites": [
+      "intermediate_verb_plus_ing"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_gerund_infinitive",
+    "conceptDepth": "CONTRAST",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          58
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_prefer_and_would_rather",
+    "sectionId": "intermediate_verb_patterns",
+    "title": "Expressing Preference: Prefer and Would Rather",
+    "shortDescription": "Compare options using prefer ... to ... and would rather ... than with base verb forms.",
+    "order": 7,
+    "lessonIds": [
+      "lesson_intermediate_prefer_and_would_rather"
+    ],
+    "prerequisites": [
+      "intermediate_verb_like_would_like_preferences"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_gerund_infinitive",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          59
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_preposition_plus_ing",
+    "sectionId": "intermediate_verb_patterns",
+    "title": "Preposition + -ing: Before leaving, Instead of waiting",
+    "shortDescription": "Apply the inviolable rule that prepositions must be followed by a gerund when taking verbal objects.",
+    "order": 8,
+    "lessonIds": [
+      "lesson_intermediate_preposition_plus_ing"
+    ],
+    "prerequisites": [
+      "intermediate_verb_plus_ing"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_gerund_infinitive",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          60
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_be_get_used_to_doing",
+    "sectionId": "intermediate_verb_patterns",
+    "title": "Familiarity: Be Used to and Get Used to doing",
+    "shortDescription": "Separate psychological familiarity (be used to + -ing) from discontinued past habits (used to + inf).",
+    "order": 9,
+    "lessonIds": [
+      "lesson_intermediate_be_get_used_to_doing"
+    ],
+    "prerequisites": [
+      "intermediate_preposition_plus_ing"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_gerund_infinitive",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          61
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_verb_preposition_ing",
+    "sectionId": "intermediate_verb_patterns",
+    "title": "Verb + Preposition + -ing: Succeed in, Insist on",
+    "shortDescription": "Combine dependent verbal prepositions smoothly with downstream gerund phrases.",
+    "order": 10,
+    "lessonIds": [
+      "lesson_intermediate_verb_preposition_ing"
+    ],
+    "prerequisites": [
+      "intermediate_preposition_plus_ing"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B2",
+    "conceptId": "concept_verb_patterns",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          62
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_fixed_ing_expressions",
+    "sectionId": "intermediate_verb_patterns",
+    "title": "Special -ing Idioms: There's no point in, Worth, Have difficulty",
+    "shortDescription": "Learn high-frequency colloquial formulas governing fixed gerund expressions.",
+    "order": 11,
+    "lessonIds": [
+      "lesson_intermediate_fixed_ing_expressions"
+    ],
+    "prerequisites": [
+      "intermediate_preposition_plus_ing"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B2",
+    "conceptId": "concept_gerund_infinitive",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_infinitive_of_purpose_so_that",
+    "sectionId": "intermediate_verb_patterns",
+    "title": "Expressing Purpose: To do, For doing, and So that",
+    "shortDescription": "Articulate intention and function cleanly using infinitives of purpose or finite so that clauses.",
+    "order": 12,
+    "lessonIds": [
+      "lesson_intermediate_infinitive_of_purpose_so_that"
+    ],
+    "prerequisites": [
+      "intermediate_verb_plus_to_infinitive"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_gerund_infinitive",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_adjective_plus_to_infinitive",
+    "sectionId": "intermediate_verb_patterns",
+    "title": "Adjective + to-Infinitive: Difficult to do, Glad to hear",
+    "shortDescription": "Link evaluation and emotional reaction adjectives to following explanatory infinitive phrases.",
+    "order": 13,
+    "lessonIds": [
+      "lesson_intermediate_adjective_plus_to_infinitive"
+    ],
+    "prerequisites": [
+      "intermediate_verb_plus_to_infinitive"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_adjectives_adverbs",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          65
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_afraid_to_vs_afraid_of_ing",
+    "sectionId": "intermediate_verb_patterns",
+    "title": "Specific Nuance: Afraid to do vs Afraid of doing",
+    "shortDescription": "Contrast deliberate unwillingness to act with apprehension of involuntary accidents.",
+    "order": 14,
+    "lessonIds": [
+      "lesson_intermediate_afraid_to_vs_afraid_of_ing"
+    ],
+    "prerequisites": [
+      "intermediate_adjective_plus_to_infinitive"
+    ],
+    "difficulty": "HARD",
+    "cefrLevel": "B2",
+    "conceptId": "concept_gerund_infinitive",
+    "conceptDepth": "CONTRAST",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_sensory_verbs_bare_vs_participle",
+    "sectionId": "intermediate_verb_patterns",
+    "title": "Perception Verbs: See somebody do vs See somebody doing",
+    "shortDescription": "Distinguish between witnessing a complete event and perceiving an action in mid-progress.",
+    "order": 15,
+    "lessonIds": [
+      "lesson_intermediate_sensory_verbs_bare_vs_participle"
+    ],
+    "prerequisites": [
+      "intermediate_verb_plus_ing"
+    ],
+    "difficulty": "HARD",
+    "cefrLevel": "B2",
+    "conceptId": "concept_verb_patterns",
+    "conceptDepth": "CONTRAST",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_participle_ing_clauses",
+    "sectionId": "intermediate_verb_patterns",
+    "title": "-ing Participle Clauses: Feeling tired, he went to bed",
+    "shortDescription": "Condense complex background causes and simultaneous actions using adverbial participle clauses.",
+    "order": 16,
+    "lessonIds": [
+      "lesson_intermediate_participle_ing_clauses"
+    ],
+    "prerequisites": [
+      "intermediate_preposition_plus_ing"
+    ],
+    "difficulty": "HARD",
+    "cefrLevel": "B2",
+    "conceptId": "concept_relative_clauses",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_countable_uncountable_contrasts",
+    "sectionId": "intermediate_articles_nouns",
+    "title": "Countable vs Uncountable Nouns & Category Shifts",
+    "shortDescription": "Navigate dual-membership nouns whose countability alters their meaning (coffee, experience, paper).",
+    "order": 1,
+    "lessonIds": [
+      "lesson_intermediate_countable_uncountable_contrasts"
+    ],
+    "prerequisites": [],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_articles",
+    "conceptDepth": "CONTRAST",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          69,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_nouns_a_an_and_some",
+    "sectionId": "intermediate_articles_nouns",
+    "title": "Singular & Plural Reference: A/An with Countable, Some with Uncountable",
+    "shortDescription": "Deploy indefinite determiners properly according to noun number and countability status.",
+    "order": 2,
+    "lessonIds": [
+      "lesson_intermediate_nouns_a_an_and_some"
+    ],
+    "prerequisites": [
+      "intermediate_countable_uncountable_contrasts"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_articles",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_a_an_vs_the_core_contrast",
+    "sectionId": "intermediate_articles_nouns",
+    "title": "Specific vs Non-Specific Reference: A/An vs The",
+    "shortDescription": "Master hearer-shared knowledge and contextual uniqueness determining the definite article.",
+    "order": 3,
+    "lessonIds": [
+      "lesson_intermediate_a_an_vs_the_core_contrast"
+    ],
+    "prerequisites": [
+      "intermediate_nouns_a_an_and_some"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_articles",
+    "conceptDepth": "CONTRAST",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          72,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_the_with_institutions_and_general",
+    "sectionId": "intermediate_articles_nouns",
+    "title": "Institutional Zero Article: School vs The School, Bed vs The Bed",
+    "shortDescription": "Contrast primary institutional purpose (go to prison) with reference to physical buildings.",
+    "order": 4,
+    "lessonIds": [
+      "lesson_intermediate_the_with_institutions_and_general"
+    ],
+    "prerequisites": [
+      "intermediate_a_an_vs_the_core_contrast"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_articles",
+    "conceptDepth": "CONTRAST",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_the_with_groups_and_generics",
+    "sectionId": "intermediate_articles_nouns",
+    "title": "General Classes vs Particular Groups: Children vs The Children, The Giraffe",
+    "shortDescription": "Use zero article for universal plural generic claims and definite article for representative species.",
+    "order": 5,
+    "lessonIds": [
+      "lesson_intermediate_the_with_groups_and_generics"
+    ],
+    "prerequisites": [
+      "intermediate_the_with_institutions_and_general"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B2",
+    "conceptId": "concept_articles",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          75,
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_the_with_geographical_names",
+    "sectionId": "intermediate_articles_nouns",
+    "title": "Proper Names & Geography with and without The",
+    "shortDescription": "Command conventions governing oceans, mountain ranges, individual peaks, streets, and hotels.",
+    "order": 6,
+    "lessonIds": [
+      "lesson_intermediate_the_with_geographical_names"
+    ],
+    "prerequisites": [
+      "intermediate_a_an_vs_the_core_contrast"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_articles",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          77,
+          78
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_noun_plural_compounds_possessives",
+    "sectionId": "intermediate_articles_nouns",
+    "title": "Noun Forms: Plurals, Noun + Noun Compounds, and Possessive 's vs Of",
+    "shortDescription": "Determine when to use apostrophe possessive versus prepositional of phrases and noun premodifiers.",
+    "order": 7,
+    "lessonIds": [
+      "lesson_intermediate_noun_plural_compounds_possessives"
+    ],
+    "prerequisites": [
+      "intermediate_countable_uncountable_contrasts"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_determiners",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          79,
+          80,
+          81
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_reflexive_pronouns_own",
+    "sectionId": "intermediate_pronouns_determiners",
+    "title": "Reflexives & Independence: Myself, On my own, By myself",
+    "shortDescription": "Employ reflexive pronouns for co-referential actions and emphatic independence.",
+    "order": 1,
+    "lessonIds": [
+      "lesson_intermediate_reflexive_pronouns_own"
+    ],
+    "prerequisites": [],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_pronouns",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          82,
+          83
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_there_and_it_contrast",
+    "sectionId": "intermediate_pronouns_determiners",
+    "title": "Existential and Anticipatory: There vs It",
+    "shortDescription": "Distinguish new entity introduction with there from referential and dummy it expressions.",
+    "order": 2,
+    "lessonIds": [
+      "lesson_intermediate_there_and_it_contrast"
+    ],
+    "prerequisites": [
+      "intermediate_reflexive_pronouns_own"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_there_it",
+    "conceptDepth": "CONTRAST",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          84
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_some_and_any_compounds",
+    "sectionId": "intermediate_pronouns_determiners",
+    "title": "Assertive vs Non-Assertive: Some, Any, and Indefinite Compounds",
+    "shortDescription": "Select some in positive invitations and any in negative, interrogative, or arbitrary contexts.",
+    "order": 3,
+    "lessonIds": [
+      "lesson_intermediate_some_and_any_compounds"
+    ],
+    "prerequisites": [],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_determiners",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          85,
+          86
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_quantifiers_much_many_few_little",
+    "sectionId": "intermediate_pronouns_determiners",
+    "title": "Quantifiers: Much/Many vs Few/A few, Little/A little",
+    "shortDescription": "Differentiate positive perspective (a few/a little) from restrictive negative scarcity (few/little).",
+    "order": 4,
+    "lessonIds": [
+      "lesson_intermediate_quantifiers_much_many_few_little"
+    ],
+    "prerequisites": [
+      "intermediate_some_and_any_compounds"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_determiners",
+    "conceptDepth": "CONTRAST",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          87
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_distributives_both_neither_either",
+    "sectionId": "intermediate_pronouns_determiners",
+    "title": "Binary Distributives: Both, Neither, and Either (of)",
+    "shortDescription": "Accurately coordinate two entities and ensure correct subject-verb agreement.",
+    "order": 5,
+    "lessonIds": [
+      "lesson_intermediate_distributives_both_neither_either"
+    ],
+    "prerequisites": [
+      "intermediate_quantifiers_much_many_few_little"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_determiners",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          89
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_totality_all_most_every_whole_each",
+    "sectionId": "intermediate_pronouns_determiners",
+    "title": "Universal Quantifiers: All, Most, Whole, Every, and Each",
+    "shortDescription": "Distinguish collective totality from individual distributivity across varying noun patterns.",
+    "order": 6,
+    "lessonIds": [
+      "lesson_intermediate_totality_all_most_every_whole_each"
+    ],
+    "prerequisites": [
+      "intermediate_distributives_both_neither_either"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B2",
+    "conceptId": "concept_determiners",
+    "conceptDepth": "CONTRAST",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          88,
+          90,
+          91
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_relative_who_that_which",
+    "sectionId": "intermediate_relative_clauses",
+    "title": "Relative Pronouns: Who, That, and Which",
+    "shortDescription": "Introduce restrictive relative clauses identifying specific persons versus objects.",
+    "order": 1,
+    "lessonIds": [
+      "lesson_intermediate_relative_who_that_which"
+    ],
+    "prerequisites": [],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_relative_clauses",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          92
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_relative_pronoun_omission",
+    "sectionId": "intermediate_relative_clauses",
+    "title": "Contact Clauses: Omission of Object Relative Pronouns",
+    "shortDescription": "Identify when relative pronouns function as grammatical objects and can be omitted naturally.",
+    "order": 2,
+    "lessonIds": [
+      "lesson_intermediate_relative_pronoun_omission"
+    ],
+    "prerequisites": [
+      "intermediate_relative_who_that_which"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_relative_clauses",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          93
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_relative_whose_whom_where",
+    "sectionId": "intermediate_relative_clauses",
+    "title": "Relative Adverbs & Possessives: Whose, Whom, and Where",
+    "shortDescription": "Link possession, formal prepositional objects, and spatial antecedents inside relative clauses.",
+    "order": 3,
+    "lessonIds": [
+      "lesson_intermediate_relative_whose_whom_where"
+    ],
+    "prerequisites": [
+      "intermediate_relative_pronoun_omission"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_relative_clauses",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          94
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_relative_defining_vs_non_defining",
+    "sectionId": "intermediate_relative_clauses",
+    "title": "Essential vs Extra Information: Defining and Non-Defining Relative Clauses",
+    "shortDescription": "Master punctuation, comma intonation, and pronoun restrictions (never that in extra-info).",
+    "order": 4,
+    "lessonIds": [
+      "lesson_intermediate_relative_defining_vs_non_defining"
+    ],
+    "prerequisites": [
+      "intermediate_relative_whose_whom_where"
+    ],
+    "difficulty": "HARD",
+    "cefrLevel": "B2",
+    "conceptId": "concept_relative_clauses",
+    "conceptDepth": "CONTRAST",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          95,
+          96
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_relative_reduced_participle_clauses",
+    "sectionId": "intermediate_relative_clauses",
+    "title": "Reduced Relatives: -ing and -ed Participial Postmodifiers",
+    "shortDescription": "Streamline complex clauses into concise active (-ing) and passive (-ed) postmodifiers.",
+    "order": 5,
+    "lessonIds": [
+      "lesson_intermediate_relative_reduced_participle_clauses"
+    ],
+    "prerequisites": [
+      "intermediate_relative_defining_vs_non_defining"
+    ],
+    "difficulty": "HARD",
+    "cefrLevel": "B2",
+    "conceptId": "concept_relative_clauses",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          97
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_adjectives_ing_ed_order",
+    "sectionId": "intermediate_adjectives_adverbs",
+    "title": "Participle Adjectives (-ing/-ed) and Adjective Ordering",
+    "shortDescription": "Contrast causing feelings with experiencing them, and sequence multiple descriptive adjectives.",
+    "order": 1,
+    "lessonIds": [
+      "lesson_intermediate_adjectives_ing_ed_order"
+    ],
+    "prerequisites": [],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_adjectives_adverbs",
+    "conceptDepth": "CONTRAST",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          98,
+          99
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_adjectives_and_adverbs_formation",
+    "sectionId": "intermediate_adjectives_adverbs",
+    "title": "Adjectives vs Adverbs & Irregulars: Quick/Quickly, Well, Fast, Hard/Hardly",
+    "shortDescription": "Identify linking verb complements and avoid confusion between lookalikes like hard and hardly.",
+    "order": 2,
+    "lessonIds": [
+      "lesson_intermediate_adjectives_and_adverbs_formation"
+    ],
+    "prerequisites": [
+      "intermediate_adjectives_ing_ed_order"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_adjectives_adverbs",
+    "conceptDepth": "CONTRAST",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          100,
+          101
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_degree_so_such_enough_too",
+    "sectionId": "intermediate_adjectives_adverbs",
+    "title": "Degree Modifiers: So, Such, Enough, and Too",
+    "shortDescription": "Construct consequential result clauses with so/such ... that and calibrate sufficiency/excess.",
+    "order": 3,
+    "lessonIds": [
+      "lesson_intermediate_degree_so_such_enough_too"
+    ],
+    "prerequisites": [
+      "intermediate_adjectives_and_adverbs_formation"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_adjectives_adverbs",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          102,
+          103
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_grading_quite_rather_pretty_fairly",
+    "sectionId": "intermediate_adjectives_adverbs",
+    "title": "Grading Adverbs: Quite, Pretty, Rather, and Fairly",
+    "shortDescription": "Calibrate subjective evaluation and unexpectedness across moderate grading adverbs.",
+    "order": 4,
+    "lessonIds": [
+      "lesson_intermediate_grading_quite_rather_pretty_fairly"
+    ],
+    "prerequisites": [
+      "intermediate_degree_so_such_enough_too"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B2",
+    "conceptId": "concept_adjectives_adverbs",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          104
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_comparatives_modifiers",
+    "sectionId": "intermediate_adjectives_adverbs",
+    "title": "Comparative Forms & Modifiers: Much better, Far more, Any better",
+    "shortDescription": "Qualify differences using degree submodifiers like slightly, considerably, and nowhere near.",
+    "order": 5,
+    "lessonIds": [
+      "lesson_intermediate_comparatives_modifiers"
+    ],
+    "prerequisites": [
+      "intermediate_adjectives_and_adverbs_formation"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_adjectives_adverbs",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          105,
+          106
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_equality_and_superlatives",
+    "sectionId": "intermediate_adjectives_adverbs",
+    "title": "Comparisons of Equality & Superlatives: As...as, Than, The most",
+    "shortDescription": "Express equivalence, proportional changes (the more... the better), and superlative boundaries.",
+    "order": 6,
+    "lessonIds": [
+      "lesson_intermediate_equality_and_superlatives"
+    ],
+    "prerequisites": [
+      "intermediate_comparatives_modifiers"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_adjectives_adverbs",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          107,
+          108
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_word_order_verb_object_place_time",
+    "sectionId": "intermediate_word_order_focus",
+    "title": "Clause Order: Verb + Object, Sequencing Place and Time",
+    "shortDescription": "Prevent constituent splitting between transitive verb and object, and sequence place before time.",
+    "order": 1,
+    "lessonIds": [
+      "lesson_intermediate_word_order_verb_object_place_time"
+    ],
+    "prerequisites": [],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_word_order",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          109
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_adverb_position_with_verbs",
+    "sectionId": "intermediate_word_order_focus",
+    "title": "Adverb Positions: Mid-Position with Auxiliaries and Main Verbs",
+    "shortDescription": "Place frequency and certainty adverbs accurately before lexical verbs and after auxiliaries/be.",
+    "order": 2,
+    "lessonIds": [
+      "lesson_intermediate_adverb_position_with_verbs"
+    ],
+    "prerequisites": [
+      "intermediate_word_order_verb_object_place_time"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_word_order",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          110
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_aspectual_adverbs_still_yet_already",
+    "sectionId": "intermediate_word_order_focus",
+    "title": "Temporal Adverbs: Still, Yet, Already, and Any More",
+    "shortDescription": "Contribute aspectual expectations to discourse regarding persistence, completion, and cessation.",
+    "order": 3,
+    "lessonIds": [
+      "lesson_intermediate_aspectual_adverbs_still_yet_already"
+    ],
+    "prerequisites": [
+      "intermediate_adverb_position_with_verbs"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_word_order",
+    "conceptDepth": "CONTRAST",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          111
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_focus_particle_even",
+    "sectionId": "intermediate_word_order_focus",
+    "title": "Focus & Surprise: Even and Even Though / Even If",
+    "shortDescription": "Highlight extreme cases and unexpected contrasts using the focusing particle even.",
+    "order": 4,
+    "lessonIds": [
+      "lesson_intermediate_focus_particle_even"
+    ],
+    "prerequisites": [
+      "intermediate_adverb_position_with_verbs"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B2",
+    "conceptId": "concept_word_order",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          112
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_conjunctions_concession_contrast",
+    "sectionId": "intermediate_conjunctions_linking",
+    "title": "Concession & Contrast: Although, Though, Even though, Despite, In spite of",
+    "shortDescription": "Differentiate clausal connectives from prepositional phrases taking noun phrases or gerunds.",
+    "order": 1,
+    "lessonIds": [
+      "lesson_intermediate_conjunctions_concession_contrast"
+    ],
+    "prerequisites": [],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_conjunctions",
+    "conceptDepth": "CONTRAST",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          113
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_conjunctions_precaution_in_case",
+    "sectionId": "intermediate_conjunctions_linking",
+    "title": "Precaution & Anticipation: In case",
+    "shortDescription": "Distinguish precautionary actions taken in advance from conditional responses (in case vs if).",
+    "order": 2,
+    "lessonIds": [
+      "lesson_intermediate_conjunctions_precaution_in_case"
+    ],
+    "prerequisites": [
+      "intermediate_conjunctions_concession_contrast"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_conjunctions",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          114
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_conjunctions_condition_unless_as_long_as",
+    "sectionId": "intermediate_conjunctions_linking",
+    "title": "Conditional Connectives: Unless, As long as, Provided that",
+    "shortDescription": "Formulate negative conditions (if not) and explicit stipulations across formal and informal discourse.",
+    "order": 3,
+    "lessonIds": [
+      "lesson_intermediate_conjunctions_condition_unless_as_long_as"
+    ],
+    "prerequisites": [
+      "intermediate_conjunctions_precaution_in_case"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B2",
+    "conceptId": "concept_conjunctions",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          115
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_conjunctions_as_like_as_if",
+    "sectionId": "intermediate_conjunctions_linking",
+    "title": "Manner & Comparison: As, Like, and As if / As though",
+    "shortDescription": "Contrast prepositional comparison (like + noun) with conjunctional clauses and unreal manner.",
+    "order": 4,
+    "lessonIds": [
+      "lesson_intermediate_conjunctions_as_like_as_if"
+    ],
+    "prerequisites": [
+      "intermediate_conjunctions_concession_contrast"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B2",
+    "conceptId": "concept_conjunctions",
+    "conceptDepth": "CONTRAST",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          116,
+          117,
+          118
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_conjunctions_time_during_while_by_until",
+    "sectionId": "intermediate_conjunctions_linking",
+    "title": "Time Relations: During, While, For, and By vs Until",
+    "shortDescription": "Disentangle prepositional spans (during/for), clausal overlap (while), and deadlines vs duration.",
+    "order": 5,
+    "lessonIds": [
+      "lesson_intermediate_conjunctions_time_during_while_by_until"
+    ],
+    "prerequisites": [
+      "intermediate_conjunctions_concession_contrast"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_conjunctions",
+    "conceptDepth": "CONTRAST",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          119,
+          120
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_prepositions_time_at_on_in",
+    "sectionId": "intermediate_prepositions",
+    "title": "Time Prepositions: At, On, In, In time vs On time, At the end",
+    "shortDescription": "Master clock times, calendar dates, periods, punctuality vs margins, and endpoint expressions.",
+    "order": 1,
+    "lessonIds": [
+      "lesson_intermediate_prepositions_time_at_on_in"
+    ],
+    "prerequisites": [],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_prepositions",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          121,
+          122
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_prepositions_place_position_in_at_on",
+    "sectionId": "intermediate_prepositions",
+    "title": "Position & Space: In, At, and On in Context",
+    "shortDescription": "Conceptualise 3D containment, 2D surfaces, and functional interaction points accurately.",
+    "order": 2,
+    "lessonIds": [
+      "lesson_intermediate_prepositions_place_position_in_at_on"
+    ],
+    "prerequisites": [
+      "intermediate_prepositions_time_at_on_in"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_prepositions",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          123,
+          124,
+          125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_prepositions_movement_destination",
+    "sectionId": "intermediate_prepositions",
+    "title": "Direction & Movement: To, At, In, and Into",
+    "shortDescription": "Coordinate verbs of trajectory, arrival, and penetration across varied spatial contexts.",
+    "order": 3,
+    "lessonIds": [
+      "lesson_intermediate_prepositions_movement_destination"
+    ],
+    "prerequisites": [
+      "intermediate_prepositions_place_position_in_at_on"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_prepositions",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          126
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_prepositions_special_uses_by",
+    "sectionId": "intermediate_prepositions",
+    "title": "Idiomatic Spatial Uses & Means: Other uses of In/On/At and By",
+    "shortDescription": "Apply fixed idiomatic idioms (by car, by chance, on purpose, in a hurry, at risk).",
+    "order": 4,
+    "lessonIds": [
+      "lesson_intermediate_prepositions_special_uses_by"
+    ],
+    "prerequisites": [
+      "intermediate_prepositions_place_position_in_at_on"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_prepositions",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          127,
+          128
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_noun_plus_preposition_collocations",
+    "sectionId": "intermediate_prepositions",
+    "title": "Dependent Nouns: Reason for, Cause of, Demand for",
+    "shortDescription": "Master noun-complement preposition pairings essential for academic and formal clarity.",
+    "order": 5,
+    "lessonIds": [
+      "lesson_intermediate_noun_plus_preposition_collocations"
+    ],
+    "prerequisites": [
+      "intermediate_prepositions_special_uses_by"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_prepositions",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          129
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_adjective_plus_preposition_collocations",
+    "sectionId": "intermediate_prepositions",
+    "title": "Dependent Adjectives: Proud of, Interested in, Afraid of, Good at",
+    "shortDescription": "Internalise natural collocational bonds between evaluation adjectives and their governing prepositions.",
+    "order": 6,
+    "lessonIds": [
+      "lesson_intermediate_adjective_plus_preposition_collocations"
+    ],
+    "prerequisites": [
+      "intermediate_noun_plus_preposition_collocations"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_prepositions",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          130,
+          131
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_verb_plus_preposition_collocations",
+    "sectionId": "intermediate_prepositions",
+    "title": "Dependent Verbs: Listen to, Look at, Depend on, Suffer from",
+    "shortDescription": "Consolidate idiomatic prepositional verb bonds across everyday conversational verbs.",
+    "order": 7,
+    "lessonIds": [
+      "lesson_intermediate_verb_plus_preposition_collocations"
+    ],
+    "prerequisites": [
+      "intermediate_adjective_plus_preposition_collocations"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B2",
+    "conceptId": "concept_prepositions",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          132,
+          133,
+          134,
+          135,
+          136
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_phrasal_verbs_introduction_syntax",
+    "sectionId": "intermediate_phrasal_verbs",
+    "title": "Phrasal Verbs Anatomy: Separability & Pronoun Placement",
+    "shortDescription": "Grasp particle movement rules: object placement and obligatory split with object pronouns.",
+    "order": 1,
+    "lessonIds": [
+      "lesson_intermediate_phrasal_verbs_introduction_syntax"
+    ],
+    "prerequisites": [],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_phrasal_verbs",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          137
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_phrasal_verbs_in_out",
+    "sectionId": "intermediate_phrasal_verbs",
+    "title": "Particles In and Out: Movement, Completion & Discovery",
+    "shortDescription": "Explore core and metaphorical dimensions of in and out (check in, drop in, find out, run out).",
+    "order": 2,
+    "lessonIds": [
+      "lesson_intermediate_phrasal_verbs_in_out"
+    ],
+    "prerequisites": [
+      "intermediate_phrasal_verbs_introduction_syntax"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_phrasal_verbs",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          138,
+          139
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_phrasal_verbs_on_off",
+    "sectionId": "intermediate_phrasal_verbs",
+    "title": "Particles On and Off: Activation, Continuation & Departure",
+    "shortDescription": "Command phrasal meanings related to progress, cancellation, and departures (carry on, call off).",
+    "order": 3,
+    "lessonIds": [
+      "lesson_intermediate_phrasal_verbs_on_off"
+    ],
+    "prerequisites": [
+      "intermediate_phrasal_verbs_introduction_syntax"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_phrasal_verbs",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          140,
+          141
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_phrasal_verbs_up_down",
+    "sectionId": "intermediate_phrasal_verbs",
+    "title": "Particles Up and Down: Increase, Decrease, Destruction & Completion",
+    "shortDescription": "Master vertical metaphors and telic completion with up/down (turn up, break down, give up).",
+    "order": 4,
+    "lessonIds": [
+      "lesson_intermediate_phrasal_verbs_up_down"
+    ],
+    "prerequisites": [
+      "intermediate_phrasal_verbs_on_off"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B2",
+    "conceptId": "concept_phrasal_verbs",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          142,
+          143,
+          144
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_phrasal_verbs_away_back",
+    "sectionId": "intermediate_phrasal_verbs",
+    "title": "Particles Away and Back: Distance, Return & Removal",
+    "shortDescription": "Deploy motion and reciprocal particles in dialogue (run away, give away, get back, pay back).",
+    "order": 5,
+    "lessonIds": [
+      "lesson_intermediate_phrasal_verbs_away_back"
+    ],
+    "prerequisites": [
+      "intermediate_phrasal_verbs_introduction_syntax"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_phrasal_verbs",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "english_grammar_in_use",
+        "bookTitle": "English Grammar in Use",
+        "edition": "Fifth Edition",
+        "editionId": "english_grammar_in_use_5",
+        "units": [
+          145
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intermediate_final_challenge_topic",
+    "sectionId": "intermediate_final_challenge",
+    "title": "B1\u2013B2 Master Diagnostic Review",
+    "shortDescription": "Comprehensive evaluation testing contrasting tenses, complex modals, passives, conditionals, and verb patterns.",
+    "order": 1,
+    "lessonIds": [
+      "lesson_intermediate_final_challenge_topic"
+    ],
+    "prerequisites": [
+      "intermediate_present_perfect_vs_past_simple",
+      "intermediate_future_continuous_and_perfect",
+      "intermediate_conditional_hypothetical_past_third",
+      "intermediate_passive_reporting_structures",
+      "intermediate_relative_defining_vs_non_defining",
+      "intermediate_phrasal_verbs_up_down"
+    ],
+    "difficulty": "HARD",
+    "cefrLevel": "B2",
+    "conceptId": "concept_verb_patterns",
+    "conceptDepth": "CONTROL",
+    "bookReferences": []
   }
 ]

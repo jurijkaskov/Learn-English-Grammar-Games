@@ -40,7 +40,7 @@ class UserPreferencesDataSource @Inject constructor(
         .map { prefs ->
             UserPreferences(
                 onboardingCompleted = prefs[Keys.ONBOARDING_COMPLETED] ?: false,
-                selectedCourseId = prefs[Keys.SELECTED_COURSE_ID] ?: "essential_grammar",
+                selectedCourseId = prefs[Keys.SELECTED_COURSE_ID] ?: "course_beginner",
                 dailyGoalMinutes = prefs[Keys.DAILY_GOAL_MINUTES] ?: 15
             )
         }

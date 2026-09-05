@@ -1,0 +1,159 @@
+[
+  {
+    "id": "advanced_inversion",
+    "courseId": "course_advanced",
+    "title": "Inversion and Emphasis",
+    "description": "Negative adverbial inversion (never, rarely, seldom) and locative fronting for dramatic cadence.",
+    "order": 1,
+    "topicIds": [
+      "advanced_topic_negative_adverbial_inversion",
+      "advanced_topic_only_hardly_scarcely_inversion",
+      "advanced_topic_locative_conditional_inversion"
+    ]
+  },
+  {
+    "id": "advanced_cleft_focus",
+    "courseId": "course_advanced",
+    "title": "Cleft Sentences and Information Structure",
+    "description": "It-clefts, wh-clefts, and thematic fronting to control information focus and communicative dynamism.",
+    "order": 2,
+    "topicIds": [
+      "advanced_topic_it_clefts_focus",
+      "advanced_topic_wh_pseudo_clefts",
+      "advanced_topic_thematic_fronting"
+    ]
+  },
+  {
+    "id": "advanced_participle_clauses",
+    "courseId": "course_advanced",
+    "title": "Participle Clauses and Adverbials",
+    "description": "Form economical participle adjuncts expressing time, reason, condition, and result.",
+    "order": 3,
+    "topicIds": [
+      "advanced_topic_present_past_participle_clauses",
+      "advanced_topic_having_done_compound_participles"
+    ]
+  },
+  {
+    "id": "advanced_subjunctive_unreal",
+    "courseId": "course_advanced",
+    "title": "Subjunctive and Unreal Past",
+    "description": "Mandative and formulaic subjunctive (be that as it may), plus unreal past with high time and as though.",
+    "order": 4,
+    "topicIds": [
+      "advanced_topic_mandative_formulaic_subjunctive",
+      "advanced_topic_unreal_past_high_time"
+    ]
+  },
+  {
+    "id": "advanced_advanced_conditionals",
+    "courseId": "course_advanced",
+    "title": "Advanced Conditionals and Inversion",
+    "description": "Inverted conditionals without if (had we known, should you need), mixed conditions, and concessives.",
+    "order": 5,
+    "topicIds": [
+      "advanced_topic_inverted_conditionals",
+      "advanced_topic_mixed_conditionals_mastery",
+      "advanced_topic_concessive_conditionals"
+    ]
+  },
+  {
+    "id": "advanced_advanced_passive",
+    "courseId": "course_advanced",
+    "title": "Advanced Passive and Impersonal Structures",
+    "description": "Impersonal reporting passive (it is alleged that, he is believed to have left) and passive with sensory verbs.",
+    "order": 6,
+    "topicIds": [
+      "advanced_topic_impersonal_reporting_passive",
+      "advanced_topic_passive_sensory_verbs"
+    ]
+  },
+  {
+    "id": "advanced_modal_nuances",
+    "courseId": "course_advanced",
+    "title": "Nuanced Modal and Semi-Modal Usages",
+    "description": "Needn't have vs didn't need to, dare, epistemic certainty, and tentative hedging stances.",
+    "order": 7,
+    "topicIds": [
+      "advanced_topic_neednt_have_vs_didnt_need_to",
+      "advanced_topic_epistemic_hedging_modals"
+    ]
+  },
+  {
+    "id": "advanced_verb_complementation",
+    "courseId": "course_advanced",
+    "title": "Complex Verb Complementation",
+    "description": "Ergative/labile verbs, complex predicate complements, and cognate prepositional objects.",
+    "order": 8,
+    "topicIds": [
+      "advanced_topic_ergative_verbs",
+      "advanced_topic_complex_transitive_complementation"
+    ]
+  },
+  {
+    "id": "advanced_noun_phrase_complexity",
+    "courseId": "course_advanced",
+    "title": "Noun Phrase Complexity and Determiners",
+    "description": "Compound noun modifiers, nominal concord (committee has/have), and partitive quantifiers.",
+    "order": 9,
+    "topicIds": [
+      "advanced_topic_complex_nominal_compounds",
+      "advanced_topic_collective_noun_concord"
+    ]
+  },
+  {
+    "id": "advanced_relative_participle_reduced",
+    "courseId": "course_advanced",
+    "title": "Reduced Relative and Nominal Clauses",
+    "description": "Nominal relative clauses with whatever/whoever and post-nominal participle reductions.",
+    "order": 10,
+    "topicIds": [
+      "advanced_topic_nominal_relative_clauses",
+      "advanced_topic_reduced_relative_postmodifiers"
+    ]
+  },
+  {
+    "id": "advanced_adverbials_discourse",
+    "courseId": "course_advanced",
+    "title": "Adverbials, Positioning, and Discourse Markers",
+    "description": "Stance and comment adverbials (undeniably, frankly, supposedly) and discourse flow transitions.",
+    "order": 11,
+    "topicIds": [
+      "advanced_topic_viewpoint_stance_adverbials",
+      "advanced_topic_discourse_flow_markers"
+    ]
+  },
+  {
+    "id": "advanced_ellipsis_substitution",
+    "courseId": "course_advanced",
+    "title": "Advanced Ellipsis and Substitution",
+    "description": "Clause reduction, noun phrase ellipsis, pseudogapping, and concise stylistic omissions.",
+    "order": 12,
+    "topicIds": [
+      "advanced_topic_clause_ellipsis_omission",
+      "advanced_topic_substitution_markers"
+    ]
+  },
+  {
+    "id": "advanced_prepositions_particles",
+    "courseId": "course_advanced",
+    "title": "Complex Prepositions and Particles",
+    "description": "Multi-word prepositions (in lieu of, by virtue of, in light of) and particle shifts.",
+    "order": 13,
+    "topicIds": [
+      "advanced_topic_compound_multi_word_prepositions",
+      "advanced_topic_particle_stranding_fronting"
+    ]
+  },
+  {
+    "id": "advanced_stylistic_variation",
+    "courseId": "course_advanced",
+    "title": "Register and Stylistic Variation",
+    "description": "Formal academic nominalization, rhetorical conventions, and sophisticated communicative registers.",
+    "order": 14,
+    "topicIds": [
+      "advanced_topic_academic_nominalization",
+      "advanced_topic_stylistic_register_shifts"
+    ]
+  }
+]

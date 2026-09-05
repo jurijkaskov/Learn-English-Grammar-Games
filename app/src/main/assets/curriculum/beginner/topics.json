@@ -1,0 +1,1685 @@
+[
+  {
+    "id": "beginner_topic_am_is_are",
+    "sectionId": "beginner_present",
+    "title": "Am, Is, Are: Affirmative and Negative",
+    "shortDescription": "Form affirmative and negative statements using the present forms of be with pronouns and nouns.",
+    "order": 1,
+    "lessonIds": [
+      "beginner_topic_am_is_are_l1"
+    ],
+    "prerequisites": [],
+    "difficulty": "EASY",
+    "cefrLevel": "A1",
+    "conceptId": "concept_be",
+    "conceptDepth": "INTRODUCTION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          1
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_be_questions",
+    "sectionId": "beginner_present",
+    "title": "Am, Is, Are: Questions and Short Answers",
+    "shortDescription": "Form direct yes/no and open questions with be through inversion, and give natural short answers.",
+    "order": 2,
+    "lessonIds": [
+      "beginner_topic_be_questions_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_am_is_are"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A1",
+    "conceptId": "concept_be",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          2
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_present_continuous_basics",
+    "sectionId": "beginner_present",
+    "title": "Present Continuous: Actions in Progress",
+    "shortDescription": "Describe actions happening right now and temporary present activities using be + verb-ing.",
+    "order": 3,
+    "lessonIds": [
+      "beginner_topic_present_continuous_basics_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_am_is_are"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A1",
+    "conceptId": "concept_present_continuous",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          3,
+          4
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_present_simple_basics",
+    "sectionId": "beginner_present",
+    "title": "Present Simple: Habits, Negatives, and Questions",
+    "shortDescription": "Talk about repeated habits, universal facts, and use auxiliary do/does for negatives and questions.",
+    "order": 4,
+    "lessonIds": [
+      "beginner_topic_present_simple_basics_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_am_is_are"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A1",
+    "conceptId": "concept_present_simple",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          5,
+          6,
+          7
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_present_simple_vs_continuous",
+    "sectionId": "beginner_present",
+    "title": "Present Simple vs. Present Continuous",
+    "shortDescription": "Contrast habitual actions with activities happening now, and recognize non-continuous stative verbs.",
+    "order": 5,
+    "lessonIds": [
+      "beginner_topic_present_simple_vs_continuous_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_present_continuous_basics",
+      "beginner_topic_present_simple_basics"
+    ],
+    "difficulty": "HARD",
+    "cefrLevel": "A2",
+    "conceptId": "concept_present_simple",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          8
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_have_and_have_got",
+    "sectionId": "beginner_present",
+    "title": "Have and Have Got for Possession",
+    "shortDescription": "Express possession, relationships, and physical characteristics with have and have got.",
+    "order": 6,
+    "lessonIds": [
+      "beginner_topic_have_and_have_got_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_present_simple_basics"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A1",
+    "conceptId": "concept_verb_patterns",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          9
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_past_simple_be",
+    "sectionId": "beginner_past",
+    "title": "Was and Were: Past Form of Be",
+    "shortDescription": "Talk about past identities, locations, and states using was and were.",
+    "order": 1,
+    "lessonIds": [
+      "beginner_topic_past_simple_be_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_am_is_are"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A1",
+    "conceptId": "concept_be",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          10
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_past_simple_regular_irregular",
+    "sectionId": "beginner_past",
+    "title": "Past Simple: Regular, Irregular, Negatives, and Questions",
+    "shortDescription": "Narrate completed past events using -ed regular forms, common irregular verbs, and did/didn't.",
+    "order": 2,
+    "lessonIds": [
+      "beginner_topic_past_simple_regular_irregular_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_past_simple_be",
+      "beginner_topic_present_simple_basics"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A1",
+    "conceptId": "concept_past_simple",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          11,
+          12
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_past_continuous_intro",
+    "sectionId": "beginner_past",
+    "title": "Past Continuous and Past Simple Narratives",
+    "shortDescription": "Describe past actions in progress and combine them with interrupting past simple events using when.",
+    "order": 3,
+    "lessonIds": [
+      "beginner_topic_past_continuous_intro_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_past_simple_regular_irregular"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A2",
+    "conceptId": "concept_past_continuous",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          13,
+          14
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_present_perfect_form",
+    "sectionId": "beginner_present_perfect",
+    "title": "Present Perfect: Life Experience (have/has done)",
+    "shortDescription": "Talk about life experiences without stating a specific finished time using have/has + past participle.",
+    "order": 1,
+    "lessonIds": [
+      "beginner_topic_present_perfect_form_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_past_simple_regular_irregular"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A2",
+    "conceptId": "concept_present_perfect",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          15,
+          17
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_present_perfect_just_already_yet",
+    "sectionId": "beginner_present_perfect",
+    "title": "Present Perfect with Just, Already, and Yet",
+    "shortDescription": "Connect recent past actions to the present moment using just, already, and yet.",
+    "order": 2,
+    "lessonIds": [
+      "beginner_topic_present_perfect_just_already_yet_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_present_perfect_form"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A2",
+    "conceptId": "concept_present_perfect",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          16
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_present_perfect_duration",
+    "sectionId": "beginner_present_perfect",
+    "title": "Duration: How Long, For, Since, and Ago",
+    "shortDescription": "State ongoing durations from the past into the present using for and since, and contrast with ago.",
+    "order": 3,
+    "lessonIds": [
+      "beginner_topic_present_perfect_duration_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_present_perfect_form"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A2",
+    "conceptId": "concept_present_perfect",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          18,
+          19
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_present_perfect_vs_past",
+    "sectionId": "beginner_present_perfect",
+    "title": "Present Perfect vs. Past Simple Contrast",
+    "shortDescription": "Choose between past simple for finished time anchors and present perfect for open time and present results.",
+    "order": 4,
+    "lessonIds": [
+      "beginner_topic_present_perfect_vs_past_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_present_perfect_just_already_yet",
+      "beginner_topic_past_simple_regular_irregular"
+    ],
+    "difficulty": "HARD",
+    "cefrLevel": "A2",
+    "conceptId": "concept_present_perfect",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          20
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_passive_present_past",
+    "sectionId": "beginner_passive",
+    "title": "Passive Voice: Present and Past Simple",
+    "shortDescription": "Formulate passive sentences where the action or recipient is emphasized using is/was done.",
+    "order": 1,
+    "lessonIds": [
+      "beginner_topic_passive_present_past_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_past_simple_regular_irregular",
+      "beginner_topic_am_is_are"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A2",
+    "conceptId": "concept_passive",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          21
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_passive_continuous_perfect",
+    "sectionId": "beginner_passive",
+    "title": "Passive Voice: Continuous and Perfect",
+    "shortDescription": "Recognize and produce continuous and perfect passive patterns (is being done / has been done).",
+    "order": 2,
+    "lessonIds": [
+      "beginner_topic_passive_continuous_perfect_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_passive_present_past"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A2",
+    "conceptId": "concept_passive",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          22
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_be_have_do_verb_forms",
+    "sectionId": "beginner_verb_forms",
+    "title": "Be, Have, and Do in Present and Past",
+    "shortDescription": "Master the dual roles of be, have, and do as helping auxiliary verbs and standalone main verbs.",
+    "order": 1,
+    "lessonIds": [
+      "beginner_topic_be_have_do_verb_forms_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_present_simple_basics",
+      "beginner_topic_past_simple_regular_irregular"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A1",
+    "conceptId": "concept_verb_forms",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          23
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_regular_irregular_fundamentals",
+    "sectionId": "beginner_verb_forms",
+    "title": "Regular and Irregular Verb Classes",
+    "shortDescription": "Master high-frequency irregular verb groupings and differentiate past simple from past participles.",
+    "order": 2,
+    "lessonIds": [
+      "beginner_topic_regular_irregular_fundamentals_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_past_simple_regular_irregular"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A1",
+    "conceptId": "concept_verb_forms",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          24
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_future_present_and_going_to",
+    "sectionId": "beginner_future",
+    "title": "Future: Present Continuous Arrangements and Going To",
+    "shortDescription": "Talk about future arrangements using present continuous, and intentions or predictions with be going to.",
+    "order": 1,
+    "lessonIds": [
+      "beginner_topic_future_present_and_going_to_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_present_continuous_basics"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A2",
+    "conceptId": "concept_future",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          25,
+          26
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_future_will_shall",
+    "sectionId": "beginner_future",
+    "title": "Future: Will and Shall for Decisions, Predictions, and Offers",
+    "shortDescription": "Use will for instant decisions, promises, and future facts, and shall for polite suggestions.",
+    "order": 2,
+    "lessonIds": [
+      "beginner_topic_future_will_shall_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_future_present_and_going_to"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A2",
+    "conceptId": "concept_future",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          27,
+          28
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_modals_might_can_could",
+    "sectionId": "beginner_modals",
+    "title": "Possibility and Ability: Might, Can, and Could",
+    "shortDescription": "Express present and past abilities, make requests, and indicate uncertain possibilities.",
+    "order": 1,
+    "lessonIds": [
+      "beginner_topic_modals_might_can_could_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_present_simple_basics"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A1",
+    "conceptId": "concept_modals",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          29,
+          30
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_modals_must_should_have_to",
+    "sectionId": "beginner_modals",
+    "title": "Obligation and Advice: Must, Should, and Have To",
+    "shortDescription": "Express strong necessity, external rules, prohibition, and give friendly recommendations.",
+    "order": 2,
+    "lessonIds": [
+      "beginner_topic_modals_must_should_have_to_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_present_simple_basics"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A2",
+    "conceptId": "concept_modals",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          31,
+          32,
+          33
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_social_requests_habits",
+    "sectionId": "beginner_modals",
+    "title": "Polite Requests, Imperatives, and Past Habits",
+    "shortDescription": "Make courteous offers with would like, give direct instructions with imperatives, and express used to.",
+    "order": 3,
+    "lessonIds": [
+      "beginner_topic_social_requests_habits_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_past_simple_regular_irregular"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A2",
+    "conceptId": "concept_modals",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          34,
+          35,
+          36
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_there_is_there_are",
+    "sectionId": "beginner_there_and_it",
+    "title": "There Is / There Are Across Tenses",
+    "shortDescription": "Introduce new topics and express the existence or availability of people and objects.",
+    "order": 1,
+    "lessonIds": [
+      "beginner_topic_there_is_there_are_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_am_is_are"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A1",
+    "conceptId": "concept_there_it",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          37,
+          38
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_it_is_vs_there_is",
+    "sectionId": "beginner_there_and_it",
+    "title": "It Is for Time, Weather, and Impersonal Frames",
+    "shortDescription": "Use dummy subject it for climate, clock time, dates, distance, and contrast with existential there.",
+    "order": 2,
+    "lessonIds": [
+      "beginner_topic_it_is_vs_there_is_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_am_is_are"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A1",
+    "conceptId": "concept_there_it",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          39
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_auxiliary_verbs_usage",
+    "sectionId": "beginner_auxiliary_verbs",
+    "title": "Auxiliary Verbs in Short Answers and Tag Echoes",
+    "shortDescription": "Avoid repetitive phrasing in dialogue by substituting full verb phrases with auxiliary verbs.",
+    "order": 1,
+    "lessonIds": [
+      "beginner_topic_auxiliary_verbs_usage_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_present_simple_basics",
+      "beginner_topic_past_simple_regular_irregular"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A2",
+    "conceptId": "concept_auxiliary_verbs",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          40,
+          41
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_auxiliary_agreement_negatives",
+    "sectionId": "beginner_auxiliary_verbs",
+    "title": "Agreement (Too/Either, So/Neither) and Negatives",
+    "shortDescription": "Express conversational agreement with positive and negative statements using so, neither, too, either.",
+    "order": 2,
+    "lessonIds": [
+      "beginner_topic_auxiliary_agreement_negatives_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_auxiliary_verbs_usage"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A2",
+    "conceptId": "concept_auxiliary_verbs",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          42,
+          43
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_question_formation_wh",
+    "sectionId": "beginner_questions",
+    "title": "Question Formation and Wh- Question Words",
+    "shortDescription": "Master the standard question formula (Auxiliary + Subject + Main Verb) and wh- question words.",
+    "order": 1,
+    "lessonIds": [
+      "beginner_topic_question_formation_wh_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_present_simple_basics",
+      "beginner_topic_past_simple_regular_irregular"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A1",
+    "conceptId": "concept_questions",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          44,
+          47
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_subject_questions_prepositions",
+    "sectionId": "beginner_questions",
+    "title": "Subject vs Object Questions and Prepositions at End",
+    "shortDescription": "Differentiate questions asking about the subject from object questions, and handle ending prepositions.",
+    "order": 2,
+    "lessonIds": [
+      "beginner_topic_subject_questions_prepositions_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_question_formation_wh"
+    ],
+    "difficulty": "HARD",
+    "cefrLevel": "A2",
+    "conceptId": "concept_questions",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          45,
+          46
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_indirect_duration_questions",
+    "sectionId": "beginner_questions",
+    "title": "Duration and Indirect Question Patterns",
+    "shortDescription": "Ask how long actions require (How long does it take?), and embed polite indirect question clauses.",
+    "order": 3,
+    "lessonIds": [
+      "beginner_topic_indirect_duration_questions_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_question_formation_wh"
+    ],
+    "difficulty": "HARD",
+    "cefrLevel": "A2",
+    "conceptId": "concept_questions",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          48,
+          49
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_reported_speech_basics",
+    "sectionId": "beginner_reported_speech",
+    "title": "Reported Statements: He Said That / She Told Me",
+    "shortDescription": "Report what others stated using say and tell, adjusting present verbs into past equivalents.",
+    "order": 1,
+    "lessonIds": [
+      "beginner_topic_reported_speech_basics_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_past_simple_regular_irregular"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A2",
+    "conceptId": "concept_reported_speech",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          50
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_verb_ing_to_forms",
+    "sectionId": "beginner_ing_and_to",
+    "title": "Verbs Followed by -ing and to-Infinitive",
+    "shortDescription": "Recognize which main verbs require a following gerund (-ing) and which require a to-infinitive.",
+    "order": 1,
+    "lessonIds": [
+      "beginner_topic_verb_ing_to_forms_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_present_simple_basics"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A2",
+    "conceptId": "concept_gerund_infinitive",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          51,
+          52
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_verb_person_to_purpose",
+    "sectionId": "beginner_ing_and_to",
+    "title": "Verb + Person + to and Infinitive of Purpose",
+    "shortDescription": "Form sentences asking someone to act (want you to help) and express reasons with to-infinitive.",
+    "order": 2,
+    "lessonIds": [
+      "beginner_topic_verb_person_to_purpose_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_verb_ing_to_forms"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A2",
+    "conceptId": "concept_gerund_infinitive",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          53,
+          54
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_verbs_go_and_get",
+    "sectionId": "beginner_common_verbs",
+    "title": "Everyday Usage of Go and Get",
+    "shortDescription": "Master high-frequency expressions and collocations with go (go for, go -ing) and get (become, arrive).",
+    "order": 1,
+    "lessonIds": [
+      "beginner_topic_verbs_go_and_get_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_present_simple_basics"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A1",
+    "conceptId": "concept_verb_patterns",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          55,
+          56
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_verbs_do_make_have",
+    "sectionId": "beginner_common_verbs",
+    "title": "Do vs Make and Have Collocations",
+    "shortDescription": "Contrast do (tasks, general actions) with make (creating), and master have for daily routines.",
+    "order": 2,
+    "lessonIds": [
+      "beginner_topic_verbs_do_make_have_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_present_simple_basics"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A1",
+    "conceptId": "concept_verb_patterns",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          57,
+          58
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_personal_possessive_pronouns",
+    "sectionId": "beginner_pronouns_possessives",
+    "title": "Subject, Object, and Possessive Pronouns",
+    "shortDescription": "Select the correct pronoun form depending on its syntactic role in subject, object, or possessive position.",
+    "order": 1,
+    "lessonIds": [
+      "beginner_topic_personal_possessive_pronouns_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_am_is_are"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A1",
+    "conceptId": "concept_pronouns",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          59,
+          60,
+          61,
+          62
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_reflexives_possessive_s",
+    "sectionId": "beginner_pronouns_possessives",
+    "title": "Reflexive Pronouns (-self) and Possessive 's",
+    "shortDescription": "Use reflexive pronouns when subject and object coincide, and attach 's to mark ownership.",
+    "order": 2,
+    "lessonIds": [
+      "beginner_topic_reflexives_possessive_s_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_personal_possessive_pronouns"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A1",
+    "conceptId": "concept_pronouns",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          63,
+          64
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_articles_plurals",
+    "sectionId": "beginner_articles_nouns",
+    "title": "Indefinite Article (A/An) and Singular/Plural Nouns",
+    "shortDescription": "Choose between a and an based on pronunciation, and form regular and irregular plural nouns.",
+    "order": 1,
+    "lessonIds": [
+      "beginner_topic_articles_plurals_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_am_is_are"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A1",
+    "conceptId": "concept_articles",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          65,
+          66
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_countable_uncountable_nouns",
+    "sectionId": "beginner_articles_nouns",
+    "title": "Countable vs Uncountable Nouns",
+    "shortDescription": "Distinguish items you can count from mass substances, and pair them with appropriate quantifiers.",
+    "order": 2,
+    "lessonIds": [
+      "beginner_topic_countable_uncountable_nouns_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_articles_plurals"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A1",
+    "conceptId": "concept_articles",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          67,
+          68
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_definite_the_and_zero_article",
+    "sectionId": "beginner_articles_nouns",
+    "title": "Definite Article (The), Zero Article, and Place Names",
+    "shortDescription": "Use the for uniquely identifiable referents, zero article for generalizations, and navigate place names.",
+    "order": 3,
+    "lessonIds": [
+      "beginner_topic_definite_the_and_zero_article_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_articles_plurals"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A2",
+    "conceptId": "concept_articles",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          69,
+          70,
+          71,
+          72,
+          73
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_demonstratives_and_ones",
+    "sectionId": "beginner_determiners",
+    "title": "Demonstratives (This/That/These/Those) and One/Ones",
+    "shortDescription": "Point to proximal and distal items in singular and plural, and avoid repeating nouns using one/ones.",
+    "order": 1,
+    "lessonIds": [
+      "beginner_topic_demonstratives_and_ones_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_articles_plurals"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A1",
+    "conceptId": "concept_determiners",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          74,
+          75
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_some_any_negatives_compounds",
+    "sectionId": "beginner_determiners",
+    "title": "Some, Any, No, None, and Indefinite Compounds",
+    "shortDescription": "Use some in positives, any in questions/negatives, no/none for absence, and compound indefinites.",
+    "order": 2,
+    "lessonIds": [
+      "beginner_topic_some_any_negatives_compounds_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_demonstratives_and_ones"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A1",
+    "conceptId": "concept_determiners",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          76,
+          77,
+          78,
+          79
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_quantifiers_distributives",
+    "sectionId": "beginner_determiners",
+    "title": "Every, All, Most, Both, Either, Neither",
+    "shortDescription": "Quantify groups and paired items using every, all, most, both, either, and neither.",
+    "order": 3,
+    "lessonIds": [
+      "beginner_topic_quantifiers_distributives_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_some_any_negatives_compounds"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A2",
+    "conceptId": "concept_determiners",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          80,
+          81,
+          82
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_quantifiers_much_many_few_little",
+    "sectionId": "beginner_determiners",
+    "title": "Quantifiers: A Lot, Much, Many, Little, Few",
+    "shortDescription": "Select appropriate quantifiers for large and small amounts of countable and uncountable nouns.",
+    "order": 4,
+    "lessonIds": [
+      "beginner_topic_quantifiers_much_many_few_little_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_countable_uncountable_nouns"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A1",
+    "conceptId": "concept_determiners",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          83,
+          84
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_adjectives_and_adverbs_basics",
+    "sectionId": "beginner_adjectives_adverbs",
+    "title": "Adjectives and Adverbs of Manner (-ly)",
+    "shortDescription": "Position adjectives before nouns or after linking verbs, and form manner adverbs with -ly.",
+    "order": 1,
+    "lessonIds": [
+      "beginner_topic_adjectives_and_adverbs_basics_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_am_is_are"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A1",
+    "conceptId": "concept_adjectives_adverbs",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          85,
+          86
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_comparatives_and_as_as",
+    "sectionId": "beginner_adjectives_adverbs",
+    "title": "Comparatives (-er, more than) and Equal Comparisons (as...as)",
+    "shortDescription": "Compare two entities using -er / more with than, and express equality using as...as.",
+    "order": 2,
+    "lessonIds": [
+      "beginner_topic_comparatives_and_as_as_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_adjectives_and_adverbs_basics"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A2",
+    "conceptId": "concept_adjectives_adverbs",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          87,
+          88,
+          89
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_superlatives_too_enough",
+    "sectionId": "beginner_adjectives_adverbs",
+    "title": "Superlatives (the oldest/most) and Modifiers (Too and Enough)",
+    "shortDescription": "Express the highest degree with the -est / the most, and state excess (too) or sufficiency (enough).",
+    "order": 3,
+    "lessonIds": [
+      "beginner_topic_superlatives_too_enough_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_comparatives_and_as_as"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A2",
+    "conceptId": "concept_adjectives_adverbs",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          90,
+          91,
+          92
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_word_order_svo_frequency",
+    "sectionId": "beginner_word_order",
+    "title": "Sentence Word Order: Verb + Object, Frequency Adverbs",
+    "shortDescription": "Keep verbs and objects together, place time/location adverbs at clause ends, and position frequency adverbs.",
+    "order": 1,
+    "lessonIds": [
+      "beginner_topic_word_order_svo_frequency_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_present_simple_basics"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A2",
+    "conceptId": "concept_word_order",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          93,
+          94
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_adverb_order_double_objects",
+    "sectionId": "beginner_word_order",
+    "title": "Still, Yet, Already, and Double Objects",
+    "shortDescription": "Position time adverbs correctly and order indirect and direct objects with verbs like give and send.",
+    "order": 2,
+    "lessonIds": [
+      "beginner_topic_adverb_order_double_objects_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_word_order_svo_frequency",
+      "beginner_topic_personal_possessive_pronouns"
+    ],
+    "difficulty": "HARD",
+    "cefrLevel": "A2",
+    "conceptId": "concept_word_order",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          95,
+          96
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_conjunctions_time_clauses",
+    "sectionId": "beginner_clauses",
+    "title": "Conjunctions (And, But, Or, So, Because) and Time Clauses (When)",
+    "shortDescription": "Link clauses with coordinating conjunctions and express temporal sequence with when, before, after, while.",
+    "order": 1,
+    "lessonIds": [
+      "beginner_topic_conjunctions_time_clauses_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_present_simple_basics"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A2",
+    "conceptId": "concept_conjunctions",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          97,
+          98
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_conditionals_intro",
+    "sectionId": "beginner_clauses",
+    "title": "Conditionals: Real Present/Future (If we go) and Unreal (If I had)",
+    "shortDescription": "Construct real conditional sentences (If + present, will) and understand beginner hypothetical if frames.",
+    "order": 2,
+    "lessonIds": [
+      "beginner_topic_conditionals_intro_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_future_will_shall"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A2",
+    "conceptId": "concept_conditionals",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          99,
+          100
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_relative_clauses_intro",
+    "sectionId": "beginner_clauses",
+    "title": "Relative Clauses: Who, That, Which, and Pronoun Omission",
+    "shortDescription": "Identify people with who/that and things with which/that, and recognize when relative pronouns can be dropped.",
+    "order": 3,
+    "lessonIds": [
+      "beginner_topic_relative_clauses_intro_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_word_order_svo_frequency"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A2",
+    "conceptId": "concept_relative_clauses",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          101,
+          102
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_prepositions_time",
+    "sectionId": "beginner_prepositions",
+    "title": "Prepositions of Time: At, On, In, From...To, Until, During, While",
+    "shortDescription": "Accurately select time prepositions for clock hours, days, months, durations, and temporal limits.",
+    "order": 1,
+    "lessonIds": [
+      "beginner_topic_prepositions_time_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_am_is_are"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A1",
+    "conceptId": "concept_prepositions",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          103,
+          104,
+          105
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_prepositions_place_movement",
+    "sectionId": "beginner_prepositions",
+    "title": "Prepositions of Place (In, At, On) and Movement (To, Through, Over)",
+    "shortDescription": "Distinguish enclosed spaces (in), points (at), surfaces (on), and directional movement prepositions.",
+    "order": 2,
+    "lessonIds": [
+      "beginner_topic_prepositions_place_movement_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_am_is_are"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A1",
+    "conceptId": "concept_prepositions",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          106,
+          107,
+          108,
+          109,
+          110
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_prepositions_collocations",
+    "sectionId": "beginner_prepositions",
+    "title": "Preposition Expressions and Collocations",
+    "shortDescription": "Master fixed prepositional phrases (by bus, on foot) and adjective/verb preposition combinations.",
+    "order": 3,
+    "lessonIds": [
+      "beginner_topic_prepositions_collocations_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_prepositions_place_movement"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A2",
+    "conceptId": "concept_prepositions",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          111,
+          112,
+          113
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_phrasal_verbs_basics",
+    "sectionId": "beginner_phrasal_verbs",
+    "title": "Everyday Phrasal Verbs and Pronoun Placement",
+    "shortDescription": "Learn essential two-word movement verbs and correctly position pronoun objects inside separable phrasal verbs.",
+    "order": 1,
+    "lessonIds": [
+      "beginner_topic_phrasal_verbs_basics_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_word_order_svo_frequency"
+    ],
+    "difficulty": "NORMAL",
+    "cefrLevel": "A2",
+    "conceptId": "concept_phrasal_verbs",
+    "conceptDepth": "FOUNDATION",
+    "bookReferences": [
+      {
+        "bookId": "essential_grammar_in_use",
+        "bookTitle": "Essential Grammar in Use",
+        "edition": "Fourth Edition",
+        "editionId": "essential_grammar_in_use_4",
+        "units": [
+          114,
+          115
+        ]
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "beginner_topic_final_challenge",
+    "sectionId": "beginner_final_challenge",
+    "title": "Beginner Capstone: A1–A2 Comprehensive Assessment",
+    "shortDescription": "Demonstrate integrated mastery across all 21 beginner grammar areas through comprehensive drills.",
+    "order": 1,
+    "lessonIds": [
+      "beginner_topic_final_challenge_l1"
+    ],
+    "prerequisites": [
+      "beginner_topic_present_simple_vs_continuous",
+      "beginner_topic_present_perfect_vs_past",
+      "beginner_topic_prepositions_collocations",
+      "beginner_topic_phrasal_verbs_basics"
+    ],
+    "difficulty": "HARD",
+    "cefrLevel": "A2",
+    "conceptId": "concept_conjunctions",
+    "conceptDepth": "CONTROL",
+    "bookReferences": [],
+    "status": "ACTIVE"
+  }
+]

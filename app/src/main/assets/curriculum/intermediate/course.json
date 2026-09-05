@@ -1,12 +1,28 @@
 {
-  "id": "intermediate_grammar",
-  "title": "Intermediate Grammar",
+  "id": "course_intermediate",
+  "title": "Intermediate",
+  "description": "Comprehensive B1\u2013B2 course focusing on grammatical contrast, precision, and complex discourse.",
   "level": "INTERMEDIATE",
-  "description": "Master essential complex tenses, modal nuances, conditionals, and perfect structures.",
-  "order": 2,
+  "cefrMin": "B1",
+  "cefrMax": "B2",
   "sectionIds": [
-    "sec_present_perfect"
-  ],
-  "isEnabled": true,
-  "cefrLevel": "B1"
+    "intermediate_present_past_review",
+    "intermediate_present_perfect_past",
+    "intermediate_future",
+    "intermediate_modals",
+    "intermediate_conditionals_wish",
+    "intermediate_passive",
+    "intermediate_reported_speech",
+    "intermediate_questions_auxiliaries",
+    "intermediate_verb_patterns",
+    "intermediate_articles_nouns",
+    "intermediate_pronouns_determiners",
+    "intermediate_relative_clauses",
+    "intermediate_adjectives_adverbs",
+    "intermediate_word_order_focus",
+    "intermediate_conjunctions_linking",
+    "intermediate_prepositions",
+    "intermediate_phrasal_verbs",
+    "intermediate_final_challenge"
+  ]
 }

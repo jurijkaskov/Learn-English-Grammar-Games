@@ -1,0 +1,28 @@
+{
+  "id": "course_advanced",
+  "title": "Advanced",
+  "level": "ADVANCED",
+  "description": "Develop precise, flexible and nuanced control of advanced grammar.",
+  "order": 3,
+  "sectionIds": [
+    "advanced_inversion",
+    "advanced_cleft_focus",
+    "advanced_participle_clauses",
+    "advanced_subjunctive_unreal",
+    "advanced_advanced_conditionals",
+    "advanced_advanced_passive",
+    "advanced_modal_nuances",
+    "advanced_verb_complementation",
+    "advanced_noun_phrase_complexity",
+    "advanced_relative_participle_reduced",
+    "advanced_adverbials_discourse",
+    "advanced_ellipsis_substitution",
+    "advanced_prepositions_particles",
+    "advanced_stylistic_variation"
+  ],
+  "isEnabled": true,
+  "cefrLevel": "C1",
+  "cefrMin": "C1",
+  "cefrMax": "C1",
+  "status": "ACTIVE"
+}

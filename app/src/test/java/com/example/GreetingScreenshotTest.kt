@@ -34,14 +34,14 @@ class GreetingScreenshotTest {
             isLoading = false,
             courses = listOf(
               Course(
-                id = "essential_grammar",
-                title = "Essential Grammar (A1-A2)",
+                id = "course_beginner",
+                title = "Beginner",
                 level = CourseLevel.BEGINNER,
-                description = "Fundamental English grammar rules, basic tenses, and sentence building."
+                description = "Build the grammar foundation required for basic everyday English."
               )
             ),
             progress = UserProgress(totalXp = 120L, level = 2, streakDays = 4),
-            preferences = UserPreferences(selectedCourseId = "essential_grammar")
+            preferences = UserPreferences(selectedCourseId = "course_beginner")
           ),
           onAction = {}
         )

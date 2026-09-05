@@ -1,0 +1,1057 @@
+{
+  "book": {
+    "id": "essential_grammar_in_use",
+    "title": "Essential Grammar in Use",
+    "author": "Raymond Murphy",
+    "edition": "Fourth Edition",
+    "editionId": "essential_grammar_in_use_4",
+    "publicationYear": 2015,
+    "totalUnits": 115
+  },
+  "targetCourseId": "course_beginner",
+  "targetCourseLevel": "BEGINNER",
+  "cefrRange": "A1-A2",
+  "coverage": {
+    "totalUnits": 115,
+    "mappedUnits": 115,
+    "unmappedUnits": 0,
+    "coveragePercentage": 100.0
+  },
+  "units": [
+    {
+      "unit": 1,
+      "unitTitle": "am/is/are",
+      "bookSection": "Present",
+      "mappedTopicId": "beginner_topic_am_is_are",
+      "mappedTopicTitle": "Am, Is, Are: Affirmative and Negative",
+      "mappedSectionId": "beginner_present",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 2,
+      "unitTitle": "am/is/are (questions)",
+      "bookSection": "Present",
+      "mappedTopicId": "beginner_topic_be_questions",
+      "mappedTopicTitle": "Am, Is, Are: Questions and Short Answers",
+      "mappedSectionId": "beginner_present",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 3,
+      "unitTitle": "I am doing (present continuous)",
+      "bookSection": "Present",
+      "mappedTopicId": "beginner_topic_present_continuous_basics",
+      "mappedTopicTitle": "Present Continuous: Actions in Progress",
+      "mappedSectionId": "beginner_present",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 4,
+      "unitTitle": "are you doing? (present continuous questions)",
+      "bookSection": "Present",
+      "mappedTopicId": "beginner_topic_present_continuous_basics",
+      "mappedTopicTitle": "Present Continuous: Actions in Progress",
+      "mappedSectionId": "beginner_present",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 5,
+      "unitTitle": "I do/work/like etc. (present simple)",
+      "bookSection": "Present",
+      "mappedTopicId": "beginner_topic_present_simple_basics",
+      "mappedTopicTitle": "Present Simple: Habits, Negatives, and Questions",
+      "mappedSectionId": "beginner_present",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 6,
+      "unitTitle": "I don’t ... (present simple negative)",
+      "bookSection": "Present",
+      "mappedTopicId": "beginner_topic_present_simple_basics",
+      "mappedTopicTitle": "Present Simple: Habits, Negatives, and Questions",
+      "mappedSectionId": "beginner_present",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 7,
+      "unitTitle": "Do you ...? (present simple questions)",
+      "bookSection": "Present",
+      "mappedTopicId": "beginner_topic_present_simple_basics",
+      "mappedTopicTitle": "Present Simple: Habits, Negatives, and Questions",
+      "mappedSectionId": "beginner_present",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 8,
+      "unitTitle": "I am doing (present continuous) and I do (present simple)",
+      "bookSection": "Present",
+      "mappedTopicId": "beginner_topic_present_simple_vs_continuous",
+      "mappedTopicTitle": "Present Simple vs. Present Continuous",
+      "mappedSectionId": "beginner_present",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 9,
+      "unitTitle": "I have ... and I’ve got ...",
+      "bookSection": "Present",
+      "mappedTopicId": "beginner_topic_have_and_have_got",
+      "mappedTopicTitle": "Have and Have Got for Possession",
+      "mappedSectionId": "beginner_present",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 10,
+      "unitTitle": "was/were",
+      "bookSection": "Past",
+      "mappedTopicId": "beginner_topic_past_simple_be",
+      "mappedTopicTitle": "Was and Were: Past Form of Be",
+      "mappedSectionId": "beginner_past",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 11,
+      "unitTitle": "worked/got/went etc. (past simple)",
+      "bookSection": "Past",
+      "mappedTopicId": "beginner_topic_past_simple_regular_irregular",
+      "mappedTopicTitle": "Past Simple: Regular, Irregular, Negatives, and Questions",
+      "mappedSectionId": "beginner_past",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 12,
+      "unitTitle": "I didn’t ... Did you ...? (past simple negative and questions)",
+      "bookSection": "Past",
+      "mappedTopicId": "beginner_topic_past_simple_regular_irregular",
+      "mappedTopicTitle": "Past Simple: Regular, Irregular, Negatives, and Questions",
+      "mappedSectionId": "beginner_past",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 13,
+      "unitTitle": "I was doing (past continuous)",
+      "bookSection": "Past",
+      "mappedTopicId": "beginner_topic_past_continuous_intro",
+      "mappedTopicTitle": "Past Continuous and Past Simple Narratives",
+      "mappedSectionId": "beginner_past",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 14,
+      "unitTitle": "I was doing (past continuous) and I did (past simple)",
+      "bookSection": "Past",
+      "mappedTopicId": "beginner_topic_past_continuous_intro",
+      "mappedTopicTitle": "Past Continuous and Past Simple Narratives",
+      "mappedSectionId": "beginner_past",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 15,
+      "unitTitle": "I have done (present perfect 1)",
+      "bookSection": "Present perfect",
+      "mappedTopicId": "beginner_topic_present_perfect_form",
+      "mappedTopicTitle": "Present Perfect: Life Experience (have/has done)",
+      "mappedSectionId": "beginner_present_perfect",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 16,
+      "unitTitle": "I’ve just ... I’ve already ... I haven’t ... yet (present perfect 2)",
+      "bookSection": "Present perfect",
+      "mappedTopicId": "beginner_topic_present_perfect_just_already_yet",
+      "mappedTopicTitle": "Present Perfect with Just, Already, and Yet",
+      "mappedSectionId": "beginner_present_perfect",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 17,
+      "unitTitle": "Have you ever ...? (present perfect 3)",
+      "bookSection": "Present perfect",
+      "mappedTopicId": "beginner_topic_present_perfect_form",
+      "mappedTopicTitle": "Present Perfect: Life Experience (have/has done)",
+      "mappedSectionId": "beginner_present_perfect",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 18,
+      "unitTitle": "How long have you ...? (present perfect 4)",
+      "bookSection": "Present perfect",
+      "mappedTopicId": "beginner_topic_present_perfect_duration",
+      "mappedTopicTitle": "Duration: How Long, For, Since, and Ago",
+      "mappedSectionId": "beginner_present_perfect",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 19,
+      "unitTitle": "for / since / ago",
+      "bookSection": "Present perfect",
+      "mappedTopicId": "beginner_topic_present_perfect_duration",
+      "mappedTopicTitle": "Duration: How Long, For, Since, and Ago",
+      "mappedSectionId": "beginner_present_perfect",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 20,
+      "unitTitle": "I have done (present perfect) and I did (past)",
+      "bookSection": "Present perfect",
+      "mappedTopicId": "beginner_topic_present_perfect_vs_past",
+      "mappedTopicTitle": "Present Perfect vs. Past Simple Contrast",
+      "mappedSectionId": "beginner_present_perfect",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 21,
+      "unitTitle": "is done / was done (passive 1)",
+      "bookSection": "Passive",
+      "mappedTopicId": "beginner_topic_passive_present_past",
+      "mappedTopicTitle": "Passive Voice: Present and Past Simple",
+      "mappedSectionId": "beginner_passive",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 22,
+      "unitTitle": "is being done / has been done (passive 2)",
+      "bookSection": "Passive",
+      "mappedTopicId": "beginner_topic_passive_continuous_perfect",
+      "mappedTopicTitle": "Passive Voice: Continuous and Perfect",
+      "mappedSectionId": "beginner_passive",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 23,
+      "unitTitle": "be/have/do in present and past tenses",
+      "bookSection": "Verb forms",
+      "mappedTopicId": "beginner_topic_be_have_do_verb_forms",
+      "mappedTopicTitle": "Be, Have, and Do in Present and Past",
+      "mappedSectionId": "beginner_verb_forms",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 24,
+      "unitTitle": "Regular and irregular verbs",
+      "bookSection": "Verb forms",
+      "mappedTopicId": "beginner_topic_regular_irregular_fundamentals",
+      "mappedTopicTitle": "Regular and Irregular Verb Classes",
+      "mappedSectionId": "beginner_verb_forms",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 25,
+      "unitTitle": "What are you doing tomorrow?",
+      "bookSection": "Future",
+      "mappedTopicId": "beginner_topic_future_present_and_going_to",
+      "mappedTopicTitle": "Future: Present Continuous Arrangements and Going To",
+      "mappedSectionId": "beginner_future",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 26,
+      "unitTitle": "I’m going to ...",
+      "bookSection": "Future",
+      "mappedTopicId": "beginner_topic_future_present_and_going_to",
+      "mappedTopicTitle": "Future: Present Continuous Arrangements and Going To",
+      "mappedSectionId": "beginner_future",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 27,
+      "unitTitle": "will/shall 1",
+      "bookSection": "Future",
+      "mappedTopicId": "beginner_topic_future_will_shall",
+      "mappedTopicTitle": "Future: Will and Shall for Decisions, Predictions, and Offers",
+      "mappedSectionId": "beginner_future",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 28,
+      "unitTitle": "will/shall 2",
+      "bookSection": "Future",
+      "mappedTopicId": "beginner_topic_future_will_shall",
+      "mappedTopicTitle": "Future: Will and Shall for Decisions, Predictions, and Offers",
+      "mappedSectionId": "beginner_future",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 29,
+      "unitTitle": "might",
+      "bookSection": "Modals, imperative etc.",
+      "mappedTopicId": "beginner_topic_modals_might_can_could",
+      "mappedTopicTitle": "Possibility and Ability: Might, Can, and Could",
+      "mappedSectionId": "beginner_modals",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 30,
+      "unitTitle": "can and could",
+      "bookSection": "Modals, imperative etc.",
+      "mappedTopicId": "beginner_topic_modals_might_can_could",
+      "mappedTopicTitle": "Possibility and Ability: Might, Can, and Could",
+      "mappedSectionId": "beginner_modals",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 31,
+      "unitTitle": "must / mustn’t / don’t need to",
+      "bookSection": "Modals, imperative etc.",
+      "mappedTopicId": "beginner_topic_modals_must_should_have_to",
+      "mappedTopicTitle": "Obligation and Advice: Must, Should, and Have To",
+      "mappedSectionId": "beginner_modals",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 32,
+      "unitTitle": "should",
+      "bookSection": "Modals, imperative etc.",
+      "mappedTopicId": "beginner_topic_modals_must_should_have_to",
+      "mappedTopicTitle": "Obligation and Advice: Must, Should, and Have To",
+      "mappedSectionId": "beginner_modals",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 33,
+      "unitTitle": "I have to ...",
+      "bookSection": "Modals, imperative etc.",
+      "mappedTopicId": "beginner_topic_modals_must_should_have_to",
+      "mappedTopicTitle": "Obligation and Advice: Must, Should, and Have To",
+      "mappedSectionId": "beginner_modals",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 34,
+      "unitTitle": "Would you like ...? / I’d like ...",
+      "bookSection": "Modals, imperative etc.",
+      "mappedTopicId": "beginner_topic_social_requests_habits",
+      "mappedTopicTitle": "Polite Requests, Imperatives, and Past Habits",
+      "mappedSectionId": "beginner_modals",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 35,
+      "unitTitle": "Do this! Don’t do that! Let’s do this!",
+      "bookSection": "Modals, imperative etc.",
+      "mappedTopicId": "beginner_topic_social_requests_habits",
+      "mappedTopicTitle": "Polite Requests, Imperatives, and Past Habits",
+      "mappedSectionId": "beginner_modals",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 36,
+      "unitTitle": "I used to ...",
+      "bookSection": "Modals, imperative etc.",
+      "mappedTopicId": "beginner_topic_social_requests_habits",
+      "mappedTopicTitle": "Polite Requests, Imperatives, and Past Habits",
+      "mappedSectionId": "beginner_modals",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 37,
+      "unitTitle": "there is / there are",
+      "bookSection": "There and it",
+      "mappedTopicId": "beginner_topic_there_is_there_are",
+      "mappedTopicTitle": "There Is / There Are Across Tenses",
+      "mappedSectionId": "beginner_there_and_it",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 38,
+      "unitTitle": "there was/were / there has/have been / there will be",
+      "bookSection": "There and it",
+      "mappedTopicId": "beginner_topic_there_is_there_are",
+      "mappedTopicTitle": "There Is / There Are Across Tenses",
+      "mappedSectionId": "beginner_there_and_it",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 39,
+      "unitTitle": "It ...",
+      "bookSection": "There and it",
+      "mappedTopicId": "beginner_topic_it_is_vs_there_is",
+      "mappedTopicTitle": "It Is for Time, Weather, and Impersonal Frames",
+      "mappedSectionId": "beginner_there_and_it",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 40,
+      "unitTitle": "I am, I don’t etc.",
+      "bookSection": "Auxiliary verbs",
+      "mappedTopicId": "beginner_topic_auxiliary_verbs_usage",
+      "mappedTopicTitle": "Auxiliary Verbs in Short Answers and Tag Echoes",
+      "mappedSectionId": "beginner_auxiliary_verbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 41,
+      "unitTitle": "Have you? Are you? Don’t you? etc.",
+      "bookSection": "Auxiliary verbs",
+      "mappedTopicId": "beginner_topic_auxiliary_verbs_usage",
+      "mappedTopicTitle": "Auxiliary Verbs in Short Answers and Tag Echoes",
+      "mappedSectionId": "beginner_auxiliary_verbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 42,
+      "unitTitle": "too/either / so am I / neither do I etc.",
+      "bookSection": "Auxiliary verbs",
+      "mappedTopicId": "beginner_topic_auxiliary_agreement_negatives",
+      "mappedTopicTitle": "Agreement (Too/Either, So/Neither) and Negatives",
+      "mappedSectionId": "beginner_auxiliary_verbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 43,
+      "unitTitle": "isn’t, haven’t, don’t etc. (negatives)",
+      "bookSection": "Auxiliary verbs",
+      "mappedTopicId": "beginner_topic_auxiliary_agreement_negatives",
+      "mappedTopicTitle": "Agreement (Too/Either, So/Neither) and Negatives",
+      "mappedSectionId": "beginner_auxiliary_verbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 44,
+      "unitTitle": "is it ...? / have you ...? / do they ...? etc. (questions 1)",
+      "bookSection": "Questions",
+      "mappedTopicId": "beginner_topic_question_formation_wh",
+      "mappedTopicTitle": "Question Formation and Wh- Question Words",
+      "mappedSectionId": "beginner_questions",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 45,
+      "unitTitle": "Who saw you? / Who did you see? (questions 2)",
+      "bookSection": "Questions",
+      "mappedTopicId": "beginner_topic_subject_questions_prepositions",
+      "mappedTopicTitle": "Subject vs Object Questions and Prepositions at End",
+      "mappedSectionId": "beginner_questions",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 46,
+      "unitTitle": "Who is she talking to? / What is it like? (questions 3)",
+      "bookSection": "Questions",
+      "mappedTopicId": "beginner_topic_subject_questions_prepositions",
+      "mappedTopicTitle": "Subject vs Object Questions and Prepositions at End",
+      "mappedSectionId": "beginner_questions",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 47,
+      "unitTitle": "What ...? / Which ...? / How ...? (questions 4)",
+      "bookSection": "Questions",
+      "mappedTopicId": "beginner_topic_question_formation_wh",
+      "mappedTopicTitle": "Question Formation and Wh- Question Words",
+      "mappedSectionId": "beginner_questions",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 48,
+      "unitTitle": "How long does it take ...?",
+      "bookSection": "Questions",
+      "mappedTopicId": "beginner_topic_indirect_duration_questions",
+      "mappedTopicTitle": "Duration and Indirect Question Patterns",
+      "mappedSectionId": "beginner_questions",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 49,
+      "unitTitle": "Do you know where ...? / I don’t know what ... etc.",
+      "bookSection": "Questions",
+      "mappedTopicId": "beginner_topic_indirect_duration_questions",
+      "mappedTopicTitle": "Duration and Indirect Question Patterns",
+      "mappedSectionId": "beginner_questions",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 50,
+      "unitTitle": "She said that ... / He told me that ...",
+      "bookSection": "Reported speech",
+      "mappedTopicId": "beginner_topic_reported_speech_basics",
+      "mappedTopicTitle": "Reported Statements: He Said That / She Told Me",
+      "mappedSectionId": "beginner_reported_speech",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 51,
+      "unitTitle": "work/working / go/going / do/doing",
+      "bookSection": "-ing and to ...",
+      "mappedTopicId": "beginner_topic_verb_ing_to_forms",
+      "mappedTopicTitle": "Verbs Followed by -ing and to-Infinitive",
+      "mappedSectionId": "beginner_ing_and_to",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 52,
+      "unitTitle": "to ... (I want to do) and -ing (I enjoy doing)",
+      "bookSection": "-ing and to ...",
+      "mappedTopicId": "beginner_topic_verb_ing_to_forms",
+      "mappedTopicTitle": "Verbs Followed by -ing and to-Infinitive",
+      "mappedSectionId": "beginner_ing_and_to",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 53,
+      "unitTitle": "I want you to ... / I told you to ...",
+      "bookSection": "-ing and to ...",
+      "mappedTopicId": "beginner_topic_verb_person_to_purpose",
+      "mappedTopicTitle": "Verb + Person + to and Infinitive of Purpose",
+      "mappedSectionId": "beginner_ing_and_to",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 54,
+      "unitTitle": "I went to the shop to ...",
+      "bookSection": "-ing and to ...",
+      "mappedTopicId": "beginner_topic_verb_person_to_purpose",
+      "mappedTopicTitle": "Verb + Person + to and Infinitive of Purpose",
+      "mappedSectionId": "beginner_ing_and_to",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 55,
+      "unitTitle": "go to ... / go on ... / go for ... / go -ing",
+      "bookSection": "Go, get, do, make and have",
+      "mappedTopicId": "beginner_topic_verbs_go_and_get",
+      "mappedTopicTitle": "Everyday Usage of Go and Get",
+      "mappedSectionId": "beginner_common_verbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 56,
+      "unitTitle": "get",
+      "bookSection": "Go, get, do, make and have",
+      "mappedTopicId": "beginner_topic_verbs_go_and_get",
+      "mappedTopicTitle": "Everyday Usage of Go and Get",
+      "mappedSectionId": "beginner_common_verbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 57,
+      "unitTitle": "do and make",
+      "bookSection": "Go, get, do, make and have",
+      "mappedTopicId": "beginner_topic_verbs_do_make_have",
+      "mappedTopicTitle": "Do vs Make and Have Collocations",
+      "mappedSectionId": "beginner_common_verbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 58,
+      "unitTitle": "have",
+      "bookSection": "Go, get, do, make and have",
+      "mappedTopicId": "beginner_topic_verbs_do_make_have",
+      "mappedTopicTitle": "Do vs Make and Have Collocations",
+      "mappedSectionId": "beginner_common_verbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 59,
+      "unitTitle": "I/me / he/him / they/them etc.",
+      "bookSection": "Pronouns and possessives",
+      "mappedTopicId": "beginner_topic_personal_possessive_pronouns",
+      "mappedTopicTitle": "Subject, Object, and Possessive Pronouns",
+      "mappedSectionId": "beginner_pronouns_possessives",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 60,
+      "unitTitle": "my/his/their etc.",
+      "bookSection": "Pronouns and possessives",
+      "mappedTopicId": "beginner_topic_personal_possessive_pronouns",
+      "mappedTopicTitle": "Subject, Object, and Possessive Pronouns",
+      "mappedSectionId": "beginner_pronouns_possessives",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 61,
+      "unitTitle": "Whose is this? It’s mine/yours/hers etc.",
+      "bookSection": "Pronouns and possessives",
+      "mappedTopicId": "beginner_topic_personal_possessive_pronouns",
+      "mappedTopicTitle": "Subject, Object, and Possessive Pronouns",
+      "mappedSectionId": "beginner_pronouns_possessives",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 62,
+      "unitTitle": "I/me/my/mine",
+      "bookSection": "Pronouns and possessives",
+      "mappedTopicId": "beginner_topic_personal_possessive_pronouns",
+      "mappedTopicTitle": "Subject, Object, and Possessive Pronouns",
+      "mappedSectionId": "beginner_pronouns_possessives",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 63,
+      "unitTitle": "myself/yourself/themselves etc.",
+      "bookSection": "Pronouns and possessives",
+      "mappedTopicId": "beginner_topic_reflexives_possessive_s",
+      "mappedTopicTitle": "Reflexive Pronouns (-self) and Possessive 's",
+      "mappedSectionId": "beginner_pronouns_possessives",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 64,
+      "unitTitle": "-’s (Kate’s camera / my brother’s car etc.)",
+      "bookSection": "Pronouns and possessives",
+      "mappedTopicId": "beginner_topic_reflexives_possessive_s",
+      "mappedTopicTitle": "Reflexive Pronouns (-self) and Possessive 's",
+      "mappedSectionId": "beginner_pronouns_possessives",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 65,
+      "unitTitle": "a/an ...",
+      "bookSection": "A and the",
+      "mappedTopicId": "beginner_topic_articles_plurals",
+      "mappedTopicTitle": "Indefinite Article (A/An) and Singular/Plural Nouns",
+      "mappedSectionId": "beginner_articles_nouns",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 66,
+      "unitTitle": "train(s) / bus(es) (singular and plural)",
+      "bookSection": "A and the",
+      "mappedTopicId": "beginner_topic_articles_plurals",
+      "mappedTopicTitle": "Indefinite Article (A/An) and Singular/Plural Nouns",
+      "mappedSectionId": "beginner_articles_nouns",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 67,
+      "unitTitle": "a bottle / some water (countable/uncountable 1)",
+      "bookSection": "A and the",
+      "mappedTopicId": "beginner_topic_countable_uncountable_nouns",
+      "mappedTopicTitle": "Countable vs Uncountable Nouns",
+      "mappedSectionId": "beginner_articles_nouns",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 68,
+      "unitTitle": "a cake / some cake / some cakes (countable/uncountable 2)",
+      "bookSection": "A and the",
+      "mappedTopicId": "beginner_topic_countable_uncountable_nouns",
+      "mappedTopicTitle": "Countable vs Uncountable Nouns",
+      "mappedSectionId": "beginner_articles_nouns",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 69,
+      "unitTitle": "a/an and the",
+      "bookSection": "A and the",
+      "mappedTopicId": "beginner_topic_definite_the_and_zero_article",
+      "mappedTopicTitle": "Definite Article (The), Zero Article, and Place Names",
+      "mappedSectionId": "beginner_articles_nouns",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 70,
+      "unitTitle": "the ...",
+      "bookSection": "A and the",
+      "mappedTopicId": "beginner_topic_definite_the_and_zero_article",
+      "mappedTopicTitle": "Definite Article (The), Zero Article, and Place Names",
+      "mappedSectionId": "beginner_articles_nouns",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 71,
+      "unitTitle": "go to work / go home / go to the cinema",
+      "bookSection": "A and the",
+      "mappedTopicId": "beginner_topic_definite_the_and_zero_article",
+      "mappedTopicTitle": "Definite Article (The), Zero Article, and Place Names",
+      "mappedSectionId": "beginner_articles_nouns",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 72,
+      "unitTitle": "I like music / I hate exams",
+      "bookSection": "A and the",
+      "mappedTopicId": "beginner_topic_definite_the_and_zero_article",
+      "mappedTopicTitle": "Definite Article (The), Zero Article, and Place Names",
+      "mappedSectionId": "beginner_articles_nouns",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 73,
+      "unitTitle": "the ... (names of places)",
+      "bookSection": "A and the",
+      "mappedTopicId": "beginner_topic_definite_the_and_zero_article",
+      "mappedTopicTitle": "Definite Article (The), Zero Article, and Place Names",
+      "mappedSectionId": "beginner_articles_nouns",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 74,
+      "unitTitle": "this/that/these/those",
+      "bookSection": "Determiners and pronouns",
+      "mappedTopicId": "beginner_topic_demonstratives_and_ones",
+      "mappedTopicTitle": "Demonstratives (This/That/These/Those) and One/Ones",
+      "mappedSectionId": "beginner_determiners",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 75,
+      "unitTitle": "one/ones",
+      "bookSection": "Determiners and pronouns",
+      "mappedTopicId": "beginner_topic_demonstratives_and_ones",
+      "mappedTopicTitle": "Demonstratives (This/That/These/Those) and One/Ones",
+      "mappedSectionId": "beginner_determiners",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 76,
+      "unitTitle": "some and any",
+      "bookSection": "Determiners and pronouns",
+      "mappedTopicId": "beginner_topic_some_any_negatives_compounds",
+      "mappedTopicTitle": "Some, Any, No, None, and Indefinite Compounds",
+      "mappedSectionId": "beginner_determiners",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 77,
+      "unitTitle": "not + any / no / none",
+      "bookSection": "Determiners and pronouns",
+      "mappedTopicId": "beginner_topic_some_any_negatives_compounds",
+      "mappedTopicTitle": "Some, Any, No, None, and Indefinite Compounds",
+      "mappedSectionId": "beginner_determiners",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 78,
+      "unitTitle": "not + anybody/anyone/anything / nobody/no-one/nothing",
+      "bookSection": "Determiners and pronouns",
+      "mappedTopicId": "beginner_topic_some_any_negatives_compounds",
+      "mappedTopicTitle": "Some, Any, No, None, and Indefinite Compounds",
+      "mappedSectionId": "beginner_determiners",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 79,
+      "unitTitle": "somebody/anything/nowhere etc.",
+      "bookSection": "Determiners and pronouns",
+      "mappedTopicId": "beginner_topic_some_any_negatives_compounds",
+      "mappedTopicTitle": "Some, Any, No, None, and Indefinite Compounds",
+      "mappedSectionId": "beginner_determiners",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 80,
+      "unitTitle": "every and all",
+      "bookSection": "Determiners and pronouns",
+      "mappedTopicId": "beginner_topic_quantifiers_distributives",
+      "mappedTopicTitle": "Every, All, Most, Both, Either, Neither",
+      "mappedSectionId": "beginner_determiners",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 81,
+      "unitTitle": "all / most / some / any / no/none",
+      "bookSection": "Determiners and pronouns",
+      "mappedTopicId": "beginner_topic_quantifiers_distributives",
+      "mappedTopicTitle": "Every, All, Most, Both, Either, Neither",
+      "mappedSectionId": "beginner_determiners",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 82,
+      "unitTitle": "both / either / neither",
+      "bookSection": "Determiners and pronouns",
+      "mappedTopicId": "beginner_topic_quantifiers_distributives",
+      "mappedTopicTitle": "Every, All, Most, Both, Either, Neither",
+      "mappedSectionId": "beginner_determiners",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 83,
+      "unitTitle": "a lot / much / many",
+      "bookSection": "Determiners and pronouns",
+      "mappedTopicId": "beginner_topic_quantifiers_much_many_few_little",
+      "mappedTopicTitle": "Quantifiers: A Lot, Much, Many, Little, Few",
+      "mappedSectionId": "beginner_determiners",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 84,
+      "unitTitle": "(a) little / (a) few",
+      "bookSection": "Determiners and pronouns",
+      "mappedTopicId": "beginner_topic_quantifiers_much_many_few_little",
+      "mappedTopicTitle": "Quantifiers: A Lot, Much, Many, Little, Few",
+      "mappedSectionId": "beginner_determiners",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 85,
+      "unitTitle": "old/nice/interesting etc. (adjectives)",
+      "bookSection": "Adjectives and adverbs",
+      "mappedTopicId": "beginner_topic_adjectives_and_adverbs_basics",
+      "mappedTopicTitle": "Adjectives and Adverbs of Manner (-ly)",
+      "mappedSectionId": "beginner_adjectives_adverbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 86,
+      "unitTitle": "quickly/badly/suddenly etc. (adverbs)",
+      "bookSection": "Adjectives and adverbs",
+      "mappedTopicId": "beginner_topic_adjectives_and_adverbs_basics",
+      "mappedTopicTitle": "Adjectives and Adverbs of Manner (-ly)",
+      "mappedSectionId": "beginner_adjectives_adverbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 87,
+      "unitTitle": "old/older / expensive/more expensive",
+      "bookSection": "Adjectives and adverbs",
+      "mappedTopicId": "beginner_topic_comparatives_and_as_as",
+      "mappedTopicTitle": "Comparatives (-er, more than) and Equal Comparisons (as...as)",
+      "mappedSectionId": "beginner_adjectives_adverbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 88,
+      "unitTitle": "older than ... / more expensive than ...",
+      "bookSection": "Adjectives and adverbs",
+      "mappedTopicId": "beginner_topic_comparatives_and_as_as",
+      "mappedTopicTitle": "Comparatives (-er, more than) and Equal Comparisons (as...as)",
+      "mappedSectionId": "beginner_adjectives_adverbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 89,
+      "unitTitle": "not as ... as",
+      "bookSection": "Adjectives and adverbs",
+      "mappedTopicId": "beginner_topic_comparatives_and_as_as",
+      "mappedTopicTitle": "Comparatives (-er, more than) and Equal Comparisons (as...as)",
+      "mappedSectionId": "beginner_adjectives_adverbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 90,
+      "unitTitle": "the oldest / the most expensive",
+      "bookSection": "Adjectives and adverbs",
+      "mappedTopicId": "beginner_topic_superlatives_too_enough",
+      "mappedTopicTitle": "Superlatives (the oldest/most) and Modifiers (Too and Enough)",
+      "mappedSectionId": "beginner_adjectives_adverbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 91,
+      "unitTitle": "enough",
+      "bookSection": "Adjectives and adverbs",
+      "mappedTopicId": "beginner_topic_superlatives_too_enough",
+      "mappedTopicTitle": "Superlatives (the oldest/most) and Modifiers (Too and Enough)",
+      "mappedSectionId": "beginner_adjectives_adverbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 92,
+      "unitTitle": "too",
+      "bookSection": "Adjectives and adverbs",
+      "mappedTopicId": "beginner_topic_superlatives_too_enough",
+      "mappedTopicTitle": "Superlatives (the oldest/most) and Modifiers (Too and Enough)",
+      "mappedSectionId": "beginner_adjectives_adverbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 93,
+      "unitTitle": "He speaks English very well. (word order 1)",
+      "bookSection": "Word order",
+      "mappedTopicId": "beginner_topic_word_order_svo_frequency",
+      "mappedTopicTitle": "Sentence Word Order: Verb + Object, Frequency Adverbs",
+      "mappedSectionId": "beginner_word_order",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 94,
+      "unitTitle": "always/usually/often etc. (word order 2)",
+      "bookSection": "Word order",
+      "mappedTopicId": "beginner_topic_word_order_svo_frequency",
+      "mappedTopicTitle": "Sentence Word Order: Verb + Object, Frequency Adverbs",
+      "mappedSectionId": "beginner_word_order",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 95,
+      "unitTitle": "still / yet / already",
+      "bookSection": "Word order",
+      "mappedTopicId": "beginner_topic_adverb_order_double_objects",
+      "mappedTopicTitle": "Still, Yet, Already, and Double Objects",
+      "mappedSectionId": "beginner_word_order",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 96,
+      "unitTitle": "Give me that book! / Give it to me!",
+      "bookSection": "Word order",
+      "mappedTopicId": "beginner_topic_adverb_order_double_objects",
+      "mappedTopicTitle": "Still, Yet, Already, and Double Objects",
+      "mappedSectionId": "beginner_word_order",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 97,
+      "unitTitle": "and / but / or / so / because",
+      "bookSection": "Conjunctions and clauses",
+      "mappedTopicId": "beginner_topic_conjunctions_time_clauses",
+      "mappedTopicTitle": "Conjunctions (And, But, Or, So, Because) and Time Clauses (When)",
+      "mappedSectionId": "beginner_clauses",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 98,
+      "unitTitle": "When ...",
+      "bookSection": "Conjunctions and clauses",
+      "mappedTopicId": "beginner_topic_conjunctions_time_clauses",
+      "mappedTopicTitle": "Conjunctions (And, But, Or, So, Because) and Time Clauses (When)",
+      "mappedSectionId": "beginner_clauses",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 99,
+      "unitTitle": "If we go ... / If you see ... etc.",
+      "bookSection": "Conjunctions and clauses",
+      "mappedTopicId": "beginner_topic_conditionals_intro",
+      "mappedTopicTitle": "Conditionals: Real Present/Future (If we go) and Unreal (If I had)",
+      "mappedSectionId": "beginner_clauses",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 100,
+      "unitTitle": "If I had ... / If we went ... etc.",
+      "bookSection": "Conjunctions and clauses",
+      "mappedTopicId": "beginner_topic_conditionals_intro",
+      "mappedTopicTitle": "Conditionals: Real Present/Future (If we go) and Unreal (If I had)",
+      "mappedSectionId": "beginner_clauses",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 101,
+      "unitTitle": "a person who ... / a thing that/which ... (relative clauses 1)",
+      "bookSection": "Conjunctions and clauses",
+      "mappedTopicId": "beginner_topic_relative_clauses_intro",
+      "mappedTopicTitle": "Relative Clauses: Who, That, Which, and Pronoun Omission",
+      "mappedSectionId": "beginner_clauses",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 102,
+      "unitTitle": "the people we met / the hotel you stayed at (relative clauses 2)",
+      "bookSection": "Conjunctions and clauses",
+      "mappedTopicId": "beginner_topic_relative_clauses_intro",
+      "mappedTopicTitle": "Relative Clauses: Who, That, Which, and Pronoun Omission",
+      "mappedSectionId": "beginner_clauses",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 103,
+      "unitTitle": "at 8 o’clock / on Monday / in April",
+      "bookSection": "Prepositions",
+      "mappedTopicId": "beginner_topic_prepositions_time",
+      "mappedTopicTitle": "Prepositions of Time: At, On, In, From...To, Until, During, While",
+      "mappedSectionId": "beginner_prepositions",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 104,
+      "unitTitle": "from ... to / until / since / for",
+      "bookSection": "Prepositions",
+      "mappedTopicId": "beginner_topic_prepositions_time",
+      "mappedTopicTitle": "Prepositions of Time: At, On, In, From...To, Until, During, While",
+      "mappedSectionId": "beginner_prepositions",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 105,
+      "unitTitle": "before / after / during / while",
+      "bookSection": "Prepositions",
+      "mappedTopicId": "beginner_topic_prepositions_time",
+      "mappedTopicTitle": "Prepositions of Time: At, On, In, From...To, Until, During, While",
+      "mappedSectionId": "beginner_prepositions",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 106,
+      "unitTitle": "in / at / on (places 1)",
+      "bookSection": "Prepositions",
+      "mappedTopicId": "beginner_topic_prepositions_place_movement",
+      "mappedTopicTitle": "Prepositions of Place (In, At, On) and Movement (To, Through, Over)",
+      "mappedSectionId": "beginner_prepositions",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 107,
+      "unitTitle": "in / at / on (places 2)",
+      "bookSection": "Prepositions",
+      "mappedTopicId": "beginner_topic_prepositions_place_movement",
+      "mappedTopicTitle": "Prepositions of Place (In, At, On) and Movement (To, Through, Over)",
+      "mappedSectionId": "beginner_prepositions",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 108,
+      "unitTitle": "to / in / at (places 3)",
+      "bookSection": "Prepositions",
+      "mappedTopicId": "beginner_topic_prepositions_place_movement",
+      "mappedTopicTitle": "Prepositions of Place (In, At, On) and Movement (To, Through, Over)",
+      "mappedSectionId": "beginner_prepositions",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 109,
+      "unitTitle": "under, behind, opposite etc.",
+      "bookSection": "Prepositions",
+      "mappedTopicId": "beginner_topic_prepositions_place_movement",
+      "mappedTopicTitle": "Prepositions of Place (In, At, On) and Movement (To, Through, Over)",
+      "mappedSectionId": "beginner_prepositions",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 110,
+      "unitTitle": "up, over, through etc.",
+      "bookSection": "Prepositions",
+      "mappedTopicId": "beginner_topic_prepositions_place_movement",
+      "mappedTopicTitle": "Prepositions of Place (In, At, On) and Movement (To, Through, Over)",
+      "mappedSectionId": "beginner_prepositions",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 111,
+      "unitTitle": "on / at / by / with / about",
+      "bookSection": "Prepositions",
+      "mappedTopicId": "beginner_topic_prepositions_collocations",
+      "mappedTopicTitle": "Preposition Expressions and Collocations",
+      "mappedSectionId": "beginner_prepositions",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 112,
+      "unitTitle": "good at ..., interested in ... etc. / of/at/for etc. (prepositions) + -ing",
+      "bookSection": "Prepositions",
+      "mappedTopicId": "beginner_topic_prepositions_collocations",
+      "mappedTopicTitle": "Preposition Expressions and Collocations",
+      "mappedSectionId": "beginner_prepositions",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 113,
+      "unitTitle": "listen to ..., look at ... etc. (verb + preposition)",
+      "bookSection": "Prepositions",
+      "mappedTopicId": "beginner_topic_prepositions_collocations",
+      "mappedTopicTitle": "Preposition Expressions and Collocations",
+      "mappedSectionId": "beginner_prepositions",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 114,
+      "unitTitle": "go in, fall off, run away etc. (phrasal verbs 1)",
+      "bookSection": "Phrasal verbs",
+      "mappedTopicId": "beginner_topic_phrasal_verbs_basics",
+      "mappedTopicTitle": "Everyday Phrasal Verbs and Pronoun Placement",
+      "mappedSectionId": "beginner_phrasal_verbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 115,
+      "unitTitle": "put on your shoes / put your shoes on (phrasal verbs 2)",
+      "bookSection": "Phrasal verbs",
+      "mappedTopicId": "beginner_topic_phrasal_verbs_basics",
+      "mappedTopicTitle": "Everyday Phrasal Verbs and Pronoun Placement",
+      "mappedSectionId": "beginner_phrasal_verbs",
+      "status": "MAPPED"
+    }
+  ]
+}

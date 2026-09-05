@@ -4,94 +4,98 @@ import com.learnenglish.grammargames.domain.model.BookReference
 import com.learnenglish.grammargames.domain.model.Course
 import com.learnenglish.grammargames.domain.model.CourseLevel
 import com.learnenglish.grammargames.domain.model.GrammarTopic
+import com.learnenglish.grammargames.domain.model.curriculum.CourseId
+import com.learnenglish.grammargames.domain.model.curriculum.TopicId
+import com.learnenglish.grammargames.domain.repository.CurriculumRepository
 import javax.inject.Inject
+import javax.inject.Provider
 import javax.inject.Singleton
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.flowOf
+import kotlinx.coroutines.flow.flow
 
 @Singleton
-class InMemoryLearningContentDataSource @Inject constructor() : LearningContentDataSource {
+class InMemoryLearningContentDataSource @Inject constructor(
+    private val curriculumRepositoryProvider: Provider<CurriculumRepository>
+) : LearningContentDataSource {
 
-    private val courses = listOf(
+    private val fallbackCourses = listOf(
         Course(
-            id = "essential_grammar",
-            title = "Essential Grammar (A1-A2)",
+            id = "course_beginner",
+            title = "Beginner",
             level = CourseLevel.BEGINNER,
-            description = "Fundamental English grammar rules, basic tenses, and sentence building."
+            description = "Build the grammar foundation required for basic everyday English."
         ),
         Course(
-            id = "intermediate_grammar",
-            title = "Intermediate Grammar (B1-B2)",
+            id = "course_intermediate",
+            title = "Intermediate",
             level = CourseLevel.INTERMEDIATE,
-            description = "Complex tenses, modal verbs, conditionals, and passive voice."
+            description = "Develop confident control of core English grammar, contrast similar forms and handle more complex sentence patterns."
         ),
         Course(
-            id = "advanced_grammar",
-            title = "Advanced Grammar (C1-C2)",
+            id = "course_advanced",
+            title = "Advanced",
             level = CourseLevel.ADVANCED,
-            description = "Inversion, subjunctive, subtle nuances, and mastery-level structures."
+            description = "Develop precise, flexible and nuanced control of advanced grammar."
         )
     )
 
-    private val topics = listOf(
-        GrammarTopic(
-            id = "present_simple",
-            courseId = "essential_grammar",
-            title = "Present Simple & Continuous",
-            order = 1
-        ),
-        GrammarTopic(
-            id = "past_simple",
-            courseId = "essential_grammar",
-            title = "Past Simple & Regular/Irregular Verbs",
-            order = 2
-        ),
-        GrammarTopic(
-            id = "present_perfect",
-            courseId = "intermediate_grammar",
-            title = "Present Perfect vs Past Simple",
-            order = 1
-        ),
-        GrammarTopic(
-            id = "conditionals",
-            courseId = "intermediate_grammar",
-            title = "Conditionals: 0, 1st, 2nd, and 3rd",
-            order = 2
-        ),
-        GrammarTopic(
-            id = "inversion",
-            courseId = "advanced_grammar",
-            title = "Inversion & Emphasis",
-            order = 1
-        )
-    )
+    override fun getCourses(): Flow<List<Course>> = flow {
+        val repo = runCatching { curriculumRepositoryProvider.get() }.getOrNull()
+        if (repo != null) {
+            val curriculumCourses = runCatching { repo.getCourses() }.getOrNull()
+            if (!curriculumCourses.isNullOrEmpty()) {
+                emit(curriculumCourses.map {
+                    Course(
+                        id = it.id.value,
+                        title = it.title,
+                        level = it.level,
+                        description = it.description
+                    )
+                })
+                return@flow
+            }
+        }
+        emit(fallbackCourses)
+    }
 
-    private val bookReferences = listOf(
-        BookReference(
-            topicId = "present_simple",
-            bookTitle = "English Grammar in Use (Murphy)",
-            edition = "5th Edition",
-            units = listOf(1, 2, 3, 4)
-        ),
-        BookReference(
-            topicId = "present_perfect",
-            bookTitle = "English Grammar in Use (Murphy)",
-            edition = "5th Edition",
-            units = listOf(7, 8, 13, 14)
-        ),
-        BookReference(
-            topicId = "conditionals",
-            bookTitle = "English Grammar in Use (Murphy)",
-            edition = "5th Edition",
-            units = listOf(38, 39, 40)
-        )
-    )
+    override fun getTopics(courseId: String): Flow<List<GrammarTopic>> = flow {
+        val repo = runCatching { curriculumRepositoryProvider.get() }.getOrNull()
+        if (repo != null) {
+            val sections = runCatching { repo.getSectionsForCourse(CourseId(courseId)) }.getOrDefault(emptyList())
+            val topics = sections.flatMap { sec ->
+                runCatching { repo.getTopicsForSection(sec.id) }.getOrDefault(emptyList())
+            }
+            if (topics.isNotEmpty()) {
+                emit(topics.map {
+                    GrammarTopic(
+                        id = it.id.value,
+                        courseId = courseId,
+                        title = it.title,
+                        order = it.order
+                    )
+                })
+                return@flow
+            }
+        }
+        emit(emptyList())
+    }
 
-    override fun getCourses(): Flow<List<Course>> = flowOf(courses)
-
-    override fun getTopics(courseId: String): Flow<List<GrammarTopic>> =
-        flowOf(topics.filter { it.courseId == courseId })
-
-    override fun getBookReferences(topicId: String): Flow<List<BookReference>> =
-        flowOf(bookReferences.filter { it.topicId == topicId })
+    override fun getBookReferences(topicId: String): Flow<List<BookReference>> = flow {
+        val repo = runCatching { curriculumRepositoryProvider.get() }.getOrNull()
+        if (repo != null) {
+            val topic = runCatching { repo.getTopic(TopicId(topicId)) }.getOrNull()
+            if (topic != null) {
+                emit(topic.bookReferences.map {
+                    BookReference(
+                        topicId = topicId,
+                        bookTitle = it.bookTitle,
+                        edition = it.edition,
+                        units = it.units
+                    )
+                })
+                return@flow
+            }
+        }
+        emit(emptyList())
+    }
 }

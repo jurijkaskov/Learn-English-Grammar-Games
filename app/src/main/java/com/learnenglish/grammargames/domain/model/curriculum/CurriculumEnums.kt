@@ -7,6 +7,15 @@ enum class DifficultyLevel {
     MASTERY
 }
 
+enum class ConceptDepth {
+    INTRODUCTION,
+    FOUNDATION,
+    CONTROL,
+    CONTRAST,
+    NUANCE,
+    MASTERY
+}
+
 enum class CefrLevel {
     A1,
     A2,

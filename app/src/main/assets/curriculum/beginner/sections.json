@@ -1,0 +1,256 @@
+[
+  {
+    "id": "beginner_present",
+    "courseId": "course_beginner",
+    "title": "Present",
+    "description": "Affirmative, negative, question forms of be, present simple, present continuous, and possession.",
+    "order": 1,
+    "topicIds": [
+      "beginner_topic_am_is_are",
+      "beginner_topic_be_questions",
+      "beginner_topic_present_continuous_basics",
+      "beginner_topic_present_simple_basics",
+      "beginner_topic_present_simple_vs_continuous",
+      "beginner_topic_have_and_have_got"
+    ]
+  },
+  {
+    "id": "beginner_past",
+    "courseId": "course_beginner",
+    "title": "Past",
+    "description": "Past time forms of be (was/were), regular and irregular past simple, and past continuous.",
+    "order": 2,
+    "topicIds": [
+      "beginner_topic_past_simple_be",
+      "beginner_topic_past_simple_regular_irregular",
+      "beginner_topic_past_continuous_intro"
+    ]
+  },
+  {
+    "id": "beginner_present_perfect",
+    "courseId": "course_beginner",
+    "title": "Present Perfect",
+    "description": "Present perfect for life experience, recent events with just/already/yet, duration, and past contrast.",
+    "order": 3,
+    "topicIds": [
+      "beginner_topic_present_perfect_form",
+      "beginner_topic_present_perfect_just_already_yet",
+      "beginner_topic_present_perfect_duration",
+      "beginner_topic_present_perfect_vs_past"
+    ]
+  },
+  {
+    "id": "beginner_passive",
+    "courseId": "course_beginner",
+    "title": "Passive",
+    "description": "Basic passive constructions in present simple, past simple, continuous, and perfect.",
+    "order": 4,
+    "topicIds": [
+      "beginner_topic_passive_present_past",
+      "beginner_topic_passive_continuous_perfect"
+    ]
+  },
+  {
+    "id": "beginner_verb_forms",
+    "courseId": "course_beginner",
+    "title": "Verb Forms",
+    "description": "Conjugation of primary verbs be/have/do and high-frequency irregular verb families.",
+    "order": 5,
+    "topicIds": [
+      "beginner_topic_be_have_do_verb_forms",
+      "beginner_topic_regular_irregular_fundamentals"
+    ]
+  },
+  {
+    "id": "beginner_future",
+    "courseId": "course_beginner",
+    "title": "Future",
+    "description": "Expressing the future with present continuous arrangements, be going to plans, and will/shall.",
+    "order": 6,
+    "topicIds": [
+      "beginner_topic_future_present_and_going_to",
+      "beginner_topic_future_will_shall"
+    ]
+  },
+  {
+    "id": "beginner_modals",
+    "courseId": "course_beginner",
+    "title": "Modals and Everyday Functions",
+    "description": "Ability, obligation, advice, polite requests, imperatives, and past habits (used to).",
+    "order": 7,
+    "topicIds": [
+      "beginner_topic_modals_might_can_could",
+      "beginner_topic_modals_must_should_have_to",
+      "beginner_topic_social_requests_habits"
+    ]
+  },
+  {
+    "id": "beginner_there_and_it",
+    "courseId": "course_beginner",
+    "title": "There and It",
+    "description": "Existential there is/are across tenses and placeholder dummy it for time, weather, and distance.",
+    "order": 8,
+    "topicIds": [
+      "beginner_topic_there_is_there_are",
+      "beginner_topic_it_is_vs_there_is"
+    ]
+  },
+  {
+    "id": "beginner_auxiliary_verbs",
+    "courseId": "course_beginner",
+    "title": "Auxiliary Verbs",
+    "description": "Auxiliary verbs in short answers, agreement (too/either, so/neither), and negative contractions.",
+    "order": 9,
+    "topicIds": [
+      "beginner_topic_auxiliary_verbs_usage",
+      "beginner_topic_auxiliary_agreement_negatives"
+    ]
+  },
+  {
+    "id": "beginner_questions",
+    "courseId": "course_beginner",
+    "title": "Questions",
+    "description": "Question word order, question words, subject vs object questions, and indirect questions.",
+    "order": 10,
+    "topicIds": [
+      "beginner_topic_question_formation_wh",
+      "beginner_topic_subject_questions_prepositions",
+      "beginner_topic_indirect_duration_questions"
+    ]
+  },
+  {
+    "id": "beginner_reported_speech",
+    "courseId": "course_beginner",
+    "title": "Reported Speech",
+    "description": "Reporting statements using say and tell with basic tense adjustment.",
+    "order": 11,
+    "topicIds": [
+      "beginner_topic_reported_speech_basics"
+    ]
+  },
+  {
+    "id": "beginner_ing_and_to",
+    "courseId": "course_beginner",
+    "title": "-ing and to",
+    "description": "Verb complementation with gerunds (-ing) and to-infinitives, plus infinitive of purpose.",
+    "order": 12,
+    "topicIds": [
+      "beginner_topic_verb_ing_to_forms",
+      "beginner_topic_verb_person_to_purpose"
+    ]
+  },
+  {
+    "id": "beginner_common_verbs",
+    "courseId": "course_beginner",
+    "title": "Common Verb Patterns",
+    "description": "Everyday usage and idiomatic combinations with go, get, do, make, and have.",
+    "order": 13,
+    "topicIds": [
+      "beginner_topic_verbs_go_and_get",
+      "beginner_topic_verbs_do_make_have"
+    ]
+  },
+  {
+    "id": "beginner_pronouns_possessives",
+    "courseId": "course_beginner",
+    "title": "Pronouns and Possessives",
+    "description": "Subject, object, and possessive pronouns, reflexive pronouns, and possessive 's.",
+    "order": 14,
+    "topicIds": [
+      "beginner_topic_personal_possessive_pronouns",
+      "beginner_topic_reflexives_possessive_s"
+    ]
+  },
+  {
+    "id": "beginner_articles_nouns",
+    "courseId": "course_beginner",
+    "title": "Articles and Nouns",
+    "description": "Indefinite and definite articles (a/an, the), countable/uncountable nouns, and zero article.",
+    "order": 15,
+    "topicIds": [
+      "beginner_topic_articles_plurals",
+      "beginner_topic_countable_uncountable_nouns",
+      "beginner_topic_definite_the_and_zero_article"
+    ]
+  },
+  {
+    "id": "beginner_determiners",
+    "courseId": "course_beginner",
+    "title": "Determiners and Pronouns",
+    "description": "Demonstratives, indefinite pronouns, quantifiers (some, any, every, all, both, much, many, few).",
+    "order": 16,
+    "topicIds": [
+      "beginner_topic_demonstratives_and_ones",
+      "beginner_topic_some_any_negatives_compounds",
+      "beginner_topic_quantifiers_distributives",
+      "beginner_topic_quantifiers_much_many_few_little"
+    ]
+  },
+  {
+    "id": "beginner_adjectives_adverbs",
+    "courseId": "course_beginner",
+    "title": "Adjectives and Adverbs",
+    "description": "Adjective positions, adverbs of manner (-ly), comparatives (-er/more), superlatives, too, and enough.",
+    "order": 17,
+    "topicIds": [
+      "beginner_topic_adjectives_and_adverbs_basics",
+      "beginner_topic_comparatives_and_as_as",
+      "beginner_topic_superlatives_too_enough"
+    ]
+  },
+  {
+    "id": "beginner_word_order",
+    "courseId": "course_beginner",
+    "title": "Word Order",
+    "description": "Standard declarative order (SVO + Place + Time), adverb placement, and double objects.",
+    "order": 18,
+    "topicIds": [
+      "beginner_topic_word_order_svo_frequency",
+      "beginner_topic_adverb_order_double_objects"
+    ]
+  },
+  {
+    "id": "beginner_clauses",
+    "courseId": "course_beginner",
+    "title": "Conjunctions and Clauses",
+    "description": "Coordinating connectives, time clauses (when), basic conditional sentences (if), and relative clauses.",
+    "order": 19,
+    "topicIds": [
+      "beginner_topic_conjunctions_time_clauses",
+      "beginner_topic_conditionals_intro",
+      "beginner_topic_relative_clauses_intro"
+    ]
+  },
+  {
+    "id": "beginner_prepositions",
+    "courseId": "course_beginner",
+    "title": "Prepositions",
+    "description": "Prepositions of time, location, movement, and dependent collocations with adjectives and verbs.",
+    "order": 20,
+    "topicIds": [
+      "beginner_topic_prepositions_time",
+      "beginner_topic_prepositions_place_movement",
+      "beginner_topic_prepositions_collocations"
+    ]
+  },
+  {
+    "id": "beginner_phrasal_verbs",
+    "courseId": "course_beginner",
+    "title": "Phrasal Verbs",
+    "description": "Essential two-part verbs, movement particles, and separable pronoun placement.",
+    "order": 21,
+    "topicIds": [
+      "beginner_topic_phrasal_verbs_basics"
+    ]
+  },
+  {
+    "id": "beginner_final_challenge",
+    "courseId": "course_beginner",
+    "title": "Beginner Final Challenge",
+    "description": "Comprehensive diagnostic review and mastery assessment synthesizing all A1–A2 grammar concepts.",
+    "order": 22,
+    "topicIds": [
+      "beginner_topic_final_challenge"
+    ]
+  }
+]

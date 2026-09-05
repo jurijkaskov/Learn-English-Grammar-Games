@@ -27,7 +27,10 @@ sealed interface CurriculumInspectorUiState {
         val lessons: List<Lesson>,
         val activities: List<Activity>,
         val questions: List<Question>,
-        val report: CurriculumValidationReport
+        val report: CurriculumValidationReport,
+        val books: List<com.learnenglish.grammargames.domain.model.curriculum.GrammarBookCatalogItem> = emptyList(),
+        val concepts: List<com.learnenglish.grammargames.domain.model.curriculum.GrammarConcept> = emptyList(),
+        val beginnerCoverage: com.learnenglish.grammargames.core.content.curriculum.validator.BookMappingCoverageReport? = null
     ) : CurriculumInspectorUiState
     data class Error(val message: String) : CurriculumInspectorUiState
 }
@@ -49,6 +52,14 @@ class CurriculumInspectorViewModel @Inject constructor(
             _uiState.value = CurriculumInspectorUiState.Loading
             runCatching {
                 val bundle = loader.loadCurriculum(forceReload = forceReload)
+                val beginnerTopics = bundle.topics.filter { it.id.value.startsWith("beginner_") }
+                val coverage = com.learnenglish.grammargames.core.content.curriculum.validator.CurriculumValidator.calculateBookCoverage(
+                    bookId = "essential_grammar_in_use",
+                    editionId = "essential_grammar_in_use_4",
+                    topics = beginnerTopics,
+                    totalUnits = 115
+                )
+
                 _uiState.value = CurriculumInspectorUiState.Content(
                     manifestVersion = bundle.manifest.contentVersion,
                     courses = bundle.courses,
@@ -57,7 +68,10 @@ class CurriculumInspectorViewModel @Inject constructor(
                     lessons = bundle.lessons,
                     activities = bundle.activities,
                     questions = bundle.questions,
-                    report = bundle.report
+                    report = bundle.report,
+                    books = bundle.books,
+                    concepts = bundle.concepts,
+                    beginnerCoverage = coverage
                 )
             }.onFailure { error ->
                 _uiState.value = CurriculumInspectorUiState.Error(error.localizedMessage ?: "Failed to load curriculum")

@@ -1,0 +1,266 @@
+[
+  {
+    "id": "adv_act_neg_inv_content",
+    "lessonId": "advanced_topic_negative_adverbial_inversion_l1",
+    "title": "Study: Negative Adverb Inversion",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_neg_inv_quiz",
+    "lessonId": "advanced_topic_negative_adverbial_inversion_l1",
+    "title": "Practice: Mastering Inverted Word Order",
+    "type": "QUIZ",
+    "order": 2,
+    "questionIds": ["adv_q_inv_1", "adv_q_inv_2"]
+  },
+  {
+    "id": "adv_act_hardly_content",
+    "lessonId": "advanced_topic_only_hardly_scarcely_inversion_l1",
+    "title": "Study: Hardly and Scarcely",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_loc_inv_content",
+    "lessonId": "advanced_topic_locative_conditional_inversion_l1",
+    "title": "Study: Locative Inversion",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_it_cleft_content",
+    "lessonId": "advanced_topic_it_clefts_focus_l1",
+    "title": "Study: It-Clefts",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_it_cleft_quiz",
+    "lessonId": "advanced_topic_it_clefts_focus_l1",
+    "title": "Practice: It-Cleft Focus Formations",
+    "type": "QUIZ",
+    "order": 2,
+    "questionIds": ["adv_q_cleft_1"]
+  },
+  {
+    "id": "adv_act_wh_cleft_content",
+    "lessonId": "advanced_topic_wh_pseudo_clefts_l1",
+    "title": "Study: Wh- Pseudo-Clefts",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_thematic_content",
+    "lessonId": "advanced_topic_thematic_fronting_l1",
+    "title": "Study: Thematic Fronting",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_part_clauses_content",
+    "lessonId": "advanced_topic_present_past_participle_clauses_l1",
+    "title": "Study: Participle Clauses",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_having_done_content",
+    "lessonId": "advanced_topic_having_done_compound_participles_l1",
+    "title": "Study: Having Done Clauses",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_subjunctive_content",
+    "lessonId": "advanced_topic_mandative_formulaic_subjunctive_l1",
+    "title": "Study: Subjunctive Mood",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_high_time_content",
+    "lessonId": "advanced_topic_unreal_past_high_time_l1",
+    "title": "Study: Unreal Past with High Time",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_inv_cond_content",
+    "lessonId": "advanced_topic_inverted_conditionals_l1",
+    "title": "Study: Inverted Conditionals",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_mixed_cond_content",
+    "lessonId": "advanced_topic_mixed_conditionals_mastery_l1",
+    "title": "Study: Mixed Conditionals",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_concess_cond_content",
+    "lessonId": "advanced_topic_concessive_conditionals_l1",
+    "title": "Study: Concessive Conditionals",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_impers_pass_content",
+    "lessonId": "advanced_topic_impersonal_reporting_passive_l1",
+    "title": "Study: Impersonal Passive",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_sensory_pass_content",
+    "lessonId": "advanced_topic_passive_sensory_verbs_l1",
+    "title": "Study: Passive Sensory Verbs",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_neednt_content",
+    "lessonId": "advanced_topic_neednt_have_vs_didnt_need_to_l1",
+    "title": "Study: Needn't Have vs Didn't Need To",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_hedging_content",
+    "lessonId": "advanced_topic_epistemic_hedging_modals_l1",
+    "title": "Study: Epistemic Hedging",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_ergative_content",
+    "lessonId": "advanced_topic_ergative_verbs_l1",
+    "title": "Study: Ergative Verbs",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_complex_trans_content",
+    "lessonId": "advanced_topic_complex_transitive_complementation_l1",
+    "title": "Study: Complex Transitive Complements",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_nominal_comp_content",
+    "lessonId": "advanced_topic_complex_nominal_compounds_l1",
+    "title": "Study: Nominal Compounding",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_concord_content",
+    "lessonId": "advanced_topic_collective_noun_concord_l1",
+    "title": "Study: Collective Noun Concord",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_nom_rel_content",
+    "lessonId": "advanced_topic_nominal_relative_clauses_l1",
+    "title": "Study: Nominal Relative Clauses",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_red_rel_content",
+    "lessonId": "advanced_topic_reduced_relative_postmodifiers_l1",
+    "title": "Study: Reduced Relative Clauses",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_stance_content",
+    "lessonId": "advanced_topic_viewpoint_stance_adverbials_l1",
+    "title": "Study: Stance Adverbials",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_discourse_content",
+    "lessonId": "advanced_topic_discourse_flow_markers_l1",
+    "title": "Study: Discourse Flow Markers",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_ellipsis_content",
+    "lessonId": "advanced_topic_clause_ellipsis_omission_l1",
+    "title": "Study: Clause Ellipsis",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_subst_content",
+    "lessonId": "advanced_topic_substitution_markers_l1",
+    "title": "Study: Substitution Markers",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_multi_prep_content",
+    "lessonId": "advanced_topic_compound_multi_word_prepositions_l1",
+    "title": "Study: Multi-word Prepositions",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_pied_piping_content",
+    "lessonId": "advanced_topic_particle_stranding_fronting_l1",
+    "title": "Study: Pied-Piping vs Stranding",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_nominaliz_content",
+    "lessonId": "advanced_topic_academic_nominalization_l1",
+    "title": "Study: Academic Nominalization",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  },
+  {
+    "id": "adv_act_register_content",
+    "lessonId": "advanced_topic_stylistic_register_shifts_l1",
+    "title": "Study: Register Shifts",
+    "type": "LESSON_CONTENT",
+    "order": 1,
+    "questionIds": []
+  }
+]
