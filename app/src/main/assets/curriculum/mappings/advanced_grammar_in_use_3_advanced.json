@@ -1,0 +1,922 @@
+{
+  "book": {
+    "id": "advanced_grammar_in_use",
+    "title": "Advanced Grammar in Use",
+    "author": "Martin Hewings",
+    "edition": "Third Edition",
+    "editionId": "advanced_grammar_in_use_3",
+    "publicationYear": 2013,
+    "totalUnits": 100
+  },
+  "targetCourseId": "course_advanced",
+  "targetCourseLevel": "ADVANCED",
+  "cefrRange": "C1",
+  "coverage": {
+    "totalUnits": 100,
+    "mappedUnits": 100,
+    "unmappedUnits": 0,
+    "coveragePercentage": 100.0
+  },
+  "units": [
+    {
+      "unit": 1,
+      "unitTitle": "Present continuous and present simple 1",
+      "bookSection": "Tense Contrasts",
+      "mappedTopicId": "advanced_present_continuous_simple_aspect",
+      "mappedTopicTitle": "Present Continuous & Simple: Aspectual & Stative Nuance",
+      "mappedSectionId": "advanced_tense_contrasts",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 2,
+      "unitTitle": "Present continuous and present simple 2",
+      "bookSection": "Tense Contrasts",
+      "mappedTopicId": "advanced_present_continuous_simple_stylistic",
+      "mappedTopicTitle": "Present Tenses: Discourse, Annoyance & Current Affairs",
+      "mappedSectionId": "advanced_tense_contrasts",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 3,
+      "unitTitle": "Past simple and present perfect",
+      "bookSection": "Tense Contrasts",
+      "mappedTopicId": "advanced_past_simple_present_perfect_perspective",
+      "mappedTopicTitle": "Past Simple vs Present Perfect: Temporal Perspective & Distance",
+      "mappedSectionId": "advanced_tense_contrasts",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 4,
+      "unitTitle": "Past continuous and past simple",
+      "bookSection": "Tense Contrasts",
+      "mappedTopicId": "advanced_past_continuous_simple_narrative",
+      "mappedTopicTitle": "Past Continuous & Simple: Narrative Framing & Interruption",
+      "mappedSectionId": "advanced_tense_contrasts",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 5,
+      "unitTitle": "Past perfect and past simple",
+      "bookSection": "Tense Contrasts",
+      "mappedTopicId": "advanced_past_perfect_simple_retrospect",
+      "mappedTopicTitle": "Past Perfect vs Past Simple: Narrative Sequence & Retrospection",
+      "mappedSectionId": "advanced_tense_contrasts",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 6,
+      "unitTitle": "Present perfect continuous and present perfect",
+      "bookSection": "Tense Contrasts",
+      "mappedTopicId": "advanced_present_perfect_continuous_simple_duration",
+      "mappedTopicTitle": "Present Perfect Continuous vs Simple: Result, Completion & Duration",
+      "mappedSectionId": "advanced_tense_contrasts",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 7,
+      "unitTitle": "Past perfect continuous, past perfect and past continuous",
+      "bookSection": "Tense Contrasts",
+      "mappedTopicId": "advanced_past_perfect_continuous_past_tenses",
+      "mappedTopicTitle": "Past Perfect Continuous vs Other Past Aspects in Extended Context",
+      "mappedSectionId": "advanced_tense_contrasts",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 8,
+      "unitTitle": "Present and past time: review",
+      "bookSection": "Tense Contrasts",
+      "mappedTopicId": "advanced_present_past_time_synthesis",
+      "mappedTopicTitle": "Present & Past Time: Extended Discourse Review & Synthesis",
+      "mappedSectionId": "advanced_tense_contrasts",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 9,
+      "unitTitle": "Will and be going to",
+      "bookSection": "Future Forms",
+      "mappedTopicId": "advanced_will_be_going_to_prediction_volition",
+      "mappedTopicTitle": "Will vs Be Going To: Certainty, Decision & Predictive Evidence",
+      "mappedSectionId": "advanced_future_forms",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 10,
+      "unitTitle": "Present simple and present continuous for the future",
+      "bookSection": "Future Forms",
+      "mappedTopicId": "advanced_present_forms_for_future_arrangements",
+      "mappedTopicTitle": "Present Forms for Future: Timetables, Calendars & Official Plans",
+      "mappedSectionId": "advanced_future_forms",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 11,
+      "unitTitle": "Future continuous and future perfect (continuous)",
+      "bookSection": "Future Forms",
+      "mappedTopicId": "advanced_future_continuous_perfect_aspects",
+      "mappedTopicTitle": "Future Continuous & Future Perfect: Expected Course & Completion",
+      "mappedSectionId": "advanced_future_forms",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 12,
+      "unitTitle": "Be to + infinitive; be about to + infinitive",
+      "bookSection": "Future Forms",
+      "mappedTopicId": "advanced_be_to_be_about_to_official_destiny",
+      "mappedTopicTitle": "Be To + Infinitive & Be About To: Formal Mandates & Imminence",
+      "mappedSectionId": "advanced_future_forms",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 13,
+      "unitTitle": "Other ways of talking about the future",
+      "bookSection": "Future Forms",
+      "mappedTopicId": "advanced_alternative_future_expressions",
+      "mappedTopicTitle": "Alternative Future Markers: Be Bound To, Due To, On the Verge Of",
+      "mappedSectionId": "advanced_future_forms",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 14,
+      "unitTitle": "The future seen from the past",
+      "bookSection": "Future Forms",
+      "mappedTopicId": "advanced_future_seen_from_past_prospective",
+      "mappedTopicTitle": "The Future Seen from the Past: Was Going To, Would, Was To",
+      "mappedSectionId": "advanced_future_forms",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 15,
+      "unitTitle": "Can, could, be able to and be allowed to",
+      "bookSection": "Modals Semi Modals",
+      "mappedTopicId": "advanced_ability_permission_modals_semi_modals",
+      "mappedTopicTitle": "Can, Could, Be Able To & Be Allowed To: Specific vs General Capacity",
+      "mappedSectionId": "advanced_modals_semi_modals",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 16,
+      "unitTitle": "Will, would and used to",
+      "bookSection": "Modals Semi Modals",
+      "mappedTopicId": "advanced_will_would_used_to_habits_characteristics",
+      "mappedTopicTitle": "Will, Would & Used To: Typical Behaviour, Annoying Habits & Refusal",
+      "mappedSectionId": "advanced_modals_semi_modals",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 17,
+      "unitTitle": "May and might",
+      "bookSection": "Modals Semi Modals",
+      "mappedTopicId": "advanced_may_might_possibility_speculation",
+      "mappedTopicTitle": "May & Might: Degrees of Probability, Concession & Counterfactuals",
+      "mappedSectionId": "advanced_modals_semi_modals",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 18,
+      "unitTitle": "Must and have (got) to",
+      "bookSection": "Modals Semi Modals",
+      "mappedTopicId": "advanced_must_have_to_obligation_deduction",
+      "mappedTopicTitle": "Must vs Have (Got) To: Internal vs External Authority & Logical Deduction",
+      "mappedSectionId": "advanced_modals_semi_modals",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 19,
+      "unitTitle": "Need(n’t), don’t need to and don’t have to",
+      "bookSection": "Modals Semi Modals",
+      "mappedTopicId": "advanced_neednt_didnt_need_to_necessity",
+      "mappedTopicTitle": "Need(n't) vs Don't Need To vs Didn't Need To: Incurred vs Avoided Action",
+      "mappedSectionId": "advanced_modals_semi_modals",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 20,
+      "unitTitle": "Should, ought to and had better",
+      "bookSection": "Modals Semi Modals",
+      "mappedTopicId": "advanced_should_ought_to_had_better_advisory",
+      "mappedTopicTitle": "Should, Ought To & Had Better: Advice, Urgency & Expectation",
+      "mappedSectionId": "advanced_modals_semi_modals",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 21,
+      "unitTitle": "Linking verbs: be, appear, seem; become, get, etc.",
+      "bookSection": "Linking Verbs",
+      "mappedTopicId": "advanced_linking_verbs_copular_complements",
+      "mappedTopicTitle": "Linking Verbs: Be, Appear, Seem, Become, Get & Sensory Predication",
+      "mappedSectionId": "advanced_linking_verbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 22,
+      "unitTitle": "Forming passive sentences 1",
+      "bookSection": "Passive",
+      "mappedTopicId": "advanced_passive_sentence_formation_patterns",
+      "mappedTopicTitle": "Complex Passive Formation: Prepositional & Multi-Word Verbs",
+      "mappedSectionId": "advanced_passive",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 23,
+      "unitTitle": "Forming passive sentences 2: verb + -ing or to-infinitive",
+      "bookSection": "Passive",
+      "mappedTopicId": "advanced_passive_ing_infinitives",
+      "mappedTopicTitle": "Passive Infinitives & -ing Forms: Being Done, To Be Done, Having Been Done",
+      "mappedSectionId": "advanced_passive",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 24,
+      "unitTitle": "Using passives",
+      "bookSection": "Passive",
+      "mappedTopicId": "advanced_passive_choice_discourse_style",
+      "mappedTopicTitle": "Passive Choice in Discourse: Information Flow, Focus & Impersonal Style",
+      "mappedSectionId": "advanced_passive",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 25,
+      "unitTitle": "Reporting with passives; It is said that ...",
+      "bookSection": "Passive",
+      "mappedTopicId": "advanced_reporting_passive_impersonal_it",
+      "mappedTopicTitle": "Reporting with Passives: It Is Said That vs He Is Believed To",
+      "mappedSectionId": "advanced_passive",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 26,
+      "unitTitle": "Wh-questions with who, whom, which, how and whose",
+      "bookSection": "Questions",
+      "mappedTopicId": "advanced_wh_questions_complex_prepositions",
+      "mappedTopicTitle": "Wh-Questions: Preposition Stranding, Whom, Which, Whose & How",
+      "mappedSectionId": "advanced_questions",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 27,
+      "unitTitle": "Negative questions; echo questions; questions with that-clauses",
+      "bookSection": "Questions",
+      "mappedTopicId": "advanced_negative_echo_embedded_questions",
+      "mappedTopicTitle": "Negative Questions, Echo Questions & That-Clause Complements",
+      "mappedSectionId": "advanced_questions",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 28,
+      "unitTitle": "Verbs, objects and complements",
+      "bookSection": "Verb Complementation",
+      "mappedTopicId": "advanced_verbs_objects_predicate_complements",
+      "mappedTopicTitle": "Verbs, Objects and Complements: Transitive, Intransitive & Ergative Structures",
+      "mappedSectionId": "advanced_verb_complementation",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 29,
+      "unitTitle": "Verb + two objects",
+      "bookSection": "Verb Complementation",
+      "mappedTopicId": "advanced_verb_two_objects_ditransitive",
+      "mappedTopicTitle": "Ditransitive Patterns: Double Objects vs Prepositional Shifts",
+      "mappedSectionId": "advanced_verb_complementation",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 30,
+      "unitTitle": "Verb + -ing forms and infinitives 1",
+      "bookSection": "Verb Complementation",
+      "mappedTopicId": "advanced_verb_ing_infinitives_meaning_shifts",
+      "mappedTopicTitle": "Verb + -ing vs Infinitive 1: Semantic Contrast & Action Perspectives",
+      "mappedSectionId": "advanced_verb_complementation",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 31,
+      "unitTitle": "Verb + -ing forms and infinitives 2",
+      "bookSection": "Verb Complementation",
+      "mappedTopicId": "advanced_verb_ing_infinitives_complex_patterns",
+      "mappedTopicTitle": "Verb + -ing vs Infinitive 2: Perception Verbs, Bare Infinitives & Perfect Forms",
+      "mappedSectionId": "advanced_verb_complementation",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 32,
+      "unitTitle": "Reporting people’s words and thoughts",
+      "bookSection": "Reporting",
+      "mappedTopicId": "advanced_reporting_speech_thoughts_summarising",
+      "mappedTopicTitle": "Reporting Speech & Thoughts: Summarising Verbs & Discourse Functions",
+      "mappedSectionId": "advanced_reporting",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 33,
+      "unitTitle": "Reporting statements: that-clauses",
+      "bookSection": "Reporting",
+      "mappedTopicId": "advanced_reporting_statements_that_clauses",
+      "mappedTopicTitle": "Reporting Statements: That-Clauses, Omission & Fact Stances",
+      "mappedSectionId": "advanced_reporting",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 34,
+      "unitTitle": "Verb + wh-clause",
+      "bookSection": "Reporting",
+      "mappedTopicId": "advanced_reporting_wh_clauses_indirect_syntax",
+      "mappedTopicTitle": "Verb + Wh-Clause: Indirect Questions & Embedded Inquiries",
+      "mappedSectionId": "advanced_reporting",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 35,
+      "unitTitle": "Tense choice in reporting",
+      "bookSection": "Reporting",
+      "mappedTopicId": "advanced_reporting_tense_choice_backshift",
+      "mappedTopicTitle": "Tense Choice in Reporting: Backshift Retention & Contemporary Truth",
+      "mappedSectionId": "advanced_reporting",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 36,
+      "unitTitle": "Reporting offers, suggestions, orders, intentions, etc.",
+      "bookSection": "Reporting",
+      "mappedTopicId": "advanced_reporting_offers_suggestions_commands",
+      "mappedTopicTitle": "Reporting Directives: Offers, Suggestions, Warnings & Promises",
+      "mappedSectionId": "advanced_reporting",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 37,
+      "unitTitle": "Modal verbs in reporting",
+      "bookSection": "Reporting",
+      "mappedTopicId": "advanced_reporting_modals_attitude_shifts",
+      "mappedTopicTitle": "Modal Verbs in Reporting: Epistemic & Deontic Adjustments",
+      "mappedSectionId": "advanced_reporting",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 38,
+      "unitTitle": "Reporting what people say using nouns and adjectives",
+      "bookSection": "Reporting",
+      "mappedTopicId": "advanced_reporting_nouns_adjectives_nominalisation",
+      "mappedTopicTitle": "Nominal & Adjectival Reporting: The Claim That, Aware of the Fact",
+      "mappedSectionId": "advanced_reporting",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 39,
+      "unitTitle": "Should in that-clauses; the present subjunctive",
+      "bookSection": "Reporting",
+      "mappedTopicId": "advanced_subjunctive_mandative_should_that_clauses",
+      "mappedTopicTitle": "Mandative Subjunctive & Should in That-Clauses: Formal Resolutions",
+      "mappedSectionId": "advanced_reporting",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 40,
+      "unitTitle": "Agreement between subject and verb 1",
+      "bookSection": "Agreement Noun Phrases",
+      "mappedTopicId": "advanced_subject_verb_agreement_complex_subjects",
+      "mappedTopicTitle": "Subject-Verb Agreement 1: Prepositional Modifiers, Intervening Clauses & Compound Subjects",
+      "mappedSectionId": "advanced_agreement_noun_phrases",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 41,
+      "unitTitle": "Agreement between subject and verb 2",
+      "bookSection": "Agreement Noun Phrases",
+      "mappedTopicId": "advanced_subject_verb_agreement_collective_nouns",
+      "mappedTopicTitle": "Subject-Verb Agreement 2: Collective Nouns, Institution Concord & Notional Plurality",
+      "mappedSectionId": "advanced_agreement_noun_phrases",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 42,
+      "unitTitle": "Agreement between subject and verb 3",
+      "bookSection": "Agreement Noun Phrases",
+      "mappedTopicId": "advanced_subject_verb_agreement_quantifiers_percentages",
+      "mappedTopicTitle": "Subject-Verb Agreement 3: Fractions, Quantifiers, Singular Plural-form Nouns",
+      "mappedSectionId": "advanced_agreement_noun_phrases",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 43,
+      "unitTitle": "Compound nouns and noun phrases",
+      "bookSection": "Agreement Noun Phrases",
+      "mappedTopicId": "advanced_compound_nouns_complex_noun_phrases",
+      "mappedTopicTitle": "Compound Nouns & Extended Nominal Pre-modification: Structures & Hyphenation",
+      "mappedSectionId": "advanced_agreement_noun_phrases",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 44,
+      "unitTitle": "A / an and one",
+      "bookSection": "Determiners",
+      "mappedTopicId": "advanced_a_an_one_precise_distinctions",
+      "mappedTopicTitle": "A / An vs One: Numerical Specificity vs Indefinite Classification",
+      "mappedSectionId": "advanced_determiners",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 45,
+      "unitTitle": "A / an, the and zero article 1",
+      "bookSection": "Determiners",
+      "mappedTopicId": "advanced_articles_general_specific_classes",
+      "mappedTopicTitle": "Articles 1: Generic vs Specific Reference, Classes & Categories",
+      "mappedSectionId": "advanced_determiners",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 46,
+      "unitTitle": "A / an, the and zero article 2",
+      "bookSection": "Determiners",
+      "mappedTopicId": "advanced_articles_institutions_transport_abstract",
+      "mappedTopicTitle": "Articles 2: Institutional Nouns, Transport, Illness & Zero Article",
+      "mappedSectionId": "advanced_determiners",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 47,
+      "unitTitle": "A / an, the and zero article 3",
+      "bookSection": "Determiners",
+      "mappedTopicId": "advanced_articles_geographical_proper_names",
+      "mappedTopicTitle": "Articles 3: Proper Names, Geography, Publications & Fixed Idioms",
+      "mappedSectionId": "advanced_determiners",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 48,
+      "unitTitle": "Some and any",
+      "bookSection": "Determiners",
+      "mappedTopicId": "advanced_some_any_assertive_non_assertive",
+      "mappedTopicTitle": "Some vs Any: Assertive Contexts, Free Choice & Subtle Expectations",
+      "mappedSectionId": "advanced_determiners",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 49,
+      "unitTitle": "No, none (of) and not any",
+      "bookSection": "Determiners",
+      "mappedTopicId": "advanced_no_none_not_any_emphatic_negation",
+      "mappedTopicTitle": "No, None (Of) & Not Any: Emphatic Negation & Quantifying Scope",
+      "mappedSectionId": "advanced_determiners",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 50,
+      "unitTitle": "Much (of), many (of), a lot of, lots (of), etc.",
+      "bookSection": "Determiners",
+      "mappedTopicId": "advanced_much_many_lot_of_register_quantity",
+      "mappedTopicTitle": "Much (Of), Many (Of), A Lot Of: Register Constraints & Formal Usage",
+      "mappedSectionId": "advanced_determiners",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 51,
+      "unitTitle": "All (of), whole, every, each",
+      "bookSection": "Determiners",
+      "mappedTopicId": "advanced_all_whole_every_each_distributives",
+      "mappedTopicTitle": "All (Of), Whole, Every & Each: Universal & Distributive Reference",
+      "mappedSectionId": "advanced_determiners",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 52,
+      "unitTitle": "Few, little, less, fewer",
+      "bookSection": "Determiners",
+      "mappedTopicId": "advanced_few_little_fewer_less_formal_distinctions",
+      "mappedTopicTitle": "Few, Little, Fewer & Less: Evaluative Polarity & Standard Written Norms",
+      "mappedSectionId": "advanced_determiners",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 53,
+      "unitTitle": "Relative pronouns",
+      "bookSection": "Relative Participle Clauses",
+      "mappedTopicId": "advanced_relative_pronouns_defining_non_defining",
+      "mappedTopicTitle": "Relative Pronouns: Who, Whom, Which, That & Register Choices",
+      "mappedSectionId": "advanced_relative_participle_clauses",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 54,
+      "unitTitle": "Other relative words: whose, when, whereby, etc.",
+      "bookSection": "Relative Participle Clauses",
+      "mappedTopicId": "advanced_relative_words_whose_whereby_wherever",
+      "mappedTopicTitle": "Other Relative Connectors: Whose, When, Whereby, Wherein & In Which",
+      "mappedSectionId": "advanced_relative_participle_clauses",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 55,
+      "unitTitle": "Prepositions in relative clauses",
+      "bookSection": "Relative Participle Clauses",
+      "mappedTopicId": "advanced_prepositions_in_relative_clauses",
+      "mappedTopicTitle": "Prepositions in Relative Clauses: Fronting vs Stranding & Register Shifts",
+      "mappedSectionId": "advanced_relative_participle_clauses",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 56,
+      "unitTitle": "Other ways of adding information to noun phrases 1: additional noun phrases, etc.",
+      "bookSection": "Relative Participle Clauses",
+      "mappedTopicId": "advanced_noun_modification_apposition_noun_clauses",
+      "mappedTopicTitle": "Adding Information to Noun Phrases 1: Apposition & Nominal Complements",
+      "mappedSectionId": "advanced_relative_participle_clauses",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 57,
+      "unitTitle": "Other ways of adding information to noun phrases 2: prepositional phrases, etc.",
+      "bookSection": "Relative Participle Clauses",
+      "mappedTopicId": "advanced_prepositional_phrases_postmodifiers",
+      "mappedTopicTitle": "Adding Information to Noun Phrases 2: Prepositional Post-modifiers",
+      "mappedSectionId": "advanced_relative_participle_clauses",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 58,
+      "unitTitle": "Participle clauses with adverbial meaning 1",
+      "bookSection": "Relative Participle Clauses",
+      "mappedTopicId": "advanced_participle_clauses_adverbial_time_reason",
+      "mappedTopicTitle": "Participle Clauses 1: -ing & -ed Adjuncts of Time, Reason & Cause",
+      "mappedSectionId": "advanced_relative_participle_clauses",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 59,
+      "unitTitle": "Participle clauses with adverbial meaning 2",
+      "bookSection": "Relative Participle Clauses",
+      "mappedTopicId": "advanced_participle_clauses_having_done_conditions",
+      "mappedTopicTitle": "Participle Clauses 2: Having Done, Perfect Participles & Subject Attachment",
+      "mappedSectionId": "advanced_relative_participle_clauses",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 60,
+      "unitTitle": "Reflexive pronouns: herself, himself, themselves, etc.",
+      "bookSection": "Substitution Ellipsis",
+      "mappedTopicId": "advanced_reflexive_pronouns_emphatic_reciprocal",
+      "mappedTopicTitle": "Reflexive & Emphatic Pronouns: Self-Forms, Ergativity & Emphasis",
+      "mappedSectionId": "advanced_substitution_ellipsis",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 61,
+      "unitTitle": "One and ones",
+      "bookSection": "Substitution Ellipsis",
+      "mappedTopicId": "advanced_one_ones_substitution_identifying",
+      "mappedTopicTitle": "One & Ones: Nominal Substitution, Omission & Adjectival Modification",
+      "mappedSectionId": "advanced_substitution_ellipsis",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 62,
+      "unitTitle": "So and not as substitutes for clauses, etc.",
+      "bookSection": "Substitution Ellipsis",
+      "mappedTopicId": "advanced_so_not_clausal_substitution",
+      "mappedTopicTitle": "So & Not as Clausal Substitutes: I Think So, Hope Not, Say So",
+      "mappedSectionId": "advanced_substitution_ellipsis",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 63,
+      "unitTitle": "Do so; such",
+      "bookSection": "Substitution Ellipsis",
+      "mappedTopicId": "advanced_do_so_such_predicate_substitution",
+      "mappedTopicTitle": "Do So, Do It, Do That & Such: Predicate Substitution in Formal Text",
+      "mappedSectionId": "advanced_substitution_ellipsis",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 64,
+      "unitTitle": "More on leaving out words after auxiliary verbs",
+      "bookSection": "Substitution Ellipsis",
+      "mappedTopicId": "advanced_ellipsis_after_auxiliary_verbs",
+      "mappedTopicTitle": "Ellipsis after Auxiliary Verbs: Co-ordination, Comparison & Tagged Reduction",
+      "mappedSectionId": "advanced_substitution_ellipsis",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 65,
+      "unitTitle": "Leaving out to-infinitives",
+      "bookSection": "Substitution Ellipsis",
+      "mappedTopicId": "advanced_ellipsis_infinitive_to_omission",
+      "mappedTopicTitle": "Ellipsis of To-Infinitives: Reduced Complements & Stranded Particle To",
+      "mappedSectionId": "advanced_substitution_ellipsis",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 66,
+      "unitTitle": "Position of adjectives",
+      "bookSection": "Adjectives Adverbs",
+      "mappedTopicId": "advanced_adjective_position_attributive_predicative",
+      "mappedTopicTitle": "Position of Adjectives: Attributive-only, Predicative-only & Post-positive Modifiers",
+      "mappedSectionId": "advanced_adjectives_adverbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 67,
+      "unitTitle": "Gradable and non-gradable adjectives 1",
+      "bookSection": "Adjectives Adverbs",
+      "mappedTopicId": "advanced_gradable_non_gradable_adjectives_intensifiers",
+      "mappedTopicTitle": "Gradable & Non-Gradable Adjectives 1: Absolutely vs Extremely & Modifying Adverbs",
+      "mappedSectionId": "advanced_adjectives_adverbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 68,
+      "unitTitle": "Gradable and non-gradable adjectives 2",
+      "bookSection": "Adjectives Adverbs",
+      "mappedTopicId": "advanced_gradable_adjectives_collocations_subtle_grading",
+      "mappedTopicTitle": "Gradable & Non-Gradable Adjectives 2: Fixed Adverb-Adjective Collocations",
+      "mappedSectionId": "advanced_adjectives_adverbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 69,
+      "unitTitle": "Participle adjectives and compound adjectives",
+      "bookSection": "Adjectives Adverbs",
+      "mappedTopicId": "advanced_participle_compound_adjectives",
+      "mappedTopicTitle": "Participle Adjectives & Compound Modifiers: Hyphenation & Argument Structure",
+      "mappedSectionId": "advanced_adjectives_adverbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 70,
+      "unitTitle": "Adjectives + to-infinitive, -ing, that-clause, wh-clause",
+      "bookSection": "Adjectives Adverbs",
+      "mappedTopicId": "advanced_adjectives_complementation_patterns",
+      "mappedTopicTitle": "Adjective Complementation: Patterns with To-Infinitive, -ing & That-Clauses",
+      "mappedSectionId": "advanced_adjectives_adverbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 71,
+      "unitTitle": "Adjectives and adverbs",
+      "bookSection": "Adjectives Adverbs",
+      "mappedTopicId": "advanced_adjectives_adverbs_form_contrasts",
+      "mappedTopicTitle": "Adjectives & Adverbs: Hard / Hardly, Late / Lately, Deep / Deeply",
+      "mappedSectionId": "advanced_adjectives_adverbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 72,
+      "unitTitle": "Adjectives and adverbs: comparative and superlative forms",
+      "bookSection": "Adjectives Adverbs",
+      "mappedTopicId": "advanced_comparatives_superlatives_advanced_forms",
+      "mappedTopicTitle": "Comparative & Superlative Nuances: Less / Least, More and More, The... The...",
+      "mappedSectionId": "advanced_adjectives_adverbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 73,
+      "unitTitle": "Comparative phrases and clauses",
+      "bookSection": "Adjectives Adverbs",
+      "mappedTopicId": "advanced_comparative_phrases_clauses_correlatives",
+      "mappedTopicTitle": "Comparative Phrases & Correlative Clauses: As... As, Not So Much As, Proportion",
+      "mappedSectionId": "advanced_adjectives_adverbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 74,
+      "unitTitle": "Position of adverbs 1",
+      "bookSection": "Adjectives Adverbs",
+      "mappedTopicId": "advanced_adverb_position_sentence_verb_mid_position",
+      "mappedTopicTitle": "Position of Adverbs 1: Mid-Position Rules with Auxiliaries & Main Verbs",
+      "mappedSectionId": "advanced_adjectives_adverbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 75,
+      "unitTitle": "Position of adverbs 2",
+      "bookSection": "Adjectives Adverbs",
+      "mappedTopicId": "advanced_adverb_position_scope_meaning_shifts",
+      "mappedTopicTitle": "Position of Adverbs 2: Focus Scope, Split Infinitives & Semantic Shifts",
+      "mappedSectionId": "advanced_adjectives_adverbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 76,
+      "unitTitle": "Adverbs of place, direction, indefinite frequency, and time",
+      "bookSection": "Adjectives Adverbs",
+      "mappedTopicId": "advanced_adverbs_place_direction_time_frequency",
+      "mappedTopicTitle": "Adverbs of Place, Direction, Indefinite Frequency & Time Sequences",
+      "mappedSectionId": "advanced_adjectives_adverbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 77,
+      "unitTitle": "Degree adverbs and focus adverbs",
+      "bookSection": "Adjectives Adverbs",
+      "mappedTopicId": "advanced_degree_adverbs_focus_adverbs_placement",
+      "mappedTopicTitle": "Degree & Focus Adverbs: Only, Even, Merely, Quite, Rather & Scopal Delimitation",
+      "mappedSectionId": "advanced_adjectives_adverbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 78,
+      "unitTitle": "Comment adverbs and viewpoint adverbs",
+      "bookSection": "Adjectives Adverbs",
+      "mappedTopicId": "advanced_comment_viewpoint_discourse_adverbs",
+      "mappedTopicTitle": "Comment & Viewpoint Adverbs: Frankly, Economically, Supposedly, Admittedly",
+      "mappedSectionId": "advanced_adjectives_adverbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 79,
+      "unitTitle": "Adverbial clauses of time",
+      "bookSection": "Adverbial Clauses Linking",
+      "mappedTopicId": "advanced_adverbial_clauses_time_temporal_linkers",
+      "mappedTopicTitle": "Adverbial Clauses of Time: Until, As Soon As, The Moment, Once",
+      "mappedSectionId": "advanced_adverbial_clauses_linking",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 80,
+      "unitTitle": "Giving reasons: as, because, etc.; for and with",
+      "bookSection": "Adverbial Clauses Linking",
+      "mappedTopicId": "advanced_reason_clauses_as_because_since_for_with",
+      "mappedTopicTitle": "Clauses of Reason: As, Because, Since, For, With & Seeing That",
+      "mappedSectionId": "advanced_adverbial_clauses_linking",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 81,
+      "unitTitle": "Purposes and results: in order to, so as to, etc.",
+      "bookSection": "Adverbial Clauses Linking",
+      "mappedTopicId": "advanced_purpose_result_in_order_so_as_to",
+      "mappedTopicTitle": "Purpose and Result: In Order To, So As To, In Case, So That, Such That",
+      "mappedSectionId": "advanced_adverbial_clauses_linking",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 82,
+      "unitTitle": "Contrasts: although and though; even though / if; while, whilst and whereas",
+      "bookSection": "Adverbial Clauses Linking",
+      "mappedTopicId": "advanced_contrast_concession_although_while_whereas",
+      "mappedTopicTitle": "Contrast and Concession: Although, Even Though, While, Whilst, Whereas, Despite",
+      "mappedSectionId": "advanced_adverbial_clauses_linking",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 83,
+      "unitTitle": "If 1",
+      "bookSection": "Conditionals",
+      "mappedTopicId": "advanced_conditionals_real_unreal_hypothetical_nuances",
+      "mappedTopicTitle": "Conditionals 1: Subtle Differences in Real, Predictive & Epistemic Conditions",
+      "mappedSectionId": "advanced_conditionals",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 84,
+      "unitTitle": "If 2",
+      "bookSection": "Conditionals",
+      "mappedTopicId": "advanced_conditionals_mixed_past_present_hypotheses",
+      "mappedTopicTitle": "Conditionals 2: Mixed Past-Present Conditions & Counterfactual Regret",
+      "mappedSectionId": "advanced_conditionals",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 85,
+      "unitTitle": "If I were you ...; imagine he were to win",
+      "bookSection": "Conditionals",
+      "mappedTopicId": "advanced_inverted_conditionals_should_were_had",
+      "mappedTopicTitle": "Conditional Inversion: Were He To, Had I Known, Should You Require",
+      "mappedSectionId": "advanced_conditionals",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 86,
+      "unitTitle": "If ... not and unless; if and whether; etc.",
+      "bookSection": "Conditionals",
+      "mappedTopicId": "advanced_alternative_conditional_markers",
+      "mappedTopicTitle": "Alternative Conditional Markers: Unless, Provided That, Supposing, As Long As, But For",
+      "mappedSectionId": "advanced_conditionals",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 87,
+      "unitTitle": "Connecting ideas in a sentence and between sentences",
+      "bookSection": "Adverbial Clauses Linking",
+      "mappedTopicId": "advanced_sentence_connectors_cohesion_discourse",
+      "mappedTopicTitle": "Connecting Ideas Across Discourse: Furthermore, Consequently, However, In Contrast",
+      "mappedSectionId": "advanced_adverbial_clauses_linking",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 88,
+      "unitTitle": "Prepositions of position and movement",
+      "bookSection": "Prepositions",
+      "mappedTopicId": "advanced_prepositions_position_movement_abstract",
+      "mappedTopicTitle": "Prepositions of Position & Movement: Across, Through, Along, Over, Under",
+      "mappedSectionId": "advanced_prepositions",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 89,
+      "unitTitle": "Between and among",
+      "bookSection": "Prepositions",
+      "mappedTopicId": "advanced_between_among_reciprocal_distinctions",
+      "mappedTopicTitle": "Between vs Among: Definite Pairs vs Collective Ensembles & Reciprocity",
+      "mappedSectionId": "advanced_prepositions",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 90,
+      "unitTitle": "Prepositions of time",
+      "bookSection": "Prepositions",
+      "mappedTopicId": "advanced_prepositions_time_complex_relationships",
+      "mappedTopicTitle": "Prepositions of Time: During, Over, Throughout, By, In, At & Within",
+      "mappedSectionId": "advanced_prepositions",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 91,
+      "unitTitle": "Talking about exceptions",
+      "bookSection": "Prepositions",
+      "mappedTopicId": "advanced_prepositions_exceptions_apart_except_besides",
+      "mappedTopicTitle": "Talking About Exceptions: Except (For), Apart From, Besides, But For",
+      "mappedSectionId": "advanced_prepositions",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 92,
+      "unitTitle": "Prepositions after verbs",
+      "bookSection": "Prepositions",
+      "mappedTopicId": "advanced_prepositions_dependent_after_verbs",
+      "mappedTopicTitle": "Dependent Prepositions After Verbs: Collocational Precision & Semantic Shifts",
+      "mappedSectionId": "advanced_prepositions",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 93,
+      "unitTitle": "Prepositions after nouns",
+      "bookSection": "Prepositions",
+      "mappedTopicId": "advanced_prepositions_dependent_after_nouns",
+      "mappedTopicTitle": "Dependent Prepositions After Nouns: Reason For, Increase In, Attack On",
+      "mappedSectionId": "advanced_prepositions",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 94,
+      "unitTitle": "Two- and three-word verbs: word order",
+      "bookSection": "Multiword Verbs",
+      "mappedTopicId": "advanced_two_three_word_verbs_particle_syntax",
+      "mappedTopicTitle": "Two- & Three-Word Verbs: Particle Placement, Separation & Idiomatic Patterns",
+      "mappedSectionId": "advanced_multiword_verbs",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 95,
+      "unitTitle": "There is, there was, etc.",
+      "bookSection": "Information Structure",
+      "mappedTopicId": "advanced_existential_there_complex_structures",
+      "mappedTopicTitle": "Existential There: Modal Expansions, Passive Links & Participle Complements",
+      "mappedSectionId": "advanced_information_structure",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 96,
+      "unitTitle": "It 1",
+      "bookSection": "Information Structure",
+      "mappedTopicId": "advanced_dummy_anticipatory_it_preparatory",
+      "mappedTopicTitle": "Preparatory It 1: Dummy It as Object & Anticipatory Subject with That/To",
+      "mappedSectionId": "advanced_information_structure",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 97,
+      "unitTitle": "It 2",
+      "bookSection": "Information Structure",
+      "mappedTopicId": "advanced_it_clauses_judgement_perception_frames",
+      "mappedTopicTitle": "Preparatory It 2: Impersonal Evaluative Frames: It Seems, It Occurred To Me",
+      "mappedSectionId": "advanced_information_structure",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 98,
+      "unitTitle": "Focusing: it-clauses and what-clauses",
+      "bookSection": "Information Structure",
+      "mappedTopicId": "advanced_cleft_sentences_it_what_focus_structures",
+      "mappedTopicTitle": "Focusing Constructions: It-Clefts & Pseudo-Clefts (What I Need Is...)",
+      "mappedSectionId": "advanced_information_structure",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 99,
+      "unitTitle": "Inversion 1",
+      "bookSection": "Focus Inversion",
+      "mappedTopicId": "advanced_inversion_negative_restrictive_adverbials",
+      "mappedTopicTitle": "Inversion 1: Fronted Negative & Restrictive Adverbials (Never, Seldom, Rarely)",
+      "mappedSectionId": "advanced_focus_inversion",
+      "status": "MAPPED"
+    },
+    {
+      "unit": 100,
+      "unitTitle": "Inversion 2",
+      "bookSection": "Focus Inversion",
+      "mappedTopicId": "advanced_inversion_place_direction_conditionals",
+      "mappedTopicTitle": "Inversion 2: Locative Fronting, So / Such Inversion & Formal Emphatic Syntax",
+      "mappedSectionId": "advanced_focus_inversion",
+      "status": "MAPPED"
+    }
+  ]
+}

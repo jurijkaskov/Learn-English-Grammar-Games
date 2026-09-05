@@ -57,11 +57,11 @@ class ThreeCoursesCurriculumTest {
         assertEquals(CefrLevel.C1, advanced.cefrMin)
         assertEquals(CefrLevel.C1, advanced.cefrMax)
 
-        // 4. Section counts: 22 for Beginner, 16 for Intermediate, 14 for Advanced
+        // 4. Section counts: 22 for Beginner, 18 for Intermediate, 20 for Advanced
         assertEquals(22, beginner.sectionIds.size)
-        assertEquals(16, intermediate.sectionIds.size)
-        assertEquals(14, advanced.sectionIds.size)
-        assertEquals(52, bundle.sections.size)
+        assertEquals(18, intermediate.sectionIds.size)
+        assertEquals(20, advanced.sectionIds.size)
+        assertEquals(60, bundle.sections.size)
 
         // 5. Shared Catalogs: Concepts and Books loaded
         assertTrue("Grammar concepts catalog must not be empty", bundle.concepts.isNotEmpty())
@@ -77,7 +77,7 @@ class ThreeCoursesCurriculumTest {
         // 6. CurriculumIndex verification
         val index = CurriculumIndex(bundle)
         assertEquals(3, index.courses.size)
-        assertEquals(52, index.sections.size)
+        assertEquals(60, index.sections.size)
         assertNotNull(index.getCourse(CourseId("course_beginner")))
         assertNotNull(index.getCourse(CourseId("course_intermediate")))
         assertNotNull(index.getCourse(CourseId("course_advanced")))

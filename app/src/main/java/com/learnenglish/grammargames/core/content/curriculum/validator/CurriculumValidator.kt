@@ -127,6 +127,20 @@ object CurriculumValidator {
                     )
                 }
             }
+
+            // Section order uniqueness check within course
+            val courseSections = sections.filter { it.courseId == course.id }
+            val orders = courseSections.map { it.order }
+            val duplicateOrders = orders.groupBy { it }.filter { it.value.size > 1 }.keys
+            for (dupOrder in duplicateOrders) {
+                errors.add(
+                    CurriculumValidationError(
+                        "Section",
+                        course.id.value,
+                        "Course ${course.id.value} contains duplicate section order: $dupOrder"
+                    )
+                )
+            }
         }
 
         // 2. Reference validation
@@ -492,6 +506,40 @@ object CurriculumValidator {
             multiMappedUnits = multiMapped,
             invalidUnits = invalid
         )
+    }
+
+    fun validateBookMappingEntries(
+        bookId: String,
+        editionId: String,
+        totalExpectedUnits: Int,
+        entries: List<Triple<Int, String, String>>, // unitNumber, mappedTopicId, mappedSectionId
+        existingTopicIds: Set<String>,
+        existingSectionIds: Set<String>
+    ): List<CurriculumValidationError> {
+        val errors = mutableListOf<CurriculumValidationError>()
+        val seenUnits = mutableSetOf<Int>()
+
+        for ((unitNum, topicId, sectionId) in entries) {
+            if (!seenUnits.add(unitNum)) {
+                errors.add(CurriculumValidationError("BookMapping", "$bookId Unit $unitNum", "Duplicate unit number $unitNum in mapping"))
+            }
+            if (unitNum < 1 || unitNum > totalExpectedUnits) {
+                errors.add(CurriculumValidationError("BookMapping", "$bookId Unit $unitNum", "Unit $unitNum out of bounds (1..$totalExpectedUnits)"))
+            }
+            if (topicId !in existingTopicIds) {
+                errors.add(CurriculumValidationError("BookMapping", "$bookId Unit $unitNum", "Mapped topic '$topicId' does not exist in curriculum"))
+            }
+            if (sectionId !in existingSectionIds) {
+                errors.add(CurriculumValidationError("BookMapping", "$bookId Unit $unitNum", "Mapped section '$sectionId' does not exist in curriculum"))
+            }
+        }
+
+        val missingUnits = (1..totalExpectedUnits).filter { it !in seenUnits }
+        if (missingUnits.isNotEmpty()) {
+            errors.add(CurriculumValidationError("BookMapping", bookId, "Missing ${missingUnits.size} units in mapping: ${missingUnits.take(10)}..."))
+        }
+
+        return errors
     }
 }
 

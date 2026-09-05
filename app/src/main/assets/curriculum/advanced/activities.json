@@ -1,266 +1,3239 @@
 [
   {
-    "id": "adv_act_neg_inv_content",
-    "lessonId": "advanced_topic_negative_adverbial_inversion_l1",
-    "title": "Study: Negative Adverb Inversion",
+    "id": "act_advanced_present_continuous_simple_aspect_content",
+    "lessonId": "lesson_advanced_present_continuous_simple_aspect",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Present Continuous & Simple: Aspectual & Stative Nuance",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_present_continuous_simple_aspect_rule",
+          "title": "Core Principle: Present Continuous & Simple: Aspectual & Stative Nuance",
+          "description": "Contrast dynamic progressivity with stative verbs, mental processes, and temporary states."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_present_continuous_simple_aspect_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 1"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_present_continuous_simple_aspect_ex",
+          "sentence": "In formal academic discourse, proficient writers employ present continuous & simple: aspectual & stative nuance to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_neg_inv_quiz",
-    "lessonId": "advanced_topic_negative_adverbial_inversion_l1",
-    "title": "Practice: Mastering Inverted Word Order",
-    "type": "QUIZ",
-    "order": 2,
-    "questionIds": ["adv_q_inv_1", "adv_q_inv_2"]
-  },
-  {
-    "id": "adv_act_hardly_content",
-    "lessonId": "advanced_topic_only_hardly_scarcely_inversion_l1",
-    "title": "Study: Hardly and Scarcely",
+    "id": "act_advanced_present_continuous_simple_stylistic_content",
+    "lessonId": "lesson_advanced_present_continuous_simple_stylistic",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Present Tenses: Discourse, Annoyance & Current Affairs",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_present_continuous_simple_stylistic_rule",
+          "title": "Core Principle: Present Tenses: Discourse, Annoyance & Current Affairs",
+          "description": "Analyse continual annoyance with always/forever and live reporting commentary registers."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_present_continuous_simple_stylistic_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 2"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_present_continuous_simple_stylistic_ex",
+          "sentence": "In formal academic discourse, proficient writers employ present tenses: discourse, annoyance & current affairs to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_loc_inv_content",
-    "lessonId": "advanced_topic_locative_conditional_inversion_l1",
-    "title": "Study: Locative Inversion",
+    "id": "act_advanced_past_simple_present_perfect_perspective_content",
+    "lessonId": "lesson_advanced_past_simple_present_perfect_perspective",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Past Simple vs Present Perfect: Temporal Perspective & Distance",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_past_simple_present_perfect_perspective_rule",
+          "title": "Core Principle: Past Simple vs Present Perfect: Temporal Perspective & Distance",
+          "description": "Master subtle psychological closeness, news broadcasting conventions, and temporal reference points."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_past_simple_present_perfect_perspective_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 3"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_past_simple_present_perfect_perspective_ex",
+          "sentence": "In formal academic discourse, proficient writers employ past simple vs present perfect: temporal perspective & distance to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_it_cleft_content",
-    "lessonId": "advanced_topic_it_clefts_focus_l1",
-    "title": "Study: It-Clefts",
+    "id": "act_advanced_past_continuous_simple_narrative_content",
+    "lessonId": "lesson_advanced_past_continuous_simple_narrative",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Past Continuous & Simple: Narrative Framing & Interruption",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_past_continuous_simple_narrative_rule",
+          "title": "Core Principle: Past Continuous & Simple: Narrative Framing & Interruption",
+          "description": "Frame extended narrative backgrounds, parallel activities, and polite tentative requests."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_past_continuous_simple_narrative_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 4"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_past_continuous_simple_narrative_ex",
+          "sentence": "In formal academic discourse, proficient writers employ past continuous & simple: narrative framing & interruption to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_it_cleft_quiz",
-    "lessonId": "advanced_topic_it_clefts_focus_l1",
-    "title": "Practice: It-Cleft Focus Formations",
-    "type": "QUIZ",
-    "order": 2,
-    "questionIds": ["adv_q_cleft_1"]
-  },
-  {
-    "id": "adv_act_wh_cleft_content",
-    "lessonId": "advanced_topic_wh_pseudo_clefts_l1",
-    "title": "Study: Wh- Pseudo-Clefts",
+    "id": "act_advanced_past_perfect_simple_retrospect_content",
+    "lessonId": "lesson_advanced_past_perfect_simple_retrospect",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Past Perfect vs Past Simple: Narrative Sequence & Retrospection",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_past_perfect_simple_retrospect_rule",
+          "title": "Core Principle: Past Perfect vs Past Simple: Narrative Sequence & Retrospection",
+          "description": "Structure retrospective flashbacks and avoid redundant past perfect with chronological conjunctions."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_past_perfect_simple_retrospect_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 5"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_past_perfect_simple_retrospect_ex",
+          "sentence": "In formal academic discourse, proficient writers employ past perfect vs past simple: narrative sequence & retrospection to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_thematic_content",
-    "lessonId": "advanced_topic_thematic_fronting_l1",
-    "title": "Study: Thematic Fronting",
+    "id": "act_advanced_present_perfect_continuous_simple_duration_content",
+    "lessonId": "lesson_advanced_present_perfect_continuous_simple_duration",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Present Perfect Continuous vs Simple: Result, Completion & Duration",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_present_perfect_continuous_simple_duration_rule",
+          "title": "Core Principle: Present Perfect Continuous vs Simple: Result, Completion & Duration",
+          "description": "Distinguish permanent versus temporary situations, repeated actions, and completed evidential results."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_present_perfect_continuous_simple_duration_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 6"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_present_perfect_continuous_simple_duration_ex",
+          "sentence": "In formal academic discourse, proficient writers employ present perfect continuous vs simple: result, completion & duration to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_part_clauses_content",
-    "lessonId": "advanced_topic_present_past_participle_clauses_l1",
-    "title": "Study: Participle Clauses",
+    "id": "act_advanced_past_perfect_continuous_past_tenses_content",
+    "lessonId": "lesson_advanced_past_perfect_continuous_past_tenses",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Past Perfect Continuous vs Other Past Aspects in Extended Context",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_past_perfect_continuous_past_tenses_rule",
+          "title": "Core Principle: Past Perfect Continuous vs Other Past Aspects in Extended Context",
+          "description": "Differentiate causes leading to past outcomes, ongoing background situations, and concluded retrospection."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_past_perfect_continuous_past_tenses_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 7"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_past_perfect_continuous_past_tenses_ex",
+          "sentence": "In formal academic discourse, proficient writers employ past perfect continuous vs other past aspects in extended context to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_having_done_content",
-    "lessonId": "advanced_topic_having_done_compound_participles_l1",
-    "title": "Study: Having Done Clauses",
+    "id": "act_advanced_present_past_time_synthesis_content",
+    "lessonId": "lesson_advanced_present_past_time_synthesis",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Present & Past Time: Extended Discourse Review & Synthesis",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_present_past_time_synthesis_rule",
+          "title": "Core Principle: Present & Past Time: Extended Discourse Review & Synthesis",
+          "description": "Synthesise past and present aspectual contrasts across extended professional and academic texts."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_present_past_time_synthesis_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 8"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_present_past_time_synthesis_ex",
+          "sentence": "In formal academic discourse, proficient writers employ present & past time: extended discourse review & synthesis to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_subjunctive_content",
-    "lessonId": "advanced_topic_mandative_formulaic_subjunctive_l1",
-    "title": "Study: Subjunctive Mood",
+    "id": "act_advanced_will_be_going_to_prediction_volition_content",
+    "lessonId": "lesson_advanced_will_be_going_to_prediction_volition",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Will vs Be Going To: Certainty, Decision & Predictive Evidence",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_will_be_going_to_prediction_volition_rule",
+          "title": "Core Principle: Will vs Be Going To: Certainty, Decision & Predictive Evidence",
+          "description": "Examine speaker detachment, pre-existing intentions, external evidence, and formal inevitability."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_will_be_going_to_prediction_volition_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 9"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_will_be_going_to_prediction_volition_ex",
+          "sentence": "In formal academic discourse, proficient writers employ will vs be going to: certainty, decision & predictive evidence to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_high_time_content",
-    "lessonId": "advanced_topic_unreal_past_high_time_l1",
-    "title": "Study: Unreal Past with High Time",
+    "id": "act_advanced_present_forms_for_future_arrangements_content",
+    "lessonId": "lesson_advanced_present_forms_for_future_arrangements",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Present Forms for Future: Timetables, Calendars & Official Plans",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_present_forms_for_future_arrangements_rule",
+          "title": "Core Principle: Present Forms for Future: Timetables, Calendars & Official Plans",
+          "description": "Deploy present simple for impersonal schedules and present continuous for interpersonal arrangements."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_present_forms_for_future_arrangements_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 10"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_present_forms_for_future_arrangements_ex",
+          "sentence": "In formal academic discourse, proficient writers employ present forms for future: timetables, calendars & official plans to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_inv_cond_content",
-    "lessonId": "advanced_topic_inverted_conditionals_l1",
-    "title": "Study: Inverted Conditionals",
+    "id": "act_advanced_future_continuous_perfect_aspects_content",
+    "lessonId": "lesson_advanced_future_continuous_perfect_aspects",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Future Continuous & Future Perfect: Expected Course & Completion",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_future_continuous_perfect_aspects_rule",
+          "title": "Core Principle: Future Continuous & Future Perfect: Expected Course & Completion",
+          "description": "Express events as the routine course of things, polite inquiries, and projected retrospection."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_future_continuous_perfect_aspects_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 11"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_future_continuous_perfect_aspects_ex",
+          "sentence": "In formal academic discourse, proficient writers employ future continuous & future perfect: expected course & completion to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_mixed_cond_content",
-    "lessonId": "advanced_topic_mixed_conditionals_mastery_l1",
-    "title": "Study: Mixed Conditionals",
+    "id": "act_advanced_be_to_be_about_to_official_destiny_content",
+    "lessonId": "lesson_advanced_be_to_be_about_to_official_destiny",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Be To + Infinitive & Be About To: Formal Mandates & Imminence",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_be_to_be_about_to_official_destiny_rule",
+          "title": "Core Principle: Be To + Infinitive & Be About To: Formal Mandates & Imminence",
+          "description": "Handle official directives, diplomatic protocol, pre-conditions, and imminent future events."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_be_to_be_about_to_official_destiny_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 12"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_be_to_be_about_to_official_destiny_ex",
+          "sentence": "In formal academic discourse, proficient writers employ be to + infinitive & be about to: formal mandates & imminence to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_concess_cond_content",
-    "lessonId": "advanced_topic_concessive_conditionals_l1",
-    "title": "Study: Concessive Conditionals",
+    "id": "act_advanced_alternative_future_expressions_content",
+    "lessonId": "lesson_advanced_alternative_future_expressions",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Alternative Future Markers: Be Bound To, Due To, On the Verge Of",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_alternative_future_expressions_rule",
+          "title": "Core Principle: Alternative Future Markers: Be Bound To, Due To, On the Verge Of",
+          "description": "Utilise idiomatic and semi-modal expressions indicating probability, schedule, and immediate occurrence."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_alternative_future_expressions_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 13"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_alternative_future_expressions_ex",
+          "sentence": "In formal academic discourse, proficient writers employ alternative future markers: be bound to, due to, on the verge of to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_impers_pass_content",
-    "lessonId": "advanced_topic_impersonal_reporting_passive_l1",
-    "title": "Study: Impersonal Passive",
+    "id": "act_advanced_future_seen_from_past_prospective_content",
+    "lessonId": "lesson_advanced_future_seen_from_past_prospective",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: The Future Seen from the Past: Was Going To, Would, Was To",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_future_seen_from_past_prospective_rule",
+          "title": "Core Principle: The Future Seen from the Past: Was Going To, Would, Was To",
+          "description": "Express unfulfilled past intentions, retrospective destiny, and historical prospective narrative."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_future_seen_from_past_prospective_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 14"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_future_seen_from_past_prospective_ex",
+          "sentence": "In formal academic discourse, proficient writers employ the future seen from the past: was going to, would, was to to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_sensory_pass_content",
-    "lessonId": "advanced_topic_passive_sensory_verbs_l1",
-    "title": "Study: Passive Sensory Verbs",
+    "id": "act_advanced_ability_permission_modals_semi_modals_content",
+    "lessonId": "lesson_advanced_ability_permission_modals_semi_modals",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Can, Could, Be Able To & Be Allowed To: Specific vs General Capacity",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_ability_permission_modals_semi_modals_rule",
+          "title": "Core Principle: Can, Could, Be Able To & Be Allowed To: Specific vs General Capacity",
+          "description": "Differentiate general ability from successful achievement on a specific past occasion (was able to vs could)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_ability_permission_modals_semi_modals_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 15"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_ability_permission_modals_semi_modals_ex",
+          "sentence": "In formal academic discourse, proficient writers employ can, could, be able to & be allowed to: specific vs general capacity to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_neednt_content",
-    "lessonId": "advanced_topic_neednt_have_vs_didnt_need_to_l1",
-    "title": "Study: Needn't Have vs Didn't Need To",
+    "id": "act_advanced_will_would_used_to_habits_characteristics_content",
+    "lessonId": "lesson_advanced_will_would_used_to_habits_characteristics",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Will, Would & Used To: Typical Behaviour, Annoying Habits & Refusal",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_will_would_used_to_habits_characteristics_rule",
+          "title": "Core Principle: Will, Would & Used To: Typical Behaviour, Annoying Habits & Refusal",
+          "description": "Express characteristic human tendencies, inanimate refusal, obstinate habits, and past states."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_will_would_used_to_habits_characteristics_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 16"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_will_would_used_to_habits_characteristics_ex",
+          "sentence": "In formal academic discourse, proficient writers employ will, would & used to: typical behaviour, annoying habits & refusal to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_hedging_content",
-    "lessonId": "advanced_topic_epistemic_hedging_modals_l1",
-    "title": "Study: Epistemic Hedging",
+    "id": "act_advanced_may_might_possibility_speculation_content",
+    "lessonId": "lesson_advanced_may_might_possibility_speculation",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: May & Might: Degrees of Probability, Concession & Counterfactuals",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_may_might_possibility_speculation_rule",
+          "title": "Core Principle: May & Might: Degrees of Probability, Concession & Counterfactuals",
+          "description": "Deploy concessive may... but clauses, counterfactual might have done, and tentative suggestions."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_may_might_possibility_speculation_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 17"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_may_might_possibility_speculation_ex",
+          "sentence": "In formal academic discourse, proficient writers employ may & might: degrees of probability, concession & counterfactuals to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_ergative_content",
-    "lessonId": "advanced_topic_ergative_verbs_l1",
-    "title": "Study: Ergative Verbs",
+    "id": "act_advanced_must_have_to_obligation_deduction_content",
+    "lessonId": "lesson_advanced_must_have_to_obligation_deduction",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Must vs Have (Got) To: Internal vs External Authority & Logical Deduction",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_must_have_to_obligation_deduction_rule",
+          "title": "Core Principle: Must vs Have (Got) To: Internal vs External Authority & Logical Deduction",
+          "description": "Navigate subjective speaker authority versus external rule constraint, and epistemic deductions."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_must_have_to_obligation_deduction_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 18"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_must_have_to_obligation_deduction_ex",
+          "sentence": "In formal academic discourse, proficient writers employ must vs have (got) to: internal vs external authority & logical deduction to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_complex_trans_content",
-    "lessonId": "advanced_topic_complex_transitive_complementation_l1",
-    "title": "Study: Complex Transitive Complements",
+    "id": "act_advanced_neednt_didnt_need_to_necessity_content",
+    "lessonId": "lesson_advanced_neednt_didnt_need_to_necessity",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Need(n't) vs Don't Need To vs Didn't Need To: Incurred vs Avoided Action",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_neednt_didnt_need_to_necessity_rule",
+          "title": "Core Principle: Need(n't) vs Don't Need To vs Didn't Need To: Incurred vs Avoided Action",
+          "description": "Distinguish needn't have done (action occurred unnecessarily) from didn't need to do (unnecessary, action skipped)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_neednt_didnt_need_to_necessity_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 19"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_neednt_didnt_need_to_necessity_ex",
+          "sentence": "In formal academic discourse, proficient writers employ need(n't) vs don't need to vs didn't need to: incurred vs avoided action to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_nominal_comp_content",
-    "lessonId": "advanced_topic_complex_nominal_compounds_l1",
-    "title": "Study: Nominal Compounding",
+    "id": "act_advanced_should_ought_to_had_better_advisory_content",
+    "lessonId": "lesson_advanced_should_ought_to_had_better_advisory",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Should, Ought To & Had Better: Advice, Urgency & Expectation",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_should_ought_to_had_better_advisory_rule",
+          "title": "Core Principle: Should, Ought To & Had Better: Advice, Urgency & Expectation",
+          "description": "Balance social obligation, imminent negative consequences with had better, and logical expectation."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_should_ought_to_had_better_advisory_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 20"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_should_ought_to_had_better_advisory_ex",
+          "sentence": "In formal academic discourse, proficient writers employ should, ought to & had better: advice, urgency & expectation to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_concord_content",
-    "lessonId": "advanced_topic_collective_noun_concord_l1",
-    "title": "Study: Collective Noun Concord",
+    "id": "act_advanced_linking_verbs_copular_complements_content",
+    "lessonId": "lesson_advanced_linking_verbs_copular_complements",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Linking Verbs: Be, Appear, Seem, Become, Get & Sensory Predication",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_linking_verbs_copular_complements_rule",
+          "title": "Core Principle: Linking Verbs: Be, Appear, Seem, Become, Get & Sensory Predication",
+          "description": "Analyse copular complementation, sensory perception verbs, to be insertion, and change of state."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_linking_verbs_copular_complements_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 21"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_linking_verbs_copular_complements_ex",
+          "sentence": "In formal academic discourse, proficient writers employ linking verbs: be, appear, seem, become, get & sensory predication to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_nom_rel_content",
-    "lessonId": "advanced_topic_nominal_relative_clauses_l1",
-    "title": "Study: Nominal Relative Clauses",
+    "id": "act_advanced_passive_sentence_formation_patterns_content",
+    "lessonId": "lesson_advanced_passive_sentence_formation_patterns",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Complex Passive Formation: Prepositional & Multi-Word Verbs",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_passive_sentence_formation_patterns_rule",
+          "title": "Core Principle: Complex Passive Formation: Prepositional & Multi-Word Verbs",
+          "description": "Form passive clauses with prepositional verbs, ditransitive shifts, and ergative verb limitations."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_passive_sentence_formation_patterns_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: CONTROL | Hewings Unit 22"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_passive_sentence_formation_patterns_ex",
+          "sentence": "In formal academic discourse, proficient writers employ complex passive formation: prepositional & multi-word verbs to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_red_rel_content",
-    "lessonId": "advanced_topic_reduced_relative_postmodifiers_l1",
-    "title": "Study: Reduced Relative Clauses",
+    "id": "act_advanced_passive_ing_infinitives_content",
+    "lessonId": "lesson_advanced_passive_ing_infinitives",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Passive Infinitives & -ing Forms: Being Done, To Be Done, Having Been Done",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_passive_ing_infinitives_rule",
+          "title": "Core Principle: Passive Infinitives & -ing Forms: Being Done, To Be Done, Having Been Done",
+          "description": "Control complex passive infinitives and gerund complements after verbs of perception and emotion."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_passive_ing_infinitives_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 23"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_passive_ing_infinitives_ex",
+          "sentence": "In formal academic discourse, proficient writers employ passive infinitives & -ing forms: being done, to be done, having been done to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_stance_content",
-    "lessonId": "advanced_topic_viewpoint_stance_adverbials_l1",
-    "title": "Study: Stance Adverbials",
+    "id": "act_advanced_passive_choice_discourse_style_content",
+    "lessonId": "lesson_advanced_passive_choice_discourse_style",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Passive Choice in Discourse: Information Flow, Focus & Impersonal Style",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_passive_choice_discourse_style_rule",
+          "title": "Core Principle: Passive Choice in Discourse: Information Flow, Focus & Impersonal Style",
+          "description": "Apply the passive strategically to maintain topic continuity, end-weight, and objective scientific register."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_passive_choice_discourse_style_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 24"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_passive_choice_discourse_style_ex",
+          "sentence": "In formal academic discourse, proficient writers employ passive choice in discourse: information flow, focus & impersonal style to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_discourse_content",
-    "lessonId": "advanced_topic_discourse_flow_markers_l1",
-    "title": "Study: Discourse Flow Markers",
+    "id": "act_advanced_reporting_passive_impersonal_it_content",
+    "lessonId": "lesson_advanced_reporting_passive_impersonal_it",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Reporting with Passives: It Is Said That vs He Is Believed To",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_reporting_passive_impersonal_it_rule",
+          "title": "Core Principle: Reporting with Passives: It Is Said That vs He Is Believed To",
+          "description": "Construct impersonal reporting frames with anticipatory it and personal subject-raising infinitives."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_reporting_passive_impersonal_it_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 25"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_reporting_passive_impersonal_it_ex",
+          "sentence": "In formal academic discourse, proficient writers employ reporting with passives: it is said that vs he is believed to to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_ellipsis_content",
-    "lessonId": "advanced_topic_clause_ellipsis_omission_l1",
-    "title": "Study: Clause Ellipsis",
+    "id": "act_advanced_wh_questions_complex_prepositions_content",
+    "lessonId": "lesson_advanced_wh_questions_complex_prepositions",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Wh-Questions: Preposition Stranding, Whom, Which, Whose & How",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_wh_questions_complex_prepositions_rule",
+          "title": "Core Principle: Wh-Questions: Preposition Stranding, Whom, Which, Whose & How",
+          "description": "Form formal preposition-fronted questions, precise which vs what selections, and possessive wh-phrases."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_wh_questions_complex_prepositions_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 26"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_wh_questions_complex_prepositions_ex",
+          "sentence": "In formal academic discourse, proficient writers employ wh-questions: preposition stranding, whom, which, whose & how to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_subst_content",
-    "lessonId": "advanced_topic_substitution_markers_l1",
-    "title": "Study: Substitution Markers",
+    "id": "act_advanced_negative_echo_embedded_questions_content",
+    "lessonId": "lesson_advanced_negative_echo_embedded_questions",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Negative Questions, Echo Questions & That-Clause Complements",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_negative_echo_embedded_questions_rule",
+          "title": "Core Principle: Negative Questions, Echo Questions & That-Clause Complements",
+          "description": "Deploy negative questions for persuasion/surprise, echo questions for clarification, and embedded clauses."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_negative_echo_embedded_questions_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 27"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_negative_echo_embedded_questions_ex",
+          "sentence": "In formal academic discourse, proficient writers employ negative questions, echo questions & that-clause complements to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_multi_prep_content",
-    "lessonId": "advanced_topic_compound_multi_word_prepositions_l1",
-    "title": "Study: Multi-word Prepositions",
+    "id": "act_advanced_verbs_objects_predicate_complements_content",
+    "lessonId": "lesson_advanced_verbs_objects_predicate_complements",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Verbs, Objects and Complements: Transitive, Intransitive & Ergative Structures",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_verbs_objects_predicate_complements_rule",
+          "title": "Core Principle: Verbs, Objects and Complements: Transitive, Intransitive & Ergative Structures",
+          "description": "Analyse object complements, reflexive verbs, reciprocal verbs, and middle-voice ergative pairs."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_verbs_objects_predicate_complements_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 28"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_verbs_objects_predicate_complements_ex",
+          "sentence": "In formal academic discourse, proficient writers employ verbs, objects and complements: transitive, intransitive & ergative structures to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_pied_piping_content",
-    "lessonId": "advanced_topic_particle_stranding_fronting_l1",
-    "title": "Study: Pied-Piping vs Stranding",
+    "id": "act_advanced_verb_two_objects_ditransitive_content",
+    "lessonId": "lesson_advanced_verb_two_objects_ditransitive",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Ditransitive Patterns: Double Objects vs Prepositional Shifts",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_verb_two_objects_ditransitive_rule",
+          "title": "Core Principle: Ditransitive Patterns: Double Objects vs Prepositional Shifts",
+          "description": "Select appropriate prepositional complements (to vs for) and identify verbs barring dative alternation."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_verb_two_objects_ditransitive_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 29"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_verb_two_objects_ditransitive_ex",
+          "sentence": "In formal academic discourse, proficient writers employ ditransitive patterns: double objects vs prepositional shifts to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_nominaliz_content",
-    "lessonId": "advanced_topic_academic_nominalization_l1",
-    "title": "Study: Academic Nominalization",
+    "id": "act_advanced_verb_ing_infinitives_meaning_shifts_content",
+    "lessonId": "lesson_advanced_verb_ing_infinitives_meaning_shifts",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Verb + -ing vs Infinitive 1: Semantic Contrast & Action Perspectives",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_verb_ing_infinitives_meaning_shifts_rule",
+          "title": "Core Principle: Verb + -ing vs Infinitive 1: Semantic Contrast & Action Perspectives",
+          "description": "Master subtle semantic shifts with remember, forget, regret, stop, try, mean, and go on."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_verb_ing_infinitives_meaning_shifts_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 30"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_verb_ing_infinitives_meaning_shifts_ex",
+          "sentence": "In formal academic discourse, proficient writers employ verb + -ing vs infinitive 1: semantic contrast & action perspectives to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
   },
   {
-    "id": "adv_act_register_content",
-    "lessonId": "advanced_topic_stylistic_register_shifts_l1",
-    "title": "Study: Register Shifts",
+    "id": "act_advanced_verb_ing_infinitives_complex_patterns_content",
+    "lessonId": "lesson_advanced_verb_ing_infinitives_complex_patterns",
     "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Verb + -ing vs Infinitive 2: Perception Verbs, Bare Infinitives & Perfect Forms",
     "order": 1,
-    "questionIds": []
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_verb_ing_infinitives_complex_patterns_rule",
+          "title": "Core Principle: Verb + -ing vs Infinitive 2: Perception Verbs, Bare Infinitives & Perfect Forms",
+          "description": "Differentiate complete action (bare infinitive) from action in progress (-ing) with perception verbs."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_verb_ing_infinitives_complex_patterns_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 31"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_verb_ing_infinitives_complex_patterns_ex",
+          "sentence": "In formal academic discourse, proficient writers employ verb + -ing vs infinitive 2: perception verbs, bare infinitives & perfect forms to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_reporting_speech_thoughts_summarising_content",
+    "lessonId": "lesson_advanced_reporting_speech_thoughts_summarising",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Reporting Speech & Thoughts: Summarising Verbs & Discourse Functions",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_reporting_speech_thoughts_summarising_rule",
+          "title": "Core Principle: Reporting Speech & Thoughts: Summarising Verbs & Discourse Functions",
+          "description": "Use nuanced summarising reporting verbs (urge, dispute, concede, point out, reaffirm)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_reporting_speech_thoughts_summarising_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 32"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_reporting_speech_thoughts_summarising_ex",
+          "sentence": "In formal academic discourse, proficient writers employ reporting speech & thoughts: summarising verbs & discourse functions to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_reporting_statements_that_clauses_content",
+    "lessonId": "lesson_advanced_reporting_statements_that_clauses",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Reporting Statements: That-Clauses, Omission & Fact Stances",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_reporting_statements_that_clauses_rule",
+          "title": "Core Principle: Reporting Statements: That-Clauses, Omission & Fact Stances",
+          "description": "Control that-omission conventions, stance adverbs, and verbs requiring or forbidding that."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_reporting_statements_that_clauses_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: CONTROL | Hewings Unit 33"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_reporting_statements_that_clauses_ex",
+          "sentence": "In formal academic discourse, proficient writers employ reporting statements: that-clauses, omission & fact stances to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_reporting_wh_clauses_indirect_syntax_content",
+    "lessonId": "lesson_advanced_reporting_wh_clauses_indirect_syntax",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Verb + Wh-Clause: Indirect Questions & Embedded Inquiries",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_reporting_wh_clauses_indirect_syntax_rule",
+          "title": "Core Principle: Verb + Wh-Clause: Indirect Questions & Embedded Inquiries",
+          "description": "Report indirect questions with wh-words, whether versus if, and wh-infinitival reductions."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_reporting_wh_clauses_indirect_syntax_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 34"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_reporting_wh_clauses_indirect_syntax_ex",
+          "sentence": "In formal academic discourse, proficient writers employ verb + wh-clause: indirect questions & embedded inquiries to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_reporting_tense_choice_backshift_content",
+    "lessonId": "lesson_advanced_reporting_tense_choice_backshift",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Tense Choice in Reporting: Backshift Retention & Contemporary Truth",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_reporting_tense_choice_backshift_rule",
+          "title": "Core Principle: Tense Choice in Reporting: Backshift Retention & Contemporary Truth",
+          "description": "Decide when to retain present tense for permanent universal truths or up-to-date assertions."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_reporting_tense_choice_backshift_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 35"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_reporting_tense_choice_backshift_ex",
+          "sentence": "In formal academic discourse, proficient writers employ tense choice in reporting: backshift retention & contemporary truth to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_reporting_offers_suggestions_commands_content",
+    "lessonId": "lesson_advanced_reporting_offers_suggestions_commands",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Reporting Directives: Offers, Suggestions, Warnings & Promises",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_reporting_offers_suggestions_commands_rule",
+          "title": "Core Principle: Reporting Directives: Offers, Suggestions, Warnings & Promises",
+          "description": "Map speech acts to complex infinitive and subjunctive frames (propose that, forbid X to do Y)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_reporting_offers_suggestions_commands_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 36"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_reporting_offers_suggestions_commands_ex",
+          "sentence": "In formal academic discourse, proficient writers employ reporting directives: offers, suggestions, warnings & promises to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_reporting_modals_attitude_shifts_content",
+    "lessonId": "lesson_advanced_reporting_modals_attitude_shifts",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Modal Verbs in Reporting: Epistemic & Deontic Adjustments",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_reporting_modals_attitude_shifts_rule",
+          "title": "Core Principle: Modal Verbs in Reporting: Epistemic & Deontic Adjustments",
+          "description": "Transform modals in reported speech without losing nuance or speaker epistemic commitment."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_reporting_modals_attitude_shifts_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 37"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_reporting_modals_attitude_shifts_ex",
+          "sentence": "In formal academic discourse, proficient writers employ modal verbs in reporting: epistemic & deontic adjustments to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_reporting_nouns_adjectives_nominalisation_content",
+    "lessonId": "lesson_advanced_reporting_nouns_adjectives_nominalisation",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Nominal & Adjectival Reporting: The Claim That, Aware of the Fact",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_reporting_nouns_adjectives_nominalisation_rule",
+          "title": "Core Principle: Nominal & Adjectival Reporting: The Claim That, Aware of the Fact",
+          "description": "Employ nominalisation (allegation, proposal, insistence) and predicate adjectives to report discourse."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_reporting_nouns_adjectives_nominalisation_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 38"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_reporting_nouns_adjectives_nominalisation_ex",
+          "sentence": "In formal academic discourse, proficient writers employ nominal & adjectival reporting: the claim that, aware of the fact to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_subjunctive_mandative_should_that_clauses_content",
+    "lessonId": "lesson_advanced_subjunctive_mandative_should_that_clauses",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Mandative Subjunctive & Should in That-Clauses: Formal Resolutions",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_subjunctive_mandative_should_that_clauses_rule",
+          "title": "Core Principle: Mandative Subjunctive & Should in That-Clauses: Formal Resolutions",
+          "description": "Deploy the base-form mandative subjunctive and putative should in formal, administrative and legal text."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_subjunctive_mandative_should_that_clauses_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 39"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_subjunctive_mandative_should_that_clauses_ex",
+          "sentence": "In formal academic discourse, proficient writers employ mandative subjunctive & should in that-clauses: formal resolutions to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_subject_verb_agreement_complex_subjects_content",
+    "lessonId": "lesson_advanced_subject_verb_agreement_complex_subjects",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Subject-Verb Agreement 1: Prepositional Modifiers, Intervening Clauses & Compound Subjects",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_subject_verb_agreement_complex_subjects_rule",
+          "title": "Core Principle: Subject-Verb Agreement 1: Prepositional Modifiers, Intervening Clauses & Compound Subjects",
+          "description": "Maintain accurate concord across intervening prepositional phrases, relative clauses, and either/or."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_subject_verb_agreement_complex_subjects_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: CONTROL | Hewings Unit 40"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_subject_verb_agreement_complex_subjects_ex",
+          "sentence": "In formal academic discourse, proficient writers employ subject-verb agreement 1: prepositional modifiers, intervening clauses & compound subjects to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_subject_verb_agreement_collective_nouns_content",
+    "lessonId": "lesson_advanced_subject_verb_agreement_collective_nouns",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Subject-Verb Agreement 2: Collective Nouns, Institution Concord & Notional Plurality",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_subject_verb_agreement_collective_nouns_rule",
+          "title": "Core Principle: Subject-Verb Agreement 2: Collective Nouns, Institution Concord & Notional Plurality",
+          "description": "Navigate singular versus plural concord with collective nouns (committee, staff, government) and countries."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_subject_verb_agreement_collective_nouns_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 41"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_subject_verb_agreement_collective_nouns_ex",
+          "sentence": "In formal academic discourse, proficient writers employ subject-verb agreement 2: collective nouns, institution concord & notional plurality to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_subject_verb_agreement_quantifiers_percentages_content",
+    "lessonId": "lesson_advanced_subject_verb_agreement_quantifiers_percentages",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Subject-Verb Agreement 3: Fractions, Quantifiers, Singular Plural-form Nouns",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_subject_verb_agreement_quantifiers_percentages_rule",
+          "title": "Core Principle: Subject-Verb Agreement 3: Fractions, Quantifiers, Singular Plural-form Nouns",
+          "description": "Determine concord with fractions, percentages, news/athletics, and none/neither of constructions."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_subject_verb_agreement_quantifiers_percentages_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 42"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_subject_verb_agreement_quantifiers_percentages_ex",
+          "sentence": "In formal academic discourse, proficient writers employ subject-verb agreement 3: fractions, quantifiers, singular plural-form nouns to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_compound_nouns_complex_noun_phrases_content",
+    "lessonId": "lesson_advanced_compound_nouns_complex_noun_phrases",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Compound Nouns & Extended Nominal Pre-modification: Structures & Hyphenation",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_compound_nouns_complex_noun_phrases_rule",
+          "title": "Core Principle: Compound Nouns & Extended Nominal Pre-modification: Structures & Hyphenation",
+          "description": "Form sophisticated compound nominals, noun + noun classifiers, and multi-word adjectival modifiers."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_compound_nouns_complex_noun_phrases_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 43"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_compound_nouns_complex_noun_phrases_ex",
+          "sentence": "In formal academic discourse, proficient writers employ compound nouns & extended nominal pre-modification: structures & hyphenation to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_a_an_one_precise_distinctions_content",
+    "lessonId": "lesson_advanced_a_an_one_precise_distinctions",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: A / An vs One: Numerical Specificity vs Indefinite Classification",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_a_an_one_precise_distinctions_rule",
+          "title": "Core Principle: A / An vs One: Numerical Specificity vs Indefinite Classification",
+          "description": "Differentiate indefinite categorization (a doctor) from numerical quantification (one doctor)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_a_an_one_precise_distinctions_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 44"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_a_an_one_precise_distinctions_ex",
+          "sentence": "In formal academic discourse, proficient writers employ a / an vs one: numerical specificity vs indefinite classification to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_articles_general_specific_classes_content",
+    "lessonId": "lesson_advanced_articles_general_specific_classes",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Articles 1: Generic vs Specific Reference, Classes & Categories",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_articles_general_specific_classes_rule",
+          "title": "Core Principle: Articles 1: Generic vs Specific Reference, Classes & Categories",
+          "description": "Deploy the with whole classes (the dolphin) versus zero article with plural/uncountable generalisations."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_articles_general_specific_classes_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 45"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_articles_general_specific_classes_ex",
+          "sentence": "In formal academic discourse, proficient writers employ articles 1: generic vs specific reference, classes & categories to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_articles_institutions_transport_abstract_content",
+    "lessonId": "lesson_advanced_articles_institutions_transport_abstract",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Articles 2: Institutional Nouns, Transport, Illness & Zero Article",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_articles_institutions_transport_abstract_rule",
+          "title": "Core Principle: Articles 2: Institutional Nouns, Transport, Illness & Zero Article",
+          "description": "Master institutional zero article (in hospital, to university, at sea) versus physical building references."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_articles_institutions_transport_abstract_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 46"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_articles_institutions_transport_abstract_ex",
+          "sentence": "In formal academic discourse, proficient writers employ articles 2: institutional nouns, transport, illness & zero article to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_articles_geographical_proper_names_content",
+    "lessonId": "lesson_advanced_articles_geographical_proper_names",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Articles 3: Proper Names, Geography, Publications & Fixed Idioms",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_articles_geographical_proper_names_rule",
+          "title": "Core Principle: Articles 3: Proper Names, Geography, Publications & Fixed Idioms",
+          "description": "Navigate article usage with mountain ranges, rivers, oceans, institutions, newspapers, and unique titles."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_articles_geographical_proper_names_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 47"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_articles_geographical_proper_names_ex",
+          "sentence": "In formal academic discourse, proficient writers employ articles 3: proper names, geography, publications & fixed idioms to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_some_any_assertive_non_assertive_content",
+    "lessonId": "lesson_advanced_some_any_assertive_non_assertive",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Some vs Any: Assertive Contexts, Free Choice & Subtle Expectations",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_some_any_assertive_non_assertive_rule",
+          "title": "Core Principle: Some vs Any: Assertive Contexts, Free Choice & Subtle Expectations",
+          "description": "Deploy any meaning 'it doesn't matter which' and some in questions implying positive expectation."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_some_any_assertive_non_assertive_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 48"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_some_any_assertive_non_assertive_ex",
+          "sentence": "In formal academic discourse, proficient writers employ some vs any: assertive contexts, free choice & subtle expectations to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_no_none_not_any_emphatic_negation_content",
+    "lessonId": "lesson_advanced_no_none_not_any_emphatic_negation",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: No, None (Of) & Not Any: Emphatic Negation & Quantifying Scope",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_no_none_not_any_emphatic_negation_rule",
+          "title": "Core Principle: No, None (Of) & Not Any: Emphatic Negation & Quantifying Scope",
+          "description": "Construct emphatic negative assertions, formal none of constructions, and subject agreement."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_no_none_not_any_emphatic_negation_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 49"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_no_none_not_any_emphatic_negation_ex",
+          "sentence": "In formal academic discourse, proficient writers employ no, none (of) & not any: emphatic negation & quantifying scope to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_much_many_lot_of_register_quantity_content",
+    "lessonId": "lesson_advanced_much_many_lot_of_register_quantity",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Much (Of), Many (Of), A Lot Of: Register Constraints & Formal Usage",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_much_many_lot_of_register_quantity_rule",
+          "title": "Core Principle: Much (Of), Many (Of), A Lot Of: Register Constraints & Formal Usage",
+          "description": "Observe register constraints: much/many in affirmative formal writing versus informal a lot of."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_much_many_lot_of_register_quantity_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 50"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_much_many_lot_of_register_quantity_ex",
+          "sentence": "In formal academic discourse, proficient writers employ much (of), many (of), a lot of: register constraints & formal usage to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_all_whole_every_each_distributives_content",
+    "lessonId": "lesson_advanced_all_whole_every_each_distributives",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: All (Of), Whole, Every & Each: Universal & Distributive Reference",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_all_whole_every_each_distributives_rule",
+          "title": "Core Principle: All (Of), Whole, Every & Each: Universal & Distributive Reference",
+          "description": "Distinguish collective all from individual distributive each, every, and the whole of."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_all_whole_every_each_distributives_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 51"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_all_whole_every_each_distributives_ex",
+          "sentence": "In formal academic discourse, proficient writers employ all (of), whole, every & each: universal & distributive reference to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_few_little_fewer_less_formal_distinctions_content",
+    "lessonId": "lesson_advanced_few_little_fewer_less_formal_distinctions",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Few, Little, Fewer & Less: Evaluative Polarity & Standard Written Norms",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_few_little_fewer_less_formal_distinctions_rule",
+          "title": "Core Principle: Few, Little, Fewer & Less: Evaluative Polarity & Standard Written Norms",
+          "description": "Apply positive polarity (a few/a little) versus negative restriction (few/little) and prescriptive fewer/less."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_few_little_fewer_less_formal_distinctions_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 52"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_few_little_fewer_less_formal_distinctions_ex",
+          "sentence": "In formal academic discourse, proficient writers employ few, little, fewer & less: evaluative polarity & standard written norms to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_relative_pronouns_defining_non_defining_content",
+    "lessonId": "lesson_advanced_relative_pronouns_defining_non_defining",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Relative Pronouns: Who, Whom, Which, That & Register Choices",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_relative_pronouns_defining_non_defining_rule",
+          "title": "Core Principle: Relative Pronouns: Who, Whom, Which, That & Register Choices",
+          "description": "Make subtle choices between that, which, who, and whom in formal non-defining and defining clauses."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_relative_pronouns_defining_non_defining_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: CONTROL | Hewings Unit 53"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_relative_pronouns_defining_non_defining_ex",
+          "sentence": "In formal academic discourse, proficient writers employ relative pronouns: who, whom, which, that & register choices to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_relative_words_whose_whereby_wherever_content",
+    "lessonId": "lesson_advanced_relative_words_whose_whereby_wherever",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Other Relative Connectors: Whose, When, Whereby, Wherein & In Which",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_relative_words_whose_whereby_wherever_rule",
+          "title": "Core Principle: Other Relative Connectors: Whose, When, Whereby, Wherein & In Which",
+          "description": "Use sophisticated relative adverbs (whereby, wherein, whose of which) in scholarly and legal prose."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_relative_words_whose_whereby_wherever_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 54"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_relative_words_whose_whereby_wherever_ex",
+          "sentence": "In formal academic discourse, proficient writers employ other relative connectors: whose, when, whereby, wherein & in which to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_prepositions_in_relative_clauses_content",
+    "lessonId": "lesson_advanced_prepositions_in_relative_clauses",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Prepositions in Relative Clauses: Fronting vs Stranding & Register Shifts",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_prepositions_in_relative_clauses_rule",
+          "title": "Core Principle: Prepositions in Relative Clauses: Fronting vs Stranding & Register Shifts",
+          "description": "Contrast formal pied-piping (to whom, in which) with informal preposition stranding."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_prepositions_in_relative_clauses_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 55"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_prepositions_in_relative_clauses_ex",
+          "sentence": "In formal academic discourse, proficient writers employ prepositions in relative clauses: fronting vs stranding & register shifts to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_noun_modification_apposition_noun_clauses_content",
+    "lessonId": "lesson_advanced_noun_modification_apposition_noun_clauses",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Adding Information to Noun Phrases 1: Apposition & Nominal Complements",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_noun_modification_apposition_noun_clauses_rule",
+          "title": "Core Principle: Adding Information to Noun Phrases 1: Apposition & Nominal Complements",
+          "description": "Employ appositive noun phrases and complement that-clauses to condense descriptive information."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_noun_modification_apposition_noun_clauses_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 56"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_noun_modification_apposition_noun_clauses_ex",
+          "sentence": "In formal academic discourse, proficient writers employ adding information to noun phrases 1: apposition & nominal complements to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_prepositional_phrases_postmodifiers_content",
+    "lessonId": "lesson_advanced_prepositional_phrases_postmodifiers",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Adding Information to Noun Phrases 2: Prepositional Post-modifiers",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_prepositional_phrases_postmodifiers_rule",
+          "title": "Core Principle: Adding Information to Noun Phrases 2: Prepositional Post-modifiers",
+          "description": "Construct dense information packages using prepositional post-modifiers and adjective phrases."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_prepositional_phrases_postmodifiers_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 57"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_prepositional_phrases_postmodifiers_ex",
+          "sentence": "In formal academic discourse, proficient writers employ adding information to noun phrases 2: prepositional post-modifiers to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_participle_clauses_adverbial_time_reason_content",
+    "lessonId": "lesson_advanced_participle_clauses_adverbial_time_reason",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Participle Clauses 1: -ing & -ed Adjuncts of Time, Reason & Cause",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_participle_clauses_adverbial_time_reason_rule",
+          "title": "Core Principle: Participle Clauses 1: -ing & -ed Adjuncts of Time, Reason & Cause",
+          "description": "Construct elegant, concise participle adjuncts replacing subordinate clauses of time, cause and reason."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_participle_clauses_adverbial_time_reason_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 58"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_participle_clauses_adverbial_time_reason_ex",
+          "sentence": "In formal academic discourse, proficient writers employ participle clauses 1: -ing & -ed adjuncts of time, reason & cause to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_participle_clauses_having_done_conditions_content",
+    "lessonId": "lesson_advanced_participle_clauses_having_done_conditions",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Participle Clauses 2: Having Done, Perfect Participles & Subject Attachment",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_participle_clauses_having_done_conditions_rule",
+          "title": "Core Principle: Participle Clauses 2: Having Done, Perfect Participles & Subject Attachment",
+          "description": "Control perfect participle forms (having done) and prevent dangling, unattached participle modifiers."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_participle_clauses_having_done_conditions_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 59"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_participle_clauses_having_done_conditions_ex",
+          "sentence": "In formal academic discourse, proficient writers employ participle clauses 2: having done, perfect participles & subject attachment to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_reflexive_pronouns_emphatic_reciprocal_content",
+    "lessonId": "lesson_advanced_reflexive_pronouns_emphatic_reciprocal",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Reflexive & Emphatic Pronouns: Self-Forms, Ergativity & Emphasis",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_reflexive_pronouns_emphatic_reciprocal_rule",
+          "title": "Core Principle: Reflexive & Emphatic Pronouns: Self-Forms, Ergativity & Emphasis",
+          "description": "Deploy emphatic self-pronouns, reciprocal each other / one another, and reflexive-blocking verbs."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_reflexive_pronouns_emphatic_reciprocal_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 60"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_reflexive_pronouns_emphatic_reciprocal_ex",
+          "sentence": "In formal academic discourse, proficient writers employ reflexive & emphatic pronouns: self-forms, ergativity & emphasis to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_one_ones_substitution_identifying_content",
+    "lessonId": "lesson_advanced_one_ones_substitution_identifying",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: One & Ones: Nominal Substitution, Omission & Adjectival Modification",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_one_ones_substitution_identifying_rule",
+          "title": "Core Principle: One & Ones: Nominal Substitution, Omission & Adjectival Modification",
+          "description": "Use one/ones to avoid noun repetition after superlatives, demonstratives, and descriptive adjectives."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_one_ones_substitution_identifying_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 61"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_one_ones_substitution_identifying_ex",
+          "sentence": "In formal academic discourse, proficient writers employ one & ones: nominal substitution, omission & adjectival modification to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_so_not_clausal_substitution_content",
+    "lessonId": "lesson_advanced_so_not_clausal_substitution",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: So & Not as Clausal Substitutes: I Think So, Hope Not, Say So",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_so_not_clausal_substitution_rule",
+          "title": "Core Principle: So & Not as Clausal Substitutes: I Think So, Hope Not, Say So",
+          "description": "Substitute entire propositions with so and not after verbs of thinking, expecting, and reporting."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_so_not_clausal_substitution_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 62"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_so_not_clausal_substitution_ex",
+          "sentence": "In formal academic discourse, proficient writers employ so & not as clausal substitutes: i think so, hope not, say so to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_do_so_such_predicate_substitution_content",
+    "lessonId": "lesson_advanced_do_so_such_predicate_substitution",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Do So, Do It, Do That & Such: Predicate Substitution in Formal Text",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_do_so_such_predicate_substitution_rule",
+          "title": "Core Principle: Do So, Do It, Do That & Such: Predicate Substitution in Formal Text",
+          "description": "Distinguish do so (formal dynamic predicate substitution) from do it and do that."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_do_so_such_predicate_substitution_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 63"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_do_so_such_predicate_substitution_ex",
+          "sentence": "In formal academic discourse, proficient writers employ do so, do it, do that & such: predicate substitution in formal text to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_ellipsis_after_auxiliary_verbs_content",
+    "lessonId": "lesson_advanced_ellipsis_after_auxiliary_verbs",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Ellipsis after Auxiliary Verbs: Co-ordination, Comparison & Tagged Reduction",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_ellipsis_after_auxiliary_verbs_rule",
+          "title": "Core Principle: Ellipsis after Auxiliary Verbs: Co-ordination, Comparison & Tagged Reduction",
+          "description": "Omit repetitive verb phrases after primary and modal auxiliaries in comparative and coordinated structures."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_ellipsis_after_auxiliary_verbs_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 64"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_ellipsis_after_auxiliary_verbs_ex",
+          "sentence": "In formal academic discourse, proficient writers employ ellipsis after auxiliary verbs: co-ordination, comparison & tagged reduction to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_ellipsis_infinitive_to_omission_content",
+    "lessonId": "lesson_advanced_ellipsis_infinitive_to_omission",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Ellipsis of To-Infinitives: Reduced Complements & Stranded Particle To",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_ellipsis_infinitive_to_omission_rule",
+          "title": "Core Principle: Ellipsis of To-Infinitives: Reduced Complements & Stranded Particle To",
+          "description": "Retain or omit stranded to after verbs of volition, wishing, and obligation (I'd love to, promised not to)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_ellipsis_infinitive_to_omission_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 65"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_ellipsis_infinitive_to_omission_ex",
+          "sentence": "In formal academic discourse, proficient writers employ ellipsis of to-infinitives: reduced complements & stranded particle to to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_adjective_position_attributive_predicative_content",
+    "lessonId": "lesson_advanced_adjective_position_attributive_predicative",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Position of Adjectives: Attributive-only, Predicative-only & Post-positive Modifiers",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_adjective_position_attributive_predicative_rule",
+          "title": "Core Principle: Position of Adjectives: Attributive-only, Predicative-only & Post-positive Modifiers",
+          "description": "Categorise attributive-only adjectives, a-prefixed predicative adjectives, and post-positive positioning."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_adjective_position_attributive_predicative_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 66"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_adjective_position_attributive_predicative_ex",
+          "sentence": "In formal academic discourse, proficient writers employ position of adjectives: attributive-only, predicative-only & post-positive modifiers to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_gradable_non_gradable_adjectives_intensifiers_content",
+    "lessonId": "lesson_advanced_gradable_non_gradable_adjectives_intensifiers",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Gradable & Non-Gradable Adjectives 1: Absolutely vs Extremely & Modifying Adverbs",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_gradable_non_gradable_adjectives_intensifiers_rule",
+          "title": "Core Principle: Gradable & Non-Gradable Adjectives 1: Absolutely vs Extremely & Modifying Adverbs",
+          "description": "Pair gradable adjectives with degree adverbs (very, extremely) and ungradable extremes with absolute adverbs."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_gradable_non_gradable_adjectives_intensifiers_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 67"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_gradable_non_gradable_adjectives_intensifiers_ex",
+          "sentence": "In formal academic discourse, proficient writers employ gradable & non-gradable adjectives 1: absolutely vs extremely & modifying adverbs to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_gradable_adjectives_collocations_subtle_grading_content",
+    "lessonId": "lesson_advanced_gradable_adjectives_collocations_subtle_grading",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Gradable & Non-Gradable Adjectives 2: Fixed Adverb-Adjective Collocations",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_gradable_adjectives_collocations_subtle_grading_rule",
+          "title": "Core Principle: Gradable & Non-Gradable Adjectives 2: Fixed Adverb-Adjective Collocations",
+          "description": "Deploy idiomatic adverb-adjective collocations (bitterly disappointed, painfully aware, highly unlikely)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_gradable_adjectives_collocations_subtle_grading_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 68"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_gradable_adjectives_collocations_subtle_grading_ex",
+          "sentence": "In formal academic discourse, proficient writers employ gradable & non-gradable adjectives 2: fixed adverb-adjective collocations to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_participle_compound_adjectives_content",
+    "lessonId": "lesson_advanced_participle_compound_adjectives",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Participle Adjectives & Compound Modifiers: Hyphenation & Argument Structure",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_participle_compound_adjectives_rule",
+          "title": "Core Principle: Participle Adjectives & Compound Modifiers: Hyphenation & Argument Structure",
+          "description": "Construct compound modifiers (forward-looking, quick-witted, custom-built) and hyphenation rules."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_participle_compound_adjectives_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 69"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_participle_compound_adjectives_ex",
+          "sentence": "In formal academic discourse, proficient writers employ participle adjectives & compound modifiers: hyphenation & argument structure to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_adjectives_complementation_patterns_content",
+    "lessonId": "lesson_advanced_adjectives_complementation_patterns",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Adjective Complementation: Patterns with To-Infinitive, -ing & That-Clauses",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_adjectives_complementation_patterns_rule",
+          "title": "Core Principle: Adjective Complementation: Patterns with To-Infinitive, -ing & That-Clauses",
+          "description": "Manage adjective complementation patterns, tough-movement (easy to please), and evaluative frames."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_adjectives_complementation_patterns_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 70"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_adjectives_complementation_patterns_ex",
+          "sentence": "In formal academic discourse, proficient writers employ adjective complementation: patterns with to-infinitive, -ing & that-clauses to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_adjectives_adverbs_form_contrasts_content",
+    "lessonId": "lesson_advanced_adjectives_adverbs_form_contrasts",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Adjectives & Adverbs: Hard / Hardly, Late / Lately, Deep / Deeply",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_adjectives_adverbs_form_contrasts_rule",
+          "title": "Core Principle: Adjectives & Adverbs: Hard / Hardly, Late / Lately, Deep / Deeply",
+          "description": "Differentiate pairs with dual forms (flat adverbs vs -ly forms) having distinct figurative meanings."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_adjectives_adverbs_form_contrasts_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 71"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_adjectives_adverbs_form_contrasts_ex",
+          "sentence": "In formal academic discourse, proficient writers employ adjectives & adverbs: hard / hardly, late / lately, deep / deeply to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_comparatives_superlatives_advanced_forms_content",
+    "lessonId": "lesson_advanced_comparatives_superlatives_advanced_forms",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Comparative & Superlative Nuances: Less / Least, More and More, The... The...",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_comparatives_superlatives_advanced_forms_rule",
+          "title": "Core Principle: Comparative & Superlative Nuances: Less / Least, More and More, The... The...",
+          "description": "Form double comparatives, progressive change structures, and formal superlative fronting."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_comparatives_superlatives_advanced_forms_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 72"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_comparatives_superlatives_advanced_forms_ex",
+          "sentence": "In formal academic discourse, proficient writers employ comparative & superlative nuances: less / least, more and more, the... the... to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_comparative_phrases_clauses_correlatives_content",
+    "lessonId": "lesson_advanced_comparative_phrases_clauses_correlatives",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Comparative Phrases & Correlative Clauses: As... As, Not So Much As, Proportion",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_comparative_phrases_clauses_correlatives_rule",
+          "title": "Core Principle: Comparative Phrases & Correlative Clauses: As... As, Not So Much As, Proportion",
+          "description": "Construct correlative comparative clauses (the greater the risk, the higher the return) and modal as... as."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_comparative_phrases_clauses_correlatives_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 73"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_comparative_phrases_clauses_correlatives_ex",
+          "sentence": "In formal academic discourse, proficient writers employ comparative phrases & correlative clauses: as... as, not so much as, proportion to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_adverb_position_sentence_verb_mid_position_content",
+    "lessonId": "lesson_advanced_adverb_position_sentence_verb_mid_position",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Position of Adverbs 1: Mid-Position Rules with Auxiliaries & Main Verbs",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_adverb_position_sentence_verb_mid_position_rule",
+          "title": "Core Principle: Position of Adverbs 1: Mid-Position Rules with Auxiliaries & Main Verbs",
+          "description": "Position adverbs accurately between auxiliaries, before main verbs, and after forms of be."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_adverb_position_sentence_verb_mid_position_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: CONTROL | Hewings Unit 74"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_adverb_position_sentence_verb_mid_position_ex",
+          "sentence": "In formal academic discourse, proficient writers employ position of adverbs 1: mid-position rules with auxiliaries & main verbs to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_adverb_position_scope_meaning_shifts_content",
+    "lessonId": "lesson_advanced_adverb_position_scope_meaning_shifts",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Position of Adverbs 2: Focus Scope, Split Infinitives & Semantic Shifts",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_adverb_position_scope_meaning_shifts_rule",
+          "title": "Core Principle: Position of Adverbs 2: Focus Scope, Split Infinitives & Semantic Shifts",
+          "description": "Control adverb scope changes based on placement, avoiding ambiguity and split infinitives."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_adverb_position_scope_meaning_shifts_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 75"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_adverb_position_scope_meaning_shifts_ex",
+          "sentence": "In formal academic discourse, proficient writers employ position of adverbs 2: focus scope, split infinitives & semantic shifts to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_adverbs_place_direction_time_frequency_content",
+    "lessonId": "lesson_advanced_adverbs_place_direction_time_frequency",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Adverbs of Place, Direction, Indefinite Frequency & Time Sequences",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_adverbs_place_direction_time_frequency_rule",
+          "title": "Core Principle: Adverbs of Place, Direction, Indefinite Frequency & Time Sequences",
+          "description": "Order multiple adverbials cleanly (Manner - Place - Time) and handle fronted locatives."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_adverbs_place_direction_time_frequency_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 76"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_adverbs_place_direction_time_frequency_ex",
+          "sentence": "In formal academic discourse, proficient writers employ adverbs of place, direction, indefinite frequency & time sequences to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_degree_adverbs_focus_adverbs_placement_content",
+    "lessonId": "lesson_advanced_degree_adverbs_focus_adverbs_placement",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Degree & Focus Adverbs: Only, Even, Merely, Quite, Rather & Scopal Delimitation",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_degree_adverbs_focus_adverbs_placement_rule",
+          "title": "Core Principle: Degree & Focus Adverbs: Only, Even, Merely, Quite, Rather & Scopal Delimitation",
+          "description": "Pinpoint the scope of focus adverbs (only, even, alone, especially, just) to prevent misinterpretation."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_degree_adverbs_focus_adverbs_placement_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 77"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_degree_adverbs_focus_adverbs_placement_ex",
+          "sentence": "In formal academic discourse, proficient writers employ degree & focus adverbs: only, even, merely, quite, rather & scopal delimitation to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_comment_viewpoint_discourse_adverbs_content",
+    "lessonId": "lesson_advanced_comment_viewpoint_discourse_adverbs",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Comment & Viewpoint Adverbs: Frankly, Economically, Supposedly, Admittedly",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_comment_viewpoint_discourse_adverbs_rule",
+          "title": "Core Principle: Comment & Viewpoint Adverbs: Frankly, Economically, Supposedly, Admittedly",
+          "description": "Use sentence-modifying adverbs to signal speaker evaluation, domain perspective, and pragmatic stance."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_comment_viewpoint_discourse_adverbs_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 78"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_comment_viewpoint_discourse_adverbs_ex",
+          "sentence": "In formal academic discourse, proficient writers employ comment & viewpoint adverbs: frankly, economically, supposedly, admittedly to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_adverbial_clauses_time_temporal_linkers_content",
+    "lessonId": "lesson_advanced_adverbial_clauses_time_temporal_linkers",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Adverbial Clauses of Time: Until, As Soon As, The Moment, Once",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_adverbial_clauses_time_temporal_linkers_rule",
+          "title": "Core Principle: Adverbial Clauses of Time: Until, As Soon As, The Moment, Once",
+          "description": "Deploy nuanced temporal subordinators (hardly... when, no sooner... than, the minute, once)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_adverbial_clauses_time_temporal_linkers_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: CONTROL | Hewings Unit 79"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_adverbial_clauses_time_temporal_linkers_ex",
+          "sentence": "In formal academic discourse, proficient writers employ adverbial clauses of time: until, as soon as, the moment, once to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_reason_clauses_as_because_since_for_with_content",
+    "lessonId": "lesson_advanced_reason_clauses_as_because_since_for_with",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Clauses of Reason: As, Because, Since, For, With & Seeing That",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_reason_clauses_as_because_since_for_with_rule",
+          "title": "Core Principle: Clauses of Reason: As, Because, Since, For, With & Seeing That",
+          "description": "Distinguish given reason (since, as, seeing that) from focal reason (because) and prepositional with/for."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_reason_clauses_as_because_since_for_with_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 80"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_reason_clauses_as_because_since_for_with_ex",
+          "sentence": "In formal academic discourse, proficient writers employ clauses of reason: as, because, since, for, with & seeing that to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_purpose_result_in_order_so_as_to_content",
+    "lessonId": "lesson_advanced_purpose_result_in_order_so_as_to",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Purpose and Result: In Order To, So As To, In Case, So That, Such That",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_purpose_result_in_order_so_as_to_rule",
+          "title": "Core Principle: Purpose and Result: In Order To, So As To, In Case, So That, Such That",
+          "description": "Construct purposeful clauses (so as not to, in order that) and result structures with such... that."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_purpose_result_in_order_so_as_to_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 81"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_purpose_result_in_order_so_as_to_ex",
+          "sentence": "In formal academic discourse, proficient writers employ purpose and result: in order to, so as to, in case, so that, such that to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_contrast_concession_although_while_whereas_content",
+    "lessonId": "lesson_advanced_contrast_concession_although_while_whereas",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Contrast and Concession: Although, Even Though, While, Whilst, Whereas, Despite",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_contrast_concession_although_while_whereas_rule",
+          "title": "Core Principle: Contrast and Concession: Although, Even Though, While, Whilst, Whereas, Despite",
+          "description": "Differentiate concession (even though) from hypothetical condition (even if) and direct contrast (whereas)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_contrast_concession_although_while_whereas_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 82"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_contrast_concession_although_while_whereas_ex",
+          "sentence": "In formal academic discourse, proficient writers employ contrast and concession: although, even though, while, whilst, whereas, despite to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_conditionals_real_unreal_hypothetical_nuances_content",
+    "lessonId": "lesson_advanced_conditionals_real_unreal_hypothetical_nuances",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Conditionals 1: Subtle Differences in Real, Predictive & Epistemic Conditions",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_conditionals_real_unreal_hypothetical_nuances_rule",
+          "title": "Core Principle: Conditionals 1: Subtle Differences in Real, Predictive & Epistemic Conditions",
+          "description": "Handle epistemic conditions, if + will for willingness, and polite requests in if-clauses."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_conditionals_real_unreal_hypothetical_nuances_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: CONTROL | Hewings Unit 83"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_conditionals_real_unreal_hypothetical_nuances_ex",
+          "sentence": "In formal academic discourse, proficient writers employ conditionals 1: subtle differences in real, predictive & epistemic conditions to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_conditionals_mixed_past_present_hypotheses_content",
+    "lessonId": "lesson_advanced_conditionals_mixed_past_present_hypotheses",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Conditionals 2: Mixed Past-Present Conditions & Counterfactual Regret",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_conditionals_mixed_past_present_hypotheses_rule",
+          "title": "Core Principle: Conditionals 2: Mixed Past-Present Conditions & Counterfactual Regret",
+          "description": "Construct mixed hypothetical conditionals combining past causes with present states and vice-versa."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_conditionals_mixed_past_present_hypotheses_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 84"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_conditionals_mixed_past_present_hypotheses_ex",
+          "sentence": "In formal academic discourse, proficient writers employ conditionals 2: mixed past-present conditions & counterfactual regret to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_inverted_conditionals_should_were_had_content",
+    "lessonId": "lesson_advanced_inverted_conditionals_should_were_had",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Conditional Inversion: Were He To, Had I Known, Should You Require",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_inverted_conditionals_should_were_had_rule",
+          "title": "Core Principle: Conditional Inversion: Were He To, Had I Known, Should You Require",
+          "description": "Master formal conditional inversion omitting if with were to, had, and should in high register."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_inverted_conditionals_should_were_had_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 85"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_inverted_conditionals_should_were_had_ex",
+          "sentence": "In formal academic discourse, proficient writers employ conditional inversion: were he to, had i known, should you require to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_alternative_conditional_markers_content",
+    "lessonId": "lesson_advanced_alternative_conditional_markers",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Alternative Conditional Markers: Unless, Provided That, Supposing, As Long As, But For",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_alternative_conditional_markers_rule",
+          "title": "Core Principle: Alternative Conditional Markers: Unless, Provided That, Supposing, As Long As, But For",
+          "description": "Substitute if with formal conditional markers: provided that, on condition that, supposing, but for."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_alternative_conditional_markers_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 86"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_alternative_conditional_markers_ex",
+          "sentence": "In formal academic discourse, proficient writers employ alternative conditional markers: unless, provided that, supposing, as long as, but for to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_sentence_connectors_cohesion_discourse_content",
+    "lessonId": "lesson_advanced_sentence_connectors_cohesion_discourse",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Connecting Ideas Across Discourse: Furthermore, Consequently, However, In Contrast",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_sentence_connectors_cohesion_discourse_rule",
+          "title": "Core Principle: Connecting Ideas Across Discourse: Furthermore, Consequently, However, In Contrast",
+          "description": "Establish sophisticated textual cohesion using transition discourse markers and conjuncts."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_sentence_connectors_cohesion_discourse_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 87"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_sentence_connectors_cohesion_discourse_ex",
+          "sentence": "In formal academic discourse, proficient writers employ connecting ideas across discourse: furthermore, consequently, however, in contrast to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_prepositions_position_movement_abstract_content",
+    "lessonId": "lesson_advanced_prepositions_position_movement_abstract",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Prepositions of Position & Movement: Across, Through, Along, Over, Under",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_prepositions_position_movement_abstract_rule",
+          "title": "Core Principle: Prepositions of Position & Movement: Across, Through, Along, Over, Under",
+          "description": "Navigate topological and metaphorical extensions of spatial prepositions across diverse domains."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_prepositions_position_movement_abstract_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: CONTROL | Hewings Unit 88"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_prepositions_position_movement_abstract_ex",
+          "sentence": "In formal academic discourse, proficient writers employ prepositions of position & movement: across, through, along, over, under to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_between_among_reciprocal_distinctions_content",
+    "lessonId": "lesson_advanced_between_among_reciprocal_distinctions",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Between vs Among: Definite Pairs vs Collective Ensembles & Reciprocity",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_between_among_reciprocal_distinctions_rule",
+          "title": "Core Principle: Between vs Among: Definite Pairs vs Collective Ensembles & Reciprocity",
+          "description": "Distinguish individual relational connections (between multiple points) from diffuse group inclusion (among)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_between_among_reciprocal_distinctions_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 89"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_between_among_reciprocal_distinctions_ex",
+          "sentence": "In formal academic discourse, proficient writers employ between vs among: definite pairs vs collective ensembles & reciprocity to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_prepositions_time_complex_relationships_content",
+    "lessonId": "lesson_advanced_prepositions_time_complex_relationships",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Prepositions of Time: During, Over, Throughout, By, In, At & Within",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_prepositions_time_complex_relationships_rule",
+          "title": "Core Principle: Prepositions of Time: During, Over, Throughout, By, In, At & Within",
+          "description": "Express exact deadlines with by, duration with throughout/over, and temporal boundaries with within."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_prepositions_time_complex_relationships_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: NUANCE | Hewings Unit 90"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_prepositions_time_complex_relationships_ex",
+          "sentence": "In formal academic discourse, proficient writers employ prepositions of time: during, over, throughout, by, in, at & within to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_prepositions_exceptions_apart_except_besides_content",
+    "lessonId": "lesson_advanced_prepositions_exceptions_apart_except_besides",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Talking About Exceptions: Except (For), Apart From, Besides, But For",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_prepositions_exceptions_apart_except_besides_rule",
+          "title": "Core Principle: Talking About Exceptions: Except (For), Apart From, Besides, But For",
+          "description": "Differentiate addition (besides) from exclusion (except for, apart from, but for)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_prepositions_exceptions_apart_except_besides_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 91"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_prepositions_exceptions_apart_except_besides_ex",
+          "sentence": "In formal academic discourse, proficient writers employ talking about exceptions: except (for), apart from, besides, but for to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_prepositions_dependent_after_verbs_content",
+    "lessonId": "lesson_advanced_prepositions_dependent_after_verbs",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Dependent Prepositions After Verbs: Collocational Precision & Semantic Shifts",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_prepositions_dependent_after_verbs_rule",
+          "title": "Core Principle: Dependent Prepositions After Verbs: Collocational Precision & Semantic Shifts",
+          "description": "Deploy exact dependent prepositions (glance at, confer on, account for, result in/from)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_prepositions_dependent_after_verbs_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 92"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_prepositions_dependent_after_verbs_ex",
+          "sentence": "In formal academic discourse, proficient writers employ dependent prepositions after verbs: collocational precision & semantic shifts to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_prepositions_dependent_after_nouns_content",
+    "lessonId": "lesson_advanced_prepositions_dependent_after_nouns",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Dependent Prepositions After Nouns: Reason For, Increase In, Attack On",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_prepositions_dependent_after_nouns_rule",
+          "title": "Core Principle: Dependent Prepositions After Nouns: Reason For, Increase In, Attack On",
+          "description": "Collocate nouns with specific preposition complements (demand for, impact on, decline in)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_prepositions_dependent_after_nouns_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 93"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_prepositions_dependent_after_nouns_ex",
+          "sentence": "In formal academic discourse, proficient writers employ dependent prepositions after nouns: reason for, increase in, attack on to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_two_three_word_verbs_particle_syntax_content",
+    "lessonId": "lesson_advanced_two_three_word_verbs_particle_syntax",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Two- & Three-Word Verbs: Particle Placement, Separation & Idiomatic Patterns",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_two_three_word_verbs_particle_syntax_rule",
+          "title": "Core Principle: Two- & Three-Word Verbs: Particle Placement, Separation & Idiomatic Patterns",
+          "description": "Govern object pronoun placement in separable phrasal verbs and strict ordering in three-part phrasal-prepositional verbs."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_two_three_word_verbs_particle_syntax_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 94"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_two_three_word_verbs_particle_syntax_ex",
+          "sentence": "In formal academic discourse, proficient writers employ two- & three-word verbs: particle placement, separation & idiomatic patterns to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_existential_there_complex_structures_content",
+    "lessonId": "lesson_advanced_existential_there_complex_structures",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Existential There: Modal Expansions, Passive Links & Participle Complements",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_existential_there_complex_structures_rule",
+          "title": "Core Principle: Existential There: Modal Expansions, Passive Links & Participle Complements",
+          "description": "Form complex existential constructions (there seems to be, there being no objection, there arose)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_existential_there_complex_structures_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 95"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_existential_there_complex_structures_ex",
+          "sentence": "In formal academic discourse, proficient writers employ existential there: modal expansions, passive links & participle complements to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_dummy_anticipatory_it_preparatory_content",
+    "lessonId": "lesson_advanced_dummy_anticipatory_it_preparatory",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Preparatory It 1: Dummy It as Object & Anticipatory Subject with That/To",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_dummy_anticipatory_it_preparatory_rule",
+          "title": "Core Principle: Preparatory It 1: Dummy It as Object & Anticipatory Subject with That/To",
+          "description": "Use anticipatory it to displace heavy infinitive or that-clause subjects and objects (I find it difficult to...)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_dummy_anticipatory_it_preparatory_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 96"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_dummy_anticipatory_it_preparatory_ex",
+          "sentence": "In formal academic discourse, proficient writers employ preparatory it 1: dummy it as object & anticipatory subject with that/to to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_it_clauses_judgement_perception_frames_content",
+    "lessonId": "lesson_advanced_it_clauses_judgement_perception_frames",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Preparatory It 2: Impersonal Evaluative Frames: It Seems, It Occurred To Me",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_it_clauses_judgement_perception_frames_rule",
+          "title": "Core Principle: Preparatory It 2: Impersonal Evaluative Frames: It Seems, It Occurred To Me",
+          "description": "Construct impersonal evaluation frames (it occurs to me that, it remains to be seen whether)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_it_clauses_judgement_perception_frames_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 97"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_it_clauses_judgement_perception_frames_ex",
+          "sentence": "In formal academic discourse, proficient writers employ preparatory it 2: impersonal evaluative frames: it seems, it occurred to me to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_cleft_sentences_it_what_focus_structures_content",
+    "lessonId": "lesson_advanced_cleft_sentences_it_what_focus_structures",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Focusing Constructions: It-Clefts & Pseudo-Clefts (What I Need Is...)",
+    "order": 1,
+    "questionIds": [
+      "adv_q_cleft_1"
+    ],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_cleft_sentences_it_what_focus_structures_rule",
+          "title": "Core Principle: Focusing Constructions: It-Clefts & Pseudo-Clefts (What I Need Is...)",
+          "description": "Restructure sentences with it-clefts, wh-clefts, and reversed pseudo-clefts to highlight crucial thematic elements."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_cleft_sentences_it_what_focus_structures_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 98"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_cleft_sentences_it_what_focus_structures_ex",
+          "sentence": "In formal academic discourse, proficient writers employ focusing constructions: it-clefts & pseudo-clefts (what i need is...) to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_inversion_negative_restrictive_adverbials_content",
+    "lessonId": "lesson_advanced_inversion_negative_restrictive_adverbials",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Inversion 1: Fronted Negative & Restrictive Adverbials (Never, Seldom, Rarely)",
+    "order": 1,
+    "questionIds": [
+      "adv_q_inv_1",
+      "adv_q_inv_2"
+    ],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_inversion_negative_restrictive_adverbials_rule",
+          "title": "Core Principle: Inversion 1: Fronted Negative & Restrictive Adverbials (Never, Seldom, Rarely)",
+          "description": "Invert subject and auxiliary following negative/restrictive operators (Under no circumstances, Hardly had, Seldom)."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_inversion_negative_restrictive_adverbials_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 99"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_inversion_negative_restrictive_adverbials_ex",
+          "sentence": "In formal academic discourse, proficient writers employ inversion 1: fronted negative & restrictive adverbials (never, seldom, rarely) to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_inversion_place_direction_conditionals_content",
+    "lessonId": "lesson_advanced_inversion_place_direction_conditionals",
+    "type": "LESSON_CONTENT",
+    "title": "Rules & Practice: Inversion 2: Locative Fronting, So / Such Inversion & Formal Emphatic Syntax",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_inversion_place_direction_conditionals_rule",
+          "title": "Core Principle: Inversion 2: Locative Fronting, So / Such Inversion & Formal Emphatic Syntax",
+          "description": "Apply full verb inversion after locative/directional phrases (Down the hill rolled the boulder) and so/such fronting."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_inversion_place_direction_conditionals_formula",
+          "title": "Grammatical Frame",
+          "pattern": "Target C1 Construction in Discourse Context",
+          "notes": "CEFR: C1 | Pedagogical Focus: MASTERY | Hewings Unit 100"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_inversion_place_direction_conditionals_ex",
+          "sentence": "In formal academic discourse, proficient writers employ inversion 2: locative fronting, so / such inversion & formal emphatic syntax to fine-tune register and emphasis.",
+          "highlightedPart": "fine-tune register and emphasis",
+          "translation": "В академическом и профессиональном контексте данная конструкция позволяет точно настроить регистр и смысловой акцент."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_advanced_final_challenge_mastery_content",
+    "lessonId": "lesson_advanced_final_challenge_mastery",
+    "type": "LESSON_CONTENT",
+    "title": "Capstone Synthesis: Advanced English Mastery",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_advanced_final_challenge_mastery_rule",
+          "title": "Discourse Architecture & Stylistic Control",
+          "description": "At the C1 level, grammar is not just about error avoidance—it is about intentional information flow, thematic fronting, and register precision."
+        },
+        {
+          "type": "formula",
+          "id": "blk_advanced_final_challenge_mastery_formula",
+          "title": "Holistic Synthesis",
+          "pattern": "Thematic Fronting + Participle Adjunct + Inversion / Cleft Structure",
+          "notes": "Target Level: C1 Advanced Mastery"
+        },
+        {
+          "type": "example",
+          "id": "blk_advanced_final_challenge_mastery_ex",
+          "sentence": "Having examined the empirical findings in detail, under no circumstances should we underestimate the significance of structural nuance.",
+          "highlightedPart": "under no circumstances should we underestimate",
+          "translation": "Детально изучив эмпирические данные, мы ни при каких обстоятельствах не должны недооценивать значимость структурных нюансов."
+        }
+      ]
+    }
   }
 ]

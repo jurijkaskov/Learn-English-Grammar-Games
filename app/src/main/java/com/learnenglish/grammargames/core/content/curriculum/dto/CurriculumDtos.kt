@@ -38,8 +38,8 @@ data class SectionDto(
 @Serializable
 data class BookReferenceDto(
     val bookId: String,
-    val bookTitle: String,
-    val edition: String,
+    val bookTitle: String = "",
+    val edition: String = "",
     val editionId: String? = null,
     val units: List<Int> = emptyList()
 )
@@ -77,7 +77,7 @@ data class TopicDto(
     val sectionId: String,
     val title: String,
     val shortDescription: String? = null,
-    val order: Int,
+    val order: Int = 1,
     val lessonIds: List<String> = emptyList(),
     val prerequisites: List<String> = emptyList(),
     val difficulty: String = "NORMAL",

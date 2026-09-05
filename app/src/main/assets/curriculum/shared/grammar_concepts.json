@@ -238,5 +238,53 @@
     "category": "VERBS",
     "introducedIn": "BEGINNER",
     "masteredIn": "INTERMEDIATE"
+  },
+  {
+    "id": "concept_semi_modals",
+    "canonicalName": "Semi-Modals and Modal Expressions",
+    "description": "Marginal modals and semi-modal expressions including be able to, be allowed to, have to, need, dare, and used to.",
+    "category": "MODALS",
+    "introducedIn": "INTERMEDIATE",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_linking_verbs",
+    "canonicalName": "Linking Verbs and Copular Predication",
+    "description": "Copular verbs of perception, state, and change (seem, appear, become, get, look, sound, feel).",
+    "category": "VERBS",
+    "introducedIn": "INTERMEDIATE",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_participle_clauses",
+    "canonicalName": "Participle Clauses and Adverbial Adjuncts",
+    "description": "Economical participle clauses with -ing, -ed, and having done expressing time, reason, condition, and result.",
+    "category": "CLAUSES",
+    "introducedIn": "INTERMEDIATE",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_subject_verb_agreement",
+    "canonicalName": "Subject-Verb Agreement and Complex Concord",
+    "description": "Complex concord, collective nouns, proximity agreement, and quantifying noun phrases.",
+    "category": "SYNTAX",
+    "introducedIn": "BEGINNER",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_subjunctive",
+    "canonicalName": "Subjunctive and Unreal Past",
+    "description": "Mandative subjunctive, formulaic expressions, and unreal past with wish, as though, and if only.",
+    "category": "VERBS",
+    "introducedIn": "INTERMEDIATE",
+    "masteredIn": "ADVANCED"
+  },
+  {
+    "id": "concept_information_structure",
+    "canonicalName": "Information Structure and Thematic Focus",
+    "description": "Communicative dynamism, thematic fronting, end-focus, preparatory constructions, and emphasis.",
+    "category": "DISCOURSE",
+    "introducedIn": "INTERMEDIATE",
+    "masteredIn": "ADVANCED"
   }
 ]

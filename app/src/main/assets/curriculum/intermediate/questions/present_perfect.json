@@ -2,7 +2,7 @@
   {
     "type": "multiple_choice",
     "id": "q_pp_mc_001",
-    "topicId": "present_perfect_intro",
+    "topicId": "intermediate_present_perfect_simple",
     "difficulty": "EASY",
     "prompt": "She ___ finished her English homework.",
     "explanation": "Use 'has' with third-person singular subjects (he, she, it) in Present Perfect.",
@@ -38,7 +38,7 @@
   {
     "type": "multiple_choice",
     "id": "q_pp_mc_002",
-    "topicId": "present_perfect_intro",
+    "topicId": "intermediate_present_perfect_simple",
     "difficulty": "EASY",
     "prompt": "They ___ lived in London for five years.",
     "explanation": "Use 'have' with plural subjects like 'They'.",
@@ -74,7 +74,7 @@
   {
     "type": "multiple_choice",
     "id": "q_pp_mc_003",
-    "topicId": "present_perfect_intro",
+    "topicId": "intermediate_present_perfect_simple",
     "difficulty": "NORMAL",
     "prompt": "I have ___ my keys. Can you help me look for them?",
     "explanation": "'Lost' is the past participle (V3) of 'lose'.",
@@ -110,7 +110,7 @@
   {
     "type": "gap_fill",
     "id": "q_pp_gap_001",
-    "topicId": "present_perfect_intro",
+    "topicId": "intermediate_present_perfect_simple",
     "difficulty": "NORMAL",
     "prompt": "Complete the sentence with have or has:",
     "explanation": "We use 'have' with the subject 'We'.",
@@ -135,7 +135,7 @@
   {
     "type": "gap_fill",
     "id": "q_pp_gap_002",
-    "topicId": "present_perfect_intro",
+    "topicId": "intermediate_present_perfect_simple",
     "difficulty": "HARD",
     "prompt": "Put the verb in brackets into Present Perfect:",
     "explanation": "The past participle of 'write' is 'written'. Subject 'He' takes 'has'.",
@@ -156,7 +156,7 @@
   {
     "type": "multiple_choice",
     "id": "q_pp_for_since_001",
-    "topicId": "present_perfect_intro",
+    "topicId": "intermediate_present_perfect_simple",
     "difficulty": "NORMAL",
     "prompt": "I haven't seen Sarah ___ last Tuesday.",
     "explanation": "'Since' is used with a starting point in time (last Tuesday, 2010, 9 AM).",
@@ -192,7 +192,7 @@
   {
     "type": "multiple_choice",
     "id": "q_pp_for_since_002",
-    "topicId": "present_perfect_intro",
+    "topicId": "intermediate_present_perfect_simple",
     "difficulty": "NORMAL",
     "prompt": "David has worked at this hospital ___ six months.",
     "explanation": "'For' is used with a duration or period of time (six months, two hours, ten years).",

@@ -1,159 +1,303 @@
 [
   {
-    "id": "advanced_inversion",
+    "id": "advanced_tense_contrasts",
     "courseId": "course_advanced",
-    "title": "Inversion and Emphasis",
-    "description": "Negative adverbial inversion (never, rarely, seldom) and locative fronting for dramatic cadence.",
+    "title": "Advanced Tense Contrasts",
+    "description": "Examine subtle aspectual nuances, stative verb flexibility, temporal perspective and retrospective sequencing in extended discourse.",
     "order": 1,
     "topicIds": [
-      "advanced_topic_negative_adverbial_inversion",
-      "advanced_topic_only_hardly_scarcely_inversion",
-      "advanced_topic_locative_conditional_inversion"
-    ]
+      "advanced_present_continuous_simple_aspect",
+      "advanced_present_continuous_simple_stylistic",
+      "advanced_past_simple_present_perfect_perspective",
+      "advanced_past_continuous_simple_narrative",
+      "advanced_past_perfect_simple_retrospect",
+      "advanced_present_perfect_continuous_simple_duration",
+      "advanced_past_perfect_continuous_past_tenses",
+      "advanced_present_past_time_synthesis"
+    ],
+    "cefrLevel": "C1"
   },
   {
-    "id": "advanced_cleft_focus",
+    "id": "advanced_future_forms",
     "courseId": "course_advanced",
-    "title": "Cleft Sentences and Information Structure",
-    "description": "It-clefts, wh-clefts, and thematic fronting to control information focus and communicative dynamism.",
+    "title": "Advanced Future Forms",
+    "description": "Distinguish predictive nuance, formal arrangements, destiny/imminence with be to / be about to, and past perspectives on the future.",
     "order": 2,
     "topicIds": [
-      "advanced_topic_it_clefts_focus",
-      "advanced_topic_wh_pseudo_clefts",
-      "advanced_topic_thematic_fronting"
-    ]
+      "advanced_will_be_going_to_prediction_volition",
+      "advanced_present_forms_for_future_arrangements",
+      "advanced_future_continuous_perfect_aspects",
+      "advanced_be_to_be_about_to_official_destiny",
+      "advanced_alternative_future_expressions",
+      "advanced_future_seen_from_past_prospective"
+    ],
+    "cefrLevel": "C1"
   },
   {
-    "id": "advanced_participle_clauses",
+    "id": "advanced_modals_semi_modals",
     "courseId": "course_advanced",
-    "title": "Participle Clauses and Adverbials",
-    "description": "Form economical participle adjuncts expressing time, reason, condition, and result.",
+    "title": "Modals and Semi-Modals",
+    "description": "Master speaker stance, degree of certainty, epistemic deduction, counterfactual regret, and fine distinctions between modal idioms.",
     "order": 3,
     "topicIds": [
-      "advanced_topic_present_past_participle_clauses",
-      "advanced_topic_having_done_compound_participles"
-    ]
+      "advanced_ability_permission_modals_semi_modals",
+      "advanced_will_would_used_to_habits_characteristics",
+      "advanced_may_might_possibility_speculation",
+      "advanced_must_have_to_obligation_deduction",
+      "advanced_neednt_didnt_need_to_necessity",
+      "advanced_should_ought_to_had_better_advisory"
+    ],
+    "cefrLevel": "C1"
   },
   {
-    "id": "advanced_subjunctive_unreal",
+    "id": "advanced_linking_verbs",
     "courseId": "course_advanced",
-    "title": "Subjunctive and Unreal Past",
-    "description": "Mandative and formulaic subjunctive (be that as it may), plus unreal past with high time and as though.",
+    "title": "Linking Verbs and Complex Predication",
+    "description": "Analyse copular verbs of state, sensory perception and change, exploring adjectives and prepositional complements.",
     "order": 4,
     "topicIds": [
-      "advanced_topic_mandative_formulaic_subjunctive",
-      "advanced_topic_unreal_past_high_time"
-    ]
+      "advanced_linking_verbs_copular_complements"
+    ],
+    "cefrLevel": "C1"
   },
   {
-    "id": "advanced_advanced_conditionals",
+    "id": "advanced_passive",
     "courseId": "course_advanced",
-    "title": "Advanced Conditionals and Inversion",
-    "description": "Inverted conditionals without if (had we known, should you need), mixed conditions, and concessives.",
+    "title": "Advanced Passive",
+    "description": "Deploy passivisation for objective register, discourse flow, multi-word verbs, and impersonal reporting structures.",
     "order": 5,
     "topicIds": [
-      "advanced_topic_inverted_conditionals",
-      "advanced_topic_mixed_conditionals_mastery",
-      "advanced_topic_concessive_conditionals"
-    ]
+      "advanced_passive_sentence_formation_patterns",
+      "advanced_passive_ing_infinitives",
+      "advanced_passive_choice_discourse_style",
+      "advanced_reporting_passive_impersonal_it"
+    ],
+    "cefrLevel": "C1"
   },
   {
-    "id": "advanced_advanced_passive",
+    "id": "advanced_questions",
     "courseId": "course_advanced",
-    "title": "Advanced Passive and Impersonal Structures",
-    "description": "Impersonal reporting passive (it is alleged that, he is believed to have left) and passive with sensory verbs.",
+    "title": "Advanced Questions",
+    "description": "Navigate complex interrogative structures including preposition stranding, negative questions, echo questions and embedded that-clauses.",
     "order": 6,
     "topicIds": [
-      "advanced_topic_impersonal_reporting_passive",
-      "advanced_topic_passive_sensory_verbs"
-    ]
-  },
-  {
-    "id": "advanced_modal_nuances",
-    "courseId": "course_advanced",
-    "title": "Nuanced Modal and Semi-Modal Usages",
-    "description": "Needn't have vs didn't need to, dare, epistemic certainty, and tentative hedging stances.",
-    "order": 7,
-    "topicIds": [
-      "advanced_topic_neednt_have_vs_didnt_need_to",
-      "advanced_topic_epistemic_hedging_modals"
-    ]
+      "advanced_wh_questions_complex_prepositions",
+      "advanced_negative_echo_embedded_questions"
+    ],
+    "cefrLevel": "C1"
   },
   {
     "id": "advanced_verb_complementation",
     "courseId": "course_advanced",
-    "title": "Complex Verb Complementation",
-    "description": "Ergative/labile verbs, complex predicate complements, and cognate prepositional objects.",
+    "title": "Verb Complementation",
+    "description": "Examine transitivity, ditransitive preposition shifts, and semantic contrasts between gerunds and infinitives.",
+    "order": 7,
+    "topicIds": [
+      "advanced_verbs_objects_predicate_complements",
+      "advanced_verb_two_objects_ditransitive",
+      "advanced_verb_ing_infinitives_meaning_shifts",
+      "advanced_verb_ing_infinitives_complex_patterns"
+    ],
+    "cefrLevel": "C1"
+  },
+  {
+    "id": "advanced_reporting",
+    "courseId": "course_advanced",
+    "title": "Advanced Reporting",
+    "description": "Handle sophisticated discourse reporting: summarizing verbs, backshift choices, nominalisation, and the present subjunctive.",
     "order": 8,
     "topicIds": [
-      "advanced_topic_ergative_verbs",
-      "advanced_topic_complex_transitive_complementation"
-    ]
+      "advanced_reporting_speech_thoughts_summarising",
+      "advanced_reporting_statements_that_clauses",
+      "advanced_reporting_wh_clauses_indirect_syntax",
+      "advanced_reporting_tense_choice_backshift",
+      "advanced_reporting_offers_suggestions_commands",
+      "advanced_reporting_modals_attitude_shifts",
+      "advanced_reporting_nouns_adjectives_nominalisation",
+      "advanced_subjunctive_mandative_should_that_clauses"
+    ],
+    "cefrLevel": "C1"
   },
   {
-    "id": "advanced_noun_phrase_complexity",
+    "id": "advanced_agreement_noun_phrases",
     "courseId": "course_advanced",
-    "title": "Noun Phrase Complexity and Determiners",
-    "description": "Compound noun modifiers, nominal concord (committee has/have), and partitive quantifiers.",
+    "title": "Agreement and Complex Noun Phrases",
+    "description": "Resolve challenging subject-verb agreement problems, collective nouns, proximity concord, and extended nominal pre-modification.",
     "order": 9,
     "topicIds": [
-      "advanced_topic_complex_nominal_compounds",
-      "advanced_topic_collective_noun_concord"
-    ]
+      "advanced_subject_verb_agreement_complex_subjects",
+      "advanced_subject_verb_agreement_collective_nouns",
+      "advanced_subject_verb_agreement_quantifiers_percentages",
+      "advanced_compound_nouns_complex_noun_phrases"
+    ],
+    "cefrLevel": "C1"
   },
   {
-    "id": "advanced_relative_participle_reduced",
+    "id": "advanced_determiners",
     "courseId": "course_advanced",
-    "title": "Reduced Relative and Nominal Clauses",
-    "description": "Nominal relative clauses with whatever/whoever and post-nominal participle reductions.",
+    "title": "Advanced Articles and Determiners",
+    "description": "Control generic vs specific reference, zero article nuances, formal quantifiers, and subtle polarity distinctions.",
     "order": 10,
     "topicIds": [
-      "advanced_topic_nominal_relative_clauses",
-      "advanced_topic_reduced_relative_postmodifiers"
-    ]
+      "advanced_a_an_one_precise_distinctions",
+      "advanced_articles_general_specific_classes",
+      "advanced_articles_institutions_transport_abstract",
+      "advanced_articles_geographical_proper_names",
+      "advanced_some_any_assertive_non_assertive",
+      "advanced_no_none_not_any_emphatic_negation",
+      "advanced_much_many_lot_of_register_quantity",
+      "advanced_all_whole_every_each_distributives",
+      "advanced_few_little_fewer_less_formal_distinctions"
+    ],
+    "cefrLevel": "C1"
   },
   {
-    "id": "advanced_adverbials_discourse",
+    "id": "advanced_relative_participle_clauses",
     "courseId": "course_advanced",
-    "title": "Adverbials, Positioning, and Discourse Markers",
-    "description": "Stance and comment adverbials (undeniably, frankly, supposedly) and discourse flow transitions.",
+    "title": "Relative and Participle Clauses",
+    "description": "Synthesise clauses using non-finite participle adjuncts, preposition fronting, whereby/wherein, and appositive structures.",
     "order": 11,
     "topicIds": [
-      "advanced_topic_viewpoint_stance_adverbials",
-      "advanced_topic_discourse_flow_markers"
-    ]
+      "advanced_relative_pronouns_defining_non_defining",
+      "advanced_relative_words_whose_whereby_wherever",
+      "advanced_prepositions_in_relative_clauses",
+      "advanced_noun_modification_apposition_noun_clauses",
+      "advanced_prepositional_phrases_postmodifiers",
+      "advanced_participle_clauses_adverbial_time_reason",
+      "advanced_participle_clauses_having_done_conditions"
+    ],
+    "cefrLevel": "C1"
   },
   {
-    "id": "advanced_ellipsis_substitution",
+    "id": "advanced_substitution_ellipsis",
     "courseId": "course_advanced",
-    "title": "Advanced Ellipsis and Substitution",
-    "description": "Clause reduction, noun phrase ellipsis, pseudogapping, and concise stylistic omissions.",
+    "title": "Pronouns, Substitution and Ellipsis",
+    "description": "Achieve concise, elegant cohesion through nominal/clausal substitution (so, not, do so) and systemic omission after auxiliaries/particles.",
     "order": 12,
     "topicIds": [
-      "advanced_topic_clause_ellipsis_omission",
-      "advanced_topic_substitution_markers"
-    ]
+      "advanced_reflexive_pronouns_emphatic_reciprocal",
+      "advanced_one_ones_substitution_identifying",
+      "advanced_so_not_clausal_substitution",
+      "advanced_do_so_such_predicate_substitution",
+      "advanced_ellipsis_after_auxiliary_verbs",
+      "advanced_ellipsis_infinitive_to_omission"
+    ],
+    "cefrLevel": "C1"
   },
   {
-    "id": "advanced_prepositions_particles",
+    "id": "advanced_adjectives_adverbs",
     "courseId": "course_advanced",
-    "title": "Complex Prepositions and Particles",
-    "description": "Multi-word prepositions (in lieu of, by virtue of, in light of) and particle shifts.",
+    "title": "Advanced Adjectives and Adverbs",
+    "description": "Master gradability, collocational modification, comparative correlatives (the... the...), viewpoint adverbs, and scopal positioning.",
     "order": 13,
     "topicIds": [
-      "advanced_topic_compound_multi_word_prepositions",
-      "advanced_topic_particle_stranding_fronting"
-    ]
+      "advanced_adjective_position_attributive_predicative",
+      "advanced_gradable_non_gradable_adjectives_intensifiers",
+      "advanced_gradable_adjectives_collocations_subtle_grading",
+      "advanced_participle_compound_adjectives",
+      "advanced_adjectives_complementation_patterns",
+      "advanced_adjectives_adverbs_form_contrasts",
+      "advanced_comparatives_superlatives_advanced_forms",
+      "advanced_comparative_phrases_clauses_correlatives",
+      "advanced_adverb_position_sentence_verb_mid_position",
+      "advanced_adverb_position_scope_meaning_shifts",
+      "advanced_adverbs_place_direction_time_frequency",
+      "advanced_degree_adverbs_focus_adverbs_placement",
+      "advanced_comment_viewpoint_discourse_adverbs"
+    ],
+    "cefrLevel": "C1"
   },
   {
-    "id": "advanced_stylistic_variation",
+    "id": "advanced_adverbial_clauses_linking",
     "courseId": "course_advanced",
-    "title": "Register and Stylistic Variation",
-    "description": "Formal academic nominalization, rhetorical conventions, and sophisticated communicative registers.",
+    "title": "Adverbial Clauses and Linking",
+    "description": "Link propositions with precision: concession, cause, purpose, contingency, and inter-sentential discourse markers.",
     "order": 14,
     "topicIds": [
-      "advanced_topic_academic_nominalization",
-      "advanced_topic_stylistic_register_shifts"
-    ]
+      "advanced_adverbial_clauses_time_temporal_linkers",
+      "advanced_reason_clauses_as_because_since_for_with",
+      "advanced_purpose_result_in_order_so_as_to",
+      "advanced_contrast_concession_although_while_whereas",
+      "advanced_sentence_connectors_cohesion_discourse"
+    ],
+    "cefrLevel": "C1"
+  },
+  {
+    "id": "advanced_conditionals",
+    "courseId": "course_advanced",
+    "title": "Advanced Conditionals",
+    "description": "Construct mixed time frames, inverted hypothetical clauses (had I known, were you to), and formal alternative conditional conjunctions.",
+    "order": 15,
+    "topicIds": [
+      "advanced_conditionals_real_unreal_hypothetical_nuances",
+      "advanced_conditionals_mixed_past_present_hypotheses",
+      "advanced_inverted_conditionals_should_were_had",
+      "advanced_alternative_conditional_markers"
+    ],
+    "cefrLevel": "C1"
+  },
+  {
+    "id": "advanced_prepositions",
+    "courseId": "course_advanced",
+    "title": "Advanced Prepositions",
+    "description": "Handle complex spatial, temporal and abstract prepositions, dependent verb/noun collocations, and exception markers.",
+    "order": 16,
+    "topicIds": [
+      "advanced_prepositions_position_movement_abstract",
+      "advanced_between_among_reciprocal_distinctions",
+      "advanced_prepositions_time_complex_relationships",
+      "advanced_prepositions_exceptions_apart_except_besides",
+      "advanced_prepositions_dependent_after_verbs",
+      "advanced_prepositions_dependent_after_nouns"
+    ],
+    "cefrLevel": "C1"
+  },
+  {
+    "id": "advanced_multiword_verbs",
+    "courseId": "course_advanced",
+    "title": "Multi-word Verb Structures",
+    "description": "Examine two- and three-word verb syntax: particle placement, pronominal constraints, and transitive separation.",
+    "order": 17,
+    "topicIds": [
+      "advanced_two_three_word_verbs_particle_syntax"
+    ],
+    "cefrLevel": "C1"
+  },
+  {
+    "id": "advanced_information_structure",
+    "courseId": "course_advanced",
+    "title": "Organising Information",
+    "description": "Structure clauses to control information focus, end-weight, existential there frameworks, and it-clefts / pseudo-clefts.",
+    "order": 18,
+    "topicIds": [
+      "advanced_existential_there_complex_structures",
+      "advanced_dummy_anticipatory_it_preparatory",
+      "advanced_it_clauses_judgement_perception_frames",
+      "advanced_cleft_sentences_it_what_focus_structures"
+    ],
+    "cefrLevel": "C1"
+  },
+  {
+    "id": "advanced_focus_inversion",
+    "courseId": "course_advanced",
+    "title": "Focus and Inversion",
+    "description": "Deploy subject-auxiliary and full inversion following fronted negative adverbials, locatives, and emphatic comparative operators.",
+    "order": 19,
+    "topicIds": [
+      "advanced_inversion_negative_restrictive_adverbials",
+      "advanced_inversion_place_direction_conditionals"
+    ],
+    "cefrLevel": "C1"
+  },
+  {
+    "id": "advanced_final_challenge",
+    "courseId": "course_advanced",
+    "title": "Advanced Final Challenge",
+    "description": "Integrative C1 mastery capstone: discourse synthesis, stylistic variation, register transformation and holistic grammar command.",
+    "order": 20,
+    "topicIds": [
+      "advanced_final_challenge_mastery"
+    ],
+    "cefrLevel": "C1"
   }
 ]

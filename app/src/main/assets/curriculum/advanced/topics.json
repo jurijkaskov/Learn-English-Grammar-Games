@@ -1,684 +1,2681 @@
 [
   {
-    "id": "advanced_topic_negative_adverbial_inversion",
-    "sectionId": "advanced_inversion",
-    "title": "Negative Adverbial Inversion: Never, Seldom, Rarely",
-    "shortDescription": "Front negative adverbs to trigger subject-auxiliary inversion for rhetorical impact.",
-    "order": 1,
-    "lessonIds": ["advanced_topic_negative_adverbial_inversion_l1"],
+    "id": "advanced_present_continuous_simple_aspect",
+    "sectionId": "advanced_tense_contrasts",
+    "title": "Present Continuous & Simple: Aspectual & Stative Nuance",
+    "shortDescription": "Contrast dynamic progressivity with stative verbs, mental processes, and temporary states.",
+    "lessonIds": [
+      "lesson_advanced_present_continuous_simple_aspect"
+    ],
     "prerequisites": [],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
-    "conceptId": "concept_inversion",
-    "conceptDepth": "CONTROL",
     "bookReferences": [
       {
         "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
         "editionId": "advanced_grammar_in_use_3",
-        "units": [99, 100]
+        "units": [
+          1
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
       }
-    ]
-  },
-  {
-    "id": "advanced_topic_only_hardly_scarcely_inversion",
-    "sectionId": "advanced_inversion",
-    "title": "Inversion after Only, Hardly, and Scarcely",
-    "shortDescription": "Hardly had I arrived when... and Only after leaving did she notice.",
-    "order": 2,
-    "lessonIds": ["advanced_topic_only_hardly_scarcely_inversion_l1"],
-    "prerequisites": ["advanced_topic_negative_adverbial_inversion"],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
-    "conceptId": "concept_inversion",
+    ],
+    "conceptId": "concept_present_continuous",
     "conceptDepth": "NUANCE",
+    "cefrLevel": "C1",
+    "order": 1
+  },
+  {
+    "id": "advanced_present_continuous_simple_stylistic",
+    "sectionId": "advanced_tense_contrasts",
+    "title": "Present Tenses: Discourse, Annoyance & Current Affairs",
+    "shortDescription": "Analyse continual annoyance with always/forever and live reporting commentary registers.",
+    "lessonIds": [
+      "lesson_advanced_present_continuous_simple_stylistic"
+    ],
+    "prerequisites": [
+      "advanced_present_continuous_simple_aspect"
+    ],
     "bookReferences": [
       {
         "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
         "editionId": "advanced_grammar_in_use_3",
-        "units": [100]
+        "units": [
+          2
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
       }
-    ]
+    ],
+    "conceptId": "concept_present_simple",
+    "conceptDepth": "NUANCE",
+    "cefrLevel": "C1",
+    "order": 2
   },
   {
-    "id": "advanced_topic_locative_conditional_inversion",
-    "sectionId": "advanced_inversion",
-    "title": "Locative Inversion: Behind the door stood a man",
-    "shortDescription": "Full subject-verb inversion following fronted prepositional phrases of location and direction.",
-    "order": 3,
-    "lessonIds": ["advanced_topic_locative_conditional_inversion_l1"],
-    "prerequisites": ["advanced_topic_negative_adverbial_inversion"],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
-    "conceptId": "concept_inversion",
+    "id": "advanced_past_simple_present_perfect_perspective",
+    "sectionId": "advanced_tense_contrasts",
+    "title": "Past Simple vs Present Perfect: Temporal Perspective & Distance",
+    "shortDescription": "Master subtle psychological closeness, news broadcasting conventions, and temporal reference points.",
+    "lessonIds": [
+      "lesson_advanced_past_simple_present_perfect_perspective"
+    ],
+    "prerequisites": [
+      "advanced_present_continuous_simple_stylistic"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          3
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_present_perfect",
     "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 3
+  },
+  {
+    "id": "advanced_past_continuous_simple_narrative",
+    "sectionId": "advanced_tense_contrasts",
+    "title": "Past Continuous & Simple: Narrative Framing & Interruption",
+    "shortDescription": "Frame extended narrative backgrounds, parallel activities, and polite tentative requests.",
+    "lessonIds": [
+      "lesson_advanced_past_continuous_simple_narrative"
+    ],
+    "prerequisites": [
+      "advanced_past_simple_present_perfect_perspective"
+    ],
     "bookReferences": [
       {
         "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
         "editionId": "advanced_grammar_in_use_3",
-        "units": [100]
-      }
-    ]
-  },
-  {
-    "id": "advanced_topic_it_clefts_focus",
-    "sectionId": "advanced_cleft_focus",
-    "title": "It-Cleft Sentences for Focused Contrast",
-    "shortDescription": "Structure sentences as 'It was X that...' to pinpoint specific information focus.",
-    "order": 1,
-    "lessonIds": ["advanced_topic_it_clefts_focus_l1"],
-    "prerequisites": [],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
-    "conceptId": "concept_cleft_sentences",
-    "conceptDepth": "CONTROL",
-    "bookReferences": [
-      {
-        "bookId": "advanced_grammar_in_use",
+        "units": [
+          4
+        ],
         "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
-        "editionId": "advanced_grammar_in_use_3",
-        "units": [97]
+        "edition": "Third Edition"
       }
-    ]
-  },
-  {
-    "id": "advanced_topic_wh_pseudo_clefts",
-    "sectionId": "advanced_cleft_focus",
-    "title": "Wh- Pseudo-Clefts: What surprised me was...",
-    "shortDescription": "Package presupposed information into wh-clauses before presenting novel focal points.",
-    "order": 2,
-    "lessonIds": ["advanced_topic_wh_pseudo_clefts_l1"],
-    "prerequisites": ["advanced_topic_it_clefts_focus"],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
-    "conceptId": "concept_cleft_sentences",
+    ],
+    "conceptId": "concept_past_continuous",
     "conceptDepth": "NUANCE",
+    "cefrLevel": "C1",
+    "order": 4
+  },
+  {
+    "id": "advanced_past_perfect_simple_retrospect",
+    "sectionId": "advanced_tense_contrasts",
+    "title": "Past Perfect vs Past Simple: Narrative Sequence & Retrospection",
+    "shortDescription": "Structure retrospective flashbacks and avoid redundant past perfect with chronological conjunctions.",
+    "lessonIds": [
+      "lesson_advanced_past_perfect_simple_retrospect"
+    ],
+    "prerequisites": [
+      "advanced_past_continuous_simple_narrative"
+    ],
     "bookReferences": [
       {
         "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
         "editionId": "advanced_grammar_in_use_3",
-        "units": [98]
+        "units": [
+          5
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
       }
-    ]
-  },
-  {
-    "id": "advanced_topic_thematic_fronting",
-    "sectionId": "advanced_cleft_focus",
-    "title": "Thematic Fronting and Topicalization",
-    "shortDescription": "Front objects and complements to establish cohesion and thematic progression.",
-    "order": 3,
-    "lessonIds": ["advanced_topic_thematic_fronting_l1"],
-    "prerequisites": ["advanced_topic_wh_pseudo_clefts"],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
-    "conceptId": "concept_cleft_sentences",
+    ],
+    "conceptId": "concept_past_perfect",
     "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 5
+  },
+  {
+    "id": "advanced_present_perfect_continuous_simple_duration",
+    "sectionId": "advanced_tense_contrasts",
+    "title": "Present Perfect Continuous vs Simple: Result, Completion & Duration",
+    "shortDescription": "Distinguish permanent versus temporary situations, repeated actions, and completed evidential results.",
+    "lessonIds": [
+      "lesson_advanced_present_perfect_continuous_simple_duration"
+    ],
+    "prerequisites": [
+      "advanced_past_perfect_simple_retrospect"
+    ],
     "bookReferences": [
       {
         "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
         "editionId": "advanced_grammar_in_use_3",
-        "units": [96]
-      }
-    ]
-  },
-  {
-    "id": "advanced_topic_present_past_participle_clauses",
-    "sectionId": "advanced_participle_clauses",
-    "title": "Participle Adverbial Clauses: Walking in the rain...",
-    "shortDescription": "Condense adverbial clauses of time and reason into present (-ing) and past (-ed) participles.",
-    "order": 1,
-    "lessonIds": ["advanced_topic_present_past_participle_clauses_l1"],
-    "prerequisites": [],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
-    "conceptId": "concept_relative_clauses",
-    "conceptDepth": "CONTROL",
-    "bookReferences": [
-      {
-        "bookId": "advanced_grammar_in_use",
+        "units": [
+          6
+        ],
         "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
-        "editionId": "advanced_grammar_in_use_3",
-        "units": [58, 59]
+        "edition": "Third Edition"
       }
-    ]
-  },
-  {
-    "id": "advanced_topic_having_done_compound_participles",
-    "sectionId": "advanced_participle_clauses",
-    "title": "Compound Perfect Participles: Having finished...",
-    "shortDescription": "Signal anteriority in participial adjuncts using having + past participle.",
-    "order": 2,
-    "lessonIds": ["advanced_topic_having_done_compound_participles_l1"],
-    "prerequisites": ["advanced_topic_present_past_participle_clauses"],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
-    "conceptId": "concept_relative_clauses",
-    "conceptDepth": "NUANCE",
-    "bookReferences": [
-      {
-        "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
-        "editionId": "advanced_grammar_in_use_3",
-        "units": [60]
-      }
-    ]
-  },
-  {
-    "id": "advanced_topic_mandative_formulaic_subjunctive",
-    "sectionId": "advanced_subjunctive_unreal",
-    "title": "Mandative and Formulaic Subjunctive",
-    "shortDescription": "Use bare stem verbs in formal demand clauses (insist that he go) and set idioms.",
-    "order": 1,
-    "lessonIds": ["advanced_topic_mandative_formulaic_subjunctive_l1"],
-    "prerequisites": [],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
-    "conceptId": "concept_verb_patterns",
-    "conceptDepth": "CONTROL",
-    "bookReferences": [
-      {
-        "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
-        "editionId": "advanced_grammar_in_use_3",
-        "units": [48]
-      }
-    ]
-  },
-  {
-    "id": "advanced_topic_unreal_past_high_time",
-    "sectionId": "advanced_subjunctive_unreal",
-    "title": "Unreal Past with High Time and As If",
-    "shortDescription": "It's high time we left, I'd rather you didn't, he acts as though he were king.",
-    "order": 2,
-    "lessonIds": ["advanced_topic_unreal_past_high_time_l1"],
-    "prerequisites": ["advanced_topic_mandative_formulaic_subjunctive"],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
-    "conceptId": "concept_conditionals",
-    "conceptDepth": "NUANCE",
-    "bookReferences": [
-      {
-        "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
-        "editionId": "advanced_grammar_in_use_3",
-        "units": [83]
-      }
-    ]
-  },
-  {
-    "id": "advanced_topic_inverted_conditionals",
-    "sectionId": "advanced_advanced_conditionals",
-    "title": "Inverted Conditionals: Had I known, Should you need",
-    "shortDescription": "Omit if in formal conditional registers through subject-auxiliary inversion.",
-    "order": 1,
-    "lessonIds": ["advanced_topic_inverted_conditionals_l1"],
-    "prerequisites": [],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
-    "conceptId": "concept_conditionals",
-    "conceptDepth": "CONTROL",
-    "bookReferences": [
-      {
-        "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
-        "editionId": "advanced_grammar_in_use_3",
-        "units": [84]
-      }
-    ]
-  },
-  {
-    "id": "advanced_topic_mixed_conditionals_mastery",
-    "sectionId": "advanced_advanced_conditionals",
-    "title": "Mixed Conditionals: Blending Past and Present",
-    "shortDescription": "Connect past events to present results (if I had taken that job, I would be happy now).",
-    "order": 2,
-    "lessonIds": ["advanced_topic_mixed_conditionals_mastery_l1"],
-    "prerequisites": ["advanced_topic_inverted_conditionals"],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
-    "conceptId": "concept_conditionals",
-    "conceptDepth": "NUANCE",
-    "bookReferences": [
-      {
-        "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
-        "editionId": "advanced_grammar_in_use_3",
-        "units": [82]
-      }
-    ]
-  },
-  {
-    "id": "advanced_topic_concessive_conditionals",
-    "sectionId": "advanced_advanced_conditionals",
-    "title": "Concessive and Alternative Conditionals",
-    "shortDescription": "Whether or not, even if, provided that, and in the event of.",
-    "order": 3,
-    "lessonIds": ["advanced_topic_concessive_conditionals_l1"],
-    "prerequisites": ["advanced_topic_mixed_conditionals_mastery"],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
-    "conceptId": "concept_conditionals",
+    ],
+    "conceptId": "concept_present_perfect",
     "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 6
+  },
+  {
+    "id": "advanced_past_perfect_continuous_past_tenses",
+    "sectionId": "advanced_tense_contrasts",
+    "title": "Past Perfect Continuous vs Other Past Aspects in Extended Context",
+    "shortDescription": "Differentiate causes leading to past outcomes, ongoing background situations, and concluded retrospection.",
+    "lessonIds": [
+      "lesson_advanced_past_perfect_continuous_past_tenses"
+    ],
+    "prerequisites": [
+      "advanced_present_perfect_continuous_simple_duration"
+    ],
     "bookReferences": [
       {
         "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
         "editionId": "advanced_grammar_in_use_3",
-        "units": [85]
+        "units": [
+          7
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
       }
-    ]
+    ],
+    "conceptId": "concept_past_perfect",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 7
   },
   {
-    "id": "advanced_topic_impersonal_reporting_passive",
-    "sectionId": "advanced_advanced_passive",
-    "title": "Impersonal Reporting Passive: It is alleged that...",
-    "shortDescription": "Express objective journalistic attribution with impersonal it and personal nominative raising.",
-    "order": 1,
-    "lessonIds": ["advanced_topic_impersonal_reporting_passive_l1"],
-    "prerequisites": [],
-    "difficulty": "HARD",
+    "id": "advanced_present_past_time_synthesis",
+    "sectionId": "advanced_tense_contrasts",
+    "title": "Present & Past Time: Extended Discourse Review & Synthesis",
+    "shortDescription": "Synthesise past and present aspectual contrasts across extended professional and academic texts.",
+    "lessonIds": [
+      "lesson_advanced_present_past_time_synthesis"
+    ],
+    "prerequisites": [
+      "advanced_past_perfect_continuous_past_tenses"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          8
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_verb_forms",
+    "conceptDepth": "MASTERY",
     "cefrLevel": "C1",
+    "order": 8
+  },
+  {
+    "id": "advanced_will_be_going_to_prediction_volition",
+    "sectionId": "advanced_future_forms",
+    "title": "Will vs Be Going To: Certainty, Decision & Predictive Evidence",
+    "shortDescription": "Examine speaker detachment, pre-existing intentions, external evidence, and formal inevitability.",
+    "lessonIds": [
+      "lesson_advanced_will_be_going_to_prediction_volition"
+    ],
+    "prerequisites": [],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          9
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_future",
+    "conceptDepth": "NUANCE",
+    "cefrLevel": "C1",
+    "order": 1
+  },
+  {
+    "id": "advanced_present_forms_for_future_arrangements",
+    "sectionId": "advanced_future_forms",
+    "title": "Present Forms for Future: Timetables, Calendars & Official Plans",
+    "shortDescription": "Deploy present simple for impersonal schedules and present continuous for interpersonal arrangements.",
+    "lessonIds": [
+      "lesson_advanced_present_forms_for_future_arrangements"
+    ],
+    "prerequisites": [
+      "advanced_will_be_going_to_prediction_volition"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          10
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_future",
+    "conceptDepth": "NUANCE",
+    "cefrLevel": "C1",
+    "order": 2
+  },
+  {
+    "id": "advanced_future_continuous_perfect_aspects",
+    "sectionId": "advanced_future_forms",
+    "title": "Future Continuous & Future Perfect: Expected Course & Completion",
+    "shortDescription": "Express events as the routine course of things, polite inquiries, and projected retrospection.",
+    "lessonIds": [
+      "lesson_advanced_future_continuous_perfect_aspects"
+    ],
+    "prerequisites": [
+      "advanced_present_forms_for_future_arrangements"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          11
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_future",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 3
+  },
+  {
+    "id": "advanced_be_to_be_about_to_official_destiny",
+    "sectionId": "advanced_future_forms",
+    "title": "Be To + Infinitive & Be About To: Formal Mandates & Imminence",
+    "shortDescription": "Handle official directives, diplomatic protocol, pre-conditions, and imminent future events.",
+    "lessonIds": [
+      "lesson_advanced_be_to_be_about_to_official_destiny"
+    ],
+    "prerequisites": [
+      "advanced_future_continuous_perfect_aspects"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          12
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_future",
+    "conceptDepth": "NUANCE",
+    "cefrLevel": "C1",
+    "order": 4
+  },
+  {
+    "id": "advanced_alternative_future_expressions",
+    "sectionId": "advanced_future_forms",
+    "title": "Alternative Future Markers: Be Bound To, Due To, On the Verge Of",
+    "shortDescription": "Utilise idiomatic and semi-modal expressions indicating probability, schedule, and immediate occurrence.",
+    "lessonIds": [
+      "lesson_advanced_alternative_future_expressions"
+    ],
+    "prerequisites": [
+      "advanced_be_to_be_about_to_official_destiny"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          13
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_future",
+    "conceptDepth": "NUANCE",
+    "cefrLevel": "C1",
+    "order": 5
+  },
+  {
+    "id": "advanced_future_seen_from_past_prospective",
+    "sectionId": "advanced_future_forms",
+    "title": "The Future Seen from the Past: Was Going To, Would, Was To",
+    "shortDescription": "Express unfulfilled past intentions, retrospective destiny, and historical prospective narrative.",
+    "lessonIds": [
+      "lesson_advanced_future_seen_from_past_prospective"
+    ],
+    "prerequisites": [
+      "advanced_alternative_future_expressions"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          14
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_future",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 6
+  },
+  {
+    "id": "advanced_ability_permission_modals_semi_modals",
+    "sectionId": "advanced_modals_semi_modals",
+    "title": "Can, Could, Be Able To & Be Allowed To: Specific vs General Capacity",
+    "shortDescription": "Differentiate general ability from successful achievement on a specific past occasion (was able to vs could).",
+    "lessonIds": [
+      "lesson_advanced_ability_permission_modals_semi_modals"
+    ],
+    "prerequisites": [],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          15
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_modals",
+    "conceptDepth": "NUANCE",
+    "cefrLevel": "C1",
+    "order": 1
+  },
+  {
+    "id": "advanced_will_would_used_to_habits_characteristics",
+    "sectionId": "advanced_modals_semi_modals",
+    "title": "Will, Would & Used To: Typical Behaviour, Annoying Habits & Refusal",
+    "shortDescription": "Express characteristic human tendencies, inanimate refusal, obstinate habits, and past states.",
+    "lessonIds": [
+      "lesson_advanced_will_would_used_to_habits_characteristics"
+    ],
+    "prerequisites": [
+      "advanced_ability_permission_modals_semi_modals"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          16
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_modals",
+    "conceptDepth": "NUANCE",
+    "cefrLevel": "C1",
+    "order": 2
+  },
+  {
+    "id": "advanced_may_might_possibility_speculation",
+    "sectionId": "advanced_modals_semi_modals",
+    "title": "May & Might: Degrees of Probability, Concession & Counterfactuals",
+    "shortDescription": "Deploy concessive may... but clauses, counterfactual might have done, and tentative suggestions.",
+    "lessonIds": [
+      "lesson_advanced_may_might_possibility_speculation"
+    ],
+    "prerequisites": [
+      "advanced_will_would_used_to_habits_characteristics"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          17
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_modals",
+    "conceptDepth": "NUANCE",
+    "cefrLevel": "C1",
+    "order": 3
+  },
+  {
+    "id": "advanced_must_have_to_obligation_deduction",
+    "sectionId": "advanced_modals_semi_modals",
+    "title": "Must vs Have (Got) To: Internal vs External Authority & Logical Deduction",
+    "shortDescription": "Navigate subjective speaker authority versus external rule constraint, and epistemic deductions.",
+    "lessonIds": [
+      "lesson_advanced_must_have_to_obligation_deduction"
+    ],
+    "prerequisites": [
+      "advanced_may_might_possibility_speculation"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          18
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_modals",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 4
+  },
+  {
+    "id": "advanced_neednt_didnt_need_to_necessity",
+    "sectionId": "advanced_modals_semi_modals",
+    "title": "Need(n't) vs Don't Need To vs Didn't Need To: Incurred vs Avoided Action",
+    "shortDescription": "Distinguish needn't have done (action occurred unnecessarily) from didn't need to do (unnecessary, action skipped).",
+    "lessonIds": [
+      "lesson_advanced_neednt_didnt_need_to_necessity"
+    ],
+    "prerequisites": [
+      "advanced_must_have_to_obligation_deduction"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          19
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_semi_modals",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 5
+  },
+  {
+    "id": "advanced_should_ought_to_had_better_advisory",
+    "sectionId": "advanced_modals_semi_modals",
+    "title": "Should, Ought To & Had Better: Advice, Urgency & Expectation",
+    "shortDescription": "Balance social obligation, imminent negative consequences with had better, and logical expectation.",
+    "lessonIds": [
+      "lesson_advanced_should_ought_to_had_better_advisory"
+    ],
+    "prerequisites": [
+      "advanced_neednt_didnt_need_to_necessity"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          20
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_modals",
+    "conceptDepth": "NUANCE",
+    "cefrLevel": "C1",
+    "order": 6
+  },
+  {
+    "id": "advanced_linking_verbs_copular_complements",
+    "sectionId": "advanced_linking_verbs",
+    "title": "Linking Verbs: Be, Appear, Seem, Become, Get & Sensory Predication",
+    "shortDescription": "Analyse copular complementation, sensory perception verbs, to be insertion, and change of state.",
+    "lessonIds": [
+      "lesson_advanced_linking_verbs_copular_complements"
+    ],
+    "prerequisites": [],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          21
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_linking_verbs",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 1
+  },
+  {
+    "id": "advanced_passive_sentence_formation_patterns",
+    "sectionId": "advanced_passive",
+    "title": "Complex Passive Formation: Prepositional & Multi-Word Verbs",
+    "shortDescription": "Form passive clauses with prepositional verbs, ditransitive shifts, and ergative verb limitations.",
+    "lessonIds": [
+      "lesson_advanced_passive_sentence_formation_patterns"
+    ],
+    "prerequisites": [],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          22
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
     "conceptId": "concept_passive",
     "conceptDepth": "CONTROL",
+    "cefrLevel": "C1",
+    "order": 1
+  },
+  {
+    "id": "advanced_passive_ing_infinitives",
+    "sectionId": "advanced_passive",
+    "title": "Passive Infinitives & -ing Forms: Being Done, To Be Done, Having Been Done",
+    "shortDescription": "Control complex passive infinitives and gerund complements after verbs of perception and emotion.",
+    "lessonIds": [
+      "lesson_advanced_passive_ing_infinitives"
+    ],
+    "prerequisites": [
+      "advanced_passive_sentence_formation_patterns"
+    ],
     "bookReferences": [
       {
         "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
         "editionId": "advanced_grammar_in_use_3",
-        "units": [24, 25]
+        "units": [
+          23
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
       }
-    ]
-  },
-  {
-    "id": "advanced_topic_passive_sensory_verbs",
-    "sectionId": "advanced_advanced_passive",
-    "title": "Passive Voice with Perception Verbs",
-    "shortDescription": "Shift from active bare infinitive to passive to-infinitive (He was seen to leave).",
-    "order": 2,
-    "lessonIds": ["advanced_topic_passive_sensory_verbs_l1"],
-    "prerequisites": ["advanced_topic_impersonal_reporting_passive"],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
+    ],
     "conceptId": "concept_passive",
-    "conceptDepth": "NUANCE",
-    "bookReferences": [
-      {
-        "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
-        "editionId": "advanced_grammar_in_use_3",
-        "units": [26]
-      }
-    ]
-  },
-  {
-    "id": "advanced_topic_neednt_have_vs_didnt_need_to",
-    "sectionId": "advanced_modal_nuances",
-    "title": "Needn't Have vs Didn't Need To",
-    "shortDescription": "Unnecessary action performed vs unnecessary action omitted.",
-    "order": 1,
-    "lessonIds": ["advanced_topic_neednt_have_vs_didnt_need_to_l1"],
-    "prerequisites": [],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
-    "conceptId": "concept_modals",
-    "conceptDepth": "CONTRAST",
-    "bookReferences": [
-      {
-        "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
-        "editionId": "advanced_grammar_in_use_3",
-        "units": [33]
-      }
-    ]
-  },
-  {
-    "id": "advanced_topic_epistemic_hedging_modals",
-    "sectionId": "advanced_modal_nuances",
-    "title": "Modal Hedging and Epistemic Stance",
-    "shortDescription": "Nuance claims in academic argument using would seem, may well be, and could conceivably.",
-    "order": 2,
-    "lessonIds": ["advanced_topic_epistemic_hedging_modals_l1"],
-    "prerequisites": ["advanced_topic_neednt_have_vs_didnt_need_to"],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
-    "conceptId": "concept_modals",
     "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 2
+  },
+  {
+    "id": "advanced_passive_choice_discourse_style",
+    "sectionId": "advanced_passive",
+    "title": "Passive Choice in Discourse: Information Flow, Focus & Impersonal Style",
+    "shortDescription": "Apply the passive strategically to maintain topic continuity, end-weight, and objective scientific register.",
+    "lessonIds": [
+      "lesson_advanced_passive_choice_discourse_style"
+    ],
+    "prerequisites": [
+      "advanced_passive_ing_infinitives"
+    ],
     "bookReferences": [
       {
         "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
         "editionId": "advanced_grammar_in_use_3",
-        "units": [34, 35]
+        "units": [
+          24
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
       }
-    ]
+    ],
+    "conceptId": "concept_passive",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 3
   },
   {
-    "id": "advanced_topic_ergative_verbs",
-    "sectionId": "advanced_verb_complementation",
-    "title": "Ergative (Labile) Verbs: Open, Melt, Shatter",
-    "shortDescription": "Verbs whose direct object becomes the subject without passive morphology.",
-    "order": 1,
-    "lessonIds": ["advanced_topic_ergative_verbs_l1"],
-    "prerequisites": [],
-    "difficulty": "HARD",
+    "id": "advanced_reporting_passive_impersonal_it",
+    "sectionId": "advanced_passive",
+    "title": "Reporting with Passives: It Is Said That vs He Is Believed To",
+    "shortDescription": "Construct impersonal reporting frames with anticipatory it and personal subject-raising infinitives.",
+    "lessonIds": [
+      "lesson_advanced_reporting_passive_impersonal_it"
+    ],
+    "prerequisites": [
+      "advanced_passive_choice_discourse_style"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          25
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_passive",
+    "conceptDepth": "MASTERY",
     "cefrLevel": "C1",
+    "order": 4
+  },
+  {
+    "id": "advanced_wh_questions_complex_prepositions",
+    "sectionId": "advanced_questions",
+    "title": "Wh-Questions: Preposition Stranding, Whom, Which, Whose & How",
+    "shortDescription": "Form formal preposition-fronted questions, precise which vs what selections, and possessive wh-phrases.",
+    "lessonIds": [
+      "lesson_advanced_wh_questions_complex_prepositions"
+    ],
+    "prerequisites": [],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          26
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_questions",
+    "conceptDepth": "NUANCE",
+    "cefrLevel": "C1",
+    "order": 1
+  },
+  {
+    "id": "advanced_negative_echo_embedded_questions",
+    "sectionId": "advanced_questions",
+    "title": "Negative Questions, Echo Questions & That-Clause Complements",
+    "shortDescription": "Deploy negative questions for persuasion/surprise, echo questions for clarification, and embedded clauses.",
+    "lessonIds": [
+      "lesson_advanced_negative_echo_embedded_questions"
+    ],
+    "prerequisites": [
+      "advanced_wh_questions_complex_prepositions"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          27
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_questions",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 2
+  },
+  {
+    "id": "advanced_verbs_objects_predicate_complements",
+    "sectionId": "advanced_verb_complementation",
+    "title": "Verbs, Objects and Complements: Transitive, Intransitive & Ergative Structures",
+    "shortDescription": "Analyse object complements, reflexive verbs, reciprocal verbs, and middle-voice ergative pairs.",
+    "lessonIds": [
+      "lesson_advanced_verbs_objects_predicate_complements"
+    ],
+    "prerequisites": [],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          28
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_verb_patterns",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 1
+  },
+  {
+    "id": "advanced_verb_two_objects_ditransitive",
+    "sectionId": "advanced_verb_complementation",
+    "title": "Ditransitive Patterns: Double Objects vs Prepositional Shifts",
+    "shortDescription": "Select appropriate prepositional complements (to vs for) and identify verbs barring dative alternation.",
+    "lessonIds": [
+      "lesson_advanced_verb_two_objects_ditransitive"
+    ],
+    "prerequisites": [
+      "advanced_verbs_objects_predicate_complements"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          29
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
     "conceptId": "concept_verb_patterns",
     "conceptDepth": "NUANCE",
-    "bookReferences": [
-      {
-        "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
-        "editionId": "advanced_grammar_in_use_3",
-        "units": [29]
-      }
-    ]
+    "cefrLevel": "C1",
+    "order": 2
   },
   {
-    "id": "advanced_topic_complex_transitive_complementation",
+    "id": "advanced_verb_ing_infinitives_meaning_shifts",
     "sectionId": "advanced_verb_complementation",
-    "title": "Complex Transitive and Resultative Complementation",
-    "shortDescription": "Paint the fence green, elect someone president, make oneself understood.",
-    "order": 2,
-    "lessonIds": ["advanced_topic_complex_transitive_complementation_l1"],
-    "prerequisites": ["advanced_topic_ergative_verbs"],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
-    "conceptId": "concept_verb_patterns",
+    "title": "Verb + -ing vs Infinitive 1: Semantic Contrast & Action Perspectives",
+    "shortDescription": "Master subtle semantic shifts with remember, forget, regret, stop, try, mean, and go on.",
+    "lessonIds": [
+      "lesson_advanced_verb_ing_infinitives_meaning_shifts"
+    ],
+    "prerequisites": [
+      "advanced_verb_two_objects_ditransitive"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          30
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_gerund_infinitive",
     "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 3
+  },
+  {
+    "id": "advanced_verb_ing_infinitives_complex_patterns",
+    "sectionId": "advanced_verb_complementation",
+    "title": "Verb + -ing vs Infinitive 2: Perception Verbs, Bare Infinitives & Perfect Forms",
+    "shortDescription": "Differentiate complete action (bare infinitive) from action in progress (-ing) with perception verbs.",
+    "lessonIds": [
+      "lesson_advanced_verb_ing_infinitives_complex_patterns"
+    ],
+    "prerequisites": [
+      "advanced_verb_ing_infinitives_meaning_shifts"
+    ],
     "bookReferences": [
       {
         "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
         "editionId": "advanced_grammar_in_use_3",
-        "units": [30, 31]
+        "units": [
+          31
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
       }
-    ]
+    ],
+    "conceptId": "concept_gerund_infinitive",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 4
   },
   {
-    "id": "advanced_topic_complex_nominal_compounds",
-    "sectionId": "advanced_noun_phrase_complexity",
-    "title": "Dense Nominal Compounding and Premodification",
-    "shortDescription": "Form and interpret compact multi-noun clusters in professional prose.",
-    "order": 1,
-    "lessonIds": ["advanced_topic_complex_nominal_compounds_l1"],
+    "id": "advanced_reporting_speech_thoughts_summarising",
+    "sectionId": "advanced_reporting",
+    "title": "Reporting Speech & Thoughts: Summarising Verbs & Discourse Functions",
+    "shortDescription": "Use nuanced summarising reporting verbs (urge, dispute, concede, point out, reaffirm).",
+    "lessonIds": [
+      "lesson_advanced_reporting_speech_thoughts_summarising"
+    ],
     "prerequisites": [],
-    "difficulty": "HARD",
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          32
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_reported_speech",
+    "conceptDepth": "NUANCE",
     "cefrLevel": "C1",
+    "order": 1
+  },
+  {
+    "id": "advanced_reporting_statements_that_clauses",
+    "sectionId": "advanced_reporting",
+    "title": "Reporting Statements: That-Clauses, Omission & Fact Stances",
+    "shortDescription": "Control that-omission conventions, stance adverbs, and verbs requiring or forbidding that.",
+    "lessonIds": [
+      "lesson_advanced_reporting_statements_that_clauses"
+    ],
+    "prerequisites": [
+      "advanced_reporting_speech_thoughts_summarising"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          33
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_reported_speech",
+    "conceptDepth": "CONTROL",
+    "cefrLevel": "C1",
+    "order": 2
+  },
+  {
+    "id": "advanced_reporting_wh_clauses_indirect_syntax",
+    "sectionId": "advanced_reporting",
+    "title": "Verb + Wh-Clause: Indirect Questions & Embedded Inquiries",
+    "shortDescription": "Report indirect questions with wh-words, whether versus if, and wh-infinitival reductions.",
+    "lessonIds": [
+      "lesson_advanced_reporting_wh_clauses_indirect_syntax"
+    ],
+    "prerequisites": [
+      "advanced_reporting_statements_that_clauses"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          34
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_reported_speech",
+    "conceptDepth": "NUANCE",
+    "cefrLevel": "C1",
+    "order": 3
+  },
+  {
+    "id": "advanced_reporting_tense_choice_backshift",
+    "sectionId": "advanced_reporting",
+    "title": "Tense Choice in Reporting: Backshift Retention & Contemporary Truth",
+    "shortDescription": "Decide when to retain present tense for permanent universal truths or up-to-date assertions.",
+    "lessonIds": [
+      "lesson_advanced_reporting_tense_choice_backshift"
+    ],
+    "prerequisites": [
+      "advanced_reporting_wh_clauses_indirect_syntax"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          35
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_reported_speech",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 4
+  },
+  {
+    "id": "advanced_reporting_offers_suggestions_commands",
+    "sectionId": "advanced_reporting",
+    "title": "Reporting Directives: Offers, Suggestions, Warnings & Promises",
+    "shortDescription": "Map speech acts to complex infinitive and subjunctive frames (propose that, forbid X to do Y).",
+    "lessonIds": [
+      "lesson_advanced_reporting_offers_suggestions_commands"
+    ],
+    "prerequisites": [
+      "advanced_reporting_tense_choice_backshift"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          36
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_reported_speech",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 5
+  },
+  {
+    "id": "advanced_reporting_modals_attitude_shifts",
+    "sectionId": "advanced_reporting",
+    "title": "Modal Verbs in Reporting: Epistemic & Deontic Adjustments",
+    "shortDescription": "Transform modals in reported speech without losing nuance or speaker epistemic commitment.",
+    "lessonIds": [
+      "lesson_advanced_reporting_modals_attitude_shifts"
+    ],
+    "prerequisites": [
+      "advanced_reporting_offers_suggestions_commands"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          37
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_reported_speech",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 6
+  },
+  {
+    "id": "advanced_reporting_nouns_adjectives_nominalisation",
+    "sectionId": "advanced_reporting",
+    "title": "Nominal & Adjectival Reporting: The Claim That, Aware of the Fact",
+    "shortDescription": "Employ nominalisation (allegation, proposal, insistence) and predicate adjectives to report discourse.",
+    "lessonIds": [
+      "lesson_advanced_reporting_nouns_adjectives_nominalisation"
+    ],
+    "prerequisites": [
+      "advanced_reporting_modals_attitude_shifts"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          38
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_reported_speech",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 7
+  },
+  {
+    "id": "advanced_subjunctive_mandative_should_that_clauses",
+    "sectionId": "advanced_reporting",
+    "title": "Mandative Subjunctive & Should in That-Clauses: Formal Resolutions",
+    "shortDescription": "Deploy the base-form mandative subjunctive and putative should in formal, administrative and legal text.",
+    "lessonIds": [
+      "lesson_advanced_subjunctive_mandative_should_that_clauses"
+    ],
+    "prerequisites": [
+      "advanced_reporting_nouns_adjectives_nominalisation"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          39
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_subjunctive",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 8
+  },
+  {
+    "id": "advanced_subject_verb_agreement_complex_subjects",
+    "sectionId": "advanced_agreement_noun_phrases",
+    "title": "Subject-Verb Agreement 1: Prepositional Modifiers, Intervening Clauses & Compound Subjects",
+    "shortDescription": "Maintain accurate concord across intervening prepositional phrases, relative clauses, and either/or.",
+    "lessonIds": [
+      "lesson_advanced_subject_verb_agreement_complex_subjects"
+    ],
+    "prerequisites": [],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          40
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_subject_verb_agreement",
+    "conceptDepth": "CONTROL",
+    "cefrLevel": "C1",
+    "order": 1
+  },
+  {
+    "id": "advanced_subject_verb_agreement_collective_nouns",
+    "sectionId": "advanced_agreement_noun_phrases",
+    "title": "Subject-Verb Agreement 2: Collective Nouns, Institution Concord & Notional Plurality",
+    "shortDescription": "Navigate singular versus plural concord with collective nouns (committee, staff, government) and countries.",
+    "lessonIds": [
+      "lesson_advanced_subject_verb_agreement_collective_nouns"
+    ],
+    "prerequisites": [
+      "advanced_subject_verb_agreement_complex_subjects"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          41
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_subject_verb_agreement",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 2
+  },
+  {
+    "id": "advanced_subject_verb_agreement_quantifiers_percentages",
+    "sectionId": "advanced_agreement_noun_phrases",
+    "title": "Subject-Verb Agreement 3: Fractions, Quantifiers, Singular Plural-form Nouns",
+    "shortDescription": "Determine concord with fractions, percentages, news/athletics, and none/neither of constructions.",
+    "lessonIds": [
+      "lesson_advanced_subject_verb_agreement_quantifiers_percentages"
+    ],
+    "prerequisites": [
+      "advanced_subject_verb_agreement_collective_nouns"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          42
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_subject_verb_agreement",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 3
+  },
+  {
+    "id": "advanced_compound_nouns_complex_noun_phrases",
+    "sectionId": "advanced_agreement_noun_phrases",
+    "title": "Compound Nouns & Extended Nominal Pre-modification: Structures & Hyphenation",
+    "shortDescription": "Form sophisticated compound nominals, noun + noun classifiers, and multi-word adjectival modifiers.",
+    "lessonIds": [
+      "lesson_advanced_compound_nouns_complex_noun_phrases"
+    ],
+    "prerequisites": [
+      "advanced_subject_verb_agreement_quantifiers_percentages"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          43
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_word_order",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 4
+  },
+  {
+    "id": "advanced_a_an_one_precise_distinctions",
+    "sectionId": "advanced_determiners",
+    "title": "A / An vs One: Numerical Specificity vs Indefinite Classification",
+    "shortDescription": "Differentiate indefinite categorization (a doctor) from numerical quantification (one doctor).",
+    "lessonIds": [
+      "lesson_advanced_a_an_one_precise_distinctions"
+    ],
+    "prerequisites": [],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          44
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_articles",
+    "conceptDepth": "NUANCE",
+    "cefrLevel": "C1",
+    "order": 1
+  },
+  {
+    "id": "advanced_articles_general_specific_classes",
+    "sectionId": "advanced_determiners",
+    "title": "Articles 1: Generic vs Specific Reference, Classes & Categories",
+    "shortDescription": "Deploy the with whole classes (the dolphin) versus zero article with plural/uncountable generalisations.",
+    "lessonIds": [
+      "lesson_advanced_articles_general_specific_classes"
+    ],
+    "prerequisites": [
+      "advanced_a_an_one_precise_distinctions"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          45
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_articles",
+    "conceptDepth": "NUANCE",
+    "cefrLevel": "C1",
+    "order": 2
+  },
+  {
+    "id": "advanced_articles_institutions_transport_abstract",
+    "sectionId": "advanced_determiners",
+    "title": "Articles 2: Institutional Nouns, Transport, Illness & Zero Article",
+    "shortDescription": "Master institutional zero article (in hospital, to university, at sea) versus physical building references.",
+    "lessonIds": [
+      "lesson_advanced_articles_institutions_transport_abstract"
+    ],
+    "prerequisites": [
+      "advanced_articles_general_specific_classes"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          46
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_articles",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 3
+  },
+  {
+    "id": "advanced_articles_geographical_proper_names",
+    "sectionId": "advanced_determiners",
+    "title": "Articles 3: Proper Names, Geography, Publications & Fixed Idioms",
+    "shortDescription": "Navigate article usage with mountain ranges, rivers, oceans, institutions, newspapers, and unique titles.",
+    "lessonIds": [
+      "lesson_advanced_articles_geographical_proper_names"
+    ],
+    "prerequisites": [
+      "advanced_articles_institutions_transport_abstract"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          47
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_articles",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 4
+  },
+  {
+    "id": "advanced_some_any_assertive_non_assertive",
+    "sectionId": "advanced_determiners",
+    "title": "Some vs Any: Assertive Contexts, Free Choice & Subtle Expectations",
+    "shortDescription": "Deploy any meaning 'it doesn't matter which' and some in questions implying positive expectation.",
+    "lessonIds": [
+      "lesson_advanced_some_any_assertive_non_assertive"
+    ],
+    "prerequisites": [
+      "advanced_articles_geographical_proper_names"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          48
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
     "conceptId": "concept_determiners",
     "conceptDepth": "NUANCE",
+    "cefrLevel": "C1",
+    "order": 5
+  },
+  {
+    "id": "advanced_no_none_not_any_emphatic_negation",
+    "sectionId": "advanced_determiners",
+    "title": "No, None (Of) & Not Any: Emphatic Negation & Quantifying Scope",
+    "shortDescription": "Construct emphatic negative assertions, formal none of constructions, and subject agreement.",
+    "lessonIds": [
+      "lesson_advanced_no_none_not_any_emphatic_negation"
+    ],
+    "prerequisites": [
+      "advanced_some_any_assertive_non_assertive"
+    ],
     "bookReferences": [
       {
         "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
         "editionId": "advanced_grammar_in_use_3",
-        "units": [42]
+        "units": [
+          49
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
       }
-    ]
-  },
-  {
-    "id": "advanced_topic_collective_noun_concord",
-    "sectionId": "advanced_noun_phrase_complexity",
-    "title": "Collective Noun Concord: Singular vs Plural Agreement",
-    "shortDescription": "Syntactic vs notional concord with committee, staff, family, and government.",
-    "order": 2,
-    "lessonIds": ["advanced_topic_collective_noun_concord_l1"],
-    "prerequisites": ["advanced_topic_complex_nominal_compounds"],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
+    ],
     "conceptId": "concept_determiners",
-    "conceptDepth": "CONTROL",
-    "bookReferences": [
-      {
-        "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
-        "editionId": "advanced_grammar_in_use_3",
-        "units": [43]
-      }
-    ]
-  },
-  {
-    "id": "advanced_topic_nominal_relative_clauses",
-    "sectionId": "advanced_relative_participle_reduced",
-    "title": "Nominal Relative Clauses: Whatever, Whoever, Where",
-    "shortDescription": "Wh-clauses serving directly as subjects or objects without head nouns.",
-    "order": 1,
-    "lessonIds": ["advanced_topic_nominal_relative_clauses_l1"],
-    "prerequisites": [],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
-    "conceptId": "concept_relative_clauses",
-    "conceptDepth": "CONTROL",
-    "bookReferences": [
-      {
-        "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
-        "editionId": "advanced_grammar_in_use_3",
-        "units": [54]
-      }
-    ]
-  },
-  {
-    "id": "advanced_topic_reduced_relative_postmodifiers",
-    "sectionId": "advanced_relative_participle_reduced",
-    "title": "Reduced Relative Clauses and Post-nominal Modifiers",
-    "shortDescription": "The people present, the questions discussed, the first person to arrive.",
-    "order": 2,
-    "lessonIds": ["advanced_topic_reduced_relative_postmodifiers_l1"],
-    "prerequisites": ["advanced_topic_nominal_relative_clauses"],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
-    "conceptId": "concept_relative_clauses",
     "conceptDepth": "NUANCE",
+    "cefrLevel": "C1",
+    "order": 6
+  },
+  {
+    "id": "advanced_much_many_lot_of_register_quantity",
+    "sectionId": "advanced_determiners",
+    "title": "Much (Of), Many (Of), A Lot Of: Register Constraints & Formal Usage",
+    "shortDescription": "Observe register constraints: much/many in affirmative formal writing versus informal a lot of.",
+    "lessonIds": [
+      "lesson_advanced_much_many_lot_of_register_quantity"
+    ],
+    "prerequisites": [
+      "advanced_no_none_not_any_emphatic_negation"
+    ],
     "bookReferences": [
       {
         "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
         "editionId": "advanced_grammar_in_use_3",
-        "units": [55, 56]
+        "units": [
+          50
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
       }
-    ]
+    ],
+    "conceptId": "concept_determiners",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 7
   },
   {
-    "id": "advanced_topic_viewpoint_stance_adverbials",
-    "sectionId": "advanced_adverbials_discourse",
-    "title": "Viewpoint, Stance, and Attitudinal Adverbials",
-    "shortDescription": "Economically qualify sentences with theoretically, surprisingly, undeniably.",
-    "order": 1,
-    "lessonIds": ["advanced_topic_viewpoint_stance_adverbials_l1"],
-    "prerequisites": [],
-    "difficulty": "HARD",
+    "id": "advanced_all_whole_every_each_distributives",
+    "sectionId": "advanced_determiners",
+    "title": "All (Of), Whole, Every & Each: Universal & Distributive Reference",
+    "shortDescription": "Distinguish collective all from individual distributive each, every, and the whole of.",
+    "lessonIds": [
+      "lesson_advanced_all_whole_every_each_distributives"
+    ],
+    "prerequisites": [
+      "advanced_much_many_lot_of_register_quantity"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          51
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_determiners",
+    "conceptDepth": "MASTERY",
     "cefrLevel": "C1",
+    "order": 8
+  },
+  {
+    "id": "advanced_few_little_fewer_less_formal_distinctions",
+    "sectionId": "advanced_determiners",
+    "title": "Few, Little, Fewer & Less: Evaluative Polarity & Standard Written Norms",
+    "shortDescription": "Apply positive polarity (a few/a little) versus negative restriction (few/little) and prescriptive fewer/less.",
+    "lessonIds": [
+      "lesson_advanced_few_little_fewer_less_formal_distinctions"
+    ],
+    "prerequisites": [
+      "advanced_all_whole_every_each_distributives"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          52
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_determiners",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 9
+  },
+  {
+    "id": "advanced_relative_pronouns_defining_non_defining",
+    "sectionId": "advanced_relative_participle_clauses",
+    "title": "Relative Pronouns: Who, Whom, Which, That & Register Choices",
+    "shortDescription": "Make subtle choices between that, which, who, and whom in formal non-defining and defining clauses.",
+    "lessonIds": [
+      "lesson_advanced_relative_pronouns_defining_non_defining"
+    ],
+    "prerequisites": [],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          53
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_relative_clauses",
+    "conceptDepth": "CONTROL",
+    "cefrLevel": "C1",
+    "order": 1
+  },
+  {
+    "id": "advanced_relative_words_whose_whereby_wherever",
+    "sectionId": "advanced_relative_participle_clauses",
+    "title": "Other Relative Connectors: Whose, When, Whereby, Wherein & In Which",
+    "shortDescription": "Use sophisticated relative adverbs (whereby, wherein, whose of which) in scholarly and legal prose.",
+    "lessonIds": [
+      "lesson_advanced_relative_words_whose_whereby_wherever"
+    ],
+    "prerequisites": [
+      "advanced_relative_pronouns_defining_non_defining"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          54
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_relative_clauses",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 2
+  },
+  {
+    "id": "advanced_prepositions_in_relative_clauses",
+    "sectionId": "advanced_relative_participle_clauses",
+    "title": "Prepositions in Relative Clauses: Fronting vs Stranding & Register Shifts",
+    "shortDescription": "Contrast formal pied-piping (to whom, in which) with informal preposition stranding.",
+    "lessonIds": [
+      "lesson_advanced_prepositions_in_relative_clauses"
+    ],
+    "prerequisites": [
+      "advanced_relative_words_whose_whereby_wherever"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          55
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_relative_clauses",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 3
+  },
+  {
+    "id": "advanced_noun_modification_apposition_noun_clauses",
+    "sectionId": "advanced_relative_participle_clauses",
+    "title": "Adding Information to Noun Phrases 1: Apposition & Nominal Complements",
+    "shortDescription": "Employ appositive noun phrases and complement that-clauses to condense descriptive information.",
+    "lessonIds": [
+      "lesson_advanced_noun_modification_apposition_noun_clauses"
+    ],
+    "prerequisites": [
+      "advanced_prepositions_in_relative_clauses"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          56
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_relative_clauses",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 4
+  },
+  {
+    "id": "advanced_prepositional_phrases_postmodifiers",
+    "sectionId": "advanced_relative_participle_clauses",
+    "title": "Adding Information to Noun Phrases 2: Prepositional Post-modifiers",
+    "shortDescription": "Construct dense information packages using prepositional post-modifiers and adjective phrases.",
+    "lessonIds": [
+      "lesson_advanced_prepositional_phrases_postmodifiers"
+    ],
+    "prerequisites": [
+      "advanced_noun_modification_apposition_noun_clauses"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          57
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_relative_clauses",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 5
+  },
+  {
+    "id": "advanced_participle_clauses_adverbial_time_reason",
+    "sectionId": "advanced_relative_participle_clauses",
+    "title": "Participle Clauses 1: -ing & -ed Adjuncts of Time, Reason & Cause",
+    "shortDescription": "Construct elegant, concise participle adjuncts replacing subordinate clauses of time, cause and reason.",
+    "lessonIds": [
+      "lesson_advanced_participle_clauses_adverbial_time_reason"
+    ],
+    "prerequisites": [
+      "advanced_prepositional_phrases_postmodifiers"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          58
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_participle_clauses",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 6
+  },
+  {
+    "id": "advanced_participle_clauses_having_done_conditions",
+    "sectionId": "advanced_relative_participle_clauses",
+    "title": "Participle Clauses 2: Having Done, Perfect Participles & Subject Attachment",
+    "shortDescription": "Control perfect participle forms (having done) and prevent dangling, unattached participle modifiers.",
+    "lessonIds": [
+      "lesson_advanced_participle_clauses_having_done_conditions"
+    ],
+    "prerequisites": [
+      "advanced_participle_clauses_adverbial_time_reason"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          59
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_participle_clauses",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 7
+  },
+  {
+    "id": "advanced_reflexive_pronouns_emphatic_reciprocal",
+    "sectionId": "advanced_substitution_ellipsis",
+    "title": "Reflexive & Emphatic Pronouns: Self-Forms, Ergativity & Emphasis",
+    "shortDescription": "Deploy emphatic self-pronouns, reciprocal each other / one another, and reflexive-blocking verbs.",
+    "lessonIds": [
+      "lesson_advanced_reflexive_pronouns_emphatic_reciprocal"
+    ],
+    "prerequisites": [],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          60
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_pronouns",
+    "conceptDepth": "NUANCE",
+    "cefrLevel": "C1",
+    "order": 1
+  },
+  {
+    "id": "advanced_one_ones_substitution_identifying",
+    "sectionId": "advanced_substitution_ellipsis",
+    "title": "One & Ones: Nominal Substitution, Omission & Adjectival Modification",
+    "shortDescription": "Use one/ones to avoid noun repetition after superlatives, demonstratives, and descriptive adjectives.",
+    "lessonIds": [
+      "lesson_advanced_one_ones_substitution_identifying"
+    ],
+    "prerequisites": [
+      "advanced_reflexive_pronouns_emphatic_reciprocal"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          61
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_ellipsis",
+    "conceptDepth": "NUANCE",
+    "cefrLevel": "C1",
+    "order": 2
+  },
+  {
+    "id": "advanced_so_not_clausal_substitution",
+    "sectionId": "advanced_substitution_ellipsis",
+    "title": "So & Not as Clausal Substitutes: I Think So, Hope Not, Say So",
+    "shortDescription": "Substitute entire propositions with so and not after verbs of thinking, expecting, and reporting.",
+    "lessonIds": [
+      "lesson_advanced_so_not_clausal_substitution"
+    ],
+    "prerequisites": [
+      "advanced_one_ones_substitution_identifying"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          62
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_ellipsis",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 3
+  },
+  {
+    "id": "advanced_do_so_such_predicate_substitution",
+    "sectionId": "advanced_substitution_ellipsis",
+    "title": "Do So, Do It, Do That & Such: Predicate Substitution in Formal Text",
+    "shortDescription": "Distinguish do so (formal dynamic predicate substitution) from do it and do that.",
+    "lessonIds": [
+      "lesson_advanced_do_so_such_predicate_substitution"
+    ],
+    "prerequisites": [
+      "advanced_so_not_clausal_substitution"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          63
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_ellipsis",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 4
+  },
+  {
+    "id": "advanced_ellipsis_after_auxiliary_verbs",
+    "sectionId": "advanced_substitution_ellipsis",
+    "title": "Ellipsis after Auxiliary Verbs: Co-ordination, Comparison & Tagged Reduction",
+    "shortDescription": "Omit repetitive verb phrases after primary and modal auxiliaries in comparative and coordinated structures.",
+    "lessonIds": [
+      "lesson_advanced_ellipsis_after_auxiliary_verbs"
+    ],
+    "prerequisites": [
+      "advanced_do_so_such_predicate_substitution"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          64
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_ellipsis",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 5
+  },
+  {
+    "id": "advanced_ellipsis_infinitive_to_omission",
+    "sectionId": "advanced_substitution_ellipsis",
+    "title": "Ellipsis of To-Infinitives: Reduced Complements & Stranded Particle To",
+    "shortDescription": "Retain or omit stranded to after verbs of volition, wishing, and obligation (I'd love to, promised not to).",
+    "lessonIds": [
+      "lesson_advanced_ellipsis_infinitive_to_omission"
+    ],
+    "prerequisites": [
+      "advanced_ellipsis_after_auxiliary_verbs"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          65
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_ellipsis",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 6
+  },
+  {
+    "id": "advanced_adjective_position_attributive_predicative",
+    "sectionId": "advanced_adjectives_adverbs",
+    "title": "Position of Adjectives: Attributive-only, Predicative-only & Post-positive Modifiers",
+    "shortDescription": "Categorise attributive-only adjectives, a-prefixed predicative adjectives, and post-positive positioning.",
+    "lessonIds": [
+      "lesson_advanced_adjective_position_attributive_predicative"
+    ],
+    "prerequisites": [],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          66
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_adjectives_adverbs",
+    "conceptDepth": "NUANCE",
+    "cefrLevel": "C1",
+    "order": 1
+  },
+  {
+    "id": "advanced_gradable_non_gradable_adjectives_intensifiers",
+    "sectionId": "advanced_adjectives_adverbs",
+    "title": "Gradable & Non-Gradable Adjectives 1: Absolutely vs Extremely & Modifying Adverbs",
+    "shortDescription": "Pair gradable adjectives with degree adverbs (very, extremely) and ungradable extremes with absolute adverbs.",
+    "lessonIds": [
+      "lesson_advanced_gradable_non_gradable_adjectives_intensifiers"
+    ],
+    "prerequisites": [
+      "advanced_adjective_position_attributive_predicative"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          67
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_adjectives_adverbs",
+    "conceptDepth": "NUANCE",
+    "cefrLevel": "C1",
+    "order": 2
+  },
+  {
+    "id": "advanced_gradable_adjectives_collocations_subtle_grading",
+    "sectionId": "advanced_adjectives_adverbs",
+    "title": "Gradable & Non-Gradable Adjectives 2: Fixed Adverb-Adjective Collocations",
+    "shortDescription": "Deploy idiomatic adverb-adjective collocations (bitterly disappointed, painfully aware, highly unlikely).",
+    "lessonIds": [
+      "lesson_advanced_gradable_adjectives_collocations_subtle_grading"
+    ],
+    "prerequisites": [
+      "advanced_gradable_non_gradable_adjectives_intensifiers"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          68
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_adjectives_adverbs",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 3
+  },
+  {
+    "id": "advanced_participle_compound_adjectives",
+    "sectionId": "advanced_adjectives_adverbs",
+    "title": "Participle Adjectives & Compound Modifiers: Hyphenation & Argument Structure",
+    "shortDescription": "Construct compound modifiers (forward-looking, quick-witted, custom-built) and hyphenation rules.",
+    "lessonIds": [
+      "lesson_advanced_participle_compound_adjectives"
+    ],
+    "prerequisites": [
+      "advanced_gradable_adjectives_collocations_subtle_grading"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          69
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_adjectives_adverbs",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 4
+  },
+  {
+    "id": "advanced_adjectives_complementation_patterns",
+    "sectionId": "advanced_adjectives_adverbs",
+    "title": "Adjective Complementation: Patterns with To-Infinitive, -ing & That-Clauses",
+    "shortDescription": "Manage adjective complementation patterns, tough-movement (easy to please), and evaluative frames.",
+    "lessonIds": [
+      "lesson_advanced_adjectives_complementation_patterns"
+    ],
+    "prerequisites": [
+      "advanced_participle_compound_adjectives"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          70
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_adjectives_adverbs",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 5
+  },
+  {
+    "id": "advanced_adjectives_adverbs_form_contrasts",
+    "sectionId": "advanced_adjectives_adverbs",
+    "title": "Adjectives & Adverbs: Hard / Hardly, Late / Lately, Deep / Deeply",
+    "shortDescription": "Differentiate pairs with dual forms (flat adverbs vs -ly forms) having distinct figurative meanings.",
+    "lessonIds": [
+      "lesson_advanced_adjectives_adverbs_form_contrasts"
+    ],
+    "prerequisites": [
+      "advanced_adjectives_complementation_patterns"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          71
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_adjectives_adverbs",
+    "conceptDepth": "NUANCE",
+    "cefrLevel": "C1",
+    "order": 6
+  },
+  {
+    "id": "advanced_comparatives_superlatives_advanced_forms",
+    "sectionId": "advanced_adjectives_adverbs",
+    "title": "Comparative & Superlative Nuances: Less / Least, More and More, The... The...",
+    "shortDescription": "Form double comparatives, progressive change structures, and formal superlative fronting.",
+    "lessonIds": [
+      "lesson_advanced_comparatives_superlatives_advanced_forms"
+    ],
+    "prerequisites": [
+      "advanced_adjectives_adverbs_form_contrasts"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          72
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_adjectives_adverbs",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 7
+  },
+  {
+    "id": "advanced_comparative_phrases_clauses_correlatives",
+    "sectionId": "advanced_adjectives_adverbs",
+    "title": "Comparative Phrases & Correlative Clauses: As... As, Not So Much As, Proportion",
+    "shortDescription": "Construct correlative comparative clauses (the greater the risk, the higher the return) and modal as... as.",
+    "lessonIds": [
+      "lesson_advanced_comparative_phrases_clauses_correlatives"
+    ],
+    "prerequisites": [
+      "advanced_comparatives_superlatives_advanced_forms"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          73
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_adjectives_adverbs",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 8
+  },
+  {
+    "id": "advanced_adverb_position_sentence_verb_mid_position",
+    "sectionId": "advanced_adjectives_adverbs",
+    "title": "Position of Adverbs 1: Mid-Position Rules with Auxiliaries & Main Verbs",
+    "shortDescription": "Position adverbs accurately between auxiliaries, before main verbs, and after forms of be.",
+    "lessonIds": [
+      "lesson_advanced_adverb_position_sentence_verb_mid_position"
+    ],
+    "prerequisites": [
+      "advanced_comparative_phrases_clauses_correlatives"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          74
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
     "conceptId": "concept_adjectives_adverbs",
     "conceptDepth": "CONTROL",
+    "cefrLevel": "C1",
+    "order": 9
+  },
+  {
+    "id": "advanced_adverb_position_scope_meaning_shifts",
+    "sectionId": "advanced_adjectives_adverbs",
+    "title": "Position of Adverbs 2: Focus Scope, Split Infinitives & Semantic Shifts",
+    "shortDescription": "Control adverb scope changes based on placement, avoiding ambiguity and split infinitives.",
+    "lessonIds": [
+      "lesson_advanced_adverb_position_scope_meaning_shifts"
+    ],
+    "prerequisites": [
+      "advanced_adverb_position_sentence_verb_mid_position"
+    ],
     "bookReferences": [
       {
         "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
         "editionId": "advanced_grammar_in_use_3",
-        "units": [75]
+        "units": [
+          75
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
       }
-    ]
+    ],
+    "conceptId": "concept_adjectives_adverbs",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 10
   },
   {
-    "id": "advanced_topic_discourse_flow_markers",
-    "sectionId": "advanced_adverbials_discourse",
-    "title": "Discourse Flow and Thematic Connectives",
-    "shortDescription": "Guide reader logic with consequently, nonetheless, by the same token.",
-    "order": 2,
-    "lessonIds": ["advanced_topic_discourse_flow_markers_l1"],
-    "prerequisites": ["advanced_topic_viewpoint_stance_adverbials"],
-    "difficulty": "HARD",
+    "id": "advanced_adverbs_place_direction_time_frequency",
+    "sectionId": "advanced_adjectives_adverbs",
+    "title": "Adverbs of Place, Direction, Indefinite Frequency & Time Sequences",
+    "shortDescription": "Order multiple adverbials cleanly (Manner - Place - Time) and handle fronted locatives.",
+    "lessonIds": [
+      "lesson_advanced_adverbs_place_direction_time_frequency"
+    ],
+    "prerequisites": [
+      "advanced_adverb_position_scope_meaning_shifts"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          76
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_adjectives_adverbs",
+    "conceptDepth": "NUANCE",
     "cefrLevel": "C1",
+    "order": 11
+  },
+  {
+    "id": "advanced_degree_adverbs_focus_adverbs_placement",
+    "sectionId": "advanced_adjectives_adverbs",
+    "title": "Degree & Focus Adverbs: Only, Even, Merely, Quite, Rather & Scopal Delimitation",
+    "shortDescription": "Pinpoint the scope of focus adverbs (only, even, alone, especially, just) to prevent misinterpretation.",
+    "lessonIds": [
+      "lesson_advanced_degree_adverbs_focus_adverbs_placement"
+    ],
+    "prerequisites": [
+      "advanced_adverbs_place_direction_time_frequency"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          77
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_adjectives_adverbs",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 12
+  },
+  {
+    "id": "advanced_comment_viewpoint_discourse_adverbs",
+    "sectionId": "advanced_adjectives_adverbs",
+    "title": "Comment & Viewpoint Adverbs: Frankly, Economically, Supposedly, Admittedly",
+    "shortDescription": "Use sentence-modifying adverbs to signal speaker evaluation, domain perspective, and pragmatic stance.",
+    "lessonIds": [
+      "lesson_advanced_comment_viewpoint_discourse_adverbs"
+    ],
+    "prerequisites": [
+      "advanced_degree_adverbs_focus_adverbs_placement"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          78
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_adjectives_adverbs",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 13
+  },
+  {
+    "id": "advanced_adverbial_clauses_time_temporal_linkers",
+    "sectionId": "advanced_adverbial_clauses_linking",
+    "title": "Adverbial Clauses of Time: Until, As Soon As, The Moment, Once",
+    "shortDescription": "Deploy nuanced temporal subordinators (hardly... when, no sooner... than, the minute, once).",
+    "lessonIds": [
+      "lesson_advanced_adverbial_clauses_time_temporal_linkers"
+    ],
+    "prerequisites": [],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          79
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_conjunctions",
+    "conceptDepth": "CONTROL",
+    "cefrLevel": "C1",
+    "order": 1
+  },
+  {
+    "id": "advanced_reason_clauses_as_because_since_for_with",
+    "sectionId": "advanced_adverbial_clauses_linking",
+    "title": "Clauses of Reason: As, Because, Since, For, With & Seeing That",
+    "shortDescription": "Distinguish given reason (since, as, seeing that) from focal reason (because) and prepositional with/for.",
+    "lessonIds": [
+      "lesson_advanced_reason_clauses_as_because_since_for_with"
+    ],
+    "prerequisites": [
+      "advanced_adverbial_clauses_time_temporal_linkers"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          80
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
     "conceptId": "concept_conjunctions",
     "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 2
+  },
+  {
+    "id": "advanced_purpose_result_in_order_so_as_to",
+    "sectionId": "advanced_adverbial_clauses_linking",
+    "title": "Purpose and Result: In Order To, So As To, In Case, So That, Such That",
+    "shortDescription": "Construct purposeful clauses (so as not to, in order that) and result structures with such... that.",
+    "lessonIds": [
+      "lesson_advanced_purpose_result_in_order_so_as_to"
+    ],
+    "prerequisites": [
+      "advanced_reason_clauses_as_because_since_for_with"
+    ],
     "bookReferences": [
       {
         "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
         "editionId": "advanced_grammar_in_use_3",
-        "units": [76, 77]
-      }
-    ]
-  },
-  {
-    "id": "advanced_topic_clause_ellipsis_omission",
-    "sectionId": "advanced_ellipsis_substitution",
-    "title": "Syntactic Ellipsis in Dependent Clauses",
-    "shortDescription": "Omit recoverable subjects and auxiliaries (while waiting, where possible).",
-    "order": 1,
-    "lessonIds": ["advanced_topic_clause_ellipsis_omission_l1"],
-    "prerequisites": [],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
-    "conceptId": "concept_ellipsis",
-    "conceptDepth": "CONTROL",
-    "bookReferences": [
-      {
-        "bookId": "advanced_grammar_in_use",
+        "units": [
+          81
+        ],
         "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
-        "editionId": "advanced_grammar_in_use_3",
-        "units": [64]
+        "edition": "Third Edition"
       }
-    ]
-  },
-  {
-    "id": "advanced_topic_substitution_markers",
-    "sectionId": "advanced_ellipsis_substitution",
-    "title": "Advanced Substitution: That of, Those of, Do so",
-    "shortDescription": "Maintain concision in formal comparisons without repeating complex noun phrases.",
-    "order": 2,
-    "lessonIds": ["advanced_topic_substitution_markers_l1"],
-    "prerequisites": ["advanced_topic_clause_ellipsis_omission"],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
-    "conceptId": "concept_ellipsis",
-    "conceptDepth": "MASTERY",
-    "bookReferences": [
-      {
-        "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
-        "editionId": "advanced_grammar_in_use_3",
-        "units": [65]
-      }
-    ]
-  },
-  {
-    "id": "advanced_topic_compound_multi_word_prepositions",
-    "sectionId": "advanced_prepositions_particles",
-    "title": "Compound Multi-word Prepositions in Formal Registers",
-    "shortDescription": "In light of, on account of, with regard to, by virtue of, in lieu of.",
-    "order": 1,
-    "lessonIds": ["advanced_topic_compound_multi_word_prepositions_l1"],
-    "prerequisites": [],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
-    "conceptId": "concept_prepositions",
-    "conceptDepth": "CONTROL",
-    "bookReferences": [
-      {
-        "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
-        "editionId": "advanced_grammar_in_use_3",
-        "units": [91]
-      }
-    ]
-  },
-  {
-    "id": "advanced_topic_particle_stranding_fronting",
-    "sectionId": "advanced_prepositions_particles",
-    "title": "Preposition Stranding vs Formal Pied-Piping",
-    "shortDescription": "The phenomenon about which we spoke vs what we spoke about.",
-    "order": 2,
-    "lessonIds": ["advanced_topic_particle_stranding_fronting_l1"],
-    "prerequisites": ["advanced_topic_compound_multi_word_prepositions"],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
-    "conceptId": "concept_prepositions",
-    "conceptDepth": "MASTERY",
-    "bookReferences": [
-      {
-        "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
-        "editionId": "advanced_grammar_in_use_3",
-        "units": [92]
-      }
-    ]
-  },
-  {
-    "id": "advanced_topic_academic_nominalization",
-    "sectionId": "advanced_stylistic_variation",
-    "title": "Nominalization in Academic and Professional Writing",
-    "shortDescription": "Convert verb-centric statements into dense, noun-headed propositional abstracts.",
-    "order": 1,
-    "lessonIds": ["advanced_topic_academic_nominalization_l1"],
-    "prerequisites": [],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
-    "conceptId": "concept_verb_patterns",
-    "conceptDepth": "MASTERY",
-    "bookReferences": [
-      {
-        "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
-        "editionId": "advanced_grammar_in_use_3",
-        "units": [45]
-      }
-    ]
-  },
-  {
-    "id": "advanced_topic_stylistic_register_shifts",
-    "sectionId": "advanced_stylistic_variation",
-    "title": "Register Shifts: Colloquial Spoken vs Written Elevated",
-    "shortDescription": "Match syntactic structures to communicative context, formality, and audience.",
-    "order": 2,
-    "lessonIds": ["advanced_topic_stylistic_register_shifts_l1"],
-    "prerequisites": ["advanced_topic_academic_nominalization"],
-    "difficulty": "HARD",
-    "cefrLevel": "C1",
+    ],
     "conceptId": "concept_conjunctions",
     "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 3
+  },
+  {
+    "id": "advanced_contrast_concession_although_while_whereas",
+    "sectionId": "advanced_adverbial_clauses_linking",
+    "title": "Contrast and Concession: Although, Even Though, While, Whilst, Whereas, Despite",
+    "shortDescription": "Differentiate concession (even though) from hypothetical condition (even if) and direct contrast (whereas).",
+    "lessonIds": [
+      "lesson_advanced_contrast_concession_although_while_whereas"
+    ],
+    "prerequisites": [
+      "advanced_purpose_result_in_order_so_as_to"
+    ],
     "bookReferences": [
       {
         "bookId": "advanced_grammar_in_use",
-        "bookTitle": "Advanced Grammar in Use",
-        "edition": "Third Edition",
         "editionId": "advanced_grammar_in_use_3",
-        "units": [46]
+        "units": [
+          82
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
       }
-    ]
+    ],
+    "conceptId": "concept_conjunctions",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 4
+  },
+  {
+    "id": "advanced_conditionals_real_unreal_hypothetical_nuances",
+    "sectionId": "advanced_conditionals",
+    "title": "Conditionals 1: Subtle Differences in Real, Predictive & Epistemic Conditions",
+    "shortDescription": "Handle epistemic conditions, if + will for willingness, and polite requests in if-clauses.",
+    "lessonIds": [
+      "lesson_advanced_conditionals_real_unreal_hypothetical_nuances"
+    ],
+    "prerequisites": [],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          83
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_conditionals",
+    "conceptDepth": "CONTROL",
+    "cefrLevel": "C1",
+    "order": 1
+  },
+  {
+    "id": "advanced_conditionals_mixed_past_present_hypotheses",
+    "sectionId": "advanced_conditionals",
+    "title": "Conditionals 2: Mixed Past-Present Conditions & Counterfactual Regret",
+    "shortDescription": "Construct mixed hypothetical conditionals combining past causes with present states and vice-versa.",
+    "lessonIds": [
+      "lesson_advanced_conditionals_mixed_past_present_hypotheses"
+    ],
+    "prerequisites": [
+      "advanced_conditionals_real_unreal_hypothetical_nuances"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          84
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_conditionals",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 2
+  },
+  {
+    "id": "advanced_inverted_conditionals_should_were_had",
+    "sectionId": "advanced_conditionals",
+    "title": "Conditional Inversion: Were He To, Had I Known, Should You Require",
+    "shortDescription": "Master formal conditional inversion omitting if with were to, had, and should in high register.",
+    "lessonIds": [
+      "lesson_advanced_inverted_conditionals_should_were_had"
+    ],
+    "prerequisites": [
+      "advanced_conditionals_mixed_past_present_hypotheses"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          85
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_conditionals",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 3
+  },
+  {
+    "id": "advanced_alternative_conditional_markers",
+    "sectionId": "advanced_conditionals",
+    "title": "Alternative Conditional Markers: Unless, Provided That, Supposing, As Long As, But For",
+    "shortDescription": "Substitute if with formal conditional markers: provided that, on condition that, supposing, but for.",
+    "lessonIds": [
+      "lesson_advanced_alternative_conditional_markers"
+    ],
+    "prerequisites": [
+      "advanced_inverted_conditionals_should_were_had"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          86
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_conditionals",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 4
+  },
+  {
+    "id": "advanced_sentence_connectors_cohesion_discourse",
+    "sectionId": "advanced_adverbial_clauses_linking",
+    "title": "Connecting Ideas Across Discourse: Furthermore, Consequently, However, In Contrast",
+    "shortDescription": "Establish sophisticated textual cohesion using transition discourse markers and conjuncts.",
+    "lessonIds": [
+      "lesson_advanced_sentence_connectors_cohesion_discourse"
+    ],
+    "prerequisites": [
+      "advanced_alternative_conditional_markers"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          87
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_conjunctions",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 5
+  },
+  {
+    "id": "advanced_prepositions_position_movement_abstract",
+    "sectionId": "advanced_prepositions",
+    "title": "Prepositions of Position & Movement: Across, Through, Along, Over, Under",
+    "shortDescription": "Navigate topological and metaphorical extensions of spatial prepositions across diverse domains.",
+    "lessonIds": [
+      "lesson_advanced_prepositions_position_movement_abstract"
+    ],
+    "prerequisites": [],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          88
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_prepositions",
+    "conceptDepth": "CONTROL",
+    "cefrLevel": "C1",
+    "order": 1
+  },
+  {
+    "id": "advanced_between_among_reciprocal_distinctions",
+    "sectionId": "advanced_prepositions",
+    "title": "Between vs Among: Definite Pairs vs Collective Ensembles & Reciprocity",
+    "shortDescription": "Distinguish individual relational connections (between multiple points) from diffuse group inclusion (among).",
+    "lessonIds": [
+      "lesson_advanced_between_among_reciprocal_distinctions"
+    ],
+    "prerequisites": [
+      "advanced_prepositions_position_movement_abstract"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          89
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_prepositions",
+    "conceptDepth": "NUANCE",
+    "cefrLevel": "C1",
+    "order": 2
+  },
+  {
+    "id": "advanced_prepositions_time_complex_relationships",
+    "sectionId": "advanced_prepositions",
+    "title": "Prepositions of Time: During, Over, Throughout, By, In, At & Within",
+    "shortDescription": "Express exact deadlines with by, duration with throughout/over, and temporal boundaries with within.",
+    "lessonIds": [
+      "lesson_advanced_prepositions_time_complex_relationships"
+    ],
+    "prerequisites": [
+      "advanced_between_among_reciprocal_distinctions"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          90
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_prepositions",
+    "conceptDepth": "NUANCE",
+    "cefrLevel": "C1",
+    "order": 3
+  },
+  {
+    "id": "advanced_prepositions_exceptions_apart_except_besides",
+    "sectionId": "advanced_prepositions",
+    "title": "Talking About Exceptions: Except (For), Apart From, Besides, But For",
+    "shortDescription": "Differentiate addition (besides) from exclusion (except for, apart from, but for).",
+    "lessonIds": [
+      "lesson_advanced_prepositions_exceptions_apart_except_besides"
+    ],
+    "prerequisites": [
+      "advanced_prepositions_time_complex_relationships"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          91
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_prepositions",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 4
+  },
+  {
+    "id": "advanced_prepositions_dependent_after_verbs",
+    "sectionId": "advanced_prepositions",
+    "title": "Dependent Prepositions After Verbs: Collocational Precision & Semantic Shifts",
+    "shortDescription": "Deploy exact dependent prepositions (glance at, confer on, account for, result in/from).",
+    "lessonIds": [
+      "lesson_advanced_prepositions_dependent_after_verbs"
+    ],
+    "prerequisites": [
+      "advanced_prepositions_exceptions_apart_except_besides"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          92
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_prepositions",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 5
+  },
+  {
+    "id": "advanced_prepositions_dependent_after_nouns",
+    "sectionId": "advanced_prepositions",
+    "title": "Dependent Prepositions After Nouns: Reason For, Increase In, Attack On",
+    "shortDescription": "Collocate nouns with specific preposition complements (demand for, impact on, decline in).",
+    "lessonIds": [
+      "lesson_advanced_prepositions_dependent_after_nouns"
+    ],
+    "prerequisites": [
+      "advanced_prepositions_dependent_after_verbs"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          93
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_prepositions",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 6
+  },
+  {
+    "id": "advanced_two_three_word_verbs_particle_syntax",
+    "sectionId": "advanced_multiword_verbs",
+    "title": "Two- & Three-Word Verbs: Particle Placement, Separation & Idiomatic Patterns",
+    "shortDescription": "Govern object pronoun placement in separable phrasal verbs and strict ordering in three-part phrasal-prepositional verbs.",
+    "lessonIds": [
+      "lesson_advanced_two_three_word_verbs_particle_syntax"
+    ],
+    "prerequisites": [],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          94
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_phrasal_verbs",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 1
+  },
+  {
+    "id": "advanced_existential_there_complex_structures",
+    "sectionId": "advanced_information_structure",
+    "title": "Existential There: Modal Expansions, Passive Links & Participle Complements",
+    "shortDescription": "Form complex existential constructions (there seems to be, there being no objection, there arose).",
+    "lessonIds": [
+      "lesson_advanced_existential_there_complex_structures"
+    ],
+    "prerequisites": [],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          95
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_there_it",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 1
+  },
+  {
+    "id": "advanced_dummy_anticipatory_it_preparatory",
+    "sectionId": "advanced_information_structure",
+    "title": "Preparatory It 1: Dummy It as Object & Anticipatory Subject with That/To",
+    "shortDescription": "Use anticipatory it to displace heavy infinitive or that-clause subjects and objects (I find it difficult to...).",
+    "lessonIds": [
+      "lesson_advanced_dummy_anticipatory_it_preparatory"
+    ],
+    "prerequisites": [
+      "advanced_existential_there_complex_structures"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          96
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_there_it",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 2
+  },
+  {
+    "id": "advanced_it_clauses_judgement_perception_frames",
+    "sectionId": "advanced_information_structure",
+    "title": "Preparatory It 2: Impersonal Evaluative Frames: It Seems, It Occurred To Me",
+    "shortDescription": "Construct impersonal evaluation frames (it occurs to me that, it remains to be seen whether).",
+    "lessonIds": [
+      "lesson_advanced_it_clauses_judgement_perception_frames"
+    ],
+    "prerequisites": [
+      "advanced_dummy_anticipatory_it_preparatory"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          97
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_there_it",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 3
+  },
+  {
+    "id": "advanced_cleft_sentences_it_what_focus_structures",
+    "sectionId": "advanced_information_structure",
+    "title": "Focusing Constructions: It-Clefts & Pseudo-Clefts (What I Need Is...)",
+    "shortDescription": "Restructure sentences with it-clefts, wh-clefts, and reversed pseudo-clefts to highlight crucial thematic elements.",
+    "lessonIds": [
+      "lesson_advanced_cleft_sentences_it_what_focus_structures"
+    ],
+    "prerequisites": [
+      "advanced_it_clauses_judgement_perception_frames"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          98
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_cleft_sentences",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 4
+  },
+  {
+    "id": "advanced_inversion_negative_restrictive_adverbials",
+    "sectionId": "advanced_focus_inversion",
+    "title": "Inversion 1: Fronted Negative & Restrictive Adverbials (Never, Seldom, Rarely)",
+    "shortDescription": "Invert subject and auxiliary following negative/restrictive operators (Under no circumstances, Hardly had, Seldom).",
+    "lessonIds": [
+      "lesson_advanced_inversion_negative_restrictive_adverbials"
+    ],
+    "prerequisites": [],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          99
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_inversion",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 1
+  },
+  {
+    "id": "advanced_inversion_place_direction_conditionals",
+    "sectionId": "advanced_focus_inversion",
+    "title": "Inversion 2: Locative Fronting, So / Such Inversion & Formal Emphatic Syntax",
+    "shortDescription": "Apply full verb inversion after locative/directional phrases (Down the hill rolled the boulder) and so/such fronting.",
+    "lessonIds": [
+      "lesson_advanced_inversion_place_direction_conditionals"
+    ],
+    "prerequisites": [
+      "advanced_inversion_negative_restrictive_adverbials"
+    ],
+    "bookReferences": [
+      {
+        "bookId": "advanced_grammar_in_use",
+        "editionId": "advanced_grammar_in_use_3",
+        "units": [
+          100
+        ],
+        "bookTitle": "Advanced Grammar in Use",
+        "edition": "Third Edition"
+      }
+    ],
+    "conceptId": "concept_inversion",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 2
+  },
+  {
+    "id": "advanced_final_challenge_mastery",
+    "sectionId": "advanced_final_challenge",
+    "title": "C1 Advanced Capstone: Synthesis, Register, Transformation & Discourse Control",
+    "shortDescription": "Integrative assessment synthesizing advanced inversion, cleft focus, participle clauses, and information packaging.",
+    "lessonIds": [
+      "lesson_advanced_final_challenge_mastery"
+    ],
+    "prerequisites": [
+      "advanced_inversion_place_direction_conditionals"
+    ],
+    "bookReferences": [],
+    "conceptId": "concept_information_structure",
+    "conceptDepth": "MASTERY",
+    "cefrLevel": "C1",
+    "order": 1
   }
 ]

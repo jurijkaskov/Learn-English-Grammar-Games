@@ -30,7 +30,10 @@ sealed interface CurriculumInspectorUiState {
         val report: CurriculumValidationReport,
         val books: List<com.learnenglish.grammargames.domain.model.curriculum.GrammarBookCatalogItem> = emptyList(),
         val concepts: List<com.learnenglish.grammargames.domain.model.curriculum.GrammarConcept> = emptyList(),
-        val beginnerCoverage: com.learnenglish.grammargames.core.content.curriculum.validator.BookMappingCoverageReport? = null
+        val beginnerCoverage: com.learnenglish.grammargames.core.content.curriculum.validator.BookMappingCoverageReport? = null,
+        val intermediateCoverage: com.learnenglish.grammargames.core.content.curriculum.validator.BookMappingCoverageReport? = null,
+        val advancedCoverage: com.learnenglish.grammargames.core.content.curriculum.validator.BookMappingCoverageReport? = null,
+        val presentPerfectPastCoverage: Pair<Int, Int>? = null
     ) : CurriculumInspectorUiState
     data class Error(val message: String) : CurriculumInspectorUiState
 }
@@ -53,12 +56,32 @@ class CurriculumInspectorViewModel @Inject constructor(
             runCatching {
                 val bundle = loader.loadCurriculum(forceReload = forceReload)
                 val beginnerTopics = bundle.topics.filter { it.id.value.startsWith("beginner_") }
-                val coverage = com.learnenglish.grammargames.core.content.curriculum.validator.CurriculumValidator.calculateBookCoverage(
+                val beginnerCoverage = com.learnenglish.grammargames.core.content.curriculum.validator.CurriculumValidator.calculateBookCoverage(
                     bookId = "essential_grammar_in_use",
                     editionId = "essential_grammar_in_use_4",
                     topics = beginnerTopics,
                     totalUnits = 115
                 )
+
+                val intermediateTopics = bundle.topics.filter { it.id.value.startsWith("intermediate_") }
+                val intermediateCoverage = com.learnenglish.grammargames.core.content.curriculum.validator.CurriculumValidator.calculateBookCoverage(
+                    bookId = "english_grammar_in_use",
+                    editionId = "english_grammar_in_use_5",
+                    topics = intermediateTopics,
+                    totalUnits = 145
+                )
+
+                val advancedTopics = bundle.topics.filter { it.id.value.startsWith("advanced_") }
+                val advancedCoverage = com.learnenglish.grammargames.core.content.curriculum.validator.CurriculumValidator.calculateBookCoverage(
+                    bookId = "advanced_grammar_in_use",
+                    editionId = "advanced_grammar_in_use_3",
+                    topics = advancedTopics,
+                    totalUnits = 100
+                )
+
+                val ppUnits = (7..18).toSet()
+                val ppMapped = intermediateCoverage.mappedUnits.intersect(ppUnits)
+                val ppCoveragePair = Pair(ppMapped.size, ppUnits.size)
 
                 _uiState.value = CurriculumInspectorUiState.Content(
                     manifestVersion = bundle.manifest.contentVersion,
@@ -71,7 +94,10 @@ class CurriculumInspectorViewModel @Inject constructor(
                     report = bundle.report,
                     books = bundle.books,
                     concepts = bundle.concepts,
-                    beginnerCoverage = coverage
+                    beginnerCoverage = beginnerCoverage,
+                    intermediateCoverage = intermediateCoverage,
+                    advancedCoverage = advancedCoverage,
+                    presentPerfectPastCoverage = ppCoveragePair
                 )
             }.onFailure { error ->
                 _uiState.value = CurriculumInspectorUiState.Error(error.localizedMessage ?: "Failed to load curriculum")

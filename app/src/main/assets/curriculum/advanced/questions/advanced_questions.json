@@ -2,17 +2,34 @@
   {
     "type": "multiple_choice",
     "id": "adv_q_inv_1",
-    "topicId": "advanced_topic_negative_adverbial_inversion",
+    "topicId": "advanced_inversion_negative_restrictive_adverbials",
     "difficulty": "HARD",
     "prompt": "Select the correct inverted sentence following the fronted negative adverbial:",
     "explanation": "When negative adverbials like 'Rarely' are fronted, auxiliary inversion is mandatory: 'Rarely have we witnessed...'",
-    "tags": ["inversion", "negative_adverbials"],
-    "learningObjectiveIds": [],
+    "tags": [
+      "inversion",
+      "negative_adverbials"
+    ],
+    "learningObjectiveIds": [
+      "obj_advanced_inversion_negative_restrictive_adverbials_1"
+    ],
     "options": [
-      { "id": "opt_1", "text": "Rarely we have witnessed such an extraordinary display of talent." },
-      { "id": "opt_2", "text": "Rarely have we witnessed such an extraordinary display of talent." },
-      { "id": "opt_3", "text": "Rarely witnessed we such an extraordinary display of talent." },
-      { "id": "opt_4", "text": "Rarely did we witnessed such an extraordinary display of talent." }
+      {
+        "id": "opt_1",
+        "text": "Rarely we have witnessed such an extraordinary display of talent."
+      },
+      {
+        "id": "opt_2",
+        "text": "Rarely have we witnessed such an extraordinary display of talent."
+      },
+      {
+        "id": "opt_3",
+        "text": "Rarely witnessed we such an extraordinary display of talent."
+      },
+      {
+        "id": "opt_4",
+        "text": "Rarely did we witnessed such an extraordinary display of talent."
+      }
     ],
     "correctOptionId": "opt_2",
     "shuffleOptions": true
@@ -20,17 +37,34 @@
   {
     "type": "multiple_choice",
     "id": "adv_q_inv_2",
-    "topicId": "advanced_topic_negative_adverbial_inversion",
+    "topicId": "advanced_inversion_negative_restrictive_adverbials",
     "difficulty": "HARD",
     "prompt": "Complete the inversion: 'Hardly ___ the station when the power failed.'",
     "explanation": "'Hardly had the train left' requires auxiliary inversion with past perfect.",
-    "tags": ["inversion", "hardly_when"],
-    "learningObjectiveIds": [],
+    "tags": [
+      "inversion",
+      "hardly_when"
+    ],
+    "learningObjectiveIds": [
+      "obj_advanced_inversion_negative_restrictive_adverbials_1"
+    ],
     "options": [
-      { "id": "opt_1", "text": "the train had left" },
-      { "id": "opt_2", "text": "had the train left" },
-      { "id": "opt_3", "text": "did the train leave" },
-      { "id": "opt_4", "text": "was the train leaving" }
+      {
+        "id": "opt_1",
+        "text": "the train had left"
+      },
+      {
+        "id": "opt_2",
+        "text": "had the train left"
+      },
+      {
+        "id": "opt_3",
+        "text": "did the train leave"
+      },
+      {
+        "id": "opt_4",
+        "text": "was the train leaving"
+      }
     ],
     "correctOptionId": "opt_2",
     "shuffleOptions": true
@@ -38,17 +72,34 @@
   {
     "type": "multiple_choice",
     "id": "adv_q_cleft_1",
-    "topicId": "advanced_topic_it_clefts_focus",
+    "topicId": "advanced_cleft_sentences_it_what_focus_structures",
     "difficulty": "HARD",
     "prompt": "Identify the proper it-cleft focusing on 'the professor's explanation':",
     "explanation": "An it-cleft takes the form: 'It + be + focus item + that/who clause'.",
-    "tags": ["cleft_sentences", "information_packaging"],
-    "learningObjectiveIds": [],
+    "tags": [
+      "cleft_sentences",
+      "information_packaging"
+    ],
+    "learningObjectiveIds": [
+      "obj_advanced_cleft_sentences_it_what_focus_structures_1"
+    ],
     "options": [
-      { "id": "opt_1", "text": "It was the professor's explanation that finally clarified the paradox." },
-      { "id": "opt_2", "text": "What was the professor's explanation that clarified it." },
-      { "id": "opt_3", "text": "The professor's explanation was it that clarified." },
-      { "id": "opt_4", "text": "It had been explaining the professor that clarified." }
+      {
+        "id": "opt_1",
+        "text": "It was the professor's explanation that finally clarified the paradox."
+      },
+      {
+        "id": "opt_2",
+        "text": "What was the professor's explanation that clarified it."
+      },
+      {
+        "id": "opt_3",
+        "text": "The professor's explanation was it that clarified."
+      },
+      {
+        "id": "opt_4",
+        "text": "It had been explaining the professor that clarified."
+      }
     ],
     "correctOptionId": "opt_1",
     "shuffleOptions": true
