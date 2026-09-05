@@ -1,0 +1,228 @@
+[
+  {
+    "type": "multiple_choice",
+    "id": "q_pp_mc_001",
+    "topicId": "present_perfect_intro",
+    "difficulty": "EASY",
+    "prompt": "She ___ finished her English homework.",
+    "explanation": "Use 'has' with third-person singular subjects (he, she, it) in Present Perfect.",
+    "hint": "Look at the subject 'She'. Is it singular or plural?",
+    "tags": [
+      "present_perfect.form",
+      "auxiliary.has"
+    ],
+    "learningObjectiveIds": [
+      "obj_pp_identify_aux"
+    ],
+    "options": [
+      {
+        "id": "opt_have",
+        "text": "have"
+      },
+      {
+        "id": "opt_has",
+        "text": "has"
+      },
+      {
+        "id": "opt_is",
+        "text": "is"
+      },
+      {
+        "id": "opt_did",
+        "text": "did"
+      }
+    ],
+    "correctOptionId": "opt_has",
+    "shuffleOptions": true
+  },
+  {
+    "type": "multiple_choice",
+    "id": "q_pp_mc_002",
+    "topicId": "present_perfect_intro",
+    "difficulty": "EASY",
+    "prompt": "They ___ lived in London for five years.",
+    "explanation": "Use 'have' with plural subjects like 'They'.",
+    "hint": "'They' requires have, not has.",
+    "tags": [
+      "present_perfect.form",
+      "auxiliary.have"
+    ],
+    "learningObjectiveIds": [
+      "obj_pp_identify_aux"
+    ],
+    "options": [
+      {
+        "id": "opt_have",
+        "text": "have"
+      },
+      {
+        "id": "opt_has",
+        "text": "has"
+      },
+      {
+        "id": "opt_are",
+        "text": "are"
+      },
+      {
+        "id": "opt_were",
+        "text": "were"
+      }
+    ],
+    "correctOptionId": "opt_have",
+    "shuffleOptions": true
+  },
+  {
+    "type": "multiple_choice",
+    "id": "q_pp_mc_003",
+    "topicId": "present_perfect_intro",
+    "difficulty": "NORMAL",
+    "prompt": "I have ___ my keys. Can you help me look for them?",
+    "explanation": "'Lost' is the past participle (V3) of 'lose'.",
+    "hint": "We need the 3rd form (past participle) of the verb lose.",
+    "tags": [
+      "present_perfect.v3",
+      "irregular_verb"
+    ],
+    "learningObjectiveIds": [
+      "obj_pp_past_participle"
+    ],
+    "options": [
+      {
+        "id": "opt_lose",
+        "text": "lose"
+      },
+      {
+        "id": "opt_lost",
+        "text": "lost"
+      },
+      {
+        "id": "opt_losing",
+        "text": "losing"
+      },
+      {
+        "id": "opt_loosed",
+        "text": "loosed"
+      }
+    ],
+    "correctOptionId": "opt_lost",
+    "shuffleOptions": true
+  },
+  {
+    "type": "gap_fill",
+    "id": "q_pp_gap_001",
+    "topicId": "present_perfect_intro",
+    "difficulty": "NORMAL",
+    "prompt": "Complete the sentence with have or has:",
+    "explanation": "We use 'have' with the subject 'We'.",
+    "hint": "We + have/has?",
+    "tags": [
+      "present_perfect.form"
+    ],
+    "learningObjectiveIds": [
+      "obj_pp_identify_aux"
+    ],
+    "sentenceWithGaps": "We [have] seen this movie before.",
+    "correctAnswers": [
+      "have"
+    ],
+    "optionsPool": [
+      "have",
+      "has",
+      "are",
+      "did"
+    ]
+  },
+  {
+    "type": "gap_fill",
+    "id": "q_pp_gap_002",
+    "topicId": "present_perfect_intro",
+    "difficulty": "HARD",
+    "prompt": "Put the verb in brackets into Present Perfect:",
+    "explanation": "The past participle of 'write' is 'written'. Subject 'He' takes 'has'.",
+    "hint": "He + has + 3rd form of write.",
+    "tags": [
+      "present_perfect.v3",
+      "irregular_verb"
+    ],
+    "learningObjectiveIds": [
+      "obj_pp_past_participle"
+    ],
+    "sentenceWithGaps": "He [has written] three novels.",
+    "correctAnswers": [
+      "has written"
+    ],
+    "optionsPool": []
+  },
+  {
+    "type": "multiple_choice",
+    "id": "q_pp_for_since_001",
+    "topicId": "present_perfect_intro",
+    "difficulty": "NORMAL",
+    "prompt": "I haven't seen Sarah ___ last Tuesday.",
+    "explanation": "'Since' is used with a starting point in time (last Tuesday, 2010, 9 AM).",
+    "hint": "Is 'last Tuesday' a duration of time or a starting point?",
+    "tags": [
+      "present_perfect.since_for",
+      "since"
+    ],
+    "learningObjectiveIds": [
+      "obj_pp_for_since"
+    ],
+    "options": [
+      {
+        "id": "opt_since",
+        "text": "since"
+      },
+      {
+        "id": "opt_for",
+        "text": "for"
+      },
+      {
+        "id": "opt_from",
+        "text": "from"
+      },
+      {
+        "id": "opt_during",
+        "text": "during"
+      }
+    ],
+    "correctOptionId": "opt_since",
+    "shuffleOptions": true
+  },
+  {
+    "type": "multiple_choice",
+    "id": "q_pp_for_since_002",
+    "topicId": "present_perfect_intro",
+    "difficulty": "NORMAL",
+    "prompt": "David has worked at this hospital ___ six months.",
+    "explanation": "'For' is used with a duration or period of time (six months, two hours, ten years).",
+    "hint": "'Six months' is a period of time, not a point in time.",
+    "tags": [
+      "present_perfect.since_for",
+      "for"
+    ],
+    "learningObjectiveIds": [
+      "obj_pp_for_since"
+    ],
+    "options": [
+      {
+        "id": "opt_for",
+        "text": "for"
+      },
+      {
+        "id": "opt_since",
+        "text": "since"
+      },
+      {
+        "id": "opt_in",
+        "text": "in"
+      },
+      {
+        "id": "opt_ago",
+        "text": "ago"
+      }
+    ],
+    "correctOptionId": "opt_for",
+    "shuffleOptions": true
+  }
+]

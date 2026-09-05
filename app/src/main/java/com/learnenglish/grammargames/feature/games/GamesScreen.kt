@@ -8,20 +8,13 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Gamepad
-import androidx.compose.material.icons.filled.MilitaryTech
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Speed
-import androidx.compose.material3.Button
-import androidx.compose.material3.Card
-import androidx.compose.material3.CardDefaults
-import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedCard
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -30,8 +23,13 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.learnenglish.grammargames.core.designsystem.theme.Dimens
+import com.learnenglish.grammargames.core.designsystem.component.button.GrammarPrimaryButton
+import com.learnenglish.grammargames.core.designsystem.component.card.GrammarCard
+import com.learnenglish.grammargames.core.designsystem.component.chip.GrammarBadge
+import com.learnenglish.grammargames.core.designsystem.theme.AppDimensions
+import com.learnenglish.grammargames.core.designsystem.theme.AppSpacing
 import com.learnenglish.grammargames.core.designsystem.theme.GrammarGamesTheme
+import com.learnenglish.grammargames.core.designsystem.theme.grammarGamesColors
 
 data class GameMode(
     val id: String,
@@ -50,12 +48,12 @@ fun GamesScreen(
     LazyColumn(
         modifier = modifier
             .fillMaxSize()
-            .padding(horizontal = Dimens.spacing16)
+            .padding(horizontal = AppSpacing.screenHorizontalPhone)
             .testTag("games_screen"),
-        verticalArrangement = Arrangement.spacedBy(Dimens.spacing16)
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.md)
     ) {
         item {
-            Spacer(modifier = Modifier.height(Dimens.spacing8))
+            Spacer(modifier = Modifier.height(AppSpacing.xs))
             Text(
                 text = "Grammar Games",
                 style = MaterialTheme.typography.headlineMedium,
@@ -65,84 +63,67 @@ fun GamesScreen(
             Text(
                 text = "Play dynamic mini-games to sharpen grammar intuition & recall",
                 style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant
+                color = MaterialTheme.grammarGamesColors.textSecondary
             )
         }
 
         items(games, key = { it.id }) { game ->
-            OutlinedCard(
+            GrammarCard(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .testTag("game_item_${game.id}"),
-                shape = MaterialTheme.shapes.medium
+                    .testTag("game_item_${game.id}")
             ) {
-                Column(
-                    modifier = Modifier.padding(Dimens.spacing16),
-                    verticalArrangement = Arrangement.spacedBy(Dimens.spacing8)
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically
                 ) {
-                    Row(
-                        modifier = Modifier.fillMaxWidth(),
-                        horizontalArrangement = Arrangement.SpaceBetween,
-                        verticalAlignment = Alignment.CenterVertically
-                    ) {
-                        Text(
-                            text = game.title,
-                            style = MaterialTheme.typography.titleMedium,
-                            fontWeight = FontWeight.Bold
-                        )
-                        Row(verticalAlignment = Alignment.CenterVertically) {
-                            Icon(
-                                imageVector = Icons.Default.MilitaryTech,
-                                contentDescription = "Reward",
-                                tint = MaterialTheme.colorScheme.primary,
-                                modifier = Modifier.size(Dimens.iconSizeSmall)
-                            )
-                            Spacer(modifier = Modifier.size(Dimens.spacing4))
-                            Text(
-                                text = "+${game.xpReward} XP",
-                                style = MaterialTheme.typography.labelMedium,
-                                fontWeight = FontWeight.SemiBold,
-                                color = MaterialTheme.colorScheme.primary
-                            )
-                        }
-                    }
-
                     Text(
-                        text = game.description,
-                        style = MaterialTheme.typography.bodyMedium,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                        text = game.title,
+                        style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.Bold,
+                        color = MaterialTheme.colorScheme.onSurface
+                    )
+                    GrammarBadge(
+                        text = "+${game.xpReward} XP",
+                        backgroundColor = MaterialTheme.grammarGamesColors.xpContainer,
+                        textColor = MaterialTheme.grammarGamesColors.onXpContainer
+                    )
+                }
+
+                Spacer(modifier = Modifier.height(AppSpacing.xxs))
+
+                Text(
+                    text = game.description,
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.grammarGamesColors.textSecondary
+                )
+
+                Spacer(modifier = Modifier.height(AppSpacing.sm))
+
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    GrammarBadge(
+                        text = game.difficulty,
+                        backgroundColor = MaterialTheme.grammarGamesColors.secondaryActionContainer,
+                        textColor = MaterialTheme.grammarGamesColors.onSecondaryActionContainer
                     )
 
-                    Row(
-                        modifier = Modifier.fillMaxWidth(),
-                        horizontalArrangement = Arrangement.SpaceBetween,
-                        verticalAlignment = Alignment.CenterVertically
-                    ) {
-                        Text(
-                            text = "Difficulty: ${game.difficulty}",
-                            style = MaterialTheme.typography.labelSmall,
-                            color = MaterialTheme.colorScheme.secondary
-                        )
-
-                        Button(
-                            onClick = { onPlayClick(game.id) },
-                            modifier = Modifier.testTag("play_button_${game.id}")
-                        ) {
-                            Icon(
-                                imageVector = Icons.Default.PlayArrow,
-                                contentDescription = null,
-                                modifier = Modifier.size(Dimens.iconSizeSmall)
-                            )
-                            Spacer(modifier = Modifier.size(Dimens.spacing4))
-                            Text("Play")
-                        }
-                    }
+                    GrammarPrimaryButton(
+                        text = "Play",
+                        leadingIcon = Icons.Default.PlayArrow,
+                        onClick = { onPlayClick(game.id) },
+                        testTag = "play_button_${game.id}"
+                    )
                 }
             }
         }
 
         item {
-            Spacer(modifier = Modifier.height(Dimens.spacing24))
+            Spacer(modifier = Modifier.height(AppSpacing.xl))
         }
     }
 }
@@ -151,23 +132,23 @@ val defaultGameModes = listOf(
     GameMode(
         id = "speed_tenses",
         title = "Speed Tenses Arena",
-        description = "Choose the correct auxiliary verb under the ticking timer.",
+        description = "Choose the correct tense before the 60-second timer runs out.",
         xpReward = 50,
         difficulty = "Fast & Fun"
     ),
     GameMode(
         id = "sentence_builder",
-        title = "Sentence Scramble",
-        description = "Rearrange shuffled words into grammatically impeccable clauses.",
+        title = "Sentence Architect",
+        description = "Assemble scrambled words into grammatically impeccable structures.",
         xpReward = 40,
-        difficulty = "Puzzle"
+        difficulty = "Challenging"
     ),
     GameMode(
-        id = "error_hunter",
-        title = "Error Detective",
-        description = "Find the single sneaky grammatical mistake inside the sentence.",
-        xpReward = 60,
-        difficulty = "Challenging"
+        id = "error_spotter",
+        title = "Detective: Spot The Error",
+        description = "Find the single grammatical slip in real-world everyday dialogues.",
+        xpReward = 45,
+        difficulty = "Intermediate"
     )
 )
 

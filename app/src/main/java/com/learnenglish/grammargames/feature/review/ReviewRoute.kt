@@ -5,9 +5,13 @@ import androidx.compose.ui.Modifier
 
 @Composable
 fun ReviewRoute(
+    onStartReviewSession: () -> Unit = {},
+    onMistakesClick: () -> Unit = {},
     modifier: Modifier = Modifier
 ) {
     ReviewScreen(
+        onStartReviewSession = onStartReviewSession,
+        onMistakesClick = onMistakesClick,
         modifier = modifier
     )
 }

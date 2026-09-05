@@ -1,0 +1,42 @@
+[
+  {
+    "id": "lesson_pp_form",
+    "topicId": "present_perfect_intro",
+    "title": "Form & Basic Meaning",
+    "order": 1,
+    "activityIds": [
+      "act_pp_form_quick_lesson",
+      "act_pp_form_mc_practice",
+      "act_pp_form_gap_practice"
+    ],
+    "estimatedMinutes": 5,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_pp_identify_aux",
+        "description": "Choose between have and has based on subject pronoun"
+      },
+      {
+        "id": "obj_pp_past_participle",
+        "description": "Use correct regular and irregular past participle forms"
+      }
+    ]
+  },
+  {
+    "id": "lesson_pp_since_for",
+    "topicId": "present_perfect_intro",
+    "title": "For vs Since",
+    "order": 2,
+    "activityIds": [
+      "act_pp_since_for_drill"
+    ],
+    "estimatedMinutes": 4,
+    "difficulty": "NORMAL",
+    "learningObjectives": [
+      {
+        "id": "obj_pp_for_since",
+        "description": "Distinguish between periods of time (for) and starting points (since)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "present_perfect_intro",
+    "sectionId": "sec_present_perfect",
+    "title": "Present Perfect: Form & Meaning",
+    "shortDescription": "Connect past events to the present moment using have/has + past participle.",
+    "order": 1,
+    "lessonIds": [
+      "lesson_pp_form",
+      "lesson_pp_since_for"
+    ],
+    "prerequisites": [],
+    "difficulty": "NORMAL",
+    "cefrLevel": "B1",
+    "conceptId": "concept_present_perfect",
+    "bookReferences": [
+      {
+        "bookId": "murphy_in_use",
+        "bookTitle": "English Grammar in Use (Murphy)",
+        "edition": "5th Edition",
+        "units": [7, 8, 11, 12]
+      }
+    ],
+    "artworkId": "art_topic_valley",
+    "status": "ACTIVE"
+  }
+]

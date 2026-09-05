@@ -13,7 +13,7 @@ class NavigationState(initialKey: AppNavKey = AppNavKey.Home) {
 
     fun navigateToRoot(key: AppNavKey) {
         if (currentKey == key) return
-        backStack.remove(key)
+        backStack.clear()
         backStack.add(key)
     }
 
@@ -28,9 +28,32 @@ class NavigationState(initialKey: AppNavKey = AppNavKey.Home) {
         }
         return false
     }
+
+    fun popBackTo(key: AppNavKey, inclusive: Boolean = false): Boolean {
+        val index = backStack.indexOfLast { it == key }
+        if (index != -1) {
+            val targetSize = if (inclusive) index else index + 1
+            while (backStack.size > targetSize && backStack.size > 1) {
+                backStack.removeAt(backStack.size - 1)
+            }
+            return true
+        }
+        return false
+    }
+
+    fun replaceStack(keys: List<AppNavKey>) {
+        require(keys.isNotEmpty()) { "Navigation backstack cannot be empty" }
+        backStack.clear()
+        backStack.addAll(keys)
+    }
+
+    fun finishOnboarding() {
+        backStack.clear()
+        backStack.add(AppNavKey.Home)
+    }
 }
 
 @Composable
 fun rememberNavigationState(initialKey: AppNavKey = AppNavKey.Home): NavigationState {
-    return remember { NavigationState(initialKey) }
+    return remember(initialKey) { NavigationState(initialKey) }
 }

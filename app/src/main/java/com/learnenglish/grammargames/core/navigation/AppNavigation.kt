@@ -1,5 +1,10 @@
 package com.learnenglish.grammargames.core.navigation
 
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.slideInVertically
+import androidx.compose.animation.slideOutVertically
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
@@ -22,11 +27,22 @@ import androidx.navigation3.runtime.NavEntry
 import androidx.navigation3.runtime.NavEntryDecorator
 import androidx.navigation3.runtime.rememberSaveableStateHolderNavEntryDecorator
 import androidx.navigation3.ui.NavDisplay
-import com.learnenglish.grammargames.feature.games.GamesRoute
-import com.learnenglish.grammargames.feature.home.HomeRoute
-import com.learnenglish.grammargames.feature.learn.LearnRoute
-import com.learnenglish.grammargames.feature.profile.ProfileRoute
-import com.learnenglish.grammargames.feature.review.ReviewRoute
+import com.learnenglish.grammargames.feature.bootstrap.navigation.bootstrapNavEntry
+import com.learnenglish.grammargames.feature.games.navigation.gameSessionNavEntry
+import com.learnenglish.grammargames.feature.games.navigation.gamesHubNavEntry
+import com.learnenglish.grammargames.feature.home.navigation.homeNavEntry
+import com.learnenglish.grammargames.feature.learn.navigation.learnNavEntry
+import com.learnenglish.grammargames.feature.lesson.navigation.lessonNavEntry
+import com.learnenglish.grammargames.feature.mistakes.navigation.mistakesNavEntry
+import com.learnenglish.grammargames.feature.onboarding.navigation.onboardingNavEntry
+import com.learnenglish.grammargames.feature.profile.navigation.achievementsNavEntry
+import com.learnenglish.grammargames.feature.profile.navigation.characterNavEntry
+import com.learnenglish.grammargames.feature.profile.navigation.profileNavEntry
+import com.learnenglish.grammargames.feature.results.navigation.resultsNavEntry
+import com.learnenglish.grammargames.feature.review.navigation.reviewNavEntry
+import com.learnenglish.grammargames.feature.settings.navigation.settingsNavEntry
+import com.learnenglish.grammargames.feature.test.navigation.testNavEntry
+import com.learnenglish.grammargames.feature.topic.navigation.topicNavEntry
 
 data class BottomNavigationDestination(
     val key: AppNavKey,
@@ -70,10 +86,12 @@ val bottomNavigationDestinations = listOf(
 
 @Composable
 fun AppNavigation(
-    navigationState: NavigationState = rememberNavigationState(),
+    navigationState: NavigationState = rememberNavigationState(initialKey = AppNavKey.Bootstrap),
     modifier: Modifier = Modifier
 ) {
+    val navigator: AppNavigator = rememberAppNavigator(navigationState)
     val currentKey = navigationState.currentKey
+    val showBottomBar = currentKey.shouldShowBottomBar()
 
     val entryDecorators: List<NavEntryDecorator<AppNavKey>> = listOf(
         rememberSaveableStateHolderNavEntryDecorator(),
@@ -82,34 +100,78 @@ fun AppNavigation(
 
     val entryProvider: (AppNavKey) -> NavEntry<AppNavKey> = { key ->
         when (key) {
-            AppNavKey.Home -> NavEntry(key) { HomeRoute() }
-            AppNavKey.Learn -> NavEntry(key) { LearnRoute() }
-            AppNavKey.Games -> NavEntry(key) { GamesRoute() }
-            AppNavKey.Review -> NavEntry(key) { ReviewRoute() }
-            AppNavKey.Profile -> NavEntry(key) { ProfileRoute() }
+            is AppNavKey.Bootstrap -> bootstrapNavEntry(key, navigator)
+
+            is AppNavKey.Welcome,
+            is AppNavKey.GoalSelection,
+            is AppNavKey.LevelSelection,
+            is AppNavKey.PlacementTest,
+            is AppNavKey.BookSelection,
+            is AppNavKey.DailyGoal,
+            is AppNavKey.OnboardingComplete -> onboardingNavEntry(key, navigator)
+
+            is AppNavKey.Home -> homeNavEntry(key, navigator)
+            is AppNavKey.Learn -> learnNavEntry(key, navigator)
+            is AppNavKey.Games -> gamesHubNavEntry(key, navigator)
+            is AppNavKey.GameSession -> gameSessionNavEntry(key, navigator)
+
+            is AppNavKey.Topic -> topicNavEntry(key, navigator)
+            is AppNavKey.Lesson -> lessonNavEntry(key, navigator)
+            is AppNavKey.Test -> testNavEntry(key, navigator)
+            is AppNavKey.Results -> resultsNavEntry(key, navigator)
+
+            is AppNavKey.Review -> reviewNavEntry(key, navigator)
+            is AppNavKey.ReviewSession -> gameSessionNavEntry(
+                AppNavKey.GameSession("review_session", key.reviewType),
+                navigator
+            )
+            is AppNavKey.Mistakes -> mistakesNavEntry(key, navigator)
+
+            is AppNavKey.Profile -> profileNavEntry(key, navigator)
+            is AppNavKey.Achievements -> achievementsNavEntry(key, navigator)
+            is AppNavKey.AchievementDetails -> achievementsNavEntry(AppNavKey.Achievements, navigator)
+            is AppNavKey.Character -> characterNavEntry(key, navigator)
+            is AppNavKey.CharacterCustomization -> characterNavEntry(AppNavKey.Character, navigator)
+            is AppNavKey.Settings -> settingsNavEntry(key, navigator)
+            is AppNavKey.DesignSystemShowcase -> NavEntry(key) {
+                com.learnenglish.grammargames.core.designsystem.showcase.DesignSystemShowcaseScreen(
+                    onBackClick = { navigator.navigateBack() }
+                )
+            }
+            is AppNavKey.CurriculumInspector -> NavEntry(key) {
+                com.learnenglish.grammargames.feature.curriculum.CurriculumInspectorRoute(
+                    onBackClick = { navigator.navigateBack() }
+                )
+            }
         }
     }
 
     Scaffold(
         modifier = modifier.fillMaxSize(),
         bottomBar = {
-            NavigationBar(
-                modifier = Modifier.testTag("bottom_navigation_bar")
+            AnimatedVisibility(
+                visible = showBottomBar,
+                enter = slideInVertically(initialOffsetY = { it }) + fadeIn(),
+                exit = slideOutVertically(targetOffsetY = { it }) + fadeOut()
             ) {
-                bottomNavigationDestinations.forEach { dest ->
-                    val isSelected = currentKey == dest.key
-                    NavigationBarItem(
-                        selected = isSelected,
-                        onClick = { navigationState.navigateToRoot(dest.key) },
-                        icon = {
-                            Icon(
-                                imageVector = dest.icon,
-                                contentDescription = dest.title
-                            )
-                        },
-                        label = { Text(dest.title) },
-                        modifier = Modifier.testTag(dest.testTag)
-                    )
+                NavigationBar(
+                    modifier = Modifier.testTag("bottom_navigation_bar")
+                ) {
+                    bottomNavigationDestinations.forEach { dest ->
+                        val isSelected = currentKey == dest.key
+                        NavigationBarItem(
+                            selected = isSelected,
+                            onClick = { navigator.navigateToRoot(dest.key) },
+                            icon = {
+                                Icon(
+                                    imageVector = dest.icon,
+                                    contentDescription = dest.title
+                                )
+                            },
+                            label = { Text(dest.title) },
+                            modifier = Modifier.testTag(dest.testTag)
+                        )
+                    }
                 }
             }
         }
@@ -118,7 +180,7 @@ fun AppNavigation(
             backStack = navigationState.backStack,
             entryProvider = entryProvider,
             entryDecorators = entryDecorators,
-            onBack = { navigationState.popBack() },
+            onBack = { navigator.navigateBack() },
             modifier = Modifier
                 .fillMaxSize()
                 .padding(innerPadding)

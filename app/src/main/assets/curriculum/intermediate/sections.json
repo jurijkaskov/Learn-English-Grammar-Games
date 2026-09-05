@@ -1,0 +1,12 @@
+[
+  {
+    "id": "sec_present_perfect",
+    "courseId": "intermediate_grammar",
+    "title": "Present Perfect & Past",
+    "description": "Connecting past actions with present reality and mastering since, for, already, yet.",
+    "order": 1,
+    "topicIds": [
+      "present_perfect_intro"
+    ]
+  }
+]

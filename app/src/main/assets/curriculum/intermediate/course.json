@@ -1,0 +1,12 @@
+{
+  "id": "intermediate_grammar",
+  "title": "Intermediate Grammar",
+  "level": "INTERMEDIATE",
+  "description": "Master essential complex tenses, modal nuances, conditionals, and perfect structures.",
+  "order": 2,
+  "sectionIds": [
+    "sec_present_perfect"
+  ],
+  "isEnabled": true,
+  "cefrLevel": "B1"
+}

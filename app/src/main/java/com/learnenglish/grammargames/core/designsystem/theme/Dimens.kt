@@ -1,23 +1,28 @@
 package com.learnenglish.grammargames.core.designsystem.theme
 
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 
+/**
+ * Legacy Dimens reference mapping to centralized AppSpacing and AppDimensions tokens.
+ */
 object Dimens {
-    val spacing2 = 2.dp
-    val spacing4 = 4.dp
-    val spacing8 = 8.dp
-    val spacing12 = 12.dp
-    val spacing16 = 16.dp
-    val spacing20 = 20.dp
-    val spacing24 = 24.dp
-    val spacing32 = 32.dp
-    val spacing40 = 40.dp
-    val spacing48 = 48.dp
+    val spacing2: Dp = AppSpacing.xxxs
+    val spacing4: Dp = AppSpacing.xxs
+    val spacing8: Dp = AppSpacing.xs
+    val spacing10: Dp = 10.dp
+    val spacing12: Dp = AppSpacing.sm
+    val spacing16: Dp = AppSpacing.md
+    val spacing20: Dp = AppSpacing.lg
+    val spacing24: Dp = AppSpacing.xl
+    val spacing32: Dp = AppSpacing.xxl
+    val spacing40: Dp = AppSpacing.xxxl
+    val spacing48: Dp = AppSpacing.huge
 
-    val minTouchTarget = 48.dp
-    val cardElevation = 2.dp
-    val iconSizeSmall = 20.dp
-    val iconSizeMedium = 24.dp
-    val iconSizeLarge = 32.dp
-    val iconSizeExtraLarge = 48.dp
+    val minTouchTarget: Dp = AppDimensions.minTouchTarget
+    val cardElevation: Dp = AppElevation.level1
+    val iconSizeSmall: Dp = AppDimensions.iconSmall
+    val iconSizeMedium: Dp = AppDimensions.iconMedium
+    val iconSizeLarge: Dp = AppDimensions.iconLarge
+    val iconSizeExtraLarge: Dp = AppDimensions.iconExtraLarge
 }

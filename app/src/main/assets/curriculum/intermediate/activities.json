@@ -1,0 +1,92 @@
+[
+  {
+    "id": "act_pp_form_quick_lesson",
+    "lessonId": "lesson_pp_form",
+    "type": "LESSON_CONTENT",
+    "title": "Rule: Have/Has + Past Participle",
+    "order": 1,
+    "questionIds": [],
+    "lessonContent": {
+      "blocks": [
+        {
+          "type": "rule",
+          "id": "blk_rule_1",
+          "title": "Present Perfect Structure",
+          "description": "We use the Present Perfect to talk about a past action that has a result in the present."
+        },
+        {
+          "type": "formula",
+          "id": "blk_form_1",
+          "formulaPattern": "Subject + have/has + Past Participle (V3)",
+          "formulaNote": "I/you/we/they have | he/she/it has"
+        },
+        {
+          "type": "example",
+          "id": "blk_ex_1",
+          "sentence": "I have lost my key. (I can't open the door now)",
+          "highlightedPart": "have lost",
+          "translation": "Я потерял ключ. (Не могу открыть дверь прямо сейчас)"
+        },
+        {
+          "type": "mistake",
+          "id": "blk_mis_1",
+          "incorrectSentence": "She have finished her project.",
+          "correctSentence": "She has finished her project.",
+          "mistakeExplanation": "With third-person singular (she/he/it), always use 'has', not 'have'."
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_pp_form_mc_practice",
+    "lessonId": "lesson_pp_form",
+    "type": "MULTIPLE_CHOICE",
+    "title": "Multiple Choice Practice",
+    "order": 2,
+    "questionIds": [
+      "q_pp_mc_001",
+      "q_pp_mc_002",
+      "q_pp_mc_003"
+    ],
+    "config": {
+      "type": "practice",
+      "shuffleQuestions": true,
+      "allowRetry": true,
+      "showInstantExplanation": true
+    }
+  },
+  {
+    "id": "act_pp_form_gap_practice",
+    "lessonId": "lesson_pp_form",
+    "type": "GAP_FILL",
+    "title": "Sentence Gap Fill",
+    "order": 3,
+    "questionIds": [
+      "q_pp_gap_001",
+      "q_pp_gap_002"
+    ],
+    "config": {
+      "type": "practice",
+      "shuffleQuestions": false,
+      "allowRetry": true,
+      "showInstantExplanation": true
+    }
+  },
+  {
+    "id": "act_pp_since_for_drill",
+    "lessonId": "lesson_pp_since_for",
+    "type": "MULTIPLE_CHOICE",
+    "title": "Since or For Quiz",
+    "order": 1,
+    "questionIds": [
+      "q_pp_for_since_001",
+      "q_pp_for_since_002"
+    ],
+    "config": {
+      "type": "practice",
+      "shuffleQuestions": true,
+      "allowRetry": true,
+      "showInstantExplanation": true
+    }
+  }
+]

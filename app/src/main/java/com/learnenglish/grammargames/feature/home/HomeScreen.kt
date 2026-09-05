@@ -13,18 +13,25 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.AutoAwesome
 import androidx.compose.material.icons.filled.Bolt
 import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.filled.EmojiEvents
+import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.School
+import androidx.compose.material.icons.filled.SportsEsports
 import androidx.compose.material.icons.filled.Timer
+import androidx.compose.material.icons.filled.WarningAmber
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FilterChip
+import androidx.compose.material3.FilledTonalButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedCard
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -36,6 +43,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.learnenglish.grammargames.core.designsystem.theme.Dimens
 import com.learnenglish.grammargames.core.designsystem.theme.GrammarGamesTheme
+import com.learnenglish.grammargames.core.navigation.DemoNavigationFixtures
 import com.learnenglish.grammargames.domain.model.Course
 import com.learnenglish.grammargames.domain.model.CourseLevel
 import com.learnenglish.grammargames.domain.model.UserPreferences
@@ -46,6 +54,12 @@ import com.learnenglish.grammargames.domain.model.UserProgress
 fun HomeScreen(
     uiState: HomeUiState,
     onAction: (HomeUiAction) -> Unit,
+    onContinueLearning: (String) -> Unit = {},
+    onDailyChallenge: () -> Unit = {},
+    onGamesClick: () -> Unit = {},
+    onMistakesClick: () -> Unit = {},
+    onAchievementsClick: () -> Unit = {},
+    onCharacterClick: () -> Unit = {},
     modifier: Modifier = Modifier
 ) {
     if (uiState.isLoading) {
@@ -91,6 +105,160 @@ fun HomeScreen(
                 onAddXp = { onAction(HomeUiAction.AddXp(25L)) },
                 modifier = Modifier.testTag("home_stats_card")
             )
+        }
+
+        // Continue Learning Card
+        item {
+            Card(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .testTag("home_continue_learning_card"),
+                colors = CardDefaults.cardColors(
+                    containerColor = MaterialTheme.colorScheme.secondaryContainer
+                ),
+                shape = MaterialTheme.shapes.medium
+            ) {
+                Column(
+                    modifier = Modifier.padding(Dimens.spacing16),
+                    verticalArrangement = Arrangement.spacedBy(Dimens.spacing8)
+                ) {
+                    Text(
+                        text = "Continue Learning",
+                        style = MaterialTheme.typography.labelLarge,
+                        color = MaterialTheme.colorScheme.secondary,
+                        fontWeight = FontWeight.Bold
+                    )
+                    Text(
+                        text = "Present Simple vs Present Continuous",
+                        style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.Bold,
+                        color = MaterialTheme.colorScheme.onSecondaryContainer
+                    )
+                    Text(
+                        text = "Unit 1: Habitual actions vs temporary events in progress.",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSecondaryContainer
+                    )
+                    Button(
+                        onClick = { onContinueLearning(DemoNavigationFixtures.DEMO_TOPIC_ID) },
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .testTag("continue_learning_button")
+                    ) {
+                        Icon(
+                            imageVector = Icons.Default.PlayArrow,
+                            contentDescription = null,
+                            modifier = Modifier.size(Dimens.iconSizeSmall)
+                        )
+                        Spacer(modifier = Modifier.size(Dimens.spacing8))
+                        Text("Resume Topic")
+                    }
+                }
+            }
+        }
+
+        // Daily Challenge & Games Row
+        item {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(Dimens.spacing12)
+            ) {
+                OutlinedCard(
+                    modifier = Modifier
+                        .weight(1f)
+                        .clickable(onClick = onDailyChallenge)
+                        .testTag("home_daily_challenge_card"),
+                    shape = MaterialTheme.shapes.medium
+                ) {
+                    Column(
+                        modifier = Modifier.padding(Dimens.spacing12),
+                        verticalArrangement = Arrangement.spacedBy(Dimens.spacing4)
+                    ) {
+                        Icon(
+                            imageVector = Icons.Default.Bolt,
+                            contentDescription = "Challenge",
+                            tint = MaterialTheme.colorScheme.primary
+                        )
+                        Text(
+                            text = "Daily Challenge",
+                            style = MaterialTheme.typography.titleSmall,
+                            fontWeight = FontWeight.Bold
+                        )
+                        Text(
+                            text = "Speed Tenses Arena",
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+                    }
+                }
+
+                OutlinedCard(
+                    modifier = Modifier
+                        .weight(1f)
+                        .clickable(onClick = onMistakesClick)
+                        .testTag("home_mistakes_card"),
+                    shape = MaterialTheme.shapes.medium
+                ) {
+                    Column(
+                        modifier = Modifier.padding(Dimens.spacing12),
+                        verticalArrangement = Arrangement.spacedBy(Dimens.spacing4)
+                    ) {
+                        Icon(
+                            imageVector = Icons.Default.WarningAmber,
+                            contentDescription = "Mistakes",
+                            tint = MaterialTheme.colorScheme.error
+                        )
+                        Text(
+                            text = "Weak Topics",
+                            style = MaterialTheme.typography.titleSmall,
+                            fontWeight = FontWeight.Bold
+                        )
+                        Text(
+                            text = "2 items due review",
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+                    }
+                }
+            }
+        }
+
+        // Achievements & Companion Shortcuts
+        item {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(Dimens.spacing12)
+            ) {
+                FilledTonalButton(
+                    onClick = onAchievementsClick,
+                    modifier = Modifier
+                        .weight(1f)
+                        .testTag("home_achievements_button")
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.EmojiEvents,
+                        contentDescription = null,
+                        modifier = Modifier.size(Dimens.iconSizeSmall)
+                    )
+                    Spacer(modifier = Modifier.size(Dimens.spacing4))
+                    Text("Badges")
+                }
+
+                FilledTonalButton(
+                    onClick = onCharacterClick,
+                    modifier = Modifier
+                        .weight(1f)
+                        .testTag("home_character_button")
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.AutoAwesome,
+                        contentDescription = null,
+                        modifier = Modifier.size(Dimens.iconSizeSmall)
+                    )
+                    Spacer(modifier = Modifier.size(Dimens.spacing4))
+                    Text("My Dragon")
+                }
+            }
         }
 
         // Selected Course Header
@@ -251,7 +419,7 @@ fun CourseCard(
                 if (isSelected) {
                     Icon(
                         imageVector = Icons.Default.CheckCircle,
-                        contentDescription = "Active track",
+                        contentDescription = "Selected",
                         tint = MaterialTheme.colorScheme.primary,
                         modifier = Modifier.size(Dimens.iconSizeMedium)
                     )
@@ -269,16 +437,15 @@ fun CourseCard(
                 horizontalArrangement = Arrangement.SpaceBetween,
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                Text(
-                    text = "Level: ${course.level.name}",
-                    style = MaterialTheme.typography.labelSmall,
-                    color = MaterialTheme.colorScheme.primary
-                )
                 FilterChip(
                     selected = isSelected,
                     onClick = onClick,
-                    label = { Text(if (isSelected) "Active" else "Select") },
-                    modifier = Modifier.testTag("course_select_button_${course.id}")
+                    label = { Text(course.level.name) }
+                )
+                Text(
+                    text = course.level.name.lowercase().replaceFirstChar { it.uppercase() },
+                    style = MaterialTheme.typography.labelSmall,
+                    color = MaterialTheme.colorScheme.secondary
                 )
             }
         }
@@ -296,12 +463,12 @@ fun HomeScreenPreview() {
                     Course(
                         id = "essential_grammar",
                         title = "Essential Grammar",
-                        level = CourseLevel.BEGINNER,
-                        description = "Beginner course covering basic tenses and structures."
+                        description = "Elementary grammar foundations",
+                        level = CourseLevel.BEGINNER
                     )
                 ),
-                progress = UserProgress(totalXp = 150L, level = 2, streakDays = 3),
-                preferences = UserPreferences(selectedCourseId = "essential_grammar")
+                progress = UserProgress(totalXp = 150, level = 2, streakDays = 3),
+                preferences = UserPreferences(selectedCourseId = "essential_grammar", dailyGoalMinutes = 15)
             ),
             onAction = {}
         )
