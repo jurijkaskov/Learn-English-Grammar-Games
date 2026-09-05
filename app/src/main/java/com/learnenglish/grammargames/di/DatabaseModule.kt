@@ -3,7 +3,9 @@ package com.learnenglish.grammargames.di
 import android.content.Context
 import androidx.room.Room
 import com.learnenglish.grammargames.core.database.GrammarGamesDatabase
+import com.learnenglish.grammargames.core.database.dao.MasteryDao
 import com.learnenglish.grammargames.core.database.dao.UserProgressDao
+import com.learnenglish.grammargames.core.database.migrations.MIGRATION_1_2
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -24,7 +26,8 @@ object DatabaseModule {
             context,
             GrammarGamesDatabase::class.java,
             "grammar_games.db"
-        ).fallbackToDestructiveMigration().build()
+        ).addMigrations(MIGRATION_1_2)
+            .build()
     }
 
     @Provides
@@ -33,5 +36,13 @@ object DatabaseModule {
         database: GrammarGamesDatabase
     ): UserProgressDao {
         return database.userProgressDao()
+    }
+
+    @Provides
+    @Singleton
+    fun provideMasteryDao(
+        database: GrammarGamesDatabase
+    ): MasteryDao {
+        return database.masteryDao()
     }
 }

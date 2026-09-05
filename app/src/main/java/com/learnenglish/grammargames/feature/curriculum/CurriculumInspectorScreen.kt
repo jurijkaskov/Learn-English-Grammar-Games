@@ -18,17 +18,24 @@ import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Error
 import androidx.compose.material.icons.filled.Refresh
+import androidx.compose.material.icons.filled.Science
 import androidx.compose.material.icons.filled.Warning
+import androidx.compose.material3.AssistChip
+import androidx.compose.material3.AssistChipDefaults
+import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FilledTonalButton
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedCard
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
@@ -44,8 +51,13 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.learnenglish.grammargames.core.designsystem.theme.Dimens
+import com.learnenglish.grammargames.domain.model.mastery.CourseMastery
+import com.learnenglish.grammargames.domain.model.mastery.MasteryExplanation
+import com.learnenglish.grammargames.domain.model.mastery.MasteryStatus
+import com.learnenglish.grammargames.domain.model.mastery.SectionMastery
+import com.learnenglish.grammargames.domain.model.mastery.TopicMastery
 
-private enum class InspectorTab { OVERVIEW, TOPICS, QUESTIONS, MAPPINGS, VALIDATION }
+private enum class InspectorTab { OVERVIEW, TOPICS, QUESTIONS, MAPPINGS, MASTERY, VALIDATION }
 
 @Composable
 fun CurriculumInspectorRoute(
@@ -54,9 +66,23 @@ fun CurriculumInspectorRoute(
     viewModel: CurriculumInspectorViewModel = viewModel()
 ) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
+    val selectedTopicMastery by viewModel.selectedTopicMastery.collectAsStateWithLifecycle()
+    val selectedSectionMastery by viewModel.selectedSectionMastery.collectAsStateWithLifecycle()
+    val selectedCourseMastery by viewModel.selectedCourseMastery.collectAsStateWithLifecycle()
+    val selectedExplanation by viewModel.selectedExplanation.collectAsStateWithLifecycle()
 
     CurriculumInspectorScreen(
         uiState = uiState,
+        selectedTopicMastery = selectedTopicMastery,
+        selectedSectionMastery = selectedSectionMastery,
+        selectedCourseMastery = selectedCourseMastery,
+        selectedExplanation = selectedExplanation,
+        onSelectTopic = { viewModel.selectTopicForMastery(it) },
+        onSimulateAttempt = { topicId, isCorrect, hints -> viewModel.simulateAttempt(topicId, isCorrect, hints) },
+        onSimulateDecay = { topicId, days -> viewModel.simulateDecay(topicId, days) },
+        onResetTopic = { viewModel.resetTopicMastery(it) },
+        onResetAll = { viewModel.resetAllMastery() },
+        onRequestExplanation = { skillId, topicId -> viewModel.requestExplanation(skillId, topicId) },
         onReload = { viewModel.loadData(forceReload = true) },
         onBackClick = onBackClick,
         modifier = modifier
@@ -67,6 +93,16 @@ fun CurriculumInspectorRoute(
 @Composable
 fun CurriculumInspectorScreen(
     uiState: CurriculumInspectorUiState,
+    selectedTopicMastery: TopicMastery? = null,
+    selectedSectionMastery: SectionMastery? = null,
+    selectedCourseMastery: CourseMastery? = null,
+    selectedExplanation: MasteryExplanation? = null,
+    onSelectTopic: (String) -> Unit = {},
+    onSimulateAttempt: (topicId: String, isCorrect: Boolean, hintsUsed: Int) -> Unit = { _, _, _ -> },
+    onSimulateDecay: (topicId: String, daysAgo: Int) -> Unit = { _, _ -> },
+    onResetTopic: (topicId: String) -> Unit = {},
+    onResetAll: () -> Unit = {},
+    onRequestExplanation: (skillId: String, topicId: String) -> Unit = { _, _ -> },
     onReload: () -> Unit,
     onBackClick: () -> Unit,
     modifier: Modifier = Modifier
@@ -701,6 +737,283 @@ fun CurriculumInspectorScreen(
                                                     style = MaterialTheme.typography.labelSmall,
                                                     color = MaterialTheme.colorScheme.outline
                                                 )
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            InspectorTab.MASTERY -> {
+                                item {
+                                    Text(
+                                        text = "Mastery Engine 0–100% Inspector",
+                                        style = MaterialTheme.typography.titleMedium,
+                                        fontWeight = FontWeight.Bold
+                                    )
+                                    Spacer(modifier = Modifier.height(Dimens.spacing4))
+                                    Text(
+                                        text = "Select a topic to test deterministic calculation, simulation of correct/incorrect attempts, hint penalties, recency weighting, time decay, and explanations.",
+                                        style = MaterialTheme.typography.bodySmall,
+                                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                                    )
+                                }
+
+                                // Topic selector row
+                                item {
+                                    OutlinedCard(modifier = Modifier.fillMaxWidth()) {
+                                        Column(modifier = Modifier.padding(Dimens.spacing12)) {
+                                            Text(
+                                                text = "Select Topic",
+                                                style = MaterialTheme.typography.labelMedium,
+                                                fontWeight = FontWeight.Bold
+                                            )
+                                            Spacer(modifier = Modifier.height(Dimens.spacing8))
+                                            Row(
+                                                modifier = Modifier.fillMaxWidth(),
+                                                horizontalArrangement = Arrangement.spacedBy(Dimens.spacing8)
+                                            ) {
+                                                uiState.topics.take(4).forEach { t ->
+                                                    val isSelected = selectedTopicMastery?.topicId == t.id.value
+                                                    FilterChip(
+                                                        selected = isSelected,
+                                                        onClick = { onSelectTopic(t.id.value) },
+                                                        label = { Text(t.title.take(18)) },
+                                                        modifier = Modifier.testTag("inspector_mastery_topic_${t.id.value}")
+                                                    )
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                val topicMastery = selectedTopicMastery
+                                if (topicMastery != null) {
+                                    // Hierarchy Rollup Overview
+                                    item {
+                                        OutlinedCard(
+                                            modifier = Modifier
+                                                .fillMaxWidth()
+                                                .testTag("inspector_mastery_hierarchy_card")
+                                        ) {
+                                            Column(modifier = Modifier.padding(Dimens.spacing16)) {
+                                                Text(
+                                                    text = "Mastery Rollup Hierarchy",
+                                                    style = MaterialTheme.typography.titleSmall,
+                                                    fontWeight = FontWeight.Bold
+                                                )
+                                                Spacer(modifier = Modifier.height(Dimens.spacing8))
+                                                Row(
+                                                    modifier = Modifier.fillMaxWidth(),
+                                                    horizontalArrangement = Arrangement.SpaceBetween
+                                                ) {
+                                                    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                                                        Text("Topic", style = MaterialTheme.typography.labelSmall)
+                                                        Text(
+                                                            "${topicMastery.score}%",
+                                                            style = MaterialTheme.typography.titleLarge,
+                                                            fontWeight = FontWeight.Bold,
+                                                            color = MaterialTheme.colorScheme.primary
+                                                        )
+                                                        Text(topicMastery.status.name, style = MaterialTheme.typography.labelSmall)
+                                                    }
+                                                    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                                                        Text("Section", style = MaterialTheme.typography.labelSmall)
+                                                        Text(
+                                                            "${selectedSectionMastery?.score ?: 0}%",
+                                                            style = MaterialTheme.typography.titleLarge,
+                                                            fontWeight = FontWeight.Bold,
+                                                            color = MaterialTheme.colorScheme.tertiary
+                                                        )
+                                                        Text(selectedSectionMastery?.status?.name ?: "—", style = MaterialTheme.typography.labelSmall)
+                                                    }
+                                                    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                                                        Text("Course", style = MaterialTheme.typography.labelSmall)
+                                                        Text(
+                                                            "${selectedCourseMastery?.score ?: 0}%",
+                                                            style = MaterialTheme.typography.titleLarge,
+                                                            fontWeight = FontWeight.Bold,
+                                                            color = MaterialTheme.colorScheme.secondary
+                                                        )
+                                                        Text(selectedCourseMastery?.status?.name ?: "—", style = MaterialTheme.typography.labelSmall)
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    // Interactive Simulation Controls
+                                    item {
+                                        OutlinedCard(
+                                            modifier = Modifier
+                                                .fillMaxWidth()
+                                                .testTag("inspector_mastery_simulation_card")
+                                        ) {
+                                            Column(
+                                                modifier = Modifier.padding(Dimens.spacing16),
+                                                verticalArrangement = Arrangement.spacedBy(Dimens.spacing8)
+                                            ) {
+                                                Text(
+                                                    text = "Interactive Attempt Simulation",
+                                                    style = MaterialTheme.typography.titleSmall,
+                                                    fontWeight = FontWeight.Bold
+                                                )
+                                                Row(
+                                                    modifier = Modifier.fillMaxWidth(),
+                                                    horizontalArrangement = Arrangement.spacedBy(Dimens.spacing8)
+                                                ) {
+                                                    Button(
+                                                        onClick = { onSimulateAttempt(topicMastery.topicId, true, 0) },
+                                                        modifier = Modifier
+                                                            .weight(1f)
+                                                            .testTag("inspector_simulate_correct_button")
+                                                    ) {
+                                                        Text("+ Correct")
+                                                    }
+                                                    OutlinedButton(
+                                                        onClick = { onSimulateAttempt(topicMastery.topicId, false, 0) },
+                                                        modifier = Modifier
+                                                            .weight(1f)
+                                                            .testTag("inspector_simulate_incorrect_button")
+                                                    ) {
+                                                        Text("- Mistake")
+                                                    }
+                                                }
+                                                Row(
+                                                    modifier = Modifier.fillMaxWidth(),
+                                                    horizontalArrangement = Arrangement.spacedBy(Dimens.spacing8)
+                                                ) {
+                                                    FilledTonalButton(
+                                                        onClick = { onSimulateAttempt(topicMastery.topicId, true, 1) },
+                                                        modifier = Modifier
+                                                            .weight(1f)
+                                                            .testTag("inspector_simulate_hint_button")
+                                                    ) {
+                                                        Text("Hint Penalty")
+                                                    }
+                                                    FilledTonalButton(
+                                                        onClick = { onSimulateDecay(topicMastery.topicId, 14) },
+                                                        modifier = Modifier
+                                                            .weight(1f)
+                                                            .testTag("inspector_simulate_decay_button")
+                                                    ) {
+                                                        Text("14d Inactivity")
+                                                    }
+                                                }
+                                                Row(
+                                                    modifier = Modifier.fillMaxWidth(),
+                                                    horizontalArrangement = Arrangement.spacedBy(Dimens.spacing8)
+                                                ) {
+                                                    OutlinedButton(
+                                                        onClick = { onResetTopic(topicMastery.topicId) },
+                                                        modifier = Modifier
+                                                            .weight(1f)
+                                                            .testTag("inspector_reset_topic_mastery_button")
+                                                    ) {
+                                                        Text("Reset Topic")
+                                                    }
+                                                    OutlinedButton(
+                                                        onClick = onResetAll,
+                                                        modifier = Modifier
+                                                            .weight(1f)
+                                                            .testTag("inspector_reset_all_mastery_button")
+                                                    ) {
+                                                        Text("Reset All")
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    // Explainability Card (if requested)
+                                    val explanation = selectedExplanation
+                                    if (explanation != null) {
+                                        item {
+                                            OutlinedCard(
+                                                modifier = Modifier
+                                                    .fillMaxWidth()
+                                                    .testTag("inspector_mastery_explanation_card")
+                                            ) {
+                                                Column(modifier = Modifier.padding(Dimens.spacing16)) {
+                                                    Text(
+                                                        text = "Diagnostic Explanation",
+                                                        style = MaterialTheme.typography.titleSmall,
+                                                        fontWeight = FontWeight.Bold,
+                                                        color = MaterialTheme.colorScheme.primary
+                                                    )
+                                                    Spacer(modifier = Modifier.height(Dimens.spacing8))
+                                                    Text(
+                                                        text = explanation.summaryText,
+                                                        style = MaterialTheme.typography.bodyMedium
+                                                    )
+                                                    Spacer(modifier = Modifier.height(Dimens.spacing8))
+                                                    Text(
+                                                        text = "Base Accuracy: ${(explanation.baseAccuracy * 100).toInt()}% • Confidence: ${(explanation.confidenceFactor * 100).toInt()}% • Hint Penalty: ${(explanation.hintPenaltyFactor * 100).toInt()}% • Retention Decay: ${(explanation.decayFactor * 100).toInt()}%",
+                                                        style = MaterialTheme.typography.bodySmall,
+                                                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                                                    )
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    // Granular Skill Breakdown
+                                    item {
+                                        Text(
+                                            text = "Targeted Skills (${topicMastery.skillsMastery.size})",
+                                            style = MaterialTheme.typography.titleSmall,
+                                            fontWeight = FontWeight.Bold
+                                        )
+                                    }
+
+                                    items(topicMastery.skillsMastery) { skill ->
+                                        OutlinedCard(
+                                            modifier = Modifier
+                                                .fillMaxWidth()
+                                                .testTag("inspector_skill_item_${skill.id}")
+                                        ) {
+                                            Column(modifier = Modifier.padding(Dimens.spacing12)) {
+                                                Row(
+                                                    modifier = Modifier.fillMaxWidth(),
+                                                    horizontalArrangement = Arrangement.SpaceBetween,
+                                                    verticalAlignment = Alignment.CenterVertically
+                                                ) {
+                                                    Text(
+                                                        text = skill.title,
+                                                        style = MaterialTheme.typography.bodyMedium,
+                                                        fontWeight = FontWeight.Bold,
+                                                        modifier = Modifier.weight(1f)
+                                                    )
+                                                    Text(
+                                                        text = "${skill.score.score}% (${skill.score.status.name})",
+                                                        style = MaterialTheme.typography.labelMedium,
+                                                        fontWeight = FontWeight.Bold,
+                                                        color = MaterialTheme.colorScheme.primary
+                                                    )
+                                                }
+                                                Spacer(modifier = Modifier.height(Dimens.spacing4))
+                                                LinearProgressIndicator(
+                                                    progress = { skill.score.score / 100f },
+                                                    modifier = Modifier
+                                                        .fillMaxWidth()
+                                                        .height(6.dp)
+                                                )
+                                                Spacer(modifier = Modifier.height(Dimens.spacing4))
+                                                Row(
+                                                    modifier = Modifier.fillMaxWidth(),
+                                                    horizontalArrangement = Arrangement.SpaceBetween,
+                                                    verticalAlignment = Alignment.CenterVertically
+                                                ) {
+                                                    Text(
+                                                        text = "Attempts: ${skill.score.totalAttempts} • Accuracy: ${(skill.score.rawAccuracy * 100).toInt()}% • Conf: ${(skill.score.confidence * 100).toInt()}% • Decay: ${(skill.score.decayFactor * 100).toInt()}%",
+                                                        style = MaterialTheme.typography.labelSmall,
+                                                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                                                    )
+                                                    FilledTonalButton(
+                                                        onClick = { onRequestExplanation(skill.id, topicMastery.topicId) },
+                                                        modifier = Modifier.testTag("inspector_explain_skill_${skill.id}")
+                                                    ) {
+                                                        Text("Explain", style = MaterialTheme.typography.labelSmall)
+                                                    }
+                                                }
                                             }
                                         }
                                     }

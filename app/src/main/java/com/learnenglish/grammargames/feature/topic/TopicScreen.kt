@@ -19,6 +19,8 @@ import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Quiz
 import androidx.compose.material.icons.filled.SportsEsports
 import androidx.compose.material.icons.filled.Star
+import androidx.compose.material3.AssistChip
+import androidx.compose.material3.AssistChipDefaults
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -37,12 +39,15 @@ import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.learnenglish.grammargames.core.designsystem.theme.Dimens
 import com.learnenglish.grammargames.core.designsystem.theme.GrammarGamesTheme
+import com.learnenglish.grammargames.domain.model.mastery.MasterySkill
+import com.learnenglish.grammargames.domain.model.mastery.MasteryStatus
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -149,13 +154,154 @@ fun TopicScreen(
                             progress = { state.masteryPercentage / 100f },
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .height(6.dp)
+                                .height(8.dp)
+                                .testTag("topic_mastery_progress_bar")
                         )
-                        Text(
-                            text = "Mastery: ${state.masteryPercentage}%",
-                            style = MaterialTheme.typography.labelSmall,
-                            color = MaterialTheme.colorScheme.onPrimaryContainer
-                        )
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.SpaceBetween,
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Text(
+                                text = "Topic Mastery: ${state.masteryPercentage}%",
+                                style = MaterialTheme.typography.titleSmall,
+                                fontWeight = FontWeight.Bold,
+                                color = MaterialTheme.colorScheme.onPrimaryContainer,
+                                modifier = Modifier.testTag("topic_mastery_badge")
+                            )
+
+                            val statusColor = when (state.masteryStatus) {
+                                MasteryStatus.MASTERED -> MaterialTheme.colorScheme.primary
+                                MasteryStatus.PROFICIENT -> MaterialTheme.colorScheme.tertiary
+                                MasteryStatus.PRACTICING -> MaterialTheme.colorScheme.secondary
+                                MasteryStatus.INTRODUCED -> MaterialTheme.colorScheme.outline
+                                MasteryStatus.NEEDS_REVIEW -> MaterialTheme.colorScheme.error
+                                MasteryStatus.NOT_STARTED -> MaterialTheme.colorScheme.outlineVariant
+                            }
+                            AssistChip(
+                                onClick = {},
+                                label = {
+                                    Text(
+                                        text = state.masteryStatus.name.replace('_', ' '),
+                                        style = MaterialTheme.typography.labelSmall,
+                                        fontWeight = FontWeight.Bold
+                                    )
+                                },
+                                colors = AssistChipDefaults.assistChipColors(
+                                    labelColor = statusColor
+                                ),
+                                modifier = Modifier.testTag("topic_mastery_status_chip")
+                            )
+                        }
+                    }
+                }
+            }
+
+            // Granular Skills Mastery Breakdown
+            if (state.skillsMastery.isNotEmpty()) {
+                item {
+                    Card(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .testTag("topic_skills_mastery_card"),
+                        colors = CardDefaults.cardColors(
+                            containerColor = MaterialTheme.colorScheme.surfaceVariant
+                        ),
+                        shape = MaterialTheme.shapes.medium
+                    ) {
+                        Column(
+                            modifier = Modifier.padding(Dimens.spacing16),
+                            verticalArrangement = Arrangement.spacedBy(Dimens.spacing12)
+                        ) {
+                            Row(
+                                modifier = Modifier.fillMaxWidth(),
+                                horizontalArrangement = Arrangement.SpaceBetween,
+                                verticalAlignment = Alignment.CenterVertically
+                            ) {
+                                Text(
+                                    text = "Grammar Skills Mastery",
+                                    style = MaterialTheme.typography.titleMedium,
+                                    fontWeight = FontWeight.Bold,
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                                )
+                                Text(
+                                    text = "${state.skillsMastery.count { it.score.status == MasteryStatus.MASTERED }}/${state.skillsMastery.size} Mastered",
+                                    style = MaterialTheme.typography.labelMedium,
+                                    color = MaterialTheme.colorScheme.primary,
+                                    fontWeight = FontWeight.SemiBold
+                                )
+                            }
+
+                            state.skillsMastery.forEach { skill ->
+                                Surface(
+                                    shape = MaterialTheme.shapes.small,
+                                    color = MaterialTheme.colorScheme.surface,
+                                    modifier = Modifier
+                                        .fillMaxWidth()
+                                        .testTag("skill_mastery_item_${skill.id}")
+                                ) {
+                                    Column(
+                                        modifier = Modifier.padding(Dimens.spacing12),
+                                        verticalArrangement = Arrangement.spacedBy(Dimens.spacing4)
+                                    ) {
+                                        Row(
+                                            modifier = Modifier.fillMaxWidth(),
+                                            horizontalArrangement = Arrangement.SpaceBetween,
+                                            verticalAlignment = Alignment.CenterVertically
+                                        ) {
+                                            Text(
+                                                text = skill.title,
+                                                style = MaterialTheme.typography.bodyMedium,
+                                                fontWeight = FontWeight.SemiBold,
+                                                color = MaterialTheme.colorScheme.onSurface,
+                                                modifier = Modifier.weight(1f)
+                                            )
+                                            Text(
+                                                text = "${skill.score.score}%",
+                                                style = MaterialTheme.typography.labelLarge,
+                                                fontWeight = FontWeight.Bold,
+                                                color = MaterialTheme.colorScheme.primary
+                                            )
+                                        }
+
+                                        LinearProgressIndicator(
+                                            progress = { skill.score.score / 100f },
+                                            modifier = Modifier
+                                                .fillMaxWidth()
+                                                .height(6.dp)
+                                        )
+
+                                        Row(
+                                            modifier = Modifier.fillMaxWidth(),
+                                            horizontalArrangement = Arrangement.SpaceBetween,
+                                            verticalAlignment = Alignment.CenterVertically
+                                        ) {
+                                            Text(
+                                                text = if (skill.score.totalAttempts > 0) {
+                                                    "${skill.score.totalAttempts} attempts • ${(skill.score.rawAccuracy * 100).toInt()}% acc"
+                                                } else {
+                                                    "No attempts yet"
+                                                },
+                                                style = MaterialTheme.typography.labelSmall,
+                                                color = MaterialTheme.colorScheme.onSurfaceVariant
+                                            )
+                                            Text(
+                                                text = skill.score.status.name.replace('_', ' '),
+                                                style = MaterialTheme.typography.labelSmall,
+                                                fontWeight = FontWeight.Bold,
+                                                color = when (skill.score.status) {
+                                                    MasteryStatus.MASTERED -> MaterialTheme.colorScheme.primary
+                                                    MasteryStatus.PROFICIENT -> MaterialTheme.colorScheme.tertiary
+                                                    MasteryStatus.PRACTICING -> MaterialTheme.colorScheme.secondary
+                                                    MasteryStatus.NEEDS_REVIEW -> MaterialTheme.colorScheme.error
+                                                    else -> MaterialTheme.colorScheme.outline
+                                                }
+                                            )
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }

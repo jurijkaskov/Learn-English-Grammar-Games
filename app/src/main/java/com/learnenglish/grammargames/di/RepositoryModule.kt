@@ -5,11 +5,13 @@ import com.learnenglish.grammargames.core.content.LearningContentDataSource
 import com.learnenglish.grammargames.data.repository.BookCompanionRepositoryImpl
 import com.learnenglish.grammargames.data.repository.CourseRepositoryImpl
 import com.learnenglish.grammargames.data.repository.CurriculumRepositoryImpl
+import com.learnenglish.grammargames.data.repository.MasteryRepositoryImpl
 import com.learnenglish.grammargames.data.repository.UserPreferencesRepositoryImpl
 import com.learnenglish.grammargames.data.repository.UserProgressRepositoryImpl
 import com.learnenglish.grammargames.domain.repository.BookCompanionRepository
 import com.learnenglish.grammargames.domain.repository.CourseRepository
 import com.learnenglish.grammargames.domain.repository.CurriculumRepository
+import com.learnenglish.grammargames.domain.repository.MasteryRepository
 import com.learnenglish.grammargames.domain.repository.UserPreferencesRepository
 import com.learnenglish.grammargames.domain.repository.UserProgressRepository
 import dagger.Binds
@@ -57,4 +59,10 @@ abstract class RepositoryModule {
     abstract fun bindBookCompanionRepository(
         impl: BookCompanionRepositoryImpl
     ): BookCompanionRepository
+
+    @Binds
+    @Singleton
+    abstract fun bindMasteryRepository(
+        impl: MasteryRepositoryImpl
+    ): MasteryRepository
 }

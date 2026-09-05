@@ -5,8 +5,10 @@ import androidx.lifecycle.viewModelScope
 import com.learnenglish.grammargames.domain.model.curriculum.TopicId
 import com.learnenglish.grammargames.domain.usecase.book.GetTopicBookCompanionUseCase
 import com.learnenglish.grammargames.domain.usecase.curriculum.GetTopicLearningPathUseCase
+import com.learnenglish.grammargames.domain.usecase.mastery.ObserveTopicMasteryUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -16,12 +18,34 @@ import kotlinx.coroutines.launch
 @HiltViewModel
 class TopicViewModel @Inject constructor(
     private val getTopicLearningPathUseCase: GetTopicLearningPathUseCase,
-    private val getTopicBookCompanionUseCase: GetTopicBookCompanionUseCase
+    private val getTopicBookCompanionUseCase: GetTopicBookCompanionUseCase,
+    private val observeTopicMasteryUseCase: ObserveTopicMasteryUseCase
 ) : ViewModel() {
     private val _uiState = MutableStateFlow(TopicUiState())
     val uiState: StateFlow<TopicUiState> = _uiState.asStateFlow()
+    private var masteryJob: Job? = null
 
     fun setTopicId(topicId: String) {
+        masteryJob?.cancel()
+        masteryJob = viewModelScope.launch {
+            observeTopicMasteryUseCase(topicId).collect { mastery ->
+                val stars = when {
+                    mastery.score >= 85 -> 3
+                    mastery.score >= 70 -> 2
+                    mastery.score >= 40 -> 1
+                    else -> 0
+                }
+                _uiState.update { current ->
+                    current.copy(
+                        masteryPercentage = mastery.score,
+                        masteryStatus = mastery.status,
+                        starsEarned = stars,
+                        skillsMastery = mastery.skillsMastery
+                    )
+                }
+            }
+        }
+
         viewModelScope.launch {
             val path = getTopicLearningPathUseCase(TopicId(topicId))
             val companionInfo = getTopicBookCompanionUseCase(TopicId(topicId))

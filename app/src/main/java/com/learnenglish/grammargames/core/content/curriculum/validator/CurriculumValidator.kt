@@ -358,6 +358,18 @@ object CurriculumValidator {
         return CurriculumValidationReport(errors = errors, warnings = warnings)
     }
 
+    fun validateSkillWeights(skillWeights: List<Float>, topicId: String = "topic"): List<CurriculumValidationError> {
+        val errors = mutableListOf<CurriculumValidationError>()
+        if (skillWeights.any { it < 0f }) {
+            errors.add(CurriculumValidationError("MasterySkill", topicId, "Skill weights must be non-negative"))
+        }
+        val sum = skillWeights.sum()
+        if (sum <= 0f && skillWeights.isNotEmpty()) {
+            errors.add(CurriculumValidationError("MasterySkill", topicId, "Sum of skill weights must be strictly positive"))
+        }
+        return errors
+    }
+
     private fun validateUniqueIds(
         ids: List<String>,
         entityName: String,
