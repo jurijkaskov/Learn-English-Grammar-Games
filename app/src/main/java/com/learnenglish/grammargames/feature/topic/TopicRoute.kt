@@ -13,6 +13,7 @@ fun TopicRoute(
     onStartLesson: (topicId: String, lessonId: String) -> Unit,
     onStartTest: (topicId: String) -> Unit,
     onOpenGames: (topicId: String) -> Unit,
+    onOpenBookCompanion: (bookId: String?, editionId: String?, unitNumber: Int?) -> Unit = { _, _, _ -> },
     onBackClick: () -> Unit,
     modifier: Modifier = Modifier,
     viewModel: TopicViewModel = viewModel()
@@ -28,6 +29,7 @@ fun TopicRoute(
         onStartLesson = { lessonId -> onStartLesson(topicId, lessonId) },
         onStartTest = { onStartTest(topicId) },
         onOpenGames = { onOpenGames(topicId) },
+        onOpenBookCompanion = onOpenBookCompanion,
         onBackClick = onBackClick,
         modifier = modifier
     )

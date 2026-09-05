@@ -3,6 +3,7 @@ package com.learnenglish.grammargames.feature.topic
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.learnenglish.grammargames.domain.model.curriculum.TopicId
+import com.learnenglish.grammargames.domain.usecase.book.GetTopicBookCompanionUseCase
 import com.learnenglish.grammargames.domain.usecase.curriculum.GetTopicLearningPathUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
@@ -14,7 +15,8 @@ import kotlinx.coroutines.launch
 
 @HiltViewModel
 class TopicViewModel @Inject constructor(
-    private val getTopicLearningPathUseCase: GetTopicLearningPathUseCase
+    private val getTopicLearningPathUseCase: GetTopicLearningPathUseCase,
+    private val getTopicBookCompanionUseCase: GetTopicBookCompanionUseCase
 ) : ViewModel() {
     private val _uiState = MutableStateFlow(TopicUiState())
     val uiState: StateFlow<TopicUiState> = _uiState.asStateFlow()
@@ -22,8 +24,13 @@ class TopicViewModel @Inject constructor(
     fun setTopicId(topicId: String) {
         viewModelScope.launch {
             val path = getTopicLearningPathUseCase(TopicId(topicId))
+            val companionInfo = getTopicBookCompanionUseCase(TopicId(topicId))
+
             if (path != null) {
-                val bookRefText = if (path.topic.bookReferences.isNotEmpty()) {
+                val bookRefText = if (companionInfo != null) {
+                    val unitListStr = companionInfo.units.map { "Unit ${it.unitNumber}" }.joinToString(", ")
+                    "${companionInfo.bookTitle} ($unitListStr)"
+                } else if (path.topic.bookReferences.isNotEmpty()) {
                     val ref = path.topic.bookReferences.first()
                     "${ref.bookTitle} (Units ${ref.units.joinToString(", ")})"
                 } else {
@@ -45,11 +52,12 @@ class TopicViewModel @Inject constructor(
                         title = path.topic.title,
                         description = path.topic.shortDescription ?: "Master core grammar rules and practice with interactive activities.",
                         referenceBook = bookRefText,
-                        lessons = lessons
+                        lessons = lessons,
+                        bookCompanionInfo = companionInfo
                     )
                 }
             } else {
-                _uiState.update { it.copy(topicId = topicId) }
+                _uiState.update { it.copy(topicId = topicId, bookCompanionInfo = companionInfo) }
             }
         }
     }

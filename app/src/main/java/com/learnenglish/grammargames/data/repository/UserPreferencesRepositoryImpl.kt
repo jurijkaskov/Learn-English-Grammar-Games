@@ -27,4 +27,8 @@ class UserPreferencesRepositoryImpl @Inject constructor(
     override suspend fun setDailyGoalMinutes(minutes: Int) {
         userPreferencesDataSource.setDailyGoalMinutes(minutes)
     }
+
+    override suspend fun setSelectedBook(bookId: String?, editionId: String?) {
+        userPreferencesDataSource.setSelectedBook(bookId, editionId)
+    }
 }

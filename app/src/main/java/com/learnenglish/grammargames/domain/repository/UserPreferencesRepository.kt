@@ -8,4 +8,5 @@ interface UserPreferencesRepository {
     suspend fun setOnboardingCompleted(completed: Boolean)
     suspend fun setSelectedCourseId(courseId: String)
     suspend fun setDailyGoalMinutes(minutes: Int)
+    suspend fun setSelectedBook(bookId: String?, editionId: String?)
 }

@@ -32,6 +32,7 @@ interface AppNavigator {
     fun navigateToReviewSession(reviewType: String = "MISTAKES")
     fun navigateAfterResults()
     fun navigateToCurriculumInspector()
+    fun navigateToBookCompanion(bookId: String? = null, editionId: String? = null, initialUnitNumber: Int? = null)
 }
 
 class DefaultAppNavigator(
@@ -144,6 +145,10 @@ class DefaultAppNavigator(
 
     override fun navigateToCurriculumInspector() {
         navigationState.navigateTo(AppNavKey.CurriculumInspector)
+    }
+
+    override fun navigateToBookCompanion(bookId: String?, editionId: String?, initialUnitNumber: Int?) {
+        navigationState.navigateTo(AppNavKey.BookCompanion(bookId, editionId, initialUnitNumber))
     }
 }
 

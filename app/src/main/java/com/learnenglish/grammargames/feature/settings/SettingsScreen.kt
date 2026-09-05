@@ -1,5 +1,6 @@
 package com.learnenglish.grammargames.feature.settings
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -8,8 +9,10 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.MenuBook
 import androidx.compose.material.icons.filled.Alarm
 import androidx.compose.material.icons.filled.BugReport
 import androidx.compose.material.icons.filled.DarkMode
@@ -17,6 +20,7 @@ import androidx.compose.material.icons.filled.Vibration
 import androidx.compose.material.icons.filled.VolumeUp
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.RadioButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
@@ -42,6 +46,7 @@ fun SettingsScreen(
     onBackClick: () -> Unit = {},
     onOpenShowcase: () -> Unit = {},
     onOpenCurriculumInspector: () -> Unit = {},
+    onOpenBookCompanion: () -> Unit = {},
     modifier: Modifier = Modifier
 ) {
     Scaffold(
@@ -109,6 +114,84 @@ fun SettingsScreen(
                         checked = state.dailyReminderEnabled,
                         onCheckedChange = { onAction(SettingsUiAction.ToggleReminder(it)) },
                         testTag = "settings_reminder_switch"
+                    )
+                }
+            }
+
+            // Textbook Companion Section
+            item {
+                Spacer(modifier = Modifier.height(AppSpacing.sm))
+                Text(
+                    text = "Textbook Companion",
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.Bold,
+                    color = MaterialTheme.colorScheme.onBackground
+                )
+            }
+
+            item {
+                GrammarCard(modifier = Modifier.fillMaxWidth().testTag("settings_book_companion_card")) {
+                    Text(
+                        text = "Active Grammar Textbook",
+                        style = MaterialTheme.typography.titleSmall,
+                        fontWeight = FontWeight.SemiBold
+                    )
+                    Spacer(modifier = Modifier.height(AppSpacing.xxs))
+                    Text(
+                        text = "Connect topics and interactive practice with units from Raymond Murphy and Martin Hewings.",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.grammarGamesColors.textSecondary
+                    )
+                    Spacer(modifier = Modifier.height(AppSpacing.md))
+
+                    state.availableBooks.forEach { book ->
+                        val edition = book.editions.firstOrNull()
+                        val isSelected = state.selectedBookId == book.id
+                        Row(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(vertical = AppSpacing.xs),
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            RadioButton(
+                                selected = isSelected,
+                                onClick = {
+                                    if (edition != null) {
+                                        onAction(SettingsUiAction.SelectBook(book.id, edition.id))
+                                    }
+                                },
+                                modifier = Modifier.testTag("radio_book_${book.id}")
+                            )
+                            Spacer(modifier = Modifier.width(AppSpacing.xs))
+                            Column(
+                                modifier = Modifier
+                                    .weight(1f)
+                                    .clickable {
+                                        if (edition != null) {
+                                            onAction(SettingsUiAction.SelectBook(book.id, edition.id))
+                                        }
+                                    }
+                            ) {
+                                Text(
+                                    text = book.title,
+                                    style = MaterialTheme.typography.bodyMedium,
+                                    fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal
+                                )
+                                Text(
+                                    text = "${book.author} • ${book.targetLevel.name}",
+                                    style = MaterialTheme.typography.bodySmall,
+                                    color = MaterialTheme.grammarGamesColors.textSecondary
+                                )
+                            }
+                        }
+                    }
+
+                    Spacer(modifier = Modifier.height(AppSpacing.sm))
+                    GrammarSecondaryButton(
+                        text = "Browse Book Units",
+                        leadingIcon = Icons.AutoMirrored.Filled.MenuBook,
+                        onClick = onOpenBookCompanion,
+                        testTag = "settings_open_book_companion_button"
                     )
                 }
             }

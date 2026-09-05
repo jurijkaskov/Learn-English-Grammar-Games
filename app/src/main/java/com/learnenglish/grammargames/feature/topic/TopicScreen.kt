@@ -31,6 +31,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedCard
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
@@ -50,6 +51,7 @@ fun TopicScreen(
     onStartLesson: (String) -> Unit = {},
     onStartTest: () -> Unit = {},
     onOpenGames: () -> Unit = {},
+    onOpenBookCompanion: (bookId: String?, editionId: String?, unitNumber: Int?) -> Unit = { _, _, _ -> },
     onBackClick: () -> Unit = {},
     modifier: Modifier = Modifier
 ) {
@@ -194,6 +196,162 @@ fun TopicScreen(
                         )
                         Spacer(modifier = Modifier.size(Dimens.spacing4))
                         Text("Take Test")
+                    }
+                }
+            }
+
+            // Book Companion Card
+            item {
+                val companion = state.bookCompanionInfo
+                if (companion != null) {
+                    Card(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .testTag("topic_book_companion_card"),
+                        colors = CardDefaults.cardColors(
+                            containerColor = MaterialTheme.colorScheme.surfaceVariant
+                        ),
+                        shape = MaterialTheme.shapes.medium
+                    ) {
+                        Column(
+                            modifier = Modifier.padding(Dimens.spacing16),
+                            verticalArrangement = Arrangement.spacedBy(Dimens.spacing8)
+                        ) {
+                            Row(
+                                modifier = Modifier.fillMaxWidth(),
+                                horizontalArrangement = Arrangement.SpaceBetween,
+                                verticalAlignment = Alignment.CenterVertically
+                            ) {
+                                Row(verticalAlignment = Alignment.CenterVertically) {
+                                    Icon(
+                                        imageVector = Icons.AutoMirrored.Filled.MenuBook,
+                                        contentDescription = null,
+                                        tint = MaterialTheme.colorScheme.primary,
+                                        modifier = Modifier.size(Dimens.iconSizeMedium)
+                                    )
+                                    Spacer(modifier = Modifier.size(Dimens.spacing8))
+                                    Text(
+                                        text = "YOUR GRAMMAR BOOK",
+                                        style = MaterialTheme.typography.labelMedium,
+                                        fontWeight = FontWeight.Bold,
+                                        color = MaterialTheme.colorScheme.primary
+                                    )
+                                }
+                                Text(
+                                    text = companion.editionName,
+                                    style = MaterialTheme.typography.labelSmall,
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                                )
+                            }
+
+                            Text(
+                                text = companion.bookTitle,
+                                style = MaterialTheme.typography.titleMedium,
+                                fontWeight = FontWeight.Bold,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
+
+                            Text(
+                                text = "Corresponding unit(s) in this textbook:",
+                                style = MaterialTheme.typography.bodySmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
+
+                            companion.units.forEach { unit ->
+                                Surface(
+                                    shape = MaterialTheme.shapes.small,
+                                    color = MaterialTheme.colorScheme.surface,
+                                    modifier = Modifier.fillMaxWidth()
+                                ) {
+                                    Row(
+                                        modifier = Modifier.padding(
+                                            horizontal = Dimens.spacing12,
+                                            vertical = Dimens.spacing8
+                                        ),
+                                        verticalAlignment = Alignment.CenterVertically
+                                    ) {
+                                        Surface(
+                                            shape = MaterialTheme.shapes.extraSmall,
+                                            color = MaterialTheme.colorScheme.primaryContainer
+                                        ) {
+                                            Text(
+                                                text = "Unit ${unit.unitNumber}",
+                                                style = MaterialTheme.typography.labelSmall,
+                                                fontWeight = FontWeight.Bold,
+                                                color = MaterialTheme.colorScheme.onPrimaryContainer,
+                                                modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp)
+                                            )
+                                        }
+                                        Spacer(modifier = Modifier.size(Dimens.spacing8))
+                                        Text(
+                                            text = unit.unitTitle,
+                                            style = MaterialTheme.typography.bodyMedium,
+                                            fontWeight = FontWeight.Medium,
+                                            modifier = Modifier.weight(1f)
+                                        )
+                                    }
+                                }
+                            }
+
+                            Spacer(modifier = Modifier.height(Dimens.spacing4))
+
+                            FilledTonalButton(
+                                onClick = {
+                                    val firstUnit = companion.units.firstOrNull()?.unitNumber ?: 1
+                                    onOpenBookCompanion(
+                                        companion.bookId,
+                                        companion.editionId,
+                                        firstUnit
+                                    )
+                                },
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .testTag("open_in_book_companion_button")
+                            ) {
+                                Icon(
+                                    imageVector = Icons.AutoMirrored.Filled.MenuBook,
+                                    contentDescription = null,
+                                    modifier = Modifier.size(Dimens.iconSizeSmall)
+                                )
+                                Spacer(modifier = Modifier.size(Dimens.spacing8))
+                                Text("Open in Book Companion")
+                            }
+                        }
+                    }
+                } else {
+                    OutlinedCard(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .testTag("topic_choose_book_companion_card"),
+                        shape = MaterialTheme.shapes.medium
+                    ) {
+                        Row(
+                            modifier = Modifier
+                                .padding(Dimens.spacing16)
+                                .fillMaxWidth(),
+                            horizontalArrangement = Arrangement.SpaceBetween,
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Column(modifier = Modifier.weight(1f)) {
+                                Text(
+                                    text = "Grammar Book Companion",
+                                    style = MaterialTheme.typography.titleSmall,
+                                    fontWeight = FontWeight.Bold
+                                )
+                                Text(
+                                    text = "Studying with Murphy or Hewings? Sync your textbook units.",
+                                    style = MaterialTheme.typography.bodySmall,
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                                )
+                            }
+                            Spacer(modifier = Modifier.size(Dimens.spacing8))
+                            FilledTonalButton(
+                                onClick = { onOpenBookCompanion(null, null, null) },
+                                modifier = Modifier.testTag("choose_book_companion_button")
+                            ) {
+                                Text("Browse Books")
+                            }
+                        }
                     }
                 }
             }

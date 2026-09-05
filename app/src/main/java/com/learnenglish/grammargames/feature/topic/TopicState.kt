@@ -1,5 +1,7 @@
 package com.learnenglish.grammargames.feature.topic
 
+import com.learnenglish.grammargames.domain.model.book.TopicBookCompanionReference
+
 data class TopicLessonItem(
     val id: String,
     val title: String,
@@ -18,7 +20,8 @@ data class TopicUiState(
         TopicLessonItem("lesson_1", "1. Habitual & Stative Verbs", "Learn why 'I know' is right and 'I am knowing' is wrong", true),
         TopicLessonItem("lesson_2", "2. Present Continuous in Action", "Temporary actions happening around the present moment", false),
         TopicLessonItem("lesson_3", "3. Frequency Adverbs & Nuances", "Always, usually, rarely, and emotional continuous", false)
-    )
+    ),
+    val bookCompanionInfo: TopicBookCompanionReference? = null
 )
 
 sealed interface TopicUiAction {

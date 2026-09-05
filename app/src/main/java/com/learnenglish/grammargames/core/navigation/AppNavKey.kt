@@ -96,4 +96,11 @@ sealed interface AppNavKey {
 
     @Serializable
     data object CurriculumInspector : AppNavKey
+
+    @Serializable
+    data class BookCompanion(
+        val bookId: String? = null,
+        val editionId: String? = null,
+        val initialUnitNumber: Int? = null
+    ) : AppNavKey
 }

@@ -27,6 +27,8 @@ class UserPreferencesDataSource @Inject constructor(
         val ONBOARDING_COMPLETED = booleanPreferencesKey("onboarding_completed")
         val SELECTED_COURSE_ID = stringPreferencesKey("selected_course_id")
         val DAILY_GOAL_MINUTES = intPreferencesKey("daily_goal_minutes")
+        val SELECTED_BOOK_ID = stringPreferencesKey("selected_book_id")
+        val SELECTED_EDITION_ID = stringPreferencesKey("selected_edition_id")
     }
 
     val preferences: Flow<UserPreferences> = dataStore.data
@@ -41,7 +43,9 @@ class UserPreferencesDataSource @Inject constructor(
             UserPreferences(
                 onboardingCompleted = prefs[Keys.ONBOARDING_COMPLETED] ?: false,
                 selectedCourseId = prefs[Keys.SELECTED_COURSE_ID] ?: "course_beginner",
-                dailyGoalMinutes = prefs[Keys.DAILY_GOAL_MINUTES] ?: 15
+                dailyGoalMinutes = prefs[Keys.DAILY_GOAL_MINUTES] ?: 15,
+                selectedBookId = prefs[Keys.SELECTED_BOOK_ID] ?: "english_grammar_in_use",
+                selectedEditionId = prefs[Keys.SELECTED_EDITION_ID] ?: "english_grammar_in_use_5"
             )
         }
 
@@ -60,6 +64,21 @@ class UserPreferencesDataSource @Inject constructor(
     suspend fun setDailyGoalMinutes(minutes: Int) {
         dataStore.edit { prefs ->
             prefs[Keys.DAILY_GOAL_MINUTES] = minutes
+        }
+    }
+
+    suspend fun setSelectedBook(bookId: String?, editionId: String?) {
+        dataStore.edit { prefs ->
+            if (bookId != null) {
+                prefs[Keys.SELECTED_BOOK_ID] = bookId
+            } else {
+                prefs.remove(Keys.SELECTED_BOOK_ID)
+            }
+            if (editionId != null) {
+                prefs[Keys.SELECTED_EDITION_ID] = editionId
+            } else {
+                prefs.remove(Keys.SELECTED_EDITION_ID)
+            }
         }
     }
 }

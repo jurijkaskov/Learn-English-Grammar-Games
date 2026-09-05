@@ -27,6 +27,7 @@ import androidx.navigation3.runtime.NavEntry
 import androidx.navigation3.runtime.NavEntryDecorator
 import androidx.navigation3.runtime.rememberSaveableStateHolderNavEntryDecorator
 import androidx.navigation3.ui.NavDisplay
+import com.learnenglish.grammargames.feature.bookcompanion.navigation.bookCompanionNavEntry
 import com.learnenglish.grammargames.feature.bootstrap.navigation.bootstrapNavEntry
 import com.learnenglish.grammargames.feature.games.navigation.gameSessionNavEntry
 import com.learnenglish.grammargames.feature.games.navigation.gamesHubNavEntry
@@ -143,6 +144,7 @@ fun AppNavigation(
                     onBackClick = { navigator.navigateBack() }
                 )
             }
+            is AppNavKey.BookCompanion -> bookCompanionNavEntry(key, navigator)
         }
     }
 

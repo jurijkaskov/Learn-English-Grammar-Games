@@ -1,29 +1,33 @@
-package com.learnenglish.grammargames.feature.settings
+package com.learnenglish.grammargames.feature.bookcompanion
 
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 
 @Composable
-fun SettingsRoute(
+fun BookCompanionRoute(
+    bookId: String?,
+    editionId: String?,
+    initialUnitNumber: Int?,
+    onNavigateToTopic: (String) -> Unit,
     onBackClick: () -> Unit,
     modifier: Modifier = Modifier,
-    onOpenShowcase: () -> Unit = {},
-    onOpenCurriculumInspector: () -> Unit = {},
-    onOpenBookCompanion: () -> Unit = {},
-    viewModel: SettingsViewModel = viewModel()
+    viewModel: BookCompanionViewModel = viewModel()
 ) {
+    LaunchedEffect(bookId, editionId, initialUnitNumber) {
+        viewModel.initialize(bookId, editionId, initialUnitNumber)
+    }
+
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
 
-    SettingsScreen(
+    BookCompanionScreen(
         state = uiState,
         onAction = viewModel::onAction,
+        onNavigateToTopic = onNavigateToTopic,
         onBackClick = onBackClick,
-        onOpenShowcase = onOpenShowcase,
-        onOpenCurriculumInspector = onOpenCurriculumInspector,
-        onOpenBookCompanion = onOpenBookCompanion,
         modifier = modifier
     )
 }

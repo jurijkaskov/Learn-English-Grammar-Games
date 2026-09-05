@@ -2,10 +2,12 @@ package com.learnenglish.grammargames.di
 
 import com.learnenglish.grammargames.core.content.InMemoryLearningContentDataSource
 import com.learnenglish.grammargames.core.content.LearningContentDataSource
+import com.learnenglish.grammargames.data.repository.BookCompanionRepositoryImpl
 import com.learnenglish.grammargames.data.repository.CourseRepositoryImpl
 import com.learnenglish.grammargames.data.repository.CurriculumRepositoryImpl
 import com.learnenglish.grammargames.data.repository.UserPreferencesRepositoryImpl
 import com.learnenglish.grammargames.data.repository.UserProgressRepositoryImpl
+import com.learnenglish.grammargames.domain.repository.BookCompanionRepository
 import com.learnenglish.grammargames.domain.repository.CourseRepository
 import com.learnenglish.grammargames.domain.repository.CurriculumRepository
 import com.learnenglish.grammargames.domain.repository.UserPreferencesRepository
@@ -49,4 +51,10 @@ abstract class RepositoryModule {
     abstract fun bindUserPreferencesRepository(
         impl: UserPreferencesRepositoryImpl
     ): UserPreferencesRepository
+
+    @Binds
+    @Singleton
+    abstract fun bindBookCompanionRepository(
+        impl: BookCompanionRepositoryImpl
+    ): BookCompanionRepository
 }

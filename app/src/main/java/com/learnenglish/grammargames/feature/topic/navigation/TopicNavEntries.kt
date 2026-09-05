@@ -14,6 +14,9 @@ fun topicNavEntry(
         onStartLesson = { topicId, lessonId -> navigator.navigateToLesson(topicId, lessonId) },
         onStartTest = { topicId -> navigator.navigateToTest(topicId) },
         onOpenGames = { topicId -> navigator.navigateToGameSession("speed_challenge", topicId) },
+        onOpenBookCompanion = { bookId, editionId, unitNumber ->
+            navigator.navigateToBookCompanion(bookId, editionId, unitNumber)
+        },
         onBackClick = { navigator.navigateBack() }
     )
 }

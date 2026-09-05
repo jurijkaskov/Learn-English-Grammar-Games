@@ -41,7 +41,8 @@ fun AppNavKey.shouldShowBottomBar(): Boolean {
         AppNavKey.Mistakes,
         is AppNavKey.ReviewSession,
         AppNavKey.DesignSystemShowcase,
-        AppNavKey.CurriculumInspector -> false
+        AppNavKey.CurriculumInspector,
+        is AppNavKey.BookCompanion -> false
     }
 }
 

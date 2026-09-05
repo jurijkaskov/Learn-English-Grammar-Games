@@ -12,6 +12,7 @@ fun settingsNavEntry(
     SettingsRoute(
         onBackClick = { navigator.navigateBack() },
         onOpenShowcase = { navigator.navigateTo(AppNavKey.DesignSystemShowcase) },
-        onOpenCurriculumInspector = { navigator.navigateToCurriculumInspector() }
+        onOpenCurriculumInspector = { navigator.navigateToCurriculumInspector() },
+        onOpenBookCompanion = { navigator.navigateToBookCompanion() }
     )
 }
